@@ -1,4 +1,4 @@
-import { SETTINGS } from "./config.js";
+import { SETTINGS } from "./config.js?v=2";
 
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${SETTINGS.model}:generateContent`;
 
