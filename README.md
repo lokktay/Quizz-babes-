@@ -7,8 +7,10 @@ Un site de quiz en français, hébergé gratuitement sur GitHub Pages. Firebase 
 - Une partie accueille **10 personnes au maximum, créateur compris** : le créateur et jusqu'à 9 joueurs sur téléphone.
 - Le créateur ne propose pas de thèmes et ne répond pas. Il garde l'écran qui affiche les questions.
 - Chaque autre joueur propose 3 thèmes depuis son téléphone.
-- L'IA prépare les questions à partir de ces thèmes.
-- Les téléphones affichent les choix de réponse. Le classement et les corrections apparaissent après chaque question.
+- **Manche 1 :** 5 questions par thème. Tous les joueurs répondent en même temps sur leur téléphone.
+- **Manche 2 :** un plateau propose, pour chaque thème, une question facile (1 point), moyenne (3), difficile (5) et très difficile (7). Les réponses restent cachées derrière les cases.
+- Le gagnant de la manche 1 choisit la première case. Ensuite, le tour suit le classement de la manche 1 et recommence. Seul le joueur dont c'est le tour choisit une case et répond ; une case choisie ne revient pas, même en cas d'erreur ou d'absence de réponse.
+- Les corrections et le classement sont affichés après chaque question. La partie se termine quand toutes les cases du plateau ont été choisies.
 
 La limite de 10 joueurs est appliquée par le site lors d'une arrivée normale. Les règles Realtime Database ne savent pas compter les joueurs avec `numChildren()` ; cette limite n'est donc pas une protection serveur contre quelqu'un qui contournerait le site. Pour un quiz entre amis, utilise le site normalement. Une limite garantie côté serveur demanderait d'ajouter un petit backend Firebase (Cloud Functions).
 
@@ -34,7 +36,9 @@ Les règles laissent uniquement le créateur faire avancer le quiz. La limite de
 4. Remplace tout le texte de l'éditeur de règles Firebase par ce contenu.
 5. Clique sur **Publier**.
 
-Il faut bien faire cette étape même si tu avais déjà publié les anciennes règles, sinon les permissions nécessaires au nouveau fonctionnement ne seront pas actives.
+Il faut bien faire cette étape même si tu avais déjà publié les anciennes règles, sinon les permissions pour choisir une case et envoyer une réponse dans la seconde manche ne seront pas actives. Chaque fois que tu remplaces `database.rules.json` dans le dossier du site, pense aussi à republier ces règles dans Firebase.
+
+Après les changements du jeu, remplace également sur GitHub les fichiers modifiés `js/app.js`, `js/game.js`, `js/logic.js`, `js/ai.js`, `js/config.js` et `css/style.css`, en les gardant dans les dossiers `js` et `css`. GitHub Pages republiera le site après le commit. Le `README.md` est le mode d'emploi.
 
 ### 3. Créer une clé Gemini pour l'intelligence artificielle
 
@@ -45,7 +49,7 @@ Firebase ne fournit pas l'IA. Les questions sont créées par Gemini, le service
 3. Garde cette clé pour toi.
 4. Le jour du quiz, le créateur colle cette clé dans le formulaire du site.
 
-**Tu n'as pas besoin de Gemini Pro pour utiliser l'API, et Gemini Pro ne paie pas les requêtes de l'API.** Google propose un niveau gratuit pour certains modèles, avec des limites de requêtes. Le site utilise `gemini-3.8-flash`, indiqué comme gratuit sur le niveau standard dans la [page officielle des tarifs](https://ai.google.dev/gemini-api/docs/pricing) au moment où ce guide a été mis à jour. Les modèles et quotas peuvent changer ; vérifie les [tarifs](https://ai.google.dev/gemini-api/docs/pricing) et les [règles de facturation](https://ai.google.dev/gemini-api/docs/billing). Pour rester en gratuit, ne configure pas de facturation ni ne passe au niveau payant. Si tu atteins une limite gratuite, attends que le quota se réinitialise ; le quiz ne pourra pas regénérer les questions avant.
+**Tu n'as pas besoin de Gemini Pro pour utiliser l'API, et Gemini Pro ne paie pas les requêtes de l'API.** Google propose un niveau gratuit pour certains modèles, avec des limites de requêtes. Le site utilise `gemini-3.8-flash`, indiqué comme gratuit sur le niveau standard dans la [page officielle des tarifs](https://ai.google.dev/gemini-api/docs/pricing) au moment où ce guide a été mis à jour. Le jeu effectue maintenant deux générations (la manche 1 et le plateau) et crée davantage de questions ; cela peut prendre plusieurs minutes et utiliser davantage de quota. Les modèles et quotas peuvent changer ; vérifie les [tarifs](https://ai.google.dev/gemini-api/docs/pricing) et les [règles de facturation](https://ai.google.dev/gemini-api/docs/billing). Pour rester en gratuit, ne configure pas de facturation ni ne passe au niveau payant. Si tu atteins une limite gratuite, attends que le quota se réinitialise ; le quiz ne pourra pas regénérer les questions avant.
 
 **Données et sécurité :** Google indique que les requêtes du niveau gratuit peuvent être utilisées pour améliorer ses produits. N'entre donc pas de renseignements privés dans les thèmes. La clé n'est pas écrite dans les fichiers du site et le site ne l'enregistre pas, mais le navigateur du créateur l'envoie à Google pour générer les questions. Ne publie pas et ne partage pas cette clé.
 
@@ -104,7 +108,8 @@ Quand tu connais l'adresse GitHub de ton site :
 4. Chaque joueur ouvre le lien sur son téléphone, entre son pseudo et rejoint la partie.
 5. Quand tout le monde est arrivé, le créateur clique sur **Lancer la partie**.
 6. Les joueurs sur téléphone entrent chacun leurs trois thèmes. Le créateur attend sur l'ordinateur et ne saisit pas de thèmes.
-7. Le créateur affiche et lit les questions sur l'ordinateur ; les autres choisissent une réponse sur leur téléphone.
+7. Pendant la manche 1, le créateur affiche et lit les questions sur l'ordinateur ; tous les autres répondent en même temps sur leur téléphone.
+8. Au plateau, le gagnant de la première manche commence. À son tour, le joueur choisit un thème et un niveau de points, puis répond seul sur son téléphone. Une case choisie ne peut plus être reprise.
 
 Le maximum de **10 comprend le créateur**. Si tu veux 10 joueurs qui répondent en plus du créateur, il faudra changer la limite.
 
