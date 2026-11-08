@@ -26,10 +26,14 @@ const QUESTIONS_SCHEMA = {
       type: "ARRAY",
       items: {
         type: "OBJECT",
-        required: ["theme", "question", "correct", "wrong_1", "wrong_2", "wrong_3"],
+        required: ["theme", "question", "difficulty", "correct", "wrong_1", "wrong_2", "wrong_3"],
         properties: {
           theme: { type: "STRING" },
           question: { type: "STRING" },
+          difficulty: {
+            type: "STRING",
+            enum: ["facile", "moyen", "difficile", "tres_difficile"],
+          },
           correct: { type: "STRING" },
           wrong_1: { type: "STRING" },
           wrong_2: { type: "STRING" },
@@ -40,7 +44,7 @@ const QUESTIONS_SCHEMA = {
   },
 };
 
-export async function requestQuestions(apiKey, themes, perTheme) {
+export async function requestQuestions(apiKey, themes, perTheme, difficultyMode = "mixte") {
   const response = await fetch(API_URL, {
     method: "POST",
     headers: {
@@ -52,7 +56,9 @@ export async function requestQuestions(apiKey, themes, perTheme) {
       contents: [{
         role: "user",
         parts: [{
-          text: `Écris ${perTheme} questions pour chacun de ces thèmes :\n${JSON.stringify(themes.map((t) => t.theme))}`,
+          text: difficultyMode === "plateau"
+            ? `Pour chacun de ces thèmes, écris exactement 4 questions, une de chaque niveau, et indique le niveau exact dans "difficulty" : facile, moyen, difficile, tres_difficile. Respecte l'ordre et n'en oublie aucun. Thèmes :\n${JSON.stringify(themes.map((t) => t.theme))}`
+            : `Écris ${perTheme} questions de difficulté variée pour chacun de ces thèmes :\n${JSON.stringify(themes.map((t) => t.theme))}. Pour "difficulty", indique l'un de ces niveaux : facile, moyen, difficile, tres_difficile.`,
         }],
       }],
       generationConfig: {
