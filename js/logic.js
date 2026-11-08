@@ -72,24 +72,75 @@ export function prepareBank(rawQuestions, themes, perTheme) {
     });
   }
 
+  const missing = [...slots.values()].filter((slot) => slot.picked.length < perTheme);
+  if (missing.length) {
+    throw new Error(`L'IA n'a pas fourni assez de questions pour : ${missing.slice(0, 3).map((slot) => slot.theme).join(", ")}${missing.length > 3 ? "…" : ""}. Relance la génération.`);
+  }
   return shuffle([...slots.values()].flatMap((s) => s.picked));
 }
 
-// Point d'entrée unique du barème : à modifier quand les règles seront détaillées.
-// answer = { choice, at } ou undefined si le joueur n'a pas répondu.
-export function pointsFor(question, answer) {
-  return answer && answer.choice === question.correct ? 1 : 0;
+export function prepareBoard(rawQuestions, themes, difficultyPoints) {
+  const slots = new Map(themes.map((t) => [
+    normalize(t.theme),
+    { ...t, questions: new Map() },
+  ]));
+  const seenQuestions = new Set();
+
+  for (const raw of rawQuestions) {
+    const slot = slots.get(normalize(raw.theme));
+    const difficulty = String(raw.difficulty ?? "");
+    if (!slot || !Object.hasOwn(difficultyPoints, difficulty) || slot.questions.has(difficulty)) continue;
+
+    const question = String(raw.question ?? "").trim();
+    const correct = String(raw.correct ?? "").trim();
+    const wrong = [raw.wrong_1, raw.wrong_2, raw.wrong_3].map((answer) => String(answer ?? "").trim());
+    const answers = [correct, ...wrong];
+
+    if (!question || answers.some((answer) => !answer)) continue;
+    if (new Set(answers.map(normalize)).size !== 4) continue;
+    if (seenQuestions.has(normalize(question)) || isAboutDates(question, answers)) continue;
+
+    seenQuestions.add(normalize(question));
+    const mixed = shuffle(answers);
+    slot.questions.set(difficulty, {
+      theme: slot.theme,
+      by: slot.by,
+      difficulty,
+      points: difficultyPoints[difficulty],
+      question,
+      answers: mixed,
+      correct: mixed.indexOf(correct),
+    });
+  }
+
+  const missing = [];
+  for (const slot of slots.values()) {
+    for (const difficulty of Object.keys(difficultyPoints)) {
+      if (!slot.questions.has(difficulty)) missing.push(`${slot.theme} (${difficulty})`);
+    }
+  }
+  if (missing.length) {
+    throw new Error(`L'IA n'a pas fourni toutes les questions du plateau : ${missing.slice(0, 3).join(", ")}${missing.length > 3 ? "…" : ""}. Relance la génération.`);
+  }
+  return [...slots.values()].flatMap((slot) => [...slot.questions.values()]);
 }
 
-// Le classement est recalculé à partir des réponses enregistrées.
-// La question en cours ne compte qu'une fois sa correction affichée.
+// answer = { choice, at } ou undefined si le joueur n'a pas répondu.
+export function pointsFor(question, answer) {
+  return answer && answer.choice === question.correct ? question.points ?? 1 : 0;
+}
+
 export function computeScores(game) {
   const { phase, index = 0 } = game.state;
   const questions = game.questions ?? [];
-  const lastCounted =
-    phase === "finished" ? questions.length - 1 : phase === "reveal" ? index : index - 1;
+  const boardPhases = ["boardChoose", "boardQuestion", "boardReveal", "finished"];
+  const boardStarted = boardPhases.includes(phase);
+  const lastCounted = boardStarted || phase === "finished"
+    ? questions.length - 1
+    : phase === "reveal" ? index : index - 1;
 
   return Object.entries(game.players ?? {})
+    .filter(([uid]) => uid !== game.hostId)
     .map(([uid, player]) => {
       let score = 0;
       let gained = 0;
@@ -97,6 +148,14 @@ export function computeScores(game) {
         const points = pointsFor(questions[i], game.answers?.[i]?.[uid]);
         score += points;
         if (i === index && phase === "reveal") gained = points;
+      }
+      if (phase === "boardReveal" || phase === "finished") {
+        for (let i = 0; i < (game.board ?? []).length; i++) {
+          if (!game.state.used?.[i]) continue;
+          const points = pointsFor(game.board[i], game.boardAnswers?.[i]?.[uid]);
+          score += points;
+          if (phase === "boardReveal" && i === game.state.selectedBoardIndex) gained = points;
+        }
       }
       return { uid, name: player.name, score, gained };
     })
