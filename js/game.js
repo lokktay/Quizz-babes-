@@ -2,10 +2,10 @@ import {
   ref, set, update, remove, push, get, onValue, query, orderByChild, equalTo, endAt,
   runTransaction, onDisconnect, serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-database.js";
-import { db } from "./firebase.js";
-import { SETTINGS } from "./config.js";
-import { collectThemes, computeScores, prepareBank, prepareBoard } from "./logic.js";
-import { requestQuestions } from "./ai.js";
+import { db } from "./firebase.js?v=2";
+import { SETTINGS } from "./config.js?v=2";
+import { collectThemes, computeScores, prepareBank, prepareBoard } from "./logic.js?v=2";
+import { requestQuestions } from "./ai.js?v=2";
 
 let uid = null;
 let clockOffset = 0;
