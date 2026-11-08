@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "games": {
+      ".read": "auth != null",
+      ".indexOn": ["state/phase", "createdAt"],
+      "$gameId": {
+        ".write": "auth != null && ((!data.exists() && newData.child('hostId').val() === auth.uid) || (!newData.exists() && (data.child('hostId').val() === auth.uid || !data.hasChild('createdAt') || data.child('createdAt').val() < now - 86400000)))",
+        "state": {
+          ".write": "auth != null && data.parent().child('hostId').val() === auth.uid"
+        },
+        "players": {
+          "$uid": {
+            ".write": "auth != null && auth.uid === $uid && (data.exists() || root.child('games').child($gameId).child('state/phase').val() === 'lobby')"
+          }
+        },
+        "themes": {
+          "$uid": {
+            ".write": "auth != null && auth.uid === $uid && auth.uid !== root.child('games').child($gameId).child('hostId').val() && root.child('games').child($gameId).child('players').hasChild(auth.uid) && root.child('games').child($gameId).child('state/phase').val() === 'themes'"
+          }
+        },
+        "questions": {
+          ".write": "auth != null && data.parent().child('hostId').val() === auth.uid"
+        },
+        "answers": {
+          "$index": {
+            "$uid": {
+              ".write": "auth != null && auth.uid === $uid && auth.uid !== root.child('games').child($gameId).child('hostId').val() && root.child('games').child($gameId).child('players').hasChild(auth.uid) && !data.exists() && root.child('games').child($gameId).child('state/phase').val() === 'question' && root.child('games').child($gameId).child('state/index').val() + '' === $index"
+            }
+          }
+        }
+      }
+    }
+  }
+}
