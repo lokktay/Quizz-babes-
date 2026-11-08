@@ -4,7 +4,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-database.js";
 import { db } from "./firebase.js";
 import { SETTINGS } from "./config.js";
-import { collectThemes, prepareBank } from "./logic.js";
+import { collectThemes, computeScores, prepareBank, prepareBoard } from "./logic.js";
 import { requestQuestions } from "./ai.js";
 
 let uid = null;
@@ -96,12 +96,14 @@ export const startGeneration = (id) => moveTo(id, { phase: "themes" }, () => ({ 
 export async function generateQuestions(id, game, apiKey) {
   if (!apiKey) throw new Error("Colle la clé API pour générer les questions.");
   const themes = collectThemes(game);
-  // Une question de marge par thème, pour remplacer celles que le filtre écarte.
-  const raw = await requestQuestions(apiKey, themes, SETTINGS.questionsPerTheme + 1);
-  const questions = prepareBank(raw, themes, SETTINGS.questionsPerTheme);
-  if (!questions.length) throw new Error("L'IA n'a produit aucune question utilisable. Relance la génération.");
+  const rawQuestions = await requestQuestions(apiKey, themes, SETTINGS.questionsPerTheme + 1);
+  const questions = prepareBank(rawQuestions, themes, SETTINGS.questionsPerTheme);
+  const rawBoard = await requestQuestions(apiKey, themes, 4, "plateau");
+  const board = prepareBoard(rawBoard, themes, SETTINGS.difficultyPoints);
+  if (!questions.length || !board.length) throw new Error("L'IA n'a pas produit de questions utilisables. Relance la génération.");
   await update(gameRef(id), {
     questions,
+    board,
     state: { phase: "question", index: 0, deadline: serverNow() + SETTINGS.questionSeconds * 1000 },
   });
 }
@@ -119,8 +121,88 @@ export const reveal = (id, index) =>
     deadline: serverNow() + SETTINGS.revealSeconds * 1000,
   }));
 
-export const nextQuestion = (id, index, total) =>
+export const nextQuestion = (id, index) =>
   moveTo(id, { phase: "reveal", index }, () =>
-    index + 1 >= total
-      ? { phase: "finished", index }
-      : { phase: "question", index: index + 1, deadline: serverNow() + SETTINGS.questionSeconds * 1000 });
+    ({ phase: "question", index: index + 1, deadline: serverNow() + SETTINGS.questionSeconds * 1000 }));
+
+export async function beginBoard(id, index, game, activeIds) {
+  const order = computeScores(game).map((player) => player.uid).filter((playerId) => activeIds.includes(playerId));
+  return moveTo(id, { phase: "reveal", index }, () =>
+    index + 1 < game.questions.length
+      ? undefined
+      : order.length
+        ? { phase: "boardChoose", turnOrder: order, turnIndex: 0, turnNumber: 0, used: {} }
+        : { phase: "finished", index });
+}
+
+export const submitBoardPick = (id, turnNumber, boardIndex) =>
+  set(gameRef(id, `/boardPicks/${turnNumber}`), boardIndex);
+
+export function activateBoardPick(id, turnNumber, boardIndex, boardLength) {
+  return runTransaction(gameRef(id, "/state"), (current) => {
+    if (!current || current.phase !== "boardChoose" || current.turnNumber !== turnNumber) return undefined;
+    if (!Number.isInteger(boardIndex) || boardIndex < 0 || boardIndex >= boardLength || current.used?.[boardIndex]) return undefined;
+    const expectedPlayer = current.turnOrder?.[current.turnIndex];
+    if (!expectedPlayer) return undefined;
+    return {
+      ...current,
+      phase: "boardQuestion",
+      selectedBoardIndex: boardIndex,
+      selectedBy: expectedPlayer,
+      deadline: serverNow() + SETTINGS.questionSeconds * 1000,
+      used: { ...(current.used ?? {}), [boardIndex]: true },
+    };
+  });
+}
+
+export const sendBoardAnswer = (id, boardIndex, choice) =>
+  set(gameRef(id, `/boardAnswers/${boardIndex}/${uid}`), { choice, at: serverTimestamp() });
+
+export function revealBoardQuestion(id, turnNumber) {
+  return runTransaction(gameRef(id, "/state"), (current) => {
+    if (!current || current.phase !== "boardQuestion" || current.turnNumber !== turnNumber) return undefined;
+    return {
+      ...current,
+      phase: "boardReveal",
+      deadline: serverNow() + SETTINGS.revealSeconds * 1000,
+    };
+  });
+}
+
+function nextActiveIndex(turnOrder, currentIndex, activeIds) {
+  for (let step = 1; step <= turnOrder.length; step++) {
+    const index = (currentIndex + step) % turnOrder.length;
+    if (activeIds.includes(turnOrder[index])) return index;
+  }
+  return -1;
+}
+
+export function nextBoardTurn(id, turnNumber, activeIds, boardLength) {
+  return runTransaction(gameRef(id, "/state"), (current) => {
+    if (!current || current.phase !== "boardReveal" || current.turnNumber !== turnNumber) return undefined;
+    if (Object.keys(current.used ?? {}).length >= boardLength) return { ...current, phase: "finished" };
+    const nextIndex = nextActiveIndex(current.turnOrder ?? [], current.turnIndex, activeIds);
+    if (nextIndex < 0) return { ...current, phase: "finished" };
+    const { selectedBoardIndex, selectedBy, deadline, ...rest } = current;
+    return {
+      ...rest,
+      phase: "boardChoose",
+      turnIndex: nextIndex,
+      turnNumber: turnNumber + 1,
+    };
+  });
+}
+
+export function skipBoardTurn(id, turnNumber, activeIds) {
+  return runTransaction(gameRef(id, "/state"), (current) => {
+    if (!current || current.phase !== "boardChoose" || current.turnNumber !== turnNumber) return undefined;
+    const nextIndex = nextActiveIndex(current.turnOrder ?? [], current.turnIndex, activeIds);
+    if (nextIndex < 0) return { ...current, phase: "finished" };
+    return {
+      ...current,
+      phase: "boardChoose",
+      turnIndex: nextIndex,
+      turnNumber: turnNumber + 1,
+    };
+  });
+}
