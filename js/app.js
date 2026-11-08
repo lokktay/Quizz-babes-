@@ -185,6 +185,14 @@ function renderGame() {
   if (phase === "generating") return showGenerating();
   if (phase === "question") return isHost() ? showHostQuestion(index) : showQuestion(index);
   if (phase === "reveal") return showReveal(index);
+  if (phase === "boardChoose") return showBoard();
+  if (phase === "boardQuestion") {
+    if (isHost()) return showHostBoardQuestion(game.state.selectedBoardIndex);
+    return game.state.selectedBy === me
+      ? showBoardAnswer(game.state.selectedBoardIndex)
+      : showBoardWaiting();
+  }
+  if (phase === "boardReveal") return showReveal(game.state.selectedBoardIndex, true);
   return showFinal();
 }
 
@@ -346,7 +354,7 @@ function showGenerating() {
       <div class="card center">
         <div class="spinner" id="spinner"></div>
         <h2>L'IA prépare les questions</h2>
-        <p class="muted" id="wait">Ça peut prendre une à deux minutes.</p>
+        <p class="muted" id="wait">Deux séries de questions sont préparées. Cela peut prendre quelques minutes.</p>
         <form id="retry" hidden>
           <div class="stack">
             <p class="error" id="error"></p>
@@ -390,6 +398,7 @@ function scoreList(scores, withGain) {
 
 function questionHeader(index, question) {
   return `
+    <p class="eyebrow">Manche 1 · Tout le monde répond</p>
     <div class="meta">
       <span>Question ${index + 1} / ${game.questions.length}</span>
       <span id="right"></span>
@@ -457,6 +466,167 @@ function showQuestion(index) {
   });
 }
 
+const DIFFICULTY_NAMES = {
+  facile: "Facile",
+  moyen: "Moyen",
+  difficile: "Difficile",
+  tres_difficile: "Très difficile",
+};
+
+function boardMarkup(canChoose) {
+  const grouped = new Map();
+  game.board.forEach((question, index) => {
+    if (!grouped.has(question.theme)) grouped.set(question.theme, []);
+    grouped.get(question.theme).push({ question, index });
+  });
+  return [...grouped.entries()].map(([theme, cells]) => `
+    <section class="board-category">
+      <h2>${esc(theme)}</h2>
+      <div class="board-tiles">
+        ${cells.map(({ question, index }) => {
+          const used = Boolean(game.state.used?.[index]);
+          return `<button class="board-tile" data-board-index="${index}" aria-label="${esc(theme)}, ${esc(DIFFICULTY_NAMES[question.difficulty])}, ${question.points} points" ${used || !canChoose ? "disabled" : ""}>
+            <span>${esc(DIFFICULTY_NAMES[question.difficulty])}</span>
+            <b>${question.points} pts</b>
+          </button>`;
+        }).join("")}
+      </div>
+    </section>`).join("");
+}
+
+function showBoard() {
+  const turnPlayerId = game.state.turnOrder?.[game.state.turnIndex];
+  const isMyTurn = !isHost() && turnPlayerId === me;
+  show(`board:${game.state.turnNumber}`, () => {
+    root.innerHTML = `
+      <div class="stack">
+        <header>
+          <p class="eyebrow">Manche 2 · Le plateau</p>
+          <h1>${isHost() || !isMyTurn ? "Plateau des thèmes" : "À toi de choisir"}</h1>
+          <p class="tagline" id="board-status"></p>
+        </header>
+        <div class="board" id="board"></div>
+      </div>`;
+    $("#board").addEventListener("click", async (event) => {
+      const button = event.target.closest("[data-board-index]");
+      if (!button || button.disabled) return;
+      root.querySelectorAll("[data-board-index]").forEach((tile) => { tile.disabled = true; });
+      try {
+        await api.submitBoardPick(gameId, game.state.turnNumber, Number(button.dataset.boardIndex));
+      } catch (error) {
+        console.error(error);
+        toast("Cette case n'a pas pu être choisie. Vérifie ta connexion.");
+      }
+    });
+    return {
+      update() {
+        const current = game.players?.[turnPlayerId]?.name ?? "un joueur";
+        $("#board-status").textContent = isHost()
+          ? `C'est au tour de ${current}. Les cases choisies disparaissent du plateau.`
+          : isMyTurn ? "Choisis une case encore disponible. Tu seras le seul à répondre."
+            : `C'est au tour de ${current}. Le plateau reste affiché sur ton téléphone.`;
+        $("#board").innerHTML = boardMarkup(isMyTurn);
+      },
+    };
+  });
+}
+
+function showBoardWaiting() {
+  show(`board:waiting:${game.state.turnNumber}`, () => {
+    root.innerHTML = `
+      <div class="card center">
+        <p class="eyebrow">Manche 2</p>
+        <h1>À toi de choisir</h1>
+        <p class="tagline" id="board-wait"></p>
+      </div>`;
+    return {
+      update() {
+        const current = game.players?.[game.state.selectedBy]?.name ?? "Le joueur";
+        $("#board-wait").textContent = `${current} répond seul à la question choisie.`;
+      },
+    };
+  });
+}
+
+function boardQuestionHeader(question) {
+  return `
+    <p class="eyebrow">Manche 2 · ${esc(question.theme)}</p>
+    <div class="meta">
+      <span>${esc(DIFFICULTY_NAMES[question.difficulty])} · ${question.points} points</span>
+      <span id="right"></span>
+    </div>
+    <div class="timer"><div id="bar"></div></div>
+    <p class="question">${esc(question.question)}</p>`;
+}
+
+function showHostBoardQuestion(index) {
+  show(`board-question:host:${index}`, () => {
+    const question = game.board[index];
+    root.innerHTML = `
+      <div class="stack">
+        ${boardQuestionHeader(question)}
+        <div class="answers">
+          ${question.answers.map((answer, i) => `
+            <div class="answer" aria-label="Réponse ${LETTERS[i]}">
+              <span class="letter">${LETTERS[i]}</span>
+              <span class="text">${esc(answer)}</span>
+            </div>`).join("")}
+        </div>
+        <p class="muted center" id="board-count"></p>
+      </div>`;
+    const bar = startBar(SETTINGS.questionSeconds);
+    return {
+      update() {
+        const playerId = game.state.selectedBy;
+        const answered = Boolean(game.boardAnswers?.[index]?.[playerId]);
+        $("#board-count").textContent = `${game.players?.[playerId]?.name ?? "Le joueur"} ${answered ? "a répondu." : "est en train de répondre."}`;
+      },
+      tick() { $("#right").textContent = `${bar()} s`; },
+    };
+  });
+}
+
+function showBoardAnswer(index) {
+  show(`board-question:player:${index}`, () => {
+    const question = game.board[index];
+    root.innerHTML = `
+      <div class="stack">
+        ${boardQuestionHeader(question)}
+        <div class="answers" id="answers">
+          ${question.answers.map((answer, i) => `
+            <button class="answer" data-choice="${i}">
+              <span class="letter">${LETTERS[i]}</span>
+              <span class="text">${esc(answer)}</span>
+            </button>`).join("")}
+        </div>
+        <p class="muted center">Seul ton choix compte pour cette question.</p>
+      </div>`;
+    const bar = startBar(SETTINGS.questionSeconds);
+    let picked = null;
+    $("#answers").addEventListener("click", async (event) => {
+      const button = event.target.closest("[data-choice]");
+      if (!button || picked !== null || game.boardAnswers?.[index]?.[me]) return;
+      picked = Number(button.dataset.choice);
+      screen.update();
+      try {
+        await api.sendBoardAnswer(gameId, index, picked);
+      } catch {
+        toast("Réponse arrivée trop tard.");
+      }
+    });
+    return {
+      update() {
+        const mine = game.boardAnswers?.[index]?.[me]?.choice ?? picked;
+        root.querySelectorAll(".answer").forEach((button) => {
+          button.disabled = mine !== null;
+          button.classList.toggle("mine", Number(button.dataset.choice) === mine);
+        });
+      },
+      tick() { $("#right").textContent = `${bar()} s`; },
+    };
+  });
+}
+
 function showHostQuestion(index) {
   show(`host-question:${index}`, () => {
     const question = game.questions[index];
@@ -484,18 +654,18 @@ function showHostQuestion(index) {
   });
 }
 
-function showReveal(index) {
-  show(`reveal:${index}`, () => {
-    const question = game.questions[index];
-    const answers = game.answers?.[index] ?? {};
+function showReveal(index, boardMode = false) {
+  show(`${boardMode ? "board-reveal" : "reveal"}:${index}`, () => {
+    const question = boardMode ? game.board[index] : game.questions[index];
+    const answers = boardMode ? game.boardAnswers?.[index] ?? {} : game.answers?.[index] ?? {};
     const mine = answers[me]?.choice;
     const scores = computeScores(game);
     const namesFor = (choice) =>
-      playersOf().filter((p) => answers[p.uid]?.choice === choice).map((p) => p.name).join(", ");
+      playersOf().filter((p) => p.uid !== game.hostId && answers[p.uid]?.choice === choice).map((p) => p.name).join(", ");
 
     root.innerHTML = `
       <div class="stack">
-        ${questionHeader(index, question)}
+        ${boardMode ? boardQuestionHeader(question) : questionHeader(index, question)}
         <div class="answers">
           ${question.answers.map((answer, i) => {
             const state = i === question.correct ? "right" : i === mine ? "wrong" : "dim";
@@ -526,11 +696,12 @@ function showFinal() {
     root.innerHTML = `
       <div class="stack">
         <header class="center">
+          <p class="eyebrow">Fin des deux manches</p>
           <p class="muted">${winners.includes(" et ") ? "Égalité entre" : "Victoire de"}</p>
           <p class="winner">${esc(winners)}</p>
         </header>
         <section class="card">
-          <h2>Classement final</h2>
+          <h2>Classement final · 2 manches</h2>
           <ul class="list score">${scoreList(scores, false)}</ul>
         </section>
         <button class="primary big" id="home">Retour à l'accueil</button>
@@ -568,7 +739,7 @@ function drive() {
   if (!game?.players?.[me]) return;
   const { phase, index, deadline, error } = game.state;
   const now = api.serverNow();
-  const key = `${gameId}:${phase}:${index ?? ""}`;
+  const key = `${gameId}:${phase}:${index ?? ""}:${game.state.turnNumber ?? ""}:${game.state.selectedBoardIndex ?? ""}`;
 
   if (phase === "themes" && isHost()) {
     const everyone = playersOf().filter((p) => p.uid !== game.hostId);
@@ -584,7 +755,33 @@ function drive() {
       once(key, () => api.reveal(gameId, index));
     }
   } else if (phase === "reveal" && isHost() && now >= deadline) {
-    once(key, () => api.nextQuestion(gameId, index, game.questions.length));
+    if (index + 1 >= game.questions.length) {
+      once(key, () => api.beginBoard(gameId, index, game, answeringPlayers().map((p) => p.uid)));
+    } else {
+      once(key, () => api.nextQuestion(gameId, index));
+    }
+  } else if (phase === "boardChoose" && isHost()) {
+    const turnNumber = game.state.turnNumber;
+    const currentPlayer = game.state.turnOrder?.[game.state.turnIndex];
+    const activeIds = answeringPlayers().map((p) => p.uid);
+    if (!activeIds.includes(currentPlayer)) {
+      once(key, () => api.skipBoardTurn(gameId, turnNumber, activeIds));
+    } else if (Number.isInteger(game.boardPicks?.[turnNumber])) {
+      once(key, () => api.activateBoardPick(gameId, turnNumber, game.boardPicks[turnNumber], game.board.length));
+    }
+  } else if (phase === "boardQuestion" && isHost()) {
+    const { turnNumber, selectedBoardIndex, selectedBy } = game.state;
+    const hasAnswer = Boolean(game.boardAnswers?.[selectedBoardIndex]?.[selectedBy]);
+    if (hasAnswer || now >= deadline) {
+      once(key, () => api.revealBoardQuestion(gameId, turnNumber));
+    }
+  } else if (phase === "boardReveal" && isHost() && now >= deadline) {
+    once(key, () => api.nextBoardTurn(
+      gameId,
+      game.state.turnNumber,
+      answeringPlayers().map((p) => p.uid),
+      game.board.length,
+    ));
   }
 }
 
