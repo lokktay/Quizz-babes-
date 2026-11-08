@@ -12,8 +12,14 @@ export const firebaseConfig = {
 export const SETTINGS = {
   maxPlayers: 10,
   themesPerPlayer: 3,
-  questionsPerTheme: 2,
+  questionsPerTheme: 5,
   questionSeconds: 20,
   revealSeconds: 6,
+  difficultyPoints: {
+    facile: 1,
+    moyen: 3,
+    difficile: 5,
+    tres_difficile: 7,
+  },
   model: "gemini-3.8-flash",
 };
