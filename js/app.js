@@ -1,7 +1,7 @@
-import { SETTINGS } from "./config.js";
-import { isConfigured, signIn } from "./firebase.js";
-import * as api from "./game.js";
-import { computeScores } from "./logic.js";
+import { SETTINGS } from "./config.js?v=2";
+import { isConfigured, signIn } from "./firebase.js?v=2";
+import * as api from "./game.js?v=2";
+import { computeScores } from "./logic.js?v=2";
 
 const root = document.getElementById("app");
 const LETTERS = ["A", "B", "C", "D"];
