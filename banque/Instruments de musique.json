@@ -1,0 +1,485 @@
+{
+"theme": "Musique (instruments)",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel instrument possède des touches noires et blanches ?",
+"correct": "Le piano",
+"wrong": ["La guitare", "La flûte", "Le violon"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle famille d'instruments fait partie la trompette ?",
+"correct": "Les cuivres",
+"wrong": ["Les bois", "Les cordes", "Les percussions"]
+},
+{
+"difficulty": "facile",
+"question": "Quel accessoire utilise-t-on pour frotter les cordes d'un violon ?",
+"correct": "Un archet",
+"wrong": ["Un médiator", "Une baguette", "Un plectre"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument traditionnel est emblématique de l'Écosse ?",
+"correct": "La cornemuse",
+"wrong": ["La balalaïka", "Le ukulélé", "Le djembé"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument joue-t-on généralement avec des baguettes sur des peaux tendues ?",
+"correct": "La batterie",
+"wrong": ["La harpe", "L'accordéon", "Le hautbois"]
+},
+{
+"difficulty": "facile",
+"question": "Quel petit instrument à quatre cordes est originaire d'Hawaï ?",
+"correct": "Le ukulélé",
+"wrong": ["La mandoline", "Le banjo", "Le luth"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle couleur sont les touches naturelles d'un piano moderne ?",
+"correct": "Blanches",
+"wrong": ["Noires", "Grises", "Beiges"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument de jazz est souvent fabriqué en laiton courbé en forme de J ?",
+"correct": "Le saxophone",
+"wrong": ["La clarinette", "Le basson", "La flûte traversière"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument se joue en pinçant une longue série de cordes verticales ?",
+"correct": "La harpe",
+"wrong": ["Le violoncelle", "La contrebasse", "Le clavecin"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument utilise une coulisse mobile pour changer la hauteur des notes ?",
+"correct": "Le trombone",
+"wrong": ["Le cor d'harmonie", "Le tuba", "Le clairon"]
+},
+{
+"difficulty": "facile",
+"question": "Quel petit instrument de percussion secoue-t-on en musique latine ?",
+"correct": "Les maracas",
+"wrong": ["Les cymbales", "Le triangle", "Le xylophone"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument à vent de poche est très utilisé dans le blues ?",
+"correct": "L'harmonica",
+"wrong": ["Le kazoo", "Le pipeau", "L'ocarina"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument possède un soufflet que l'on actionne avec les bras ?",
+"correct": "L'accordéon",
+"wrong": ["L'orgue", "Le clavecin", "Le célesta"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le plus grand et le plus grave des instruments du quatuor à cordes ?",
+"correct": "Le violoncelle",
+"wrong": ["L'alto", "Le violon", "La mandoline"]
+},
+{
+"difficulty": "facile",
+"question": "Quel petit triangle en métal frappe-t-on avec une tige ?",
+"correct": "Le triangle",
+"wrong": ["Le gong", "Le carillon", "La cloche"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument à lames en bois frappe-t-on avec des mailloches ?",
+"correct": "Le xylophone",
+"wrong": ["Le vibraphone", "Le glockenspiel", "Le célesta"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument espagnol se joue en claquant deux coquilles de bois dans la main ?",
+"correct": "Les castagnettes",
+"wrong": ["Le tambourin", "Les claves", "Le guiro"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument de percussion africain se joue à mains nues en forme de calice ?",
+"correct": "Le djembé",
+"wrong": ["Le cajón", "Le bongo", "La conga"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument à cordes est indispensable au flamenco ?",
+"correct": "La guitare",
+"wrong": ["Le violon", "Le banjo", "La cithare"]
+},
+{
+"difficulty": "facile",
+"question": "Quel instrument d'église monumental fonctionne avec des tuyaux et un pédalier ?",
+"correct": "L'orgue",
+"wrong": ["Le clavecin", "L'harmonium", "Le piano à queue"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quelle famille classe-t-on le saxophone malgré sa fabrication en métal ?",
+"correct": "Les bois",
+"wrong": ["Les cuivres", "Les cordes", "Les percussions"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle matière compose traditionnellement les crins d'un archet de violon ?",
+"correct": "Le crin de cheval",
+"wrong": ["La soie tressée", "Le boyau de mouton", "La fibre de lin"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument à clavier pince les cordes au lieu de les frapper comme le piano ?",
+"correct": "Le clavecin",
+"wrong": ["Le pianoforte", "Le célesta", "L'orgue"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument à vent aborigène d'Australie est fait d'un tronc creusé par les termites ?",
+"correct": "Le didgeridoo",
+"wrong": ["Le cor des Alpes", "La vuvuzela", "Le chophar"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle pièce en bois transmet les vibrations des cordes à la caisse d'une guitare ?",
+"correct": "Le chevalet",
+"wrong": ["Le sillet", "La touche", "L'éclisse"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument indien à cordes pincées a été popularisé en Occident par Ravi Shankar ?",
+"correct": "Le sitar",
+"wrong": ["Le sarod", "Le tampura", "La vina"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle substance applique-t-on sur l'archet pour qu'il accroche les cordes ?",
+"correct": "La colophane",
+"wrong": ["La cire d'abeille", "La paraffine", "La gomme arabique"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument électronique joue-t-on sans le toucher grâce à deux antennes ?",
+"correct": "Le thérémine",
+"wrong": ["Le synthétiseur", "Les ondes Martenot", "Le mellotron"]
+},
+{
+"difficulty": "moyen",
+"question": "De quel instrument le piccolo est-il la version miniature et aiguë ?",
+"correct": "La flûte traversière",
+"wrong": ["La clarinette", "Le hautbois", "La trompette"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument de percussion ressemble à une caisse en bois sur laquelle on s'assoit ?",
+"correct": "Le cajón",
+"wrong": ["Le tambour bata", "Le bodhrán", "Le darbouka"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument à anche double donne généralement le « la » d'accordage à l'orchestre ?",
+"correct": "Le hautbois",
+"wrong": ["La clarinette", "La flûte", "Le cor anglais"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument traditionnel russe possède une caisse de résonance triangulaire ?",
+"correct": "La balalaïka",
+"wrong": ["La domra", "La gusli", "La bandoura"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on les barrettes métalliques incrustées sur le manche d'une guitare ?",
+"correct": "Les frettes",
+"wrong": ["Les sillets", "Les éclisses", "Les chevilles"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument à vent suisse très long est utilisé par les bergers en montagne ?",
+"correct": "Le cor des Alpes",
+"wrong": ["Le clairon", "Le bugle", "La trompe de chasse"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument de percussion cubain se compose de deux petits tambours reliés ?",
+"correct": "Les bongos",
+"wrong": ["Les congas", "Les timbales", "Les tablas"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument à cordes possède un corps rond recouvert d'une peau tendue ?",
+"correct": "Le banjo",
+"wrong": ["La mandoline", "Le dobro", "Le bouzouki"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle pédale de droite sur un piano permet de prolonger la résonance des notes ?",
+"correct": "La pédale forte",
+"wrong": ["La pédale douce", "La pédale tonale", "La pédale sourdine"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument japonais traditionnel à cordes pincées ressemble à une longue cithare ?",
+"correct": "Le koto",
+"wrong": ["Le shamisen", "Le biwa", "Le shakuhachi"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel type de guitare électrique possède une caisse pleine sans ouverture acoustique ?",
+"correct": "Solid body",
+"wrong": ["Hollow body", "Semi-hollow", "Archtop"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel instrument de la famille des cuivres est le plus grand et le plus grave de l'orchestre ?",
+"correct": "Le tuba",
+"wrong": ["Le trombone", "Le cor", "L'euphonium"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument inventé en France utilise un ruban et un anneau contrôlés au doigt ?",
+"correct": "Les ondes Martenot",
+"wrong": ["Le trautonium", "Le thérémine", "Le telharmonium"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle partie d'une guitare acoustique désigne les parois latérales courbées de la caisse ?",
+"correct": "Les éclisses",
+"wrong": ["Les filets", "Les barrages", "Les ouïes"]
+},
+{
+"difficulty": "difficile",
+"question": "De quelle famille d'instruments le cor anglais fait-il réellement partie ?",
+"correct": "Les bois",
+"wrong": ["Les cuivres", "Les cordes", "Les percussions"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument de percussion métallique ressemble à un petit piano à queue et joue dans Casse-Noisette ?",
+"correct": "Le célesta",
+"wrong": ["Le glockenspiel", "Le vibraphone", "Le clavicorde"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle est la principale différence mécanique entre un vibraphone et un marimba ?",
+"correct": "Lames métalliques et moteur",
+"wrong": ["Nombre de claviers", "Absence de résonateurs", "Jeu aux doigts"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument à vent utilisé en musique baroque est le précurseur du trombone ?",
+"correct": "La sacqueboute",
+"wrong": ["Le serpent", "Le cornet à bouquin", "La chalemie"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on les ouvertures en forme de « f » sur la table d'harmonie d'un violon ?",
+"correct": "Les ouïes",
+"wrong": ["Les rosaces", "Les éclisses", "Les volutes"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument de percussion indien se compose d'une paire de tambours joués aux doigts ?",
+"correct": "Les tablas",
+"wrong": ["Le mridangam", "Le pakhawaj", "Le dholak"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument à clavier utilise des tangentes en laiton qui frappent et restent en contact avec la corde ?",
+"correct": "Le clavicorde",
+"wrong": ["Le clavecin", "L'épinette", "Le virginal"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument d'Afrique de l'Ouest est une harpe-luth construite avec une demi-calebasse ?",
+"correct": "La kora",
+"wrong": ["Le balafon", "Le ngoni", "La mbira"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte la pièce en bois sculptée en spirale au sommet du manche d'un violon ?",
+"correct": "La volute",
+"wrong": ["Le chevillier", "Le talon", "Le sillet"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument de percussion caribéen est fabriqué à partir de fûts de pétrole martelés ?",
+"correct": "Le steel drum",
+"wrong": ["Le hang", "Le marimba", "Le vibraphone"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument à vent ancien en forme de S était fabriqué en bois recouvert de cuir ?",
+"correct": "Le serpent",
+"wrong": ["L'ophicléide", "Le basson", "Le cromorne"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle petite pièce de bois cylindrique placée à l'intérieur d'un violon relie la table et le fond ?",
+"correct": "L'âme",
+"wrong": ["La barre d'harmonie", "Le chevalet", "Le cordier"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument de musique traditionnel des Andes est une flûte de Pan à double rangée de tuyaux ?",
+"correct": "La zampoña",
+"wrong": ["La quena", "Le charango", "L'ocarina"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel petit luth andin avait traditionnellement une caisse fabriquée en carapace de tatou ?",
+"correct": "Le charango",
+"wrong": ["Le cuatro", "Le cavaquinho", "Le tiple"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'instrument à lamelles métalliques pincées avec les pouces en Afrique australe ?",
+"correct": "La mbira",
+"wrong": ["Le balafon", "Le marimbula", "Le guimbarde"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel type d'anche utilise une clarinette pour produire son son ?",
+"correct": "Une anche simple",
+"wrong": ["Une anche double", "Une anche libre", "Aucune anche"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument de percussion orchestrale possède une pédale permettant de changer sa hauteur de note ?",
+"correct": "Les timbales",
+"wrong": ["La grosse caisse", "Le tambour militaire", "Le tom basse"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel instrument à vent japonais en bambou se joue en soufflant sur une encoche supérieure ?",
+"correct": "Le shakuhachi",
+"wrong": ["Le shinobue", "Le hichiriki", "Le sho"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment se nomme la tige métallique rétractable qui soutient un violoncelle au sol ?",
+"correct": "La pique",
+"wrong": ["Le cordier", "Le bouton", "La mentonnière"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel luthier belge a inventé le saxophone ?",
+"correct": "Adolphe Sax",
+"wrong": ["Antoine Courtois", "Theobald Boehm", "Jean-Baptiste Vuillaume"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle partie de la trompette est l'ouverture évasée par laquelle sort le son ?",
+"correct": "Le pavillon",
+"wrong": ["L'embouchure", "La perce", "Le boisseau"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans la classification de Hornbostel-Sachs, à quelle catégorie appartient le piano ?",
+"correct": "Les cordophones",
+"wrong": ["Les idiophones", "Les membranophones", "Les aérophones"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans la classification de Hornbostel-Sachs, à quelle catégorie appartient le xylophone ?",
+"correct": "Les idiophones",
+"wrong": ["Les membranophones", "Les cordophones", "Les électrophones"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument à clavier utilise des bandes magnétiques préenregistrées actionnées par les touches ?",
+"correct": "Le mellotron",
+"wrong": ["Le clavinet", "Le synthétiseur Moog", "L'orgue Hammond"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument à cordes frottées possède une roue en bois actionnée par une manivelle ?",
+"correct": "La vielle à roue",
+"wrong": ["La nyckelharpa", "Le rebec", "La vièle"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument traditionnel suédois possède des touches en bois qui modifient la hauteur des cordes frottées ?",
+"correct": "La nyckelharpa",
+"wrong": ["Le hardanger", "La moraharpa", "Le jouhikko"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel système de clétage moderne équipe la quasi-totalité des flûtes traversières d'orchestre ?",
+"correct": "Le système Boehm",
+"wrong": ["Le système Albert", "Le système Oehler", "Le système Heckel"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument à vent de la famille des cuivres est porté autour de l'épaule dans les fanfares ?",
+"correct": "Le sousaphone",
+"wrong": ["L'hélicon", "Le baryton", "L'ophicléide"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on la petite languette en bois ou en plume qui pince la corde dans un clavecin ?",
+"correct": "Le bec de plume",
+"wrong": ["Le sautereau", "L'étouffoir", "Le chevalet"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument ancien à vent possède un pavillon souvent sculpté en forme de tête animale ?",
+"correct": "Le carnyx",
+"wrong": ["Le lur", "La buccine", "Le cornu"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument inventé par Benjamin Franklin utilise des bols en verre rotatifs humidifiés ?",
+"correct": "L'harmonica de verre",
+"wrong": ["Le cristal Baschet", "Le glasschord", "Le sérénadeur"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle partie d'une baguette de batterie frappe directement la cymbale ride pour un son précis ?",
+"correct": "L'olive",
+"wrong": ["Le col", "Le fût", "Le talon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment se nomme le tambour traditionnel irlandais sur cadre joué avec une mailloche à double tête ?",
+"correct": "Le bodhrán",
+"wrong": ["Le bendir", "Le tar", "Le daf"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument de percussion inventé en Suisse en 2000 a la forme d'une soucoupe volante en acier ?",
+"correct": "Le hang",
+"wrong": ["Le tank drum", "Le steelpan", "Le rav vast"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel dispositif fixé sur le chevalet d'un violon permet d'atténuer le volume et de feutrer le timbre ?",
+"correct": "La sourdine",
+"wrong": ["La mentonnière", "L'épaulière", "Le tendeur"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel luthier italien de Crémone est considéré comme le maître absolu de la fabrication des violons ?",
+"correct": "Antonio Stradivari",
+"wrong": ["Andrea Amati", "Giuseppe Guarneri", "Carlo Bergonzi"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel instrument à vent grave de la famille des bois possède un tuyau replié sur lui-même d'environ 2,5 mètres ?",
+"correct": "Le basson",
+"wrong": ["Le hautbois baryton", "La clarinette basse", "Le sarrussophone"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on le petit tuyau métallique courbé qui relie l'anche double au corps du basson ?",
+"correct": "Le bocal",
+"wrong": ["Le barillet", "La culasse", "Le pavillon"]
+}
+]
+}

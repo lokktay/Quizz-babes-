@@ -1,0 +1,485 @@
+{
+"theme": "Pokémon",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel Pokémon jaune emblématique est le fidèle compagnon de Sacha ?",
+"correct": "Pikachu",
+"wrong": ["Raichu", "Pichu", "Voltali"]
+},
+{
+"difficulty": "facile",
+"question": "De quel type est le Pokémon Salamèche ?",
+"correct": "Feu",
+"wrong": ["Eau", "Plante", "Dragon"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon de type Eau est l'un des trois starters de Kanto ?",
+"correct": "Carapuce",
+"wrong": ["Psykokwak", "Magicarpe", "Ptitard"]
+},
+{
+"difficulty": "facile",
+"question": "Quel objet permet de capturer des Pokémon sauvages ?",
+"correct": "Une Poké Ball",
+"wrong": ["Un Pokédex", "Une Potion", "Une Baie Oran"]
+},
+{
+"difficulty": "facile",
+"question": "En quel Pokémon évolue Magicarpe ?",
+"correct": "Léviator",
+"wrong": ["Lokhlass", "Hyporoi", "Milobellus"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon passe presque tout son temps à dormir et bloque les chemins ?",
+"correct": "Ronflex",
+"wrong": ["Goinfrex", "Dodoala", "Monaflèmit"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle organisation criminelle tente constamment de voler Pikachu dans l'anime ?",
+"correct": "La Team Rocket",
+"wrong": ["La Team Magma", "La Team Aqua", "La Team Galaxie"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon capable de parler accompagne Jessie et James ?",
+"correct": "Miaouss",
+"wrong": ["Persian", "Qulbutoké", "Smogo"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon possède huit évolutions différentes selon les pierres et méthodes ?",
+"correct": "Évoli",
+"wrong": ["Métamorph", "Mew", "Porygon"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle l'encyclopédie électronique qui recense les Pokémon ?",
+"correct": "Le Pokédex",
+"wrong": ["Le Pokématos", "Le Pokénav", "La Pokémontre"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon de départ de Kanto porte un bulbe sur son dos ?",
+"correct": "Bulbizarre",
+"wrong": ["Mystherbe", "Chétiflor", "Germignon"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon légendaire a été créé génétiquement à partir de l'ADN de Mew ?",
+"correct": "Mewtwo",
+"wrong": ["Deoxys", "Arceus", "Genesect"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est l'évolution finale de Salamèche ?",
+"correct": "Dracaufeu",
+"wrong": ["Reptincel", "Dracolosse", "Arcanin"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon rose chante une berceuse qui endort tout son entourage ?",
+"correct": "Rondoudou",
+"wrong": ["Mélofée", "Leveinard", "Grodoudou"]
+},
+{
+"difficulty": "facile",
+"question": "Quel type est super efficace contre les Pokémon de type Feu ?",
+"correct": "Eau",
+"wrong": ["Plante", "Glace", "Insecte"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle l'infirmière qui soigne les Pokémon dans chaque ville ?",
+"correct": "Infirmière Joëlle",
+"wrong": ["Agent Jenny", "Professeur Chen", "Ondine"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon a souvent mal à la tête et libère alors des pouvoirs psychiques ?",
+"correct": "Psykokwak",
+"wrong": ["Ramoloss", "Akwakwak", "Flagadoss"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle région est originaire Sacha Ketchum ?",
+"correct": "Kanto",
+"wrong": ["Johto", "Hoenn", "Sinnoh"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le village natal de Sacha ?",
+"correct": "Bourg Palette",
+"wrong": ["Jadielle", "Argenta", "Azuria"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Pokémon violet peut prendre l'apparence exacte de n'importe quel autre Pokémon ?",
+"correct": "Métamorph",
+"wrong": ["Zorua", "Ectoplasma", "Mimiqui"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel objet permet de capturer un Pokémon sauvage à coup sûr sans jamais échouer ?",
+"correct": "La Master Ball",
+"wrong": ["L'Hyper Ball", "La Chrono Ball", "La Luxe Ball"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle pierre évolutive transforme Évoli en Voltali ?",
+"correct": "La Pierre Foudre",
+"wrong": ["La Pierre Soleil", "La Pierre Éclat", "La Pierre Aube"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel Pokémon porte le crâne de sa défunte mère sur la tête ?",
+"correct": "Osselait",
+"wrong": ["Ossatueur", "Vostourno", "Skelénox"]
+},
+{
+"difficulty": "moyen",
+"question": "De quel type est le Pokémon légendaire Artikodin ?",
+"correct": "Glace et Vol",
+"wrong": ["Eau et Vol", "Psy et Vol", "Fée et Vol"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel Pokémon est considéré comme le dieu créateur de l'univers Pokémon ?",
+"correct": "Arceus",
+"wrong": ["Dialga", "Palkia", "Giratina"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel type a été introduit dans la sixième génération pour équilibrer le type Dragon ?",
+"correct": "Fée",
+"wrong": ["Acier", "Ténèbres", "Spectre"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on un Pokémon aux couleurs extrêmement rares ?",
+"correct": "Chromatique",
+"wrong": ["Albinos", "Légendaire", "Fabuleux"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel Pokémon se déguise sous un vieux chiffon ressemblant à Pikachu pour se faire aimer ?",
+"correct": "Mimiqui",
+"wrong": ["Polichombr", "Tutafeh", "Brocelôme"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle attaque de type Normal met KO le lanceur pour infliger d'énormes dégâts ?",
+"correct": "Explosion",
+"wrong": ["Damoclès", "Bélier", "Ultralaser"]
+},
+{
+"difficulty": "moyen",
+"question": "Qui est le champion d'arène de la ville d'Argenta spécialisé dans le type Roche ?",
+"correct": "Pierre",
+"wrong": ["Major Bob", "Auguste", "Giovanni"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel Pokémon légendaire règne sur le temps dans la région de Sinnoh ?",
+"correct": "Dialga",
+"wrong": ["Palkia", "Celebi", "Cresselia"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel Pokémon légendaire règne sur l'espace dans la région de Sinnoh ?",
+"correct": "Palkia",
+"wrong": ["Dialga", "Rayquaza", "Deoxys"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle est la seule capacité connue par un Magicarpe sauvage de très bas niveau ?",
+"correct": "Trempette",
+"wrong": ["Charge", "Écume", "Pistolet à O"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel Pokémon évolue en Mentali lorsqu'il monte de niveau avec un bonheur élevé le jour ?",
+"correct": "Évoli",
+"wrong": ["Togepi", "Riolu", "Rozbouton"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du chef suprême de la Team Rocket ?",
+"correct": "Giovanni",
+"wrong": ["Max", "Arthur", "Hélio"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel Pokémon transporte toujours un poireau qu'il utilise comme arme ?",
+"correct": "Canarticho",
+"wrong": ["Doduo", "Piafabec", "Cadoizo"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel type est totalement immunisé contre les attaques de type Électrik ?",
+"correct": "Sol",
+"wrong": ["Roche", "Acier", "Plante"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel type est totalement immunisé contre les attaques de type Normal et Combat ?",
+"correct": "Spectre",
+"wrong": ["Ténèbres", "Psy", "Fée"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle la région inspirée de la France dans Pokémon X et Y ?",
+"correct": "Kalos",
+"wrong": ["Galar", "Unys", "Paldea"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle la région inspirée du Royaume-Uni dans Pokémon Épée et Bouclier ?",
+"correct": "Galar",
+"wrong": ["Kalos", "Alola", "Sinnoh"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle combinaison de types possède le Pokémon Ténéfix, le rendant sans faiblesse avant la 6e génération ?",
+"correct": "Ténèbres et Spectre",
+"wrong": ["Ténèbres et Psy", "Spectre et Poison", "Acier et Spectre"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel Pokémon possède le talent Garde Mystik qui ne le rend vulnérable qu'aux attaques super efficaces ?",
+"correct": "Munja",
+"wrong": ["Ninjask", "Ningale", "Spiritomb"]
+},
+{
+"difficulty": "difficile",
+"question": "De quel fossile est ressuscité le Pokémon Amonita ?",
+"correct": "Fossile Nautile",
+"wrong": ["Fossile Dôme", "Vieil Ambre", "Fossile Griffe"]
+},
+{
+"difficulty": "difficile",
+"question": "De quel fossile est ressuscité le Pokémon Kabuto ?",
+"correct": "Fossile Dôme",
+"wrong": ["Fossile Nautile", "Fossile Racine", "Fossile Armure"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel Pokémon de la première génération a été conçu en tout premier par les développeurs ?",
+"correct": "Rhinoféros",
+"wrong": ["Pikachu", "Bulbizarre", "Mew"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle méthode insolite permet de faire évoluer Sepiatop en Sepiatroce ?",
+"correct": "Tenir la console à l'envers",
+"wrong": ["Tourner sur soi-même", "Échanger sous la pluie", "Crier dans le micro"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'attaque signature de Qulbutoké qui renvoie le double des dégâts physiques subis ?",
+"correct": "Riposte",
+"wrong": ["Voile Miroir", "Prélèvement Destin", "Patience"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel Pokémon est célèbre pour être un bug informatique légendaire dans Pokémon Rouge et Bleu ?",
+"correct": "MissingNo.",
+"wrong": ["Porygon-Z", "Motisma", "Unown"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle baie permet de soigner instantanément la paralysie d'un Pokémon ?",
+"correct": "La Baie Ceriz",
+"wrong": ["La Baie Maron", "La Baie Pêcha", "La Baie Fraive"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel Pokémon évolue uniquement par échange contre un Escargaume ?",
+"correct": "Carabing",
+"wrong": ["Gravalanch", "Machopeur", "Spectrum"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel objet faut-il faire tenir à Insécateur lors d'un échange pour le faire évoluer en Cizayox ?",
+"correct": "Peau Métal",
+"wrong": ["Roche Royale", "Écaille Draco", "Améliorator"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quelle région se déroulent les jeux Pokémon Noir et Blanc ?",
+"correct": "Unys",
+"wrong": ["Johto", "Hoenn", "Alola"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel Pokémon légendaire est le maître du trio des oiseaux légendaires de Kanto ?",
+"correct": "Lugia",
+"wrong": ["Ho-Oh", "Rayquaza", "Suicune"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel Pokémon légendaire a ressuscité Entei, Raikou et Suicune après l'incendie de la Tour Cendrée ?",
+"correct": "Ho-Oh",
+"wrong": ["Lugia", "Celebi", "Mew"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle attaque permet d'affaiblir un Pokémon sauvage en lui laissant toujours au moins un point de vie ?",
+"correct": "Faux-Chage",
+"wrong": ["Tranche", "Vive-Attaque", "Retenue"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du rival de Sacha originaire lui aussi du Bourg Palette ?",
+"correct": "Régis Chen",
+"wrong": ["Paul", "Alain", "Drew"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel Pokémon possède des formes différentes correspondant à toutes les lettres de l'alphabet ?",
+"correct": "Zarbi",
+"wrong": ["Spinda", "Prismillon", "Plumeline"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel type d'attaque est totalement inefficace contre les Pokémon de type Ténèbres ?",
+"correct": "Psy",
+"wrong": ["Spectre", "Combat", "Fée"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on le phénomène d'agrandissement géant des Pokémon dans la région de Galar ?",
+"correct": "Dynamax",
+"wrong": ["Méga-Évolution", "Téracristallisation", "Capacité Z"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on le phénomène qui donne une apparence cristalline et change le type d'un Pokémon à Paldea ?",
+"correct": "Téracristallisation",
+"wrong": ["Dynamax", "Gigamax", "Primo-Résurgence"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon possède la statistique de base de Vitesse la plus élevée de tous les jeux officiels ?",
+"correct": "Regieleki",
+"wrong": ["Deoxys forme Vitesse", "Ninjask", "Lanssorien"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon possède la statistique de base de PV la plus élevée de toute la franchise ?",
+"correct": "Leuphorie",
+"wrong": ["Leveinard", "Ronflex", "Wailord"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon possède les statistiques de base de Défense et Défense Spéciale les plus élevées hors transformations ?",
+"correct": "Caratroc",
+"wrong": ["Steelix", "Registeel", "Bastiodon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle est la seule attaque que Queulorior apprend naturellement par montée de niveau ?",
+"correct": "Gribouille",
+"wrong": ["Copie", "Photocopie", "Métronome"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon était à l'origine prévu comme mascotte de la franchise avant d'être remplacé par Pikachu ?",
+"correct": "Mélofée",
+"wrong": ["Évoli", "Têtarte", "Rondoudou"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon est le seul à posséder le double type Eau et Feu ?",
+"correct": "Volcanion",
+"wrong": ["Chartor", "Camerupt", "Ludicolo"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon est le seul à posséder le double type Électrik et Poison ?",
+"correct": "Salarsen",
+"wrong": ["Toxizap", "Wattapik", "Zeraora"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom japonais original du Pokémon Rondoudou ?",
+"correct": "Purin",
+"wrong": ["Pippi", "Nyasu", "Koduck"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom japonais original du Pokémon Dracaufeu ?",
+"correct": "Lizardon",
+"wrong": ["Hitokage", "Kamex", "Fushigibana"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel objet permet de doubler l'Attaque Spéciale de Pikachu lorsqu'il le tient ?",
+"correct": "La Balle Lumière",
+"wrong": ["L'Orbe Vie", "Le Mouchoir Choix", "L'Aimant"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du créateur original de la franchise Pokémon ?",
+"correct": "Satoshi Tajiri",
+"wrong": ["Shigeru Miyamoto", "Junichi Masuda", "Ken Sugimori"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel illustrateur célèbre a dessiné l'ensemble des Pokémon originaux de la première génération ?",
+"correct": "Ken Sugimori",
+"wrong": ["Satoshi Tajiri", "Tsunekazu Ishihara", "Shigeki Morimoto"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel statut altéré divise par deux la statistique d'Attaque physique du Pokémon touché ?",
+"correct": "La brûlure",
+"wrong": ["La paralysie", "L'empoisonnement", "Le gel"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle météo augmente de moitié la Défense Spéciale des Pokémon de type Roche ?",
+"correct": "La tempête de sable",
+"wrong": ["La grêle", "La pluie", "Le soleil"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon doit subir des dégâts précis et passer sous l'arche de pierre des Terres Sauvages pour évoluer ?",
+"correct": "Tutafeh de Galar",
+"wrong": ["Canarticho de Galar", "Ponyta de Galar", "Zigzaton de Galar"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon nécessite trois coups critiques en un seul combat pour évoluer en Palarticho ?",
+"correct": "Canarticho de Galar",
+"wrong": ["Osselait", "Machopeur", "Débugant"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon est célèbre pour avoir chaque individu doté d'un motif de taches unique généré par son code ?",
+"correct": "Spinda",
+"wrong": ["Zarbi", "Prismillon", "Sancoki"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle attaque de type Ténèbres empêche l'adversaire d'utiliser ses capacités de statut ?",
+"correct": "Provoc",
+"wrong": ["Tourmente", "Encore", "Embargo"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel Pokémon fabuleux est caché sous le célèbre camion près de l'Océane selon une rumeur urbaine culte ?",
+"correct": "Mew",
+"wrong": ["Celebi", "Jirachi", "Deoxys"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du bateau de croisière amarré à Carmin sur Mer dans les jeux de première génération ?",
+"correct": "L'Océane",
+"wrong": ["Le Marina", "Le Ferry", "Le Leviathan"]
+}
+]
+}

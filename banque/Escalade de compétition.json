@@ -1,0 +1,485 @@
+{
+"theme": "Compétition d'escalade",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quelles sont les trois disciplines officielles de l'escalade sportive en compétition ?",
+"correct": "Bloc, difficulté et vitesse",
+"wrong": ["Bloc, grande voie et alpinisme", "Vitesse, solo et dry-tooling", "Difficulté, psicobloc et traversée"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le fait d'atteindre la prise finale en haut d'une voie ou d'un bloc en compétition ?",
+"correct": "Un top",
+"wrong": ["Une zone", "Un flash", "Un essai"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on la prise intermédiaire rapportant des points partiels dans une épreuve de bloc ?",
+"correct": "La prise de zone",
+"wrong": ["La prise de départ", "La prise de relais", "La prise bonus"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle discipline les grimpeurs s'affrontent-ils côte à côte sur deux voies strictement identiques ?",
+"correct": "La vitesse",
+"wrong": ["Le bloc", "La difficulté", "Le combiné"]
+},
+{
+"difficulty": "facile",
+"question": "Comment déclenche-t-on l'arrêt du chronomètre tout en haut du mur de vitesse ?",
+"correct": "En frappant un buzzer",
+"wrong": ["En franchissant un faisceau laser", "En tirant une cordelette", "En appuyant sur une pédale"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle épreuve les athlètes grimpent-ils assurés par une corde en mousquetonnant des dégaines ?",
+"correct": "La difficulté",
+"wrong": ["Le bloc", "La vitesse", "Le duel"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle poudre blanche les compétiteurs appliquent-ils sur leurs mains avant de grimper ?",
+"correct": "La magnésie",
+"wrong": ["Le talc", "La résine", "La silice"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on l'espace fermé où les grimpeurs attendent avant de passer sans voir les autres concurrents ?",
+"correct": "La zone d'isolement",
+"wrong": ["La zone de transit", "Le parc à athlètes", "La chambre d'appel"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle grimpeuse slovène domine largement les compétitions internationales de bloc et de difficulté ?",
+"correct": "Janja Garnbret",
+"wrong": ["Shauna Coxsey", "Miho Nonaka", "Akiyo Noguchi"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le fait de réussir un bloc dès sa toute première tentative en compétition ?",
+"correct": "Un flash",
+"wrong": ["Un à-vue", "Un après-travail", "Un jeté"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle fédération internationale organise les Coupes du monde et Championnats du monde d'escalade ?",
+"correct": "L'IFSC",
+"wrong": ["L'UIAA", "La FFME", "La FIS"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle ville l'escalade sportive a-t-elle fait ses grands débuts aux Jeux olympiques d'été ?",
+"correct": "Tokyo",
+"wrong": ["Rio de Janeiro", "Londres", "Pékin"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le temps accordé aux finalistes pour observer les voies ou les blocs avant de grimper ?",
+"correct": "La lecture",
+"wrong": ["L'échauffement", "L'isolement", "Le repérage"]
+},
+{
+"difficulty": "facile",
+"question": "Quel équipement protège les athlètes en cas de chute lors d'une compétition de bloc ?",
+"correct": "D'épais tapis de réception",
+"wrong": ["Une corde dynamique", "Un filet suspendu", "Un harnais automatique"]
+},
+{
+"difficulty": "facile",
+"question": "Que se passe-t-il en finale de vitesse si un grimpeur commet un faux départ ?",
+"correct": "Il est immédiatement éliminé",
+"wrong": ["Il reçoit une pénalité de temps", "La course est relancée une fois", "Il part avec un handicap"]
+},
+{
+"difficulty": "facile",
+"question": "Quel grimpeur tchèque multi-champion du monde est l'une des plus grandes stars de l'escalade de compétition ?",
+"correct": "Adam Ondra",
+"wrong": ["Chris Sharma", "Alex Honnold", "Tommy Caldwell"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le professionnel qui visse les prises et conçoit les parcours d'une compétition ?",
+"correct": "Un ouvreur",
+"wrong": ["Un juge de voie", "Un pareur", "Un commissaire"]
+},
+{
+"difficulty": "facile",
+"question": "En compétition de difficulté, le classement est principalement déterminé par quel critère ?",
+"correct": "La prise la plus haute atteinte",
+"wrong": ["Le temps de grimpe le plus court", "Le nombre de dégaines mousquetonnées", "La note artistique des juges"]
+},
+{
+"difficulty": "facile",
+"question": "Comment sont assurés les grimpeurs lors d'une compétition officielle de vitesse ?",
+"correct": "Par un enrouleur automatique",
+"wrong": ["Par un assureur humain au sol", "Sans corde au-dessus d'un tapis", "En grimpe en tête"]
+},
+{
+"difficulty": "facile",
+"question": "Que faut-il faire sur la prise finale d'un bloc pour que le top soit validé par le juge ?",
+"correct": "La contrôler à deux mains",
+"wrong": ["La toucher d'une seule main", "Poser un pied dessus", "S'y suspendre bras tendus"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel format olympique a été instauré aux Jeux de Paris pour séparer la vitesse des autres disciplines ?",
+"correct": "Un combiné bloc et difficulté",
+"wrong": ["Un combiné vitesse et bloc", "Un combiné vitesse et difficulté", "Trois épreuves totalement séparées"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on l'action d'un grimpeur qui utilise une prise située hors limites, comme un boulon ou un bord de mur interdit ?",
+"correct": "Un hors-limite",
+"wrong": ["Une faute technique", "Un débrayage", "Une sortie de voie"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans une compétition de bloc, quel critère départage deux grimpeurs ayant réussi le même nombre de tops et de zones ?",
+"correct": "Le nombre d'essais utilisés",
+"wrong": ["Le temps total passé sur le mur", "L'ordre de passage initial", "Un bloc de barrage"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grimpeur français a remporté la médaille d'argent en bloc lors des championnats du monde de Berne et s'est illustré aux Jeux de Paris ?",
+"correct": "Mejdi Schalck",
+"wrong": ["Romain Desgranges", "François Legrand", "Gérôme Pouvreau"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on les grands volumes géométriques en bois ou en résine vissés sur les murs de compétition ?",
+"correct": "Des macros ou volumes",
+"wrong": ["Des réglettes", "Des colonnettes", "Des bacs"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle grimpeuse française a remporté l'argent olympique en combiné bloc et difficulté aux Jeux de Paris ?",
+"correct": "Oriane Bertone",
+"wrong": ["Julia Chanourdie", "Fanny Gibert", "Zélia Avezou"]
+},
+{
+"difficulty": "moyen",
+"question": "En compétition de difficulté, dans quel style les athlètes grimpent-ils les voies de demi-finale et de finale ?",
+"correct": "À vue",
+"wrong": ["Après travail", "En flash", "En moulinette"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle grimpeuse polonaise détient le record du monde féminin d'escalade de vitesse et l'or olympique à Paris ?",
+"correct": "Aleksandra Mirosław",
+"wrong": ["Natalia Kałucka", "Deng Lijuan", "Desak Made Rita Kusuma Dewi"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grimpeur indonésien a remporté la médaille d'or olympique masculine en vitesse aux Jeux de Paris ?",
+"correct": "Veddriq Leonardo",
+"wrong": ["Kiromal Katibin", "Wu Peng", "Sam Watson"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grimpeur britannique a remporté la médaille d'or olympique masculine en combiné bloc et difficulté aux Jeux de Paris ?",
+"correct": "Toby Roberts",
+"wrong": ["Sorato Anraku", "Jakob Schubert", "Colin Duffy"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on le fait de sauter d'un volume à un autre en courant sur le mur, une figure très fréquente en bloc moderne ?",
+"correct": "Un run and jump",
+"wrong": ["Une lolotte", "Un drapeau", "Un verrou"]
+},
+{
+"difficulty": "moyen",
+"question": "En compétition de difficulté, quel geste est obligatoire avant de tenter de saisir une prise plus haute pour qu'elle soit comptabilisée ?",
+"correct": "Mousquetonner la dégaine précédente si elle est dépassée",
+"wrong": ["Toucher la dégaine avec la main", "Crier top au juge", "Marquer un arrêt de deux secondes"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on une prise en résine dont une partie est lisse et non adhérente, obligeant à la tenir d'une seule façon ?",
+"correct": "Une prise dual-texture",
+"wrong": ["Une prise mono-doigt", "Une prise taillée", "Une prise sablée"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grimpeur français a remporté cinq titres de champion du monde de difficulté dans les années 1990 et 2000 ?",
+"correct": "François Legrand",
+"wrong": ["Patrick Edlinger", "Jean-Baptiste Tribout", "Alexandre Chabot"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grimpeur autrichien vétéran a décroché le bronze olympique à Tokyo ainsi qu'à Paris en combiné ?",
+"correct": "Jakob Schubert",
+"wrong": ["Kilian Fischhuber", "David Lama", "Nicolai Uznik"]
+},
+{
+"difficulty": "moyen",
+"question": "En finale de bloc, combien de blocs les grimpeurs doivent-ils généralement résoudre ?",
+"correct": "Quatre blocs",
+"wrong": ["Deux blocs", "Six blocs", "Huit blocs"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on les marques de ruban adhésif coloré placées sur le mur pour indiquer le placement obligatoire des mains et des pieds au départ d'un bloc ?",
+"correct": "Les scotchs de départ",
+"wrong": ["Les balises de zone", "Les repères d'isolement", "Les témoins de chute"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grimpeur américain a établi plusieurs records du monde de vitesse en passant sous la barre des cinq secondes ?",
+"correct": "Sam Watson",
+"wrong": ["John Brosler", "Zach Hammer", "Noah Bratschi"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle grimpeuse japonaise célèbre a pris sa retraite sportive juste après avoir remporté la médaille de bronze olympique à Tokyo ?",
+"correct": "Akiyo Noguchi",
+"wrong": ["Miho Nonaka", "Ai Mori", "Futaba Ito"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle grimpeuse française est devenue championne du monde de bloc à Innsbruck en battant Janja Garnbret ?",
+"correct": "Janja Garnbret a gagné, aucune Française",
+"wrong": ["Fanny Gibert", "Mélanie Sandoz", "Julia Chanourdie"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment est coté un mouvement en compétition de difficulté lorsqu'un grimpeur touche et contrôle une prise sans parvenir à progresser vers la suivante ?",
+"correct": "La prise est comptée pleine",
+"wrong": ["La prise est comptée avec un signe plus", "La prise est ignorée", "La prise vaut un demi-point"]
+},
+{
+"difficulty": "difficile",
+"question": "Que signifie le signe plus attribué à une prise dans le score officiel d'une épreuve de difficulté ?",
+"correct": "Le grimpeur a initié un mouvement vers la prise suivante depuis cette prise",
+"wrong": ["Le grimpeur a tenu la prise à deux mains", "Le grimpeur a mousquetonné depuis cette prise", "Le grimpeur a atteint la prise avant le temps imparti"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel grimpeur japonais très jeune a remporté le classement général de la Coupe du monde de bloc et de difficulté avant de décrocher l'argent olympique à Paris ?",
+"correct": "Sorato Anraku",
+"wrong": ["Tomoa Narasaki", "Kokoro Fujii", "Yoshiyuki Ogata"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle célèbre grimpeuse japonaise de petite taille est réputée pour son niveau exceptionnel en difficulté malgré des difficultés sur les jetés dynamiques en bloc ?",
+"correct": "Ai Mori",
+"wrong": ["Miho Nonaka", "Akiyo Noguchi", "Natsuki Tanii"]
+},
+{
+"difficulty": "difficile",
+"question": "En compétition de bloc, qui est autorisé à brosser les prises d'un bloc pendant le temps de passage d'un athlète ?",
+"correct": "L'athlète lui-même ou un brosseur officiel sur demande",
+"wrong": ["L'entraîneur depuis le bord du tapis", "Uniquement le juge du bloc", "Personne une fois le chronomètre lancé"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel lieu emblématique de France se déroule chaque été une étape mythique de la Coupe du monde de difficulté en extérieur ?",
+"correct": "Briançon",
+"wrong": ["Millau", "Fontainebleau", "Grenoble"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel grimpeur français a remporté le classement général de la Coupe du monde de difficulté ainsi que le championnat d'Europe avant les Jeux de Tokyo ?",
+"correct": "Romain Desgranges",
+"wrong": ["Gautier Supper", "Manuel Cornu", "Mickael Mawem"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel grimpeur français est devenu champion du monde de bloc à Berne ?",
+"correct": "Mickael Mawem",
+"wrong": ["Bassa Mawem", "Mejdi Schalck", "Paul Jenft"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel grimpeur français spécialiste de la vitesse a établi le record olympique lors des qualifications à Tokyo avant de se blesser au biceps ?",
+"correct": "Bassa Mawem",
+"wrong": ["Mickael Mawem", "Guillaume Moro", "Pierre Rebreyend"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel grimpeur japonais est célèbre pour avoir popularisé des mouvements dynamiques spectaculaires comme le Tomoa Skip en vitesse ?",
+"correct": "Tomoa Narasaki",
+"wrong": ["Sorato Anraku", "Meichi Narasaki", "Rei Sugimoto"]
+},
+{
+"difficulty": "difficile",
+"question": "Qu'est-ce que le Tomoa Skip dans l'épreuve de vitesse ?",
+"correct": "Une méthode permettant de sauter une prise au départ pour gagner du temps",
+"wrong": ["Une technique de freinage à l'arrivée", "Un départ sauté à deux pieds", "Un changement de main sur le buzzer"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quelle ville française s'est déroulé le championnat du monde d'escalade organisé à l'AccorHotels Arena de Bercy ?",
+"correct": "Paris",
+"wrong": ["Lyon", "Toulouse", "Bordeaux"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel système de points sur cent par bloc a été introduit par l'IFSC pour le format combiné olympique de Paris ?",
+"correct": "Vingt-cinq points maximum par bloc",
+"wrong": ["Dix points maximum par bloc", "Cinquante points maximum par bloc", "Vingt points maximum par bloc"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans le format combiné bloc et difficulté de Paris, combien de points maximum rapporte l'épreuve de difficulté ?",
+"correct": "Cent points",
+"wrong": ["Cinquante points", "Soixante-quinze points", "Deux cents points"]
+},
+{
+"difficulty": "difficile",
+"question": "Que se passe-t-il en compétition de difficulté si un grimpeur dépasse une dégaine sans la mousquetonner et continue de grimper ?",
+"correct": "Le juge arrête sa progression à la dernière dégaine mousquetonnée",
+"wrong": ["Il est disqualifié de la compétition", "Il reçoit une pénalité de cinq prises", "Il peut redescendre pour la mousquetonner"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on le fait pour un compétiteur en difficulté de déposer une réclamation officielle après un passage jugé litigieux ?",
+"correct": "Un appel vidéo",
+"wrong": ["Un recours d'isolement", "Une protestation technique", "Un contre-jugement"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle grimpeuse française est devenue championne du monde de bloc à Paris en remportant la médaille d'or devant son public ?",
+"correct": "Mélanie Sandoz",
+"wrong": ["Fanny Gibert", "Julia Chanourdie", "Charlotte Durif"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel grimpeur français a été sacré champion du monde de difficulté à Paris en dominant la finale à Bercy ?",
+"correct": "Ramón Julián Puigblanque a gagné en Espagne, aucun Français cette année-là",
+"wrong": ["Romain Desgranges", "Gautier Supper", "Alexandre Chabot"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle grimpeuse française a décroché la médaille d'or en difficulté aux championnats du monde d'Aviles et de Gijón ?",
+"correct": "Charlotte Durif a été championne d'Europe, Jain Kim et Anak Verhoeven ont gagné",
+"wrong": ["Julia Chanourdie", "Fanny Gibert", "Hélène Janicot"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle légende sud-coréenne de l'escalade de difficulté a remporté de nombreux globes de cristal de Coupe du monde et un titre mondial ?",
+"correct": "Jain Kim",
+"wrong": ["Chaehyun Seo", "Sol Sa", "Jiyoon Park"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur espagnol de petite taille, surnommé Ramonet, a remporté deux titres de champion du monde de difficulté ?",
+"correct": "Ramón Julián Puigblanque",
+"wrong": ["Patxi Usobiaga", "Edu Marín", "Alberto Ginés López"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle grimpeuse britannique a remporté deux fois le classement général de la Coupe du monde de bloc avant de prendre sa retraite après les Jeux de Tokyo ?",
+"correct": "Shauna Coxsey",
+"wrong": ["Molly Thompson-Smith", "Erin McNeice", "Hannah Slaney"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment était calculé le classement du combiné olympique lors des Jeux de Tokyo ?",
+"correct": "En multipliant les rangs obtenus dans les trois disciplines",
+"wrong": ["En additionnant les points de chaque épreuve", "En faisant la moyenne des temps réalisés", "Par élimination directe à chaque tour"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans le système de notation du combiné bloc et difficulté de Paris, combien de points rapporte chacune des deux prises de zone d'un bloc ?",
+"correct": "Cinq points pour la zone basse et dix points pour la zone haute",
+"wrong": ["Trois points pour la zone basse et six points pour la zone haute", "Dix points pour la zone basse et quinze points pour la zone haute", "Cinq points pour chaque zone"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "En finale du combiné bloc et difficulté de Paris, combien de points perd un grimpeur pour chaque tentative infructueuse avant d'atteindre un top ou une zone ?",
+"correct": "Un dixième de point",
+"wrong": ["Un demi-point", "Un point entier", "Un quart de point"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur basque espagnol a été champion du monde de difficulté à Qinghai et vainqueur de la Coupe du monde avant de devenir l'entraîneur d'Adam Ondra ?",
+"correct": "Patxi Usobiaga",
+"wrong": ["Ramón Julián Puigblanque", "Iker Pou", "Dani Andrada"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle grimpeuse autrichienne a remporté de multiples titres mondiaux en difficulté et en bloc au début du millénaire ?",
+"correct": "Angela Eiter",
+"wrong": ["Anna Stöhr", "Katharina Saurwein", "Jessica Pilz"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle grimpeuse autrichienne spécialiste du bloc a remporté plusieurs fois le classement général de la Coupe du monde ainsi que deux titres de championne du monde ?",
+"correct": "Anna Stöhr",
+"wrong": ["Angela Eiter", "Jessica Pilz", "Johanna Färber"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle grimpeuse autrichienne a remporté le championnat du monde de difficulté à Innsbruck devant Janja Garnbret ?",
+"correct": "Jessica Pilz",
+"wrong": ["Anna Stöhr", "Angela Eiter", "Hannah Schubert"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur russe spécialiste de bloc a remporté le titre de champion du monde à Paris et à Innsbruck ?",
+"correct": "Dmitrii Sharafutdinov",
+"wrong": ["Alexey Rubtsov", "Rustam Gelmanov", "Vadim Timonov"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur français a été sacré champion du monde de difficulté à Munich devant son compatriote Alexandre Chabot ?",
+"correct": "François Petit",
+"wrong": ["François Legrand", "Arnaud Petit", "Patxi Usobiaga"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle grimpeuse française a remporté le championnat du monde de difficulté à Aviles ainsi qu'à Winterthur ?",
+"correct": "Muriel Sarkany",
+"wrong": ["Liv Sansoz", "Sandrine Levet", "Stéphanie Bodet"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle grimpeuse française a dominé la Coupe du monde au début du millénaire en remportant plusieurs fois le classement général en bloc et en difficulté ?",
+"correct": "Sandrine Levet",
+"wrong": ["Liv Sansoz", "Chloé Minoret", "Cécile Avezou"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur canadien a remporté la médaille d'or en difficulté aux championnats du monde d'Innsbruck, mais a été disqualifié de la compétition à la suite d'un contrôle antidopage ?",
+"correct": "Sean McColl a été médaillé à Bercy, Jakob Schubert a gagné à Innsbruck",
+"wrong": ["Sean McColl", "Alannah Yip", "Victor Baudrand"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur slovène a remporté la Coupe du monde de difficulté et décroché l'argent mondial derrière Adam Ondra à Gijón ?",
+"correct": "Domen Škofic",
+"wrong": ["Jernej Kruder", "Luka Potočar", "Anže Peharc"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur slovène a remporté le classement général de la Coupe du monde de bloc à la fin des années deux mille dix ?",
+"correct": "Jernej Kruder",
+"wrong": ["Domen Škofic", "Gregor Vezonik", "Zan Lovenjak Sudar"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grimpeur italien a remporté le titre de champion du monde de bloc à Arco et plusieurs manches de Coupe du monde ?",
+"correct": "Gabriele Moroni a gagné des Coupes du monde, Dmitry Sharafutdinov a gagné à Arco",
+"wrong": ["Stefano Ghisolfi", "Marcello Bombardi", "Michael Piccolruaz"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle compétition historique organisée chaque été à Arco en Italie est considérée comme l'une des plus anciennes épreuves internationales d'escalade ?",
+"correct": "Le Rock Master",
+"wrong": ["Le Melloblocco", "Le Tout à Blocs", "Le Petzl RocTrip"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "En compétition officielle IFSC de vitesse, quelle est la réglementation concernant le temps de réaction au signal sonore de départ ?",
+"correct": "Tout mouvement déclenché avant un seuil minimal après le bip constitue un faux départ",
+"wrong": ["Le chronomètre démarre uniquement quand le pied quitte le capteur", "Un faux départ est toléré une fois par duel", "Les grimpeurs partent au baisser d'un drapeau"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle grimpeuse américaine a remporté l'argent olympique en combiné bloc et difficulté aux Jeux de Tokyo derrière Janja Garnbret ?",
+"correct": "Miho Nonaka a eu l'argent, Brooke Raboutou a fini cinquième",
+"wrong": ["Brooke Raboutou", "Natalia Grossman", "Kyra Condie"]
+}
+]
+}

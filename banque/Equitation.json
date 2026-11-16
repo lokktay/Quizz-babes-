@@ -1,0 +1,485 @@
+{
+"theme": "Equitation",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on l'allure la plus lente du cheval ?",
+"correct": "Le pas",
+"wrong": ["Le trot", "Le galop", "Le saut"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le siège en cuir placé sur le dos du cheval pour monter ?",
+"correct": "La selle",
+"wrong": ["Le licol", "La bride", "Le tapis"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le petit du cheval ?",
+"correct": "Le poulain",
+"wrong": ["Le faon", "Le veau", "L'agneau"]
+},
+{
+"difficulty": "facile",
+"question": "Sur quoi le cavalier pose-t-il ses pieds de chaque côté de la selle ?",
+"correct": "Les étriers",
+"wrong": ["Les rênes", "Les sangles", "Les éperons"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on la femelle adulte du cheval ?",
+"correct": "La jument",
+"wrong": ["La pouliche", "La mule", "L'ânesse"]
+},
+{
+"difficulty": "facile",
+"question": "Quel équipement le cavalier porte-t-il sur la tête pour se protéger ?",
+"correct": "Une bombe",
+"wrong": ["Un béret", "Une toque", "Un heaume"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appellent les deux lanières tenues par le cavalier pour diriger le cheval ?",
+"correct": "Les rênes",
+"wrong": ["Les étrivières", "Les guêtres", "Les longeons"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on les poils longs poussant sur l'encolure du cheval ?",
+"correct": "La crinière",
+"wrong": ["Le toupet", "Le fanon", "Le pelage"]
+},
+{
+"difficulty": "facile",
+"question": "Quel artisan pose des fers sous les sabots des chevaux ?",
+"correct": "Le maréchal-ferrant",
+"wrong": ["Le bourrelier", "Le palefrenier", "Le vétérinaire"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on l'action de brosser et nettoyer un cheval avant ou après le travail ?",
+"correct": "Le pansage",
+"wrong": ["Le débourrage", "Le ferrage", "Le longeage"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on l'allure intermédiaire entre le pas et le galop ?",
+"correct": "Le trot",
+"wrong": ["Le pas", "Le galop", "Le reculer"]
+},
+{
+"difficulty": "facile",
+"question": "Quel outil pointu sert à nettoyer le dessous des sabots du cheval ?",
+"correct": "Le cure-pied",
+"wrong": ["L'étrille", "Le bouchon", "L'époussette"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle la pièce métallique placée dans la bouche du cheval ?",
+"correct": "Le mors",
+"wrong": ["La muserolle", "La sous-gorge", "Le frontal"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le bâtiment où sont logés les chevaux dans des boxes ?",
+"correct": "L'écurie",
+"wrong": ["La bergerie", "L'étable", "La grange"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on l'allure la plus rapide du cheval ?",
+"correct": "Le galop",
+"wrong": ["Le trot", "Le pas", "L'amble"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle discipline consiste à franchir un parcours de barres sans les faire tomber ?",
+"correct": "Le saut d'obstacles",
+"wrong": ["Le dressage", "L'endurance", "La voltige"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le fait de monter à cheval sans selle ?",
+"correct": "Monter à cru",
+"wrong": ["Monter en amazone", "Monter à la longe", "Monter en licol"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le licencié qui pratique l'équitation ?",
+"correct": "Un cavalier",
+"wrong": ["Un jockey", "Un driver", "Un voltigeur"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle pièce d'équipement passe sous le ventre du cheval pour maintenir la selle en place ?",
+"correct": "La sangle",
+"wrong": ["La croupière", "Le collier de chasse", "La martingale"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle l'examen fédéral permettant de valider son niveau d'équitation en France ?",
+"correct": "Un Galop",
+"wrong": ["Une Ceinture", "Une Étoile", "Un Sabot"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on un cheval mâle castré ?",
+"correct": "Un hongre",
+"wrong": ["Un étalon", "Un poulain", "Un bardot"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle couleur de robe désigne un cheval au corps marron avec les crins et le bas des membres noirs ?",
+"correct": "Bai",
+"wrong": ["Alezan", "Isabelle", "Palomino"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on la partie du corps du cheval située entre l'encolure et le dos, où l'on mesure sa taille ?",
+"correct": "Le garrot",
+"wrong": ["La croupe", "Le poitrail", "Le flanc"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle brosse à poils durs permet de décoller la boue séchée et la poussière ?",
+"correct": "Le bouchon",
+"wrong": ["La brosse douce", "L'étrille", "L'époussette"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on un cheval dont le pelage est marron uni ainsi que la crinière et la queue ?",
+"correct": "Alezan",
+"wrong": ["Bai", "Souris", "Rouan"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelles sont les trois épreuves du concours complet d'équitation ?",
+"correct": "Dressage, cross et saut d'obstacles",
+"wrong": ["Dressage, endurance et voltige", "Cross, attelage et polo", "Saut d'obstacles, reining et course"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on le fait d'habituer un jeune cheval à porter une selle et un cavalier ?",
+"correct": "Le débourrage",
+"wrong": ["Le pansage", "Le débourrement", "Le dressage"]
+},
+{
+"difficulty": "moyen",
+"question": "De quel côté monte-t-on traditionnellement à cheval ?",
+"correct": "À gauche",
+"wrong": ["À droite", "Indifféremment", "Par l'arrière"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appellent les protections placées sur les membres du cheval pour éviter les chocs ?",
+"correct": "Les guêtres",
+"wrong": ["Les étrivières", "Les chaps", "Les cloches"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle discipline équestre se joue à cheval avec un ballon muni de poignées en cuir ?",
+"correct": "Le horse-ball",
+"wrong": ["Le polo", "Le polocrosse", "Le buzkashi"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on une tache blanche située sur le front du cheval ?",
+"correct": "Une pelote",
+"wrong": ["Une balzane", "Un ladre", "Une raie de mulet"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle la touffe de crins qui retombe sur le front du cheval entre les oreilles ?",
+"correct": "Le toupet",
+"wrong": ["Le fanon", "La crinière", "Le garrot"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle célèbre école d'équitation française est basée à Saumur ?",
+"correct": "Le Cadre Noir",
+"wrong": ["La Garde Républicaine", "L'École Espagnole", "L'Académie de Versailles"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on une marque blanche remontant sur le bas d'un membre du cheval ?",
+"correct": "Une balzane",
+"wrong": ["Une liste", "Une pelote", "Une tache feu"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle race de chevaux blancs est célèbre pour ses figures de haute école à Vienne ?",
+"correct": "Le Lipizzan",
+"wrong": ["Le Frison", "Le Camargue", "Le Lusitanien"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on la personne chargée de l'entretien des boxes et des soins quotidiens aux chevaux ?",
+"correct": "Le palefrenier",
+"wrong": ["Le lad", "Le bourrelier", "Le maquignon"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle robe désigne un cheval au pelage doré avec une crinière et une queue blanches ?",
+"correct": "Palomino",
+"wrong": ["Isabelle", "Alezan brûlé", "Aubère"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on un obstacle composé de deux plans verticaux espacés, franchi en un seul saut ?",
+"correct": "Un oxer",
+"wrong": ["Un spa", "Un vertical", "Une rivière"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle posture d'équitation consiste à monter avec les deux jambes du même côté de la selle ?",
+"correct": "Monter en amazone",
+"wrong": ["Monter à cru", "Monter en équilibre", "Monter en suspension"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'allure de trot où le cavalier se lève et s'assoit en rythme avec le cheval ?",
+"correct": "Le trot enlevé",
+"wrong": ["Le trot assis", "Le trot allongé", "Le trot rassemblé"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle allure naturelle du cheval est une allure symétrique marchée sans temps de suspension ?",
+"correct": "Le pas",
+"wrong": ["Le trot", "Le galop", "Le passage"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on le trot sur place très relevé et cadencé en dressage de haute école ?",
+"correct": "Le piaffer",
+"wrong": ["Le passage", "La courbette", "La cabriole"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle partie anatomique du sabot correspond à une zone triangulaire souple sous le pied du cheval ?",
+"correct": "La fourchette",
+"wrong": ["La sole", "La paroi", "La couronne"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on l'allure latérale où le cheval déplace simultanément les deux membres du même côté ?",
+"correct": "L'amble",
+"wrong": ["Le tölt", "Le passage", "Le galop désuni"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel terme désigne l'enchaînement rapproché de plusieurs obstacles séparés par une ou deux foulées ?",
+"correct": "Une combinaison",
+"wrong": ["Une ligne courbe", "Un bidet", "Une spa"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on la partie de la selle en cuir reliant l'étrier à l'arçon ?",
+"correct": "L'étrivière",
+"wrong": ["Le quartier", "Le troussequin", "Le pommeau"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle race de chevaux rustiques noirs originaire des Pays-Bas est célèbre pour ses longs crins ondulés ?",
+"correct": "Le Frison",
+"wrong": ["Le Shire", "Le Percheron", "Le Mérens"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on l'arrière relevé du siège d'une selle ?",
+"correct": "Le troussequin",
+"wrong": ["Le pommeau", "Le taquet", "Le faux-quartier"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle articulation du membre postérieur du cheval correspond anatomiquement au talon humain ?",
+"correct": "Le jarret",
+"wrong": ["Le boulet", "Le paturon", "Le genou"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on la protection en forme de cloche placée autour du sabot pour protéger les glomes ?",
+"correct": "Les cloches",
+"wrong": ["Les protège-boulets", "Les bandes de polo", "Les guêtres fermées"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel mouvement latéral de dressage consiste à déplacer le cheval en diagonale tout en le gardant parallèle au mur ?",
+"correct": "L'appuyer",
+"wrong": ["L'épaule en dedans", "La cession à la jambe", "La pirouette"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on l'allure marchée très rapide et confortable propre au cheval islandais ?",
+"correct": "Le tölt",
+"wrong": ["L'amble", "Le trot allongé", "Le paso"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel terme désigne un galop où les membres antérieurs et postérieurs ne galopent pas sur le même pied ?",
+"correct": "Le galop désuni",
+"wrong": ["Le galop à faux", "Le galop rassemblé", "Le galop moyen"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on le défaut d'un cheval qui avale de l'air en prenant appui avec ses dents sur un support fixe ?",
+"correct": "Le tic à l'appui",
+"wrong": ["Le tic de l'ours", "Le cornage", "La fourbure"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel artisan fabrique et répare les selles, brides et harnais en cuir ?",
+"correct": "Le sellier-bourrelier",
+"wrong": ["Le maréchal-ferrant", "Le palefrenier", "Le maquignon"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on un obstacle de cross composé d'un contre-haut suivi d'un contre-bas ou d'un fossé ?",
+"correct": "Un piano",
+"wrong": ["Un oxer", "Une haie", "Un bidet"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle maladie inflammatoire grave affecte les pieds du cheval, souvent liée à un excès d'alimentation riche ?",
+"correct": "La fourbure",
+"wrong": ["La gourme", "La gale de boue", "La lymphangite"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle la ligne noire qui parcourt le dos de certains chevaux du garrot à la queue ?",
+"correct": "La raie de mulet",
+"wrong": ["La liste en tête", "La marque de feu", "La balzane"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on la touffe de poils située à l'arrière du boulet chez le cheval ?",
+"correct": "Le fanon",
+"wrong": ["Le toupet", "Le paturon", "La couronne"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle discipline d'équitation western consiste à réaliser des figures précises au galop dont des arrêts glissés et des pirouettes rapides ?",
+"correct": "Le reining",
+"wrong": ["Le cutting", "Le barrel racing", "Le team penning"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel saut d'école célèbre du Cadre Noir consiste pour le cheval à cabrer puis détendre violemment ses postérieurs en l'air ?",
+"correct": "La cabriole",
+"wrong": ["La courbette", "La croupade", "La ballotade"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre étalon pur-sang anglais invaincu en course est l'ancêtre direct de la majorité des pur-sang modernes ?",
+"correct": "Eclipse",
+"wrong": ["Secretariat", "Seabiscuit", "Frankel"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on la partie interne rigide qui constitue l'ossature d'une selle ?",
+"correct": "L'arçon",
+"wrong": ["Le troussequin", "Le couteau", "Le pommeau"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Avec quel cheval Pierre Jonquères d'Oriola a-t-il remporté l'or olympique individuel de saut d'obstacles à Tokyo ?",
+"correct": "Lutteur B",
+"wrong": ["Jappeloup", "Milton", "Hickstead"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle figure de haute école voit le cheval se cabrer et effectuer plusieurs bonds successifs sur ses seuls postérieurs ?",
+"correct": "La courbette",
+"wrong": ["La cabriole", "La pesade", "Le mézair"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on le tic d'écurie où le cheval balance incessamment sa tête et son encolure d'un côté à l'autre ?",
+"correct": "Le tic de l'ours",
+"wrong": ["Le tic à l'appui", "Le tic rongeur", "Le tic ambulatoire"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel terme désigne l'espace dépourvu de dents entre les incisives et les molaires du cheval, où repose le mors ?",
+"correct": "Les barres",
+"wrong": ["Les crochets", "Les pinces", "Les coins"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel cavalier français a remporté l'or olympique individuel en saut d'obstacles à Séoul avec Jappeloup ?",
+"correct": "Pierre Durand",
+"wrong": ["Éric Navet", "Michel Robert", "Kevin Staut"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on la pièce métallique articulée sur la selle où l'on glisse le haut de l'étrivière ?",
+"correct": "Le couteau d'étrivière",
+"wrong": ["Le dé de selle", "Le taquet avant", "L'anneau de croupière"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle robe rare présente un mélange uniforme de poils blancs, noirs et rouges sur le corps, avec la tête et les extrémités foncées ?",
+"correct": "Rouan",
+"wrong": ["Aubère", "Louvet", "Gris truité"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre étalon noir hollandais monté par Edward Gal a battu les records du monde en dressage ?",
+"correct": "Totilas",
+"wrong": ["Valegro", "Salinero", "Matiné"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on l'action pour un cheval de se toucher l'intérieur d'un boulet avec le sabot opposé en marchant ?",
+"correct": "Se couper",
+"wrong": ["Forger", "Se méjuger", "Billarder"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel terme désigne le bruit produit lorsque le sabot postérieur heurte le fer du sabot antérieur au trot ?",
+"correct": "Forger",
+"wrong": ["Se couper", "Trotter", "Brasser"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on le défaut d'allure d'un cheval qui projette ses membres antérieurs vers l'extérieur en avançant ?",
+"correct": "Billarder",
+"wrong": ["Forger", "Se bercer", "S'encapuchonner"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle race de chevaux originaires du Turkménistan est célèbre pour sa robe aux reflets métalliques dorés ?",
+"correct": "L'Akhal-Téké",
+"wrong": ["Le Karabakh", "Le Marwari", "Le Tersk"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle particularité physique distingue les oreilles de la race indienne Marwari ?",
+"correct": "Leurs pointes se recourbent vers l'intérieur jusqu'à se toucher",
+"wrong": ["Elles sont couvertes d'épais poils bouclés", "Elles tombent horizontalement sur les côtés", "Elles sont dépourvues de pavillon externe"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on l'attitude d'un cheval qui ramène excessivement son chanfrein en arrière de la verticale ?",
+"correct": "S'encapuchonner",
+"wrong": ["S'encenser", "Se traverser", "S'acculer"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel terme désigne la lanière de cuir passant sous la queue du cheval pour empêcher la selle d'avancer ?",
+"correct": "La croupière",
+"wrong": ["La martingale", "La bricole", "Le collier de chasse"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel hongre gris célèbre monté par John Whitaker est devenu une légende du saut d'obstacles britannique ?",
+"correct": "Milton",
+"wrong": ["Big Star", "Gem Twist", "Shutterfly"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on la petite fossette située juste au-dessus de l'œil du cheval ?",
+"correct": "La salière",
+"wrong": ["La ganache", "L'auge", "La tempe"]
+}
+]
+}

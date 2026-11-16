@@ -1,0 +1,485 @@
+{
+"theme": "Dragon les films",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le jeune Viking héros de la trilogie Dragons ?",
+"correct": "Harold",
+"wrong": ["Astrid", "Varek", "Kognedur"]
+},
+{
+"difficulty": "facile",
+"question": "À quelle espèce appartient Krokmou ?",
+"correct": "Furie Nocturne",
+"wrong": ["Cauchemar Monstrueux", "Vipère à crocs", "Gronk"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le village natal des Vikings dans le premier film ?",
+"correct": "Beurk",
+"wrong": ["Vanaheim", "Valhalla", "Asgard"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle partie du corps manque à Krokmou ?",
+"correct": "Une aile caudale gauche",
+"wrong": ["Une patte avant droite", "Une corne principale", "Une oreille gauche"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle la petite amie puis femme d'Harold ?",
+"correct": "Astrid",
+"wrong": ["Kognedur", "Valka", "Heather"]
+},
+{
+"difficulty": "facile",
+"question": "Quel studio d'animation a produit les films Dragons ?",
+"correct": "DreamWorks Animation",
+"wrong": ["Pixar Animation Studios", "Illumination Entertainment", "Walt Disney Animation"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle couleur sont les yeux de Krokmou ?",
+"correct": "Verts",
+"wrong": ["Bleus", "Jaunes", "Rouges"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le père d'Harold ?",
+"correct": "Stoïk la Brute",
+"wrong": ["Gueulfor", "Drago Poing-Sanglant", "Grimmel le Grave"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle couleur est la dragonne que Krokmou rencontre dans le troisième film ?",
+"correct": "Blanche",
+"wrong": ["Dorée", "Bleue", "Argentée"]
+},
+{
+"difficulty": "facile",
+"question": "Quel dragon monte Astrid ?",
+"correct": "Tempête",
+"wrong": ["Bouledogre", "Krochefer", "Prout et Pète"]
+},
+{
+"difficulty": "facile",
+"question": "Quel métier exerce Gueulfor au village de Beurk ?",
+"correct": "Forgeron",
+"wrong": ["Boulanger", "Charpentier", "Pêcheur"]
+},
+{
+"difficulty": "facile",
+"question": "Quel animal les dragons pillent-ils au village au début du premier film ?",
+"correct": "Des moutons",
+"wrong": ["Des cochons", "Des vaches", "Des poules"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le dragon Gronk de Varek ?",
+"correct": "Bouledogre",
+"wrong": ["Tempête", "Krochefer", "Tornade"]
+},
+{
+"difficulty": "facile",
+"question": "Que crache Krokmou au lieu de flammes classiques ?",
+"correct": "Des tirs de plasma",
+"wrong": ["De l'acide corrosif", "De la glace liquide", "Des éclairs électriques"]
+},
+{
+"difficulty": "facile",
+"question": "Quel objet fabrique Harold pour permettre à Krokmou de voler ?",
+"correct": "Une prothèse de queue",
+"wrong": ["Une aile mécanique", "Un harnais volant", "Une selle à hélices"]
+},
+{
+"difficulty": "facile",
+"question": "Quel aliment les dragons détestent-ils par-dessus tout ?",
+"correct": "Les anguilles",
+"wrong": ["Les pommes", "Les harengs", "Les champignons"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le dragon Cauchemar Monstrueux de Rustik ?",
+"correct": "Krochefer",
+"wrong": ["Tempête", "Bouledogre", "Crânecrusher"]
+},
+{
+"difficulty": "facile",
+"question": "Qui est la mère d'Harold ?",
+"correct": "Valka",
+"wrong": ["Astrid", "Mala", "Gothi"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle jambe Harold perd-il à la fin du premier film ?",
+"correct": "La jambe gauche",
+"wrong": ["La jambe droite", "Les deux jambes", "Aucune jambe"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le monde secret où partent vivre les dragons à la fin du troisième film ?",
+"correct": "Le Monde Caché",
+"wrong": ["L'Île des Dragons", "La Terre Promise", "Le Royaume Souterrain"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel acteur prête sa voix à Harold en version originale ?",
+"correct": "Jay Baruchel",
+"wrong": ["Jonah Hill", "Christopher Mintz-Plasse", "T.J. Miller"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le dragon géant que combattent les Vikings à la fin du premier film ?",
+"correct": "La Mort Rouge",
+"wrong": ["Le Crache-Mort", "Le Hurleur Mortel", "Le Submaripper"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appellent les jumeaux Vikings amis d'Harold ?",
+"correct": "Kognedur et Kranedur",
+"wrong": ["Varek et Rustik", "Snotlout et Fishlegs", "Tuffnut et Ruffnut"]
+},
+{
+"difficulty": "moyen",
+"question": "À quelle espèce appartient Tempête, le dragon d'Astrid ?",
+"correct": "Vipère à crocs",
+"wrong": ["Cauchemar Monstrueux", "Braguettaure", "Gronk"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'antagoniste principal de Dragons 2 ?",
+"correct": "Drago Poing-Sanglant",
+"wrong": ["Grimmel le Grave", "Viggo Grimborn", "Alvin le Traître"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel compositeur a signé la bande originale des trois films Dragons ?",
+"correct": "John Powell",
+"wrong": ["Hans Zimmer", "Alan Silvestri", "Alexandre Desplat"]
+},
+{
+"difficulty": "moyen",
+"question": "De quelle espèce est le dragon à deux têtes monté par Kognedur et Kranedur ?",
+"correct": "Braguettaure",
+"wrong": ["Gronk", "Vipère à crocs", "Terreur Terrible"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'antagoniste principal de Dragons 3 ?",
+"correct": "Grimmel le Grave",
+"wrong": ["Drago Poing-Sanglant", "Eret fils d'Eret", "Krogan"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle capacité spectaculaire possède le Cauchemar Monstrueux ?",
+"correct": "S'enflammer intégralement",
+"wrong": ["Devenir totalement invisible", "Cracher de la glace", "Émettre des ultrasons"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le petit dragon vert minuscule qui apparaît souvent comme mascotte ?",
+"correct": "Terreur Terrible",
+"wrong": ["Gronk Nain", "Vipère Miniature", "Mini-Furie"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle actrice double Astrid en version originale ?",
+"correct": "America Ferrera",
+"wrong": ["Kristen Wiig", "Cate Blanchett", "Emma Stone"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel dragon géant crache de la glace dans Dragons 2 ?",
+"correct": "Le Bewilderbeast",
+"wrong": ["La Mort Rouge", "Le Hurleur Mortel", "Le Typhoomerang"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le dragon principal de Valka ?",
+"correct": "Saute-Nuage",
+"wrong": ["Crânecrusher", "Grump", "Vole-au-Vent"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel chasseur de dragons rejoint finalement le camp d'Harold dans Dragons 2 ?",
+"correct": "Eret fils d'Eret",
+"wrong": ["Grimmel le Grave", "Drago Poing-Sanglant", "Ryker Grimborn"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel pouvoir particulier possède la Furie Éclair dans Dragons 3 ?",
+"correct": "Se rendre invisible en chauffant ses écailles",
+"wrong": ["Cracher de l'acide bleu", "Contrôler les autres dragons", "Créer des illusions sonores"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle herbe apaise et endort les dragons lorsqu'on la frotte ou la brûle ?",
+"correct": "L'herbe à dragon",
+"wrong": ["La racine de mandragore", "La feuille de sauge nordique", "La mousse des marais"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel acteur prête sa voix à Stoïk la Brute en version originale ?",
+"correct": "Gerard Butler",
+"wrong": ["Russell Crowe", "Liam Neeson", "Sean Bean"]
+},
+{
+"difficulty": "moyen",
+"question": "De quelle série de livres les films Dragons sont-ils librement adaptés ?",
+"correct": "Les romans de Cressida Cowell",
+"wrong": ["Les romans de Cornelia Funke", "Les romans de Rick Riordan", "Les romans de Terry Pratchett"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel dragon Stoïk adopte-t-il après avoir perdu Tornade, et qu'il monte dans Dragons 2 ?",
+"correct": "Crânecrusher",
+"wrong": ["Grump", "Saute-Nuage", "Bouledogre"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'arme favorite d'Astrid ?",
+"correct": "Une hache",
+"wrong": ["Une épée", "Un arc", "Une lance"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle actrice prête sa voix à Valka en version originale ?",
+"correct": "Cate Blanchett",
+"wrong": ["Tilda Swinton", "Julianne Moore", "Helena Bonham Carter"]
+},
+{
+"difficulty": "difficile",
+"question": "À quelle espèce appartient Saute-Nuage, le dragon de Valka ?",
+"correct": "Coupe-Tempête",
+"wrong": ["Aile-de-Titane", "Vol-au-Vent", "Tranche-Nuage"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel animal a principalement inspiré les animateurs pour les mouvements et expressions de Krokmou ?",
+"correct": "Une panthère noire",
+"wrong": ["Un chien labrador", "Un faucon pèlerin", "Un dragon de Komodo"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'ancienne du village de Beurk qui ne parle jamais ?",
+"correct": "Gothi",
+"wrong": ["Mala", "Ingrid", "Freya"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel objet Harold offre-t-il à Astrid lorsqu'ils se fiancent dans Dragons 2 ?",
+"correct": "Un collier de fiançailles viking",
+"wrong": ["Une hache gravée", "Un bracelet en écailles", "Une bague en argent"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel alliage les Gronks produisent-ils en ingérant et fondant des pierres ?",
+"correct": "Du fer de Gronk",
+"wrong": ["De l'acier draconique", "Du bronze volcanique", "De l'obsidienne liquide"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle musique accompagne la scène de vol romantique entre Harold et Astrid dans le premier film ?",
+"correct": "Romantic Flight",
+"wrong": ["Test Drive", "Forbidden Friendship", "Where No One Goes"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appellent les deux têtes du Braguettaure de Kognedur et Kranedur en français ?",
+"correct": "Prout et Pète",
+"wrong": ["Choc et Brûle", "Gaz et Étincelle", "Fumée et Flamme"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du dragon de Gueulfor dans Dragons 2 ?",
+"correct": "Grump",
+"wrong": ["Crânecrusher", "Saute-Nuage", "Torch"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel membre de l'anatomie de Gueulfor est remplaçable par différents outils ?",
+"correct": "Son bras gauche et sa jambe gauche",
+"wrong": ["Son bras droit et sa jambe droite", "Seulement son bras gauche", "Ses deux bras"]
+},
+{
+"difficulty": "difficile",
+"question": "Qui a co-réalisé le premier film Dragons aux côtés de Dean DeBlois ?",
+"correct": "Chris Sanders",
+"wrong": ["Peter Ramsey", "Tom McGrath", "Jennifer Yuh Nelson"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel chanteur islandais interprète les chansons originales génériques de la trilogie Dragons ?",
+"correct": "Jónsi",
+"wrong": ["Ólafur Arnalds", "Ásgeir", "Hozier"]
+},
+{
+"difficulty": "difficile",
+"question": "De quelle couleur est le Bewilderbeast pacifique qui vit dans le sanctuaire de Valka ?",
+"correct": "Blanc",
+"wrong": ["Noir", "Gris foncé", "Bleu nuit"]
+},
+{
+"difficulty": "difficile",
+"question": "De quelle couleur est le Bewilderbeast contrôlé par Drago Poing-Sanglant ?",
+"correct": "Gris noirâtre",
+"wrong": ["Blanc pur", "Rouge sombre", "Vert mousse"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'épée rétractable enflammée fabriquée par Harold dans Dragons 2 ?",
+"correct": "L'Inferno",
+"wrong": ["La Lame de Furie", "Le Croc de Feu", "Pyro-Lame"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel gaz inflammatoire utilise l'épée d'Harold pour s'embraser ?",
+"correct": "Du gaz de Braguettaure",
+"wrong": ["De la salive de Cauchemar Monstrueux", "Du venin de Vipère à crocs", "De la lave de Gronk"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel acteur prête sa voix à Grimmel le Grave en version originale ?",
+"correct": "F. Murray Abraham",
+"wrong": ["Jeremy Irons", "Charles Dance", "Mads Mikkelsen"]
+},
+{
+"difficulty": "difficile",
+"question": "À quelle espèce appartiennent les dragons domestiqués que Grimmel utilise pour chasser ?",
+"correct": "Crache-Mort",
+"wrong": ["Hurleur Mortel", "Aile-Changeante", "Traqueur"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment se nomme la nouvelle île où les habitants de Beurk s'installent dans Dragons 3 ?",
+"correct": "La Nouvelle Beurk",
+"wrong": ["L'Île d'Outre-Mer", "Le Nouveau Valhalla", "L'Île du Monde Caché"]
+},
+{
+"difficulty": "difficile",
+"question": "Quels sont les prénoms des deux enfants d'Harold et Astrid à la fin de Dragons 3 ?",
+"correct": "Zephyr et Nuffink",
+"wrong": ["Stoïk et Valka", "Hiccup et Astrid", "Thor et Freya"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appellent les trois bébés dragons de Krokmou et de la Furie Éclair ?",
+"correct": "Dart, Pouncer et Ruffrunner",
+"wrong": ["Spark, Shadow et Flash", "Night, Light et Star", "Bolt, Dash et Zip"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "À quelle espèce appartient Grump, le dragon de Gueulfor dans Dragons 2 ?",
+"correct": "Chaudronnier",
+"wrong": ["Gronk", "Cornegueule", "Craque-Pierre"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel acteur prête sa voix à Varek en version originale ?",
+"correct": "Christopher Mintz-Plasse",
+"wrong": ["Jonah Hill", "T.J. Miller", "Jay Baruchel"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle partie du corps Drago Poing-Sanglant a-t-il perdue face à un dragon dans son passé ?",
+"correct": "Son bras gauche",
+"wrong": ["Sa jambe droite", "Son œil gauche", "Son bras droit"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel détail physique distingue le bébé dragon Dart de ses deux frères ?",
+"correct": "Elle a les yeux bleus",
+"wrong": ["Elle a les yeux verts", "Elle est entièrement blanche", "Elle a une queue rayée"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom complet d'Harold en version originale ?",
+"correct": "Hiccup Horrendous Haddock III",
+"wrong": ["Hiccup Stoickson Haddock II", "Hiccup Berkson Haddock IV", "Hiccup Viking Haddock I"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle la chanson du générique de fin de Dragons 2 interprétée par Jónsi ?",
+"correct": "Where No One Goes",
+"wrong": ["Sticks & Stones", "Together From Afar", "For the Dancing and the Dreaming"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle chanson Stoïk et Valka chantent-ils ensemble lors de leurs retrouvailles dans Dragons 2 ?",
+"correct": "For the Dancing and the Dreaming",
+"wrong": ["Where No One Goes", "Love Me Like a Viking", "Across the Northern Sea"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel acteur prête sa voix à Eret fils d'Eret en version originale ?",
+"correct": "Kit Harington",
+"wrong": ["Richard Madden", "Alfie Allen", "Iwan Rheon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel acteur prête sa voix à Gueulfor en version originale ?",
+"correct": "Craig Ferguson",
+"wrong": ["Billy Connolly", "Robbie Coltrane", "David Tennant"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du dragon de Stoïk dans Dragons 2, Crânecrusher, en version originale ?",
+"correct": "Skullcrusher",
+"wrong": ["Bonebreaker", "Headbanger", "Rocksmasher"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "À quelle espèce appartient Crânecrusher, la monture de Stoïk dans Dragons 2 ?",
+"correct": "Cornegueule",
+"wrong": ["Gronk", "Chaudronnier", "Traqueur"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel acteur prête sa voix à Rustik en version originale ?",
+"correct": "Jonah Hill",
+"wrong": ["T.J. Miller", "Christopher Mintz-Plasse", "Justin Long"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la chanson du générique de fin du premier film Dragons ?",
+"correct": "Sticks & Stones",
+"wrong": ["Where No One Goes", "Together From Afar", "Coming Back Around"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la chanson du générique de fin de Dragons 3 ?",
+"correct": "Together From Afar",
+"wrong": ["Sticks & Stones", "Where No One Goes", "As Long As He's Safe"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment Valka apaise-t-elle Krokmou lors de leur première rencontre dans Dragons 2 ?",
+"correct": "En appuyant sur un point précis sous son menton",
+"wrong": ["En lui chantant une berceuse viking", "En lui offrant du saumon frais", "En soufflant doucement sur ses naseaux"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel directeur de la photographie célèbre a été consultant visuel sur la trilogie Dragons ?",
+"correct": "Roger Deakins",
+"wrong": ["Emmanuel Lubezki", "Janusz Kamiński", "Robert Richardson"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle caractéristique anatomique particulière ont les ailes de Saute-Nuage ?",
+"correct": "Deux paires d'ailes qui se superposent",
+"wrong": ["Des ailes recouvertes de plumes", "Trois paires de petites ailes", "Des griffes rétractables au bout des ailes"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans quel court-métrage Krokmou détruit-il la prothèse automatique que lui avait fabriquée Harold pour Noël ?",
+"correct": "Dragons : Le Cadeau du Furie Nocturne",
+"wrong": ["Dragons : Retrouvailles", "La Légende du Dragon Pikpik", "Le Livre des Dragons"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel personnage double Djimon Hounsou en version originale dans Dragons 2 ?",
+"correct": "Drago Poing-Sanglant",
+"wrong": ["Eret fils d'Eret", "Grimmel le Grave", "Gueulfor"]
+}
+]
+}

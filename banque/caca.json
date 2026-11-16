@@ -1,0 +1,805 @@
+{
+  "theme": "Le caca",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quel organe humain stocke les selles juste avant leur évacuation ?",
+      "correct": "Le rectum",
+      "wrong": [
+        "L'estomac",
+        "Le pancréas",
+        "La vésicule biliaire"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle couleur ont normalement des selles humaines en bonne santé ?",
+      "correct": "Marron",
+      "wrong": [
+        "Vert fluo",
+        "Gris clair",
+        "Violet foncé"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel aliment aide particulièrement à faciliter le transit intestinal ?",
+      "correct": "Les pruneaux",
+      "wrong": [
+        "Le riz blanc",
+        "Les bananes vertes",
+        "Le chocolat noir"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on l'envie pressante et fréquente d'aller à la selle avec des selles liquides ?",
+      "correct": "La diarrhée",
+      "wrong": [
+        "La constipation",
+        "L'aérophagie",
+        "Le reflux gastrique"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on la difficulté à évacuer les selles ?",
+      "correct": "La constipation",
+      "wrong": [
+        "La gastro-entérite",
+        "L'incontinence",
+        "La dysenterie"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel animal produit des crottes de forme cubique ?",
+      "correct": "Le wombat",
+      "wrong": [
+        "Le koala",
+        "Le kangourou",
+        "L'ornithorynque"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on les excréments des oiseaux ?",
+      "correct": "La fiente",
+      "wrong": [
+        "La bouse",
+        "Le crottin",
+        "La laissée"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on les excréments de la vache ?",
+      "correct": "La bouse",
+      "wrong": [
+        "Le crottin",
+        "La fiente",
+        "La pétoule"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on les excréments du cheval ?",
+      "correct": "Le crottin",
+      "wrong": [
+        "La bouse",
+        "La fiente",
+        "La fumée"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel célèbre émoji souriant a la forme d'un petit tas de caca ?",
+      "correct": "L'émoji caca souriant",
+      "wrong": [
+        "L'émoji glace au chocolat",
+        "L'émoji brioche",
+        "L'émoji boue"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quel célèbre album jeunesse une petite taupe cherche qui lui a fait sur la tête ?",
+      "correct": "De la petite taupe qui voulait savoir...",
+      "wrong": [
+        "Le gros caca du loup",
+        "Qui a crotté dans le pré",
+        "La taupe et le bousier"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel insecte roule des boules d'excréments pour s'en nourrir et pondre ?",
+      "correct": "Le bousier",
+      "wrong": [
+        "Le frelon",
+        "La mante religieuse",
+        "Le grillon"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quoi sont principalement composées les selles humaines ?",
+      "correct": "D'eau",
+      "wrong": [
+        "De graisses pures",
+        "De fibres sèches",
+        "De protéines"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel papier utilise-t-on quotidiennement aux toilettes pour s'essuyer ?",
+      "correct": "Le papier toilette",
+      "wrong": [
+        "Le papier buvard",
+        "Le papier sulfurisé",
+        "Le papier carbone"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on les toilettes japonaises équipées d'un jet d'eau nettoyant ?",
+      "correct": "Les washlets",
+      "wrong": [
+        "Les tatamis",
+        "Les futons",
+        "Les onsens"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle expression familière signifie avoir très peur ?",
+      "correct": "Faire dans son froc",
+      "wrong": [
+        "Avoir la pêche",
+        "Casser la croûte",
+        "Poser un lapin"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel médecin est spécialiste des maladies de l'intestin et du rectum ?",
+      "correct": "Le gastro-entérologue",
+      "wrong": [
+        "Le néphrologue",
+        "L'endocrinologue",
+        "Le rhumatologue"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel engrais naturel est produit à partir des excréments d'animaux d'élevage ?",
+      "correct": "Le fumier",
+      "wrong": [
+        "Le terreau",
+        "La tourbe",
+        "L'humus"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle expression familière désigne le fait d'aller faire caca ?",
+      "correct": "Poser une pêche",
+      "wrong": [
+        "Tirer sa révérence",
+        "Passer l'éponge",
+        "Briser la glace"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel café très cher est fabriqué à partir de grains digérés et déféqués par une civette ?",
+      "correct": "Le Kopi Luwak",
+      "wrong": [
+        "Le Blue Mountain",
+        "Le Geisha",
+        "Le Bourbon Pointu"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle échelle médicale classe les selles humaines en sept catégories selon leur aspect ?",
+      "correct": "L'échelle de Bristol",
+      "wrong": [
+        "L'échelle de Richter",
+        "L'échelle de Beaufort",
+        "L'échelle de Scoville"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel pigment issu de la dégradation de l'hémoglobine donne sa couleur marron au caca ?",
+      "correct": "La stercobiline",
+      "wrong": [
+        "La mélanine",
+        "La chlorophylle",
+        "La kératine"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment appelle-t-on le fait pour un animal de manger ses propres excréments ?",
+      "correct": "La coprophagie",
+      "wrong": [
+        "L'anthropophagie",
+        "La géophagie",
+        "L'hématophagie"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel rongeur pratique la caecotrophie en mangeant ses premières crottes molles pour mieux digérer ?",
+      "correct": "Le lapin",
+      "wrong": [
+        "L'écureuil",
+        "Le castor",
+        "La marmotte"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment appelle-t-on les excréments fossilisés des dinosaures et animaux préhistoriques ?",
+      "correct": "Les coprolithes",
+      "wrong": [
+        "Les ammonites",
+        "Les trilobites",
+        "Les stalactites"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel gaz malodorant présent dans les selles sent l'œuf pourri ?",
+      "correct": "Le sulfure d'hydrogène",
+      "wrong": [
+        "Le protoxyde d'azote",
+        "Le dioxyde de carbone",
+        "L'hélium"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle molécule organique tire son nom du grec signifiant excrément et contribue à l'odeur des selles ?",
+      "correct": "Le scatol",
+      "wrong": [
+        "Le menthol",
+        "Le glycérol",
+        "Le phénol"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment appelle-t-on les toutes premières selles noirâtres et collantes d'un nouveau-né ?",
+      "correct": "Le méconium",
+      "wrong": [
+        "Le colostrum",
+        "Le vernix",
+        "Le lanugo"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel poisson marin produit une grande partie du sable blanc des plages tropicales en déféquant du corail broyé ?",
+      "correct": "Le poisson-perroquet",
+      "wrong": [
+        "Le poisson-clown",
+        "Le poisson-lune",
+        "Le poisson-chirurgien"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment appelle-t-on l'engrais très riche formé par l'accumulation d'excréments d'oiseaux marins ou de chauves-souris ?",
+      "correct": "Le guano",
+      "wrong": [
+        "Le limon",
+        "Le lœss",
+        "Le compost"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel grand mammifère marin fait des excréments liquides et rougeâtres riches en fer qui fertilisent l'océan ?",
+      "correct": "La baleine",
+      "wrong": [
+        "Le dauphin",
+        "Le lamantin",
+        "L'orque"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quel film français culte Louis de Funès goûte-t-il une préparation suspecte dans une usine Tricatel ?",
+      "correct": "L'Aile ou la Cuisse",
+      "wrong": [
+        "La Grande Vadrouille",
+        "Rabbi Jacob",
+        "Le Corniaud"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel artiste italien a mis ses propres excréments en boîte de conserve sous le nom Merda d'Artista ?",
+      "correct": "Piero Manzoni",
+      "wrong": [
+        "Maurizio Cattelan",
+        "Marcel Duchamp",
+        "Yves Klein"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel terme de vénerie désigne les excréments du cerf et du chevreuil ?",
+      "correct": "Les fumées",
+      "wrong": [
+        "Les laissées",
+        "Les repaires",
+        "Les épreintes"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment appelle-t-on les excréments du sanglier dans le vocabulaire de la chasse ?",
+      "correct": "Les laissées",
+      "wrong": [
+        "Les fumées",
+        "Les pétoules",
+        "Les crottes"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel grand mammifère africain disperse ses excréments en faisant tourner sa queue comme une hélice ?",
+      "correct": "L'hippopotame",
+      "wrong": [
+        "Le rhinocéros",
+        "L'éléphant",
+        "Le buffle"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle posture physiologique est recommandée sur les toilettes pour faciliter l'évacuation des selles ?",
+      "correct": "La position accroupie avec les genoux relevés",
+      "wrong": [
+        "La position parfaitement droite à angle droit",
+        "La position penchée en arrière",
+        "La position debout légèrement fléchie"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel muscle circulaire contrôle volontairement l'ouverture et la fermeture de l'anus ?",
+      "correct": "Le sphincter anal externe",
+      "wrong": [
+        "Le diaphragme pelvien",
+        "Le muscle piriforme",
+        "Le grand fessier"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle couleur prennent généralement les selles en cas de saignement digestif haut digéré ?",
+      "correct": "Noir goudron",
+      "wrong": [
+        "Jaune vif",
+        "Blanc craie",
+        "Bleu nuit"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment appelle-t-on des selles noires et malodorantes dues à du sang digéré ?",
+      "correct": "Le méléna",
+      "wrong": [
+        "La rectorragie",
+        "La stéatorrhée",
+        "L'hématurie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la principale raison évolutive pour laquelle les wombats font des crottes carrées ?",
+      "correct": "Pour qu'elles ne roulent pas et marquent leur territoire",
+      "wrong": [
+        "Pour économiser l'eau dans le désert",
+        "Pour décourager les prédateurs",
+        "Pour construire leur terrier"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment appelle-t-on les excréments de la loutre, utilisés par les naturalistes pour étudier sa présence ?",
+      "correct": "Les épreintes",
+      "wrong": [
+        "Les fumées",
+        "Les fientes",
+        "Les pelotes"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel terme désigne la phobie irrationnelle des excréments ?",
+      "correct": "La coprophobie",
+      "wrong": [
+        "L'émétophobie",
+        "La mysophobie",
+        "La scatologie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle intervention médicale consiste à introduire les selles d'un donneur sain dans l'intestin d'un patient ?",
+      "correct": "La transplantation de microbiote fécal",
+      "wrong": [
+        "La dialyse péritonéale",
+        "La coloscopie virtuelle",
+        "L'entéroscopie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle bactérie responsable de colites sévères est principalement traitée par greffe fécale ?",
+      "correct": "Clostridioides difficile",
+      "wrong": [
+        "Helicobacter pylori",
+        "Vibrio cholerae",
+        "Salmonella enterica"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel terme médical désigne des selles anormalement pâles ou décolorées par manque de bile ?",
+      "correct": "Des selles acholiques",
+      "wrong": [
+        "Des selles hyperchromes",
+        "Des selles muqueuses",
+        "Des selles spumeuses"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment appelle-t-on la présence excessive de graisses non digérées dans les selles ?",
+      "correct": "La stéatorrhée",
+      "wrong": [
+        "La créatorrhée",
+        "L'amylorrhée",
+        "La pollakiurie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel mot scientifique désigne l'étude ou la littérature portant sur les excréments ?",
+      "correct": "La scatologie",
+      "wrong": [
+        "La coprologie",
+        "La proctologie",
+        "La taxonomie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel examen de laboratoire analyse un échantillon de selles pour rechercher des parasites ou bactéries ?",
+      "correct": "La coproculture",
+      "wrong": [
+        "L'hémoculture",
+        "La biopsie",
+        "La scintigraphie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel café thaïlandais de luxe est fabriqué à partir de cerises de café digérées par des éléphants ?",
+      "correct": "Le Black Ivory",
+      "wrong": [
+        "Le Kopi Luwak",
+        "Le Jacu Bird",
+        "Le Monkey Parchment"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quel pays se trouve un musée entièrement consacré au caca et aux toilettes appelé Poop Museum ou Mr. Toilet House ?",
+      "correct": "La Corée du Sud",
+      "wrong": [
+        "Le Japon",
+        "La Chine",
+        "Taïwan"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel personnage de dessin animé américain est un petit morceau de caca portant un bonnet de Noël ?",
+      "correct": "Monsieur Hankey",
+      "wrong": [
+        "Monsieur Garrison",
+        "Monsieur Esclave",
+        "Monsieur Mackey"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle série animée apparaît Monsieur Hankey le petit caca Noël ?",
+      "correct": "South Park",
+      "wrong": [
+        "Les Simpson",
+        "Rick et Morty",
+        "Family Guy"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment appelle-t-on l'accumulation de matières fécales dures et déshydratées formant un bouchon dans le rectum ?",
+      "correct": "Un fécalome",
+      "wrong": [
+        "Un polype",
+        "Un diverticule",
+        "Une fistule"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel réflexe physiologique déclenche l'envie d'aller à la selle peu après avoir mangé ?",
+      "correct": "Le réflexe gastro-colique",
+      "wrong": [
+        "Le réflexe de Moro",
+        "Le réflexe rotulien",
+        "Le réflexe vagal"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel muscle en forme de fronde maintient l'angle entre le rectum et le canal anal pour assurer la continence ?",
+      "correct": "Le muscle pubo-rectal",
+      "wrong": [
+        "Le muscle psoas",
+        "Le muscle sartorius",
+        "Le muscle obturateur"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel roman célèbre de Gabriel Chevallier raconte la construction rocambolesque d'une pissotière dans un village du Beaujolais ?",
+      "correct": "Clochemerle",
+      "wrong": [
+        "Topaze",
+        "La Jument verte",
+        "Merlusse"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel écrivain français de la Renaissance a consacré un célèbre chapitre de Gargantua à l'invention du torche-cul ?",
+      "correct": "François Rabelais",
+      "wrong": [
+        "Michel de Montaigne",
+        "Pierre de Ronsard",
+        "Joachim du Bellay"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Selon Gargantua de Rabelais, quel est le meilleur torche-cul au monde ?",
+      "correct": "Un oison bien duveteux",
+      "wrong": [
+        "Une feuille de chou",
+        "Un bonnet de velours",
+        "Un gant de soie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel animal utilise ses propres excréments autour de son terrier comme appât pour attirer les bousiers qu'il mange ?",
+      "correct": "La chouette des terriers",
+      "wrong": [
+        "Le suricate",
+        "Le blaireau",
+        "Le fennec"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle chenille projette violemment ses crottes à grande distance grâce à une pression sanguine anale pour ne pas attirer les prédateurs par l'odeur ?",
+      "correct": "La chenille de l'hespérie du canna",
+      "wrong": [
+        "La chenille processionnaire du pin",
+        "La chenille du machaon",
+        "La chenille du bombyx du mûrier"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel oiseau marin du Pacifique peut propulser ses fientes jusqu'à plusieurs mètres grâce à une forte pression rectale ?",
+      "correct": "Le manchot à jugulaire",
+      "wrong": [
+        "Le macareux moine",
+        "Le fou de Bassan",
+        "L'albatros hurleur"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel composé aromatique présent dans les excréments est utilisé à très faible dose en parfumerie comme fixateur floral ?",
+      "correct": "L'indole",
+      "wrong": [
+        "La coumarine",
+        "Le linalol",
+        "L'eugénol"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel type de selles correspond au type 1 sur l'échelle de Bristol ?",
+      "correct": "Des petites boules dures séparées",
+      "wrong": [
+        "Une saucisse lisse et molle",
+        "Des morceaux pâteux aux bords nets",
+        "Une selle entièrement liquide"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel type de selles correspond au type 4 considéré comme idéal sur l'échelle de Bristol ?",
+      "correct": "Une saucisse ou un serpent lisse et doux",
+      "wrong": [
+        "Une saucisse bosselée",
+        "Des morceaux mous fragmentés",
+        "Des petites billes dures"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel nom portait le poste prestigieux mais intime chargé d'assister le roi d'Angleterre aux toilettes sous les Tudor ?",
+      "correct": "Groom of the Stool",
+      "wrong": [
+        "Lord High Steward",
+        "Master of the Horse",
+        "Keeper of the Privy Seal"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel roi de France était célèbre pour recevoir ses courtisans assis sur sa chaise percée ?",
+      "correct": "Louis XIV",
+      "wrong": [
+        "François Ier",
+        "Henri IV",
+        "Louis XVI"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment appelait-on les personnes qui ramassaient les excréments humains dans les fosses d'aisances de Paris sous l'Ancien Régime ?",
+      "correct": "Les gadouards",
+      "wrong": [
+        "Les chiffonniers",
+        "Les rémouleurs",
+        "Les porteurs d'eau"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel mot d'argot ancien désignait la matière fécale utilisée comme engrais autour de Paris ?",
+      "correct": "La gadoue",
+      "wrong": [
+        "La poudrette",
+        "La glèbe",
+        "La vase"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment appelait-on l'engrais sec fabriqué industriellement au XIXe siècle à partir des matières fécales parisiennes à Montfaucon ?",
+      "correct": "La poudrette",
+      "wrong": [
+        "La marne",
+        "La cendre noire",
+        "Le salpêtre"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel artiste belge contemporain a conçu la machine Cloaca qui reproduit le système digestif humain et fabrique de vrais excréments ?",
+      "correct": "Wim Delvoye",
+      "wrong": [
+        "Jan Fabre",
+        "Panamarenko",
+        "René Magritte"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle figurine traditionnelle catalane représente un personnage accroupi en train de déféquer dans la crèche de Noël ?",
+      "correct": "Le Caganer",
+      "wrong": [
+        "Le Tió de Nadal",
+        "Le Santon",
+        "Le Befano"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel composé chimique issu de la réduction bactérienne de la bilirubine donne leur teinte brune aux selles ?",
+      "correct": "L'urobilinogène oxydé en stercobiline",
+      "wrong": [
+        "La biliverdine réduite en hème",
+        "La porphyrine liée au fer",
+        "La créatinine transformée en urée"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel terme médical désigne l'envie impérieuse et douloureuse d'aller à la selle sans parvenir à évacuer ?",
+      "correct": "Le ténesme",
+      "wrong": [
+        "Le borborygme",
+        "Le météorisme",
+        "L'éructation"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle espèce d'araignée australienne imite visuellement une fiente d'oiseau pour tromper ses prédateurs et ses proies ?",
+      "correct": "L'araignée bolas",
+      "wrong": [
+        "La veuve noire à dos rouge",
+        "L'araignée paon",
+        "L'araignée loup"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment appelle-t-on les excréments des rapaces nocturnes comme la chouette ?",
+      "correct": "Les fientes blanches liquides",
+      "wrong": [
+        "Les pelotes de réjection",
+        "Les épreintes",
+        "Les laissées"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle bactérie intestinale représente à elle seule une grande partie des bactéries bénéfiques du microbiote fécal humain ?",
+      "correct": "Faecalibacterium prausnitzii",
+      "wrong": [
+        "Mycobacterium tuberculosis",
+        "Treponema pallidum",
+        "Yersinia pestis"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel mot japonais désigne le caca de manière enfantine et a donné son nom à un célèbre musée immersif à Tokyo ?",
+      "correct": "Unko",
+      "wrong": [
+        "Kuso",
+        "Benjo",
+        "Oshiri"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel liquide produit par le foie aide à émulsionner les graisses et colore indirectement les selles ?",
+      "correct": "La bile",
+      "wrong": [
+        "La lymphe",
+        "Le suc gastrique",
+        "La salive"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle petite structure nerveuse de la paroi intestinale coordonne les contractions qui font avancer les selles vers le rectum ?",
+      "correct": "Le plexus myentérique d'Auerbach",
+      "wrong": [
+        "Le nerf trijumeau",
+        "Le ganglion stellaire",
+        "Le bulbe olfactif"
+      ]
+    }
+  ]
+}

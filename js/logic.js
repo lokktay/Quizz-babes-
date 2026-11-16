@@ -13,20 +13,44 @@ export function shuffle(items) {
   return copy;
 }
 
-// Liste les thèmes de tous les joueurs, sans doublon.
-export function collectThemes(game) {
+// Thèmes choisis par un joueur. Format : { bank: [id…], free: "texte", extra: id, ready: true }.
+// (L'ancien format, un simple tableau de textes, reste accepté comme thèmes libres.)
+// `noAi` : la partie a renoncé aux thèmes libres, le thème `extra` de la banque les remplace.
+export function playerThemes(entry, { noAi = false } = {}) {
+  if (Array.isArray(entry)) return entry.map((text) => ({ source: "ai", text }));
+  if (!entry?.ready) return [];
+  const list = (entry.bank ?? []).map((id) => ({ source: "bank", id }));
+  if (noAi) {
+    if (entry.extra) list.push({ source: "bank", id: entry.extra });
+  } else if (String(entry.free ?? "").trim()) {
+    list.push({ source: "ai", text: String(entry.free).trim() });
+  }
+  return list;
+}
+
+// Liste les thèmes de tous les joueurs prêts, sans doublon.
+// `bankIndex` : liste de banque/index.json, pour traduire un identifiant en nom de thème.
+// Un thème libre identique à un thème de la banque utilise la banque (pas d'appel à l'IA).
+export function collectThemes(game, bankIndex = []) {
+  const labels = new Map(bankIndex.map((t) => [t.id, t.label]));
   const seen = new Map();
-  for (const [uid, list] of Object.entries(game.themes ?? {})) {
+  for (const [uid, entry] of Object.entries(game.themes ?? {})) {
     if (uid === game.hostId) continue;
     const by = game.players?.[uid]?.name ?? "?";
-    for (const theme of Object.values(list)) {
+    for (const item of playerThemes(entry, { noAi: Boolean(game.state?.noAi) })) {
+      const theme = item.source === "bank" ? labels.get(item.id) : item.text;
       const key = normalize(theme);
       if (!key) continue;
-      if (seen.has(key)) seen.get(key).by.push(by);
-      else seen.set(key, { theme: String(theme).trim(), by: [by] });
+      const existing = seen.get(key);
+      if (existing) {
+        existing.by.push(by);
+        if (item.source === "bank") Object.assign(existing, { source: "bank", bankId: item.id });
+      } else {
+        seen.set(key, { theme: String(theme).trim(), by: [by], source: item.source, ...(item.id ? { bankId: item.id } : {}) });
+      }
     }
   }
-  return [...seen.values()].map((t) => ({ theme: t.theme, by: [...new Set(t.by)].join(", ") }));
+  return [...seen.values()].map((t) => ({ ...t, by: [...new Set(t.by)].join(", ") }));
 }
 
 const DATE_QUESTION = /(quelle annee|quel siecle|quelle decennie|quelle epoque|quelle date|^quand\b|depuis quand|date de (creation|naissance|deces|mort|sortie|fondation|publication)|annee de (creation|naissance|deces|mort|sortie|fondation|publication))/;
@@ -42,122 +66,133 @@ export function isAboutDates(question, answers) {
   return answers.filter((a) => DATE_ANSWER.test(normalize(a))).length >= 2;
 }
 
-// Transforme la réponse de l'IA en banque de questions jouable.
-export function prepareBank(rawQuestions, themes, perTheme) {
-  const slots = new Map(themes.map((t) => [normalize(t.theme), { ...t, picked: [] }]));
-  const seenQuestions = new Set();
+export const LEVELS = ["facile", "moyen", "difficile", "tres_difficile"];
 
-  for (const raw of rawQuestions) {
-    const slot = slots.get(normalize(raw.theme));
-    if (!slot || slot.picked.length >= perTheme) continue;
+// Empreinte courte d'un énoncé, pour retenir les questions déjà posées à un groupe.
+export function questionKey(text) {
+  let h = 2166136261;
+  for (const char of normalize(text).replace(/[^a-z0-9]/g, "")) h = Math.imul(h ^ char.charCodeAt(0), 16777619);
+  return (h >>> 0).toString(36);
+}
 
-    const question = String(raw.question ?? "").trim();
-    const correct = String(raw.correct ?? "").trim();
-    const wrong = [raw.wrong_1, raw.wrong_2, raw.wrong_3].map((a) => String(a ?? "").trim());
-    const answers = [correct, ...wrong];
+// Réserve de questions valides par thème, partagée entre la manche 1 et le plateau.
+// Une question rejetée n'invalide plus tout le lot : on la jette et on garde les autres.
+export function createPools() {
+  const pools = new Map();
+  const seen = new Set();
+  return {
+    pools,
+    add(raw) {
+      const key = normalize(raw.theme);
+      if (!key) return;
+      const question = String(raw.question ?? "").trim();
+      const correct = String(raw.correct ?? "").trim();
+      const wrong = [raw.wrong_1, raw.wrong_2, raw.wrong_3].map((a) => String(a ?? "").trim());
+      const answers = [correct, ...wrong];
+      if (!question || answers.some((a) => !a)) return;
+      if (new Set(answers.map(normalize)).size !== 4) return;
+      if (seen.has(normalize(question)) || isAboutDates(question, answers)) return;
+      seen.add(normalize(question));
+      const difficulty = LEVELS.includes(raw.difficulty) ? raw.difficulty : "moyen";
+      if (!pools.has(key)) pools.set(key, []);
+      pools.get(key).push({ question, correct, wrong, difficulty });
+    },
+    count(theme) {
+      return pools.get(normalize(theme.theme))?.length ?? 0;
+    },
+  };
+}
 
-    if (!question || answers.some((a) => !a)) continue;
-    if (new Set(answers.map(normalize)).size !== 4) continue;
-    if (seenQuestions.has(normalize(question))) continue;
-    if (isAboutDates(question, answers)) continue;
+function toPlayable(item, theme, lvl) {
+  const answers = shuffle([item.correct, ...item.wrong]);
+  return { theme: theme.theme, by: theme.by, question: item.question, answers, correct: answers.indexOf(item.correct), difficulty: LEVELS[lvl], lvl };
+}
 
-    seenQuestions.add(normalize(question));
-    const mixed = shuffle(answers);
-    slot.picked.push({
-      theme: slot.theme,
-      by: slot.by,
-      question,
-      answers: mixed,
-      correct: mixed.indexOf(correct),
+// Réserve de questions pour toute la partie : on pioche un thème à tour de rôle (pour varier),
+// au niveau demandé ou au plus proche. Les questions déjà posées au groupe passent en dernier.
+export function createSupply(themes, pools, isAsked = () => false) {
+  const slots = themes.map((theme) => {
+    const all = pools.get(normalize(theme.theme)) ?? [];
+    const byLevel = LEVELS.map((level) => {
+      const items = all.filter((item) => item.difficulty === level);
+      return [...shuffle(items.filter((i) => !isAsked(i.question))), ...shuffle(items.filter((i) => isAsked(i.question)))];
     });
-  }
-
-  const missing = [...slots.values()].filter((slot) => slot.picked.length < perTheme);
-  if (missing.length) {
-    throw new Error(`L'IA n'a pas fourni assez de questions pour : ${missing.slice(0, 3).map((slot) => slot.theme).join(", ")}${missing.length > 3 ? "…" : ""}. Relance la génération.`);
-  }
-  return shuffle([...slots.values()].flatMap((s) => s.picked));
-}
-
-export function prepareBoard(rawQuestions, themes, difficultyPoints) {
-  const slots = new Map(themes.map((t) => [
-    normalize(t.theme),
-    { ...t, questions: new Map() },
-  ]));
-  const seenQuestions = new Set();
-
-  for (const raw of rawQuestions) {
-    const slot = slots.get(normalize(raw.theme));
-    const difficulty = String(raw.difficulty ?? "");
-    if (!slot || !Object.hasOwn(difficultyPoints, difficulty) || slot.questions.has(difficulty)) continue;
-
-    const question = String(raw.question ?? "").trim();
-    const correct = String(raw.correct ?? "").trim();
-    const wrong = [raw.wrong_1, raw.wrong_2, raw.wrong_3].map((answer) => String(answer ?? "").trim());
-    const answers = [correct, ...wrong];
-
-    if (!question || answers.some((answer) => !answer)) continue;
-    if (new Set(answers.map(normalize)).size !== 4) continue;
-    if (seenQuestions.has(normalize(question)) || isAboutDates(question, answers)) continue;
-
-    seenQuestions.add(normalize(question));
-    const mixed = shuffle(answers);
-    slot.questions.set(difficulty, {
-      theme: slot.theme,
-      by: slot.by,
-      difficulty,
-      points: difficultyPoints[difficulty],
-      question,
-      answers: mixed,
-      correct: mixed.indexOf(correct),
-    });
-  }
-
-  const missing = [];
-  for (const slot of slots.values()) {
-    for (const difficulty of Object.keys(difficultyPoints)) {
-      if (!slot.questions.has(difficulty)) missing.push(`${slot.theme} (${difficulty})`);
-    }
-  }
-  if (missing.length) {
-    throw new Error(`L'IA n'a pas fourni toutes les questions du plateau : ${missing.slice(0, 3).join(", ")}${missing.length > 3 ? "…" : ""}. Relance la génération.`);
-  }
-  return [...slots.values()].flatMap((slot) => [...slot.questions.values()]);
-}
-
-// answer = { choice, at } ou undefined si le joueur n'a pas répondu.
-export function pointsFor(question, answer) {
-  return answer && answer.choice === question.correct ? question.points ?? 1 : 0;
-}
-
-export function computeScores(game) {
-  const { phase, index = 0 } = game.state;
-  const questions = game.questions ?? [];
-  const boardPhases = ["boardChoose", "boardQuestion", "boardReveal", "finished"];
-  const boardStarted = boardPhases.includes(phase);
-  const lastCounted = boardStarted || phase === "finished"
-    ? questions.length - 1
-    : phase === "reveal" ? index : index - 1;
-
-  return Object.entries(game.players ?? {})
-    .filter(([uid]) => uid !== game.hostId)
-    .map(([uid, player]) => {
-      let score = 0;
-      let gained = 0;
-      for (let i = 0; i <= lastCounted && i < questions.length; i++) {
-        const points = pointsFor(questions[i], game.answers?.[i]?.[uid]);
-        score += points;
-        if (i === index && phase === "reveal") gained = points;
-      }
-      if (phase === "boardReveal" || phase === "finished") {
-        for (let i = 0; i < (game.board ?? []).length; i++) {
-          if (!game.state.used?.[i]) continue;
-          const points = pointsFor(game.board[i], game.boardAnswers?.[i]?.[uid]);
-          score += points;
-          if (phase === "boardReveal" && i === game.state.selectedBoardIndex) gained = points;
+    return { theme, byLevel };
+  }).filter((slot) => slot.byLevel.some((list) => list.length));
+  let pointer = Math.floor(Math.random() * Math.max(1, slots.length));
+  const weights = [0.3, 0.35, 0.25, 0.1];
+  const randomLevel = () => {
+    let x = Math.random();
+    for (let i = 0; i < weights.length; i++) if ((x -= weights[i]) < 0) return i;
+    return 1;
+  };
+  return {
+    themes: slots.map((slot) => slot.theme),
+    // `level` : 0 à 3, ou null pour un niveau au hasard. `themeName` : limiter à un thème.
+    take(level = null, themeName = null) {
+      const wanted = level ?? randomLevel();
+      const candidates = themeName ? slots.filter((s) => s.theme.theme === themeName) : slots;
+      for (let attempt = 0; attempt < candidates.length; attempt++) {
+        const slot = candidates[(pointer + attempt) % candidates.length];
+        const order = [0, 1, -1, 2, -2, 3, -3].map((d) => wanted + d).filter((l) => l >= 0 && l < LEVELS.length);
+        for (const lvl of order) {
+          const item = slot.byLevel[lvl].shift();
+          if (item) {
+            pointer = (pointer + attempt + 1) % Math.max(1, candidates.length);
+            return toPlayable(item, slot.theme, lvl);
+          }
         }
       }
-      return { uid, name: player.name, score, gained };
-    })
+      return null;
+    },
+  };
+}
+
+/* ---------- Scores ---------- */
+
+// Parcourt les résultats enregistrés par l'écran principal, dans l'ordre de la partie.
+// results[manche][étape] = { uid: { ok: 1 | 0 | -1, pts, lvl } }  (ok -1 : pas de réponse)
+export function resultSteps(game) {
+  const steps = [];
+  const rounds = Object.entries(game.results ?? {}).filter(([, v]) => v).sort((a, b) => a[0] - b[0]);
+  for (const [r, byStep] of rounds) {
+    for (const [s, entries] of Object.entries(byStep ?? {}).filter(([, v]) => v).sort((a, b) => a[0] - b[0])) {
+      steps.push({ r: Number(r), s: Number(s), entries });
+    }
+  }
+  return steps;
+}
+
+// `exclude` : { r, s } à ne pas compter (classement « juste avant » une correction).
+export function computeScores(game, { exclude = null } = {}) {
+  const totals = new Map();
+  const gained = new Map();
+  const { phase, round, step } = game.state ?? {};
+  const showsGain = phase === "reveal";
+  for (const { r, s, entries } of resultSteps(game)) {
+    if (exclude && exclude.r === r && exclude.s === s) continue;
+    for (const [uid, res] of Object.entries(entries)) {
+      totals.set(uid, (totals.get(uid) ?? 0) + (res?.pts ?? 0));
+      if (showsGain && r === round && s === step) gained.set(uid, (gained.get(uid) ?? 0) + (res?.pts ?? 0));
+    }
+  }
+  return Object.entries(game.players ?? {})
+    .filter(([uid]) => uid !== game.hostId)
+    .map(([uid, player]) => ({ uid, name: player.name, score: totals.get(uid) ?? 0, gained: gained.get(uid) ?? 0 }))
     .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, "fr"));
+}
+
+// Série en cours d'un joueur (bonnes réponses > 0, erreurs < 0), jusqu'à l'étape { r, s } incluse.
+export function streakOf(game, uid, until = null) {
+  let streak = 0;
+  const steps = resultSteps(game).filter(({ r, s }) => !until || r < until.r || (r === until.r && s <= until.s));
+  for (let i = steps.length - 1; i >= 0; i--) {
+    const ok = steps[i].entries[uid]?.ok;
+    if (ok === undefined || ok === null) continue;
+    const right = ok === 1;
+    if (streak === 0) streak = right ? 1 : -1;
+    else if ((streak > 0) === right) streak += right ? 1 : -1;
+    else break;
+  }
+  return streak;
 }

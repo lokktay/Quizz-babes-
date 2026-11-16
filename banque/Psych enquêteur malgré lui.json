@@ -1,0 +1,485 @@
+{
+"theme": "Psych enquêteur malgré lui",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel est le nom complet du héros principal de la série Psych ?",
+"correct": "Shawn Spencer",
+"wrong": ["Shawn Guster", "Burton Spencer", "Henry Spencer"]
+},
+{
+"difficulty": "facile",
+"question": "Quel don surnaturel Shawn prétend-il posséder pour aider la police ?",
+"correct": "Il est médium",
+"wrong": ["Il lit dans les pensées", "Il parle aux fantômes", "Il voit l'avenir dans ses rêves"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la véritable origine des déductions extraordinaires de Shawn ?",
+"correct": "Un sens de l'observation hyper-développé",
+"wrong": ["Une mémoire photographique magique", "Des informateurs secrets en ville", "Un logiciel d'analyse criminelle"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le meilleur ami et associé de Shawn ?",
+"correct": "Burton Guster",
+"wrong": ["Carlton Lassiter", "Woody Strode", "Buzz McNab"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle ville de Californie se déroule l'intrigue de Psych ?",
+"correct": "Santa Barbara",
+"wrong": ["San Diego", "Monterey", "Santa Cruz"]
+},
+{
+"difficulty": "facile",
+"question": "Quel fruit apparaît caché dans presque chaque épisode de la série ?",
+"correct": "Un ananas",
+"wrong": ["Une banane", "Une noix de coco", "Une mangue"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le métier du père de Shawn, Henry Spencer ?",
+"correct": "Ancien inspecteur de police",
+"wrong": ["Avocat de la défense", "Médecin légiste", "Procureur général"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le détective en chef sceptique qui déteste les méthodes de Shawn ?",
+"correct": "Carlton Lassiter",
+"wrong": ["Henry Spencer", "Buzz McNab", "Dobson"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle la partenaire de Lassiter dont Shawn tombe amoureux ?",
+"correct": "Juliet O'Hara",
+"wrong": ["Karen Vick", "Abigail Lytar", "Rachael"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le métier officiel de Gus en parallèle de son agence de détective ?",
+"correct": "Représentant pharmaceutique",
+"wrong": ["Comptable fiscaliste", "Agent immobilier", "Courtier en assurances"]
+},
+{
+"difficulty": "facile",
+"question": "Quel geste Shawn fait-il souvent en portant ses doigts à sa tempe ?",
+"correct": "Il simule une vision psychique",
+"wrong": ["Il calme une migraine", "Il envoie un signal secret à Gus", "Il écoute une oreillette cachée"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle la cheffe de la police de Santa Barbara ?",
+"correct": "Karen Vick",
+"wrong": ["Juliet O'Hara", "Mary Lightly", "Ewan O'Hara"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle couleur est la voiture de fonction de Gus surnommée « la Myrtille » ?",
+"correct": "Bleue",
+"wrong": ["Verte", "Rouge", "Grise"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle l'agence de détectives fondée par Shawn et Gus ?",
+"correct": "Psych",
+"wrong": ["Spencer & Guster", "Santa Barbara Voyance", "Vision Détective"]
+},
+{
+"difficulty": "facile",
+"question": "Quel surnom affectueux Shawn donne-t-il souvent à Juliet ?",
+"correct": "Jules",
+"wrong": ["Julie", "Jojo", "Juju"]
+},
+{
+"difficulty": "facile",
+"question": "Quel surnom Shawn utilise-t-il pour appeler Carlton Lassiter ?",
+"correct": "Lassie",
+"wrong": ["Carl", "Lass", "L'inspecteur"]
+},
+{
+"difficulty": "facile",
+"question": "Quel plat canadien composé de frites, de fromage en grains et de sauce brune Shawn et Gus adorent-ils ?",
+"correct": "La poutine",
+"wrong": ["Le pâté chinois", "La tourtière", "Le bagel au saumon"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le médecin légiste excentrique et très décalé de la police ?",
+"correct": "Woody Strode",
+"wrong": ["Buzz McNab", "Kurt Smith", "Dennis Gogolack"]
+},
+{
+"difficulty": "facile",
+"question": "Quel jeune agent de police grand et naïf aide souvent Shawn et Gus au commissariat ?",
+"correct": "Buzz McNab",
+"wrong": ["Woody Strode", "Trout", "Dobson"]
+},
+{
+"difficulty": "facile",
+"question": "Quel talent particulier Gus utilise-t-il parfois sur les scènes de crime grâce à son odorat ?",
+"correct": "Le Super-Renifleur",
+"wrong": ["Le Nez d'Or", "L'Odorat Bionique", "Le Flair Absolu"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le titre exact du générique d'ouverture de la série Psych ?",
+"correct": "I Know, You Know",
+"wrong": ["You Know I Know", "Psychic Detective", "Best Friend Blues"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel groupe interprète la chanson du générique de Psych ?",
+"correct": "The Friendly Indians",
+"wrong": ["The Barenaked Ladies", "Tears for Fears", "They Might Be Giants"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le célèbre voleur d'art élégant qui devient l'ami et le rival de Shawn ?",
+"correct": "Pierre Despereaux",
+"wrong": ["Antoine LaFleur", "Jean-Luc Moreau", "Henri Duplessis"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel acteur incarne le personnage récurrent de Pierre Despereaux ?",
+"correct": "Cary Elwes",
+"wrong": ["Tim Curry", "Val Kilmer", "Judd Nelson"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le tueur en série obsédé par le jeu de société Yin et Yang ?",
+"correct": "Monsieur Yang",
+"wrong": ["Monsieur Yin", "Le Maître du Jeu", "Le Collectionneur"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle actrice incarne Monsieur Yang dans la série ?",
+"correct": "Ally Sheedy",
+"wrong": ["Molly Ringwald", "Cybill Shepherd", "Rachael Leigh Cook"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle la mère de Shawn, psychologue pour la police ?",
+"correct": "Madeleine Spencer",
+"wrong": ["Evelyn Spencer", "Patricia Spencer", "Catherine Spencer"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le titre de la chanson de Tears for Fears que Gus adore chanter ?",
+"correct": "Shout",
+"wrong": ["Everybody Wants to Rule the World", "Mad World", "Head Over Heels"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle expression culte Shawn et Gus prononcent-ils lorsque quelqu'un est en désaccord avec eux ?",
+"correct": "T'as entendu parler de Pluton ? C'est vraiment moche",
+"wrong": ["T'as vu le prix de l'essence ? C'est scandaleux", "Tu connais l'histoire du pingouin ? C'est triste", "T'as suivi la météo ? C'est déprimant"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel était le métier de Shawn juste avant de créer l'agence Psych, qui a provoqué son arrestation ?",
+"correct": "Il appelait la police pour donner des tuyaux",
+"wrong": ["Il était magicien de rue", "Il était barman sur la plage", "Il était guide touristique"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel surnom ridicule Shawn invente-t-il pour présenter Gus comme « Magic Head » ?",
+"correct": "Tête Magique",
+"wrong": ["Crâne d'Œuf", "Boule de Cristal", "Cerveau Brillance"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le premier grand amour de lycée de Shawn qui revient dans sa vie ?",
+"correct": "Abigail Lytar",
+"wrong": ["Juliet O'Hara", "Rachael", "Gina Repetsch"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle marque de voiture est « la Myrtille » conduite par Gus ?",
+"correct": "Toyota Echo",
+"wrong": ["Honda Civic", "Nissan Versa", "Ford Fiesta"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel test d'observation Henry fait-il passer à Shawn enfant dans les flashbacks au restaurant ?",
+"correct": "Compter les chapeaux dans la salle les yeux fermés",
+"wrong": ["Retenir la plaque de tous les clients", "Deviner le métier du serveur", "Mémoriser le menu entier"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'ancien camarade de classe de Gus qui dirige un camp d'entraînement pour espions ou un club secret de nerds ?",
+"correct": "Dennis Gogolack",
+"wrong": ["Curt Smith", "Nigel St. Nigel", "Declan Rand"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel chanteur des années 80 joue son propre rôle à plusieurs reprises dans la série, notamment chez Declan Rand ?",
+"correct": "Curt Smith",
+"wrong": ["Rick Astley", "Billy Idol", "Huey Lewis"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel métier Declan Rand exerce-t-il en usurpant la méthode de Shawn avec une fortune colossale ?",
+"correct": "Profileur criminel",
+"wrong": ["Chasseur de primes", "Médium télévisé", "Journaliste d'investigation"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quelle ville Shawn et Juliet déménagent-ils à la fin de la série ?",
+"correct": "San Francisco",
+"wrong": ["Los Angeles", "Seattle", "Chicago"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel membre de la famille de Juliet est un escroc notoire incarné par William Shatner ?",
+"correct": "Son père Frank O'Hara",
+"wrong": ["Son oncle Jack", "Son frère Ewan", "Son grand-père"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom de la petite amie britannique de Gus qui a un fils prénommé Maximus ?",
+"correct": "Rachael",
+"wrong": ["Mira", "Vivian", "Selene"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du profileur excentrique obsédé par Yang qui porte le nom d'une femme et boit du jus de raisin ?",
+"correct": "Mary Lightly",
+"wrong": ["Ashley Judd", "Kelly Bundy", "Tracy Jordan"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle est la véritable identité de Monsieur Yin ?",
+"correct": "Le père de Yang",
+"wrong": ["Le frère de Yang", "Le professeur de Shawn", "L'ancien partenaire d'Henry"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel surnom ridicule Shawn donne-t-il à Gus lors de leur visite dans un ranch ou une ferme : « Ghee Buttersnaps » signifie quoi ?",
+"correct": "Beurre Clarifié Biscotte",
+"wrong": ["Crème Fouettée Caramel", "Miel Doré Cacahuète", "Sucre Glace Noisette"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'ex-femme de Gus qu'il avait épousée sur un coup de tête à Las Vegas ?",
+"correct": "Mira Gaffney",
+"wrong": ["Ruby", "Emmanuelle", "Joy"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du frère militaire de Juliet joué par John Cena ?",
+"correct": "Ewan O'Hara",
+"wrong": ["Liam O'Hara", "Sean O'Hara", "Connor O'Hara"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le juge sévère et tyrannique qui remplace brièvement Karen Vick comme chef de la police ?",
+"correct": "Harris Trout",
+"wrong": ["Conrad Gates", "Eliot Ness", "Walter Peck"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle émission de téléréalité musicale parodiant American Idol met en scène Tim Curry dans le rôle de Nigel St. Nigel ?",
+"correct": "American Duos",
+"wrong": ["Santa Barbara Idol", "California Voices", "Popstar USA"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle chanson Shawn et Gus interprètent-ils en duo sur scène dans l'épisode « American Duos » ?",
+"correct": "Shout",
+"wrong": ["Take On Me", "Careless Whisper", "Africa"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de la petite amie voleuse et aventurière de Gus que l'on retrouve dans les films Psych ?",
+"correct": "Selene",
+"wrong": ["Mira", "Vivian", "Ruby"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel acteur incarne le rôle de l'inspecteur Dobson dans le tout dernier épisode de la série ?",
+"correct": "Val Kilmer",
+"wrong": ["Emilio Estevez", "Charlie Sheen", "Rob Lowe"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel aliment sucré en forme de petits bonshommes jaunes Shawn dévore-t-il dans un épisode spécial ?",
+"correct": "Des Peeps",
+"wrong": ["Des Twinkies", "Des Skittles", "Des Sour Patch Kids"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle la sœur de Gus interprétée par Phylicia Rashad ou Keshia Knight Pulliam ?",
+"correct": "Joy Guster",
+"wrong": ["Faith Guster", "Hope Guster", "Grace Guster"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte le club de lecture ou d'observation de comètes que Gus fréquente secrètement ?",
+"correct": "La Société Astrale de Santa Barbara",
+"wrong": ["Les Observateurs de la Nuit", "Le Club Galilée", "Les Chasseurs d'Étoiles"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel épisode entièrement musical Shawn découvre-t-il que le meurtrier est un auteur de comédies musicales enfermé en asile ?",
+"correct": "Psych: The Musical",
+"wrong": ["Santa Barbara Broadway", "Le Fantôme de l'Opéra", "Chantons sous le Crime"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le dramaturge fou incarné par Anthony Rapp dans l'épisode musical ?",
+"correct": "Z",
+"wrong": ["M", "X", "Q"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle est la profession officielle de Pierre Despereaux selon la révélation finale sur son identité ?",
+"correct": "Agent infiltré d'Interpol",
+"wrong": ["Espion du MI6", "Agent de la CIA", "Diplomate canadien"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du chien policier retraité qu'Henry héberge brièvement chez lui ?",
+"correct": "Morrissey",
+"wrong": ["Bono", "Sting", "Bowie"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'oncle chasseur de trésors de Shawn qui prétend avoir trouvé un filon d'or ?",
+"correct": "Jack Spencer",
+"wrong": ["Frank Spencer", "Bob Spencer", "Rick Spencer"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle série télévisée culte de David Lynch est entièrement parodiée dans l'épisode « Dual Spires » ?",
+"correct": "Twin Peaks",
+"wrong": ["X-Files", "La Quatrième Dimension", "Lost"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle spécialité pâtissière les habitants de Dual Spires mangent-ils avec obsession dans cet épisode hommage ?",
+"correct": "La tarte à la cannelle",
+"wrong": ["La tarte aux cerises", "Les donuts glacés", "Les gaufres au sirop"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le véritable nom du créateur de la série Psych ?",
+"correct": "Steve Franks",
+"wrong": ["James Roday", "Dulé Hill", "Andy Berman"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom de scène James Roday a-t-il repris plus tard en ajoutant son nom de famille de naissance ?",
+"correct": "James Roday Rodriguez",
+"wrong": ["James Roday Martinez", "James Roday Sanchez", "James Roday Perez"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel était le nom de l'actrice qui jouait le rôle d'une inspectrice dans le tout premier épisode pilote avant d'être remplacée par Juliet ?",
+"correct": "Anne Dudek",
+"wrong": ["Maggie Lawson", "Kirsten Nelson", "Sage Brocklebank"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelait ce personnage féminin du pilote interprété par Anne Dudek ?",
+"correct": "Lucinda Barry",
+"wrong": ["Juliet O'Hara", "Karen Vick", "Abigail Lytar"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel surnom de Gus correspond à « Lavender Gooms » dans la version originale ?",
+"correct": "Le nom de la grand-tante de Gus",
+"wrong": ["Un parfum de bougie", "Un personnage de bande dessinée", "Un joueur de baseball oublié"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans l'épisode hommage à Vendredi 13 au camp Tikihama, quel mot sert de refrain à la chanson du camp ?",
+"correct": "Tikihama",
+"wrong": ["Kumbaya", "Wakanda", "Aloha"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle l'assistant de Monsieur Yang incarné par Jimmi Simpson ?",
+"correct": "Mary Lightly",
+"wrong": ["Allison Cowley", "Garth Longmore", "Lloyd French"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel personnage de la série a été nommé en hommage au vrai nom de naissance de l'acteur James Roday ?",
+"correct": "Un criminel nommé Rodriguez",
+"wrong": ["Un chef cuisinier", "Un maire de Santa Barbara", "Un agent du FBI"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte la société pharmaceutique pour laquelle travaille Burton Guster ?",
+"correct": "Central Coast Pharmaceuticals",
+"wrong": ["Pacific Med Labs", "Santa Barbara Pharma", "California BioHealth"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du perroquet témoin d'un meurtre que Shawn interroge au tribunal ?",
+"correct": "Kirk",
+"wrong": ["Spock", "Polly", "Einstein"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans quel épisode spécial en noir et blanc Shawn imagine-t-il que Gus est albinos ?",
+"correct": "Un épisode en noir et blanc",
+"wrong": ["L'épisode des années 20", "L'épisode du cinéma muet", "L'épisode de la pleine lune"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de l'apprentie meurtrière qui aide Monsieur Yin dans le final de la saison 5 ?",
+"correct": "Allison Cowley",
+"wrong": ["Grace Larsen", "Miranda Sherrod", "Lauren Lassiter"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre catcheur de la WWE joue le rôle d'un garde du corps ou mercenaire nommé Strabinsky dans un épisode de Psych ?",
+"correct": "The Miz",
+"wrong": ["John Cena", "Big Show", "Dave Bautista"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle le personnage joué par Big Show dans l'épisode sur l'univers du catch ?",
+"correct": "Big Ed Dixon",
+"wrong": ["Giant Joe", "Tiny Tom", "Crusher Mike"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel plat à base de fromage et de farine de maïs Shawn et Gus commandent-ils en boucle dans l'épisode avec les tacos ?",
+"correct": "Quatro Quesos Dos Fritos",
+"wrong": ["Tres Quesos Nachos", "Cinco Quesos Burritos", "Dos Quesos Empanadas"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Pourquoi les Quatro Quesos Dos Fritos ne supportent-ils pas le voyage selon Gus ?",
+"correct": "Ils ne voyagent pas bien",
+"wrong": ["Ils fondent trop vite", "Ils deviennent trop épicés", "Ils durcissent au froid"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre réalisateur américain a réalisé l'épisode « Mr. Yin Presents... » rempli de références à Alfred Hitchcock ?",
+"correct": "James Roday",
+"wrong": ["Steve Franks", "Mel Damski", "John Landis"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle le mari de la cheffe Karen Vick qui n'apparaît pratiquement jamais à l'écran ?",
+"correct": "Brett Vick",
+"wrong": ["Greg Vick", "Mark Vick", "Paul Vick"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le prénom de la fille de la cheffe Karen Vick née à la fin de la première saison ?",
+"correct": "Iris",
+"wrong": ["Lily", "Rose", "Violet"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel surnom Gus utilise-t-il lorsqu'il joue au tennis ou prétend être un joueur professionnel : « MC ClapYoHandz » est accompagné de quel geste ?",
+"correct": "Clapper deux fois des mains",
+"wrong": ["Claquer des doigts trois fois", "Taper du pied gauche", "Faire un clin d'œil"]
+}
+]
+}

@@ -1,0 +1,485 @@
+{
+"theme": "La diplomatie",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le représentant officiel de plus haut rang d'un État auprès d'un autre État ?",
+"correct": "Un ambassadeur",
+"wrong": ["Un consul", "Un attaché militaire", "Un chargé d'affaires"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle ville américaine se trouve le siège principal de l'Organisation des Nations unies ?",
+"correct": "New York",
+"wrong": ["Washington", "Genève", "Boston"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle langue est historiquement associée à la diplomatie classique en Europe ?",
+"correct": "Le français",
+"wrong": ["L'allemand", "L'espagnol", "L'italien"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le bâtiment où réside et travaille un ambassadeur dans un pays étranger ?",
+"correct": "Une ambassade",
+"wrong": ["Un consulat", "Une préfecture", "Un ministère"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle expression latine désigne un diplomate jugé indésirable par le pays d'accueil ?",
+"correct": "Persona non grata",
+"wrong": ["Casus belli", "Statu quo", "Sine die"]
+},
+{
+"difficulty": "facile",
+"question": "Quel principe protège les diplomates contre les poursuites judiciaires dans leur pays d'affectation ?",
+"correct": "L'immunité diplomatique",
+"wrong": ["L'asile politique", "La souveraineté nationale", "La neutralité armée"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle ville suisse abrite le siège européen de l'ONU ainsi que le Comité international de la Croix-Rouge ?",
+"correct": "Genève",
+"wrong": ["Zurich", "Berne", "Lausanne"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on l'accord écrit formel conclu entre deux ou plusieurs États ?",
+"correct": "Un traité",
+"wrong": ["Un décret", "Une ordonnance", "Une motion"]
+},
+{
+"difficulty": "facile",
+"question": "Quel nom familier donne-t-on au ministère français des Affaires étrangères ?",
+"correct": "Le Quai d'Orsay",
+"wrong": ["La Place Beauvau", "Bercy", "Matignon"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle ville belge se situe le siège principal de l'OTAN ?",
+"correct": "Bruxelles",
+"wrong": ["Anvers", "Gand", "Liège"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le document remis par un ambassadeur au chef d'État du pays hôte lors de sa prise de fonction ?",
+"correct": "Les lettres de créance",
+"wrong": ["Le passeport diplomatique", "Le sauf-conduit", "L'exequatur"]
+},
+{
+"difficulty": "facile",
+"question": "Quel terme désigne l'action d'un État tiers qui aide deux pays en conflit à trouver un accord ?",
+"correct": "La médiation",
+"wrong": ["L'embargo", "L'annexion", "La ratification"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle organisation internationale regroupant la quasi-totalité des États du monde a succédé à la Société des Nations ?",
+"correct": "L'ONU",
+"wrong": ["L'OTAN", "L'UNESCO", "L'OCDE"]
+},
+{
+"difficulty": "facile",
+"question": "Quel terme désigne le maintien d'une situation politique existante sans changement ?",
+"correct": "Le statu quo",
+"wrong": ["Le fait accompli", "Le compromis", "L'ultimatum"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on la rupture officielle des relations pacifiques suivie de l'arrêt des combats ?",
+"correct": "Un cessez-le-feu",
+"wrong": ["Une capitulation", "Un blocus", "Une mobilisation"]
+},
+{
+"difficulty": "facile",
+"question": "Quel bureau diplomatique s'occupe principalement des démarches administratives des ressortissants à l'étranger ?",
+"correct": "Le consulat",
+"wrong": ["La chancellerie", "Le secrétariat général", "La légation"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le pouvoir permettant à un membre permanent du Conseil de sécurité de l'ONU de bloquer une résolution ?",
+"correct": "Le droit de veto",
+"wrong": ["Le droit d'ingérence", "Le droit de grâce", "Le droit d'asile"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle ville néerlandaise abrite la Cour internationale de justice ?",
+"correct": "La Haye",
+"wrong": ["Amsterdam", "Rotterdam", "Utrecht"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on une rencontre au plus haut niveau entre chefs d'État ou de gouvernement ?",
+"correct": "Un sommet",
+"wrong": ["Un congrès", "Une audience", "Un colloque"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle couleur est associée aux casques des forces de maintien de la paix de l'ONU ?",
+"correct": "Bleu",
+"wrong": ["Blanc", "Vert", "Rouge"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle convention internationale codifie les règles modernes des relations diplomatiques entre États ?",
+"correct": "La convention de Vienne",
+"wrong": ["La convention de Genève", "La convention de Paris", "La convention de Rome"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on l'ambassadeur du Saint-Siège auprès d'un État ?",
+"correct": "Un nonce apostolique",
+"wrong": ["Un légat pontifical", "Un cardinal camerlingue", "Un vicaire général"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel terme désigne l'ensemble des diplomates étrangers accrédités dans une même capitale ?",
+"correct": "Le corps diplomatique",
+"wrong": ["Le collège consulaire", "La mission permanente", "Le cabinet ministériel"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle expression désigne l'utilisation du sport pour rapprocher les États-Unis et la Chine durant la guerre froide ?",
+"correct": "La diplomatie du ping-pong",
+"wrong": ["La diplomatie du badminton", "La diplomatie du tennis", "La diplomatie des échecs"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel animal la Chine prête-t-elle à d'autres pays comme symbole d'amitié diplomatique ?",
+"correct": "Le panda géant",
+"wrong": ["Le tigre de Sibérie", "Le singe doré", "La grue du Japon"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on un acte ou un événement qui déclenche ou justifie une guerre ?",
+"correct": "Un casus belli",
+"wrong": ["Un modus vivendi", "Un mea culpa", "Un habeas corpus"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel concept théorisé par Joseph Nye désigne la capacité d'un État à influencer par l'attraction culturelle plutôt que par la force ?",
+"correct": "Le soft power",
+"wrong": ["Le hard power", "La realpolitik", "Le containment"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nom porte la valise sécurisée qui transporte des documents officiels sans pouvoir être ouverte aux frontières ?",
+"correct": "La valise diplomatique",
+"wrong": ["Le pli ministériel", "Le courrier consulaire", "La malle d'État"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on l'accord préalable demandé à un État avant de lui envoyer un nouvel ambassadeur ?",
+"correct": "L'agrément",
+"wrong": ["L'accréditation", "La ratification", "L'exequatur"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel homme d'État français a incarné la diplomatie lors du congrès de Vienne après la chute de Napoléon ?",
+"correct": "Talleyrand",
+"wrong": ["Fouché", "Chateaubriand", "Richelieu"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle expression désigne une politique étrangère fondée sur le calcul réaliste des intérêts plutôt que sur l'idéologie ?",
+"correct": "La realpolitik",
+"wrong": ["L'isolationnisme", "L'unilatéralisme", "Le multilatéralisme"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on le diplomate qui dirige temporairement une ambassade en l'absence de l'ambassadeur ?",
+"correct": "Un chargé d'affaires",
+"wrong": ["Un consul général", "Un premier secrétaire", "Un attaché culturel"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nom porte le célèbre traité européen signé aux Pays-Bas qui a institué l'Union européenne et la monnaie unique ?",
+"correct": "Le traité de Maastricht",
+"wrong": ["Le traité de Lisbonne", "Le traité de Schengen", "Le traité d'Amsterdam"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel pays se trouve la station balnéaire de Camp David, lieu de célèbres accords de paix au Proche-Orient ?",
+"correct": "Aux États-Unis",
+"wrong": ["En Égypte", "En Suisse", "En Norvège"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nom familier désigne le département d'État des États-Unis chargé des affaires étrangères ?",
+"correct": "Foggy Bottom",
+"wrong": ["Capitol Hill", "Whitehall", "Downing Street"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on l'acte par lequel un chef d'État confirme définitivement un traité déjà signé ?",
+"correct": "La ratification",
+"wrong": ["La promulgation", "La notification", "La dénonciation"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel terme désigne l'action d'un État qui se retire officiellement d'un traité international ?",
+"correct": "La dénonciation",
+"wrong": ["L'abrogation", "La suspension", "La réserve"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle expression désigne la coopération entre au moins trois États sur des questions internationales ?",
+"correct": "Le multilatéralisme",
+"wrong": ["Le bilatéralisme", "L'unilatéralisme", "Le souverainisme"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel ministre britannique des Affaires étrangères porte le titre officiel de Foreign Secretary ?",
+"correct": "Le secrétaire d'État aux Affaires étrangères",
+"wrong": ["Le chancelier de l'Échiquier", "Le ministre de l'Intérieur", "Le Lord Chancelier"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle ville norvégienne accueille la remise du prix Nobel de la paix chaque année ?",
+"correct": "Oslo",
+"wrong": ["Stockholm", "Bergen", "Copenhague"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on l'autorisation officielle accordée par l'État de résidence à un chef de poste consulaire pour exercer ses fonctions ?",
+"correct": "L'exequatur",
+"wrong": ["L'agrément", "Le placet", "L'imprimatur"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle expression latine désigne un arrangement provisoire permettant à deux parties en désaccord de coexister pacifiquement ?",
+"correct": "Un modus vivendi",
+"wrong": ["Un modus operandi", "Un casus foederis", "Un pacta sunt servanda"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel principe fondamental du droit des traités signifie que les conventions doivent être respectées ?",
+"correct": "Pacta sunt servanda",
+"wrong": ["Rebus sic stantibus", "Uti possidetis juris", "Jus cogens"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on l'ambassadeur ayant le plus d'ancienneté dans une capitale, qui représente ses pairs lors des cérémonies ?",
+"correct": "Le doyen du corps diplomatique",
+"wrong": ["Le chancelier de légation", "Le syndic consulaire", "Le primus inter pares"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte l'ensemble des règles de préséance et d'étiquette observées dans les relations officielles entre États ?",
+"correct": "Le protocole",
+"wrong": ["Le cérémonial", "La chancellerie", "L'étiquette royale"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on la langue de travail neutre utilisée lors de négociations quand aucune partie n'utilise sa langue maternelle ?",
+"correct": "Une lingua franca",
+"wrong": ["Un pidgin diplomatique", "Une langue vernaculaire", "Un sabir officiel"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel terme désigne la diplomatique agressive et offensive pratiquée sur les réseaux sociaux par certains diplomates chinois ?",
+"correct": "La diplomatie du loup guerrier",
+"wrong": ["La diplomatie du dragon rouge", "La diplomatie du tigre blanc", "La diplomatie du faucon noir"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on le fait pour un État de représenter les intérêts d'un pays tiers qui a rompu ses relations avec l'État hôte ?",
+"correct": "Une puissance protectrice",
+"wrong": ["Une puissance mandataire", "Un État garant", "Une mission d'observation"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel diplomate américain est célèbre pour avoir théorisé la politique d'endiguement face à l'URSS dans le « Long Télégramme » ?",
+"correct": "George Kennan",
+"wrong": ["Henry Kissinger", "George Marshall", "Dean Acheson"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel traité historique est considéré comme le fondement du système moderne des États souverains en Europe ?",
+"correct": "Les traités de Westphalie",
+"wrong": ["Le traité d'Utrecht", "La paix d'Augsbourg", "Le traité de Versailles"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on le résumé écrit non signé remis à l'issue d'un entretien diplomatique pour éviter tout malentendu ?",
+"correct": "Un aide-mémoire",
+"wrong": ["Une note verbale", "Un mémorandum d'entente", "Un communiqué conjoint"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle forme de correspondance diplomatique est rédigée à la troisième personne et non signée, mais porte le sceau de la mission ?",
+"correct": "Une note verbale",
+"wrong": ["Une lettre de rappel", "Une note de protestation", "Un télégramme diplomatique"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel terme désigne la diplomatie menée par des acteurs non gouvernementaux, des citoyens ou des universitaires en parallèle des canaux officiels ?",
+"correct": "La diplomatie de la deuxième voie",
+"wrong": ["La diplomatie parallèle", "La diplomatie souterraine", "La diplomatie publique"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte la doctrine américaine affirmant que toute intervention européenne sur le continent américain serait vue comme un acte hostile ?",
+"correct": "La doctrine Monroe",
+"wrong": ["La doctrine Truman", "La doctrine Wilson", "La doctrine Eisenhower"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel diplomate suédois, secrétaire général de l'ONU, est mort dans un accident d'avion en Afrique et a reçu le prix Nobel de la paix à titre posthume ?",
+"correct": "Dag Hammarskjöld",
+"wrong": ["Trygve Lie", "Kurt Waldheim", "Boutros Boutros-Ghali"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on la pratique consistant à envoyer des navires de guerre près des côtes d'un État pour appuyer une exigence diplomatique ?",
+"correct": "La diplomatie de la canonnière",
+"wrong": ["La diplomatie navale", "Le blocus pacifique", "La projection de puissance"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte l'accord conclu entre l'Iran et les grandes puissances sur le programme nucléaire iranien ?",
+"correct": "Le JCPoA",
+"wrong": ["Le traité START", "Le traité FNI", "Les accords d'Oslo"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel château français le traité de paix mettant fin à la Première Guerre mondiale avec l'Allemagne a-t-il été signé ?",
+"correct": "Le château de Versailles",
+"wrong": ["Le château de Fontainebleau", "Le château de Saint-Germain", "Le château de Rambouillet"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte la politique d'ouverture à l'Est menée par le chancelier ouest-allemand Willy Brandt ?",
+"correct": "L'Ostpolitik",
+"wrong": ["La Weltpolitik", "La Westbindung", "La Realpolitik"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on la représentation diplomatique entre deux pays membres du Commonwealth ?",
+"correct": "Un haut-commissariat",
+"wrong": ["Une légation", "Un consulat général", "Une délégation permanente"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle expression désigne l'ordre dans lequel les signatures apposées sur un traité sont alternées pour respecter l'égalité souveraine des États ?",
+"correct": "L'alternat",
+"wrong": ["La préséance", "La parité", "La réciprocité"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom portait autrefois une mission diplomatique permanente de rang inférieur à une ambassade, dirigée par un ministre plénipotentiaire ?",
+"correct": "Une légation",
+"wrong": ["Une résidence", "Une agence consulaire", "Une intendance"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on le document officiel par lequel un État met fin à la mission de son ambassadeur auprès d'un pays étranger ?",
+"correct": "Les lettres de rappel",
+"wrong": ["Les lettres de créance", "Les lettres patentes", "Les lettres de cachet"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel terme désigne la pratique diplomatique consistant à faire voyager un médiateur d'une capitale à l'autre entre deux belligérants qui refusent de se parler directement ?",
+"correct": "La diplomatie de la navette",
+"wrong": ["La diplomatie itinérante", "La diplomatie triangulaire", "La diplomatie pendulaire"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle clause du droit des traités permet d'invoquer un changement fondamental de circonstances pour se délier d'une obligation ?",
+"correct": "Rebus sic stantibus",
+"wrong": ["Pacta sunt servanda", "Mutatis mutandis", "Ex aequo et bono"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on l'acte diplomatique par lequel un État déclare qu'une disposition d'un traité ne s'appliquera pas à lui ?",
+"correct": "Une réserve",
+"wrong": ["Une dérogation", "Une objection", "Une déclaration interprétative"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel principe du droit international établit que les États nouvellement indépendants conservent les frontières héritées de la colonisation ?",
+"correct": "Uti possidetis juris",
+"wrong": ["Terra nullius", "Jus sanguinis", "Mare liberum"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom donne-t-on au groupe informel des ambassadeurs de France ayant obtenu la plus haute dignité honorifique de la carrière diplomatique ?",
+"correct": "Ambassadeur de France",
+"wrong": ["Ministre d'État", "Plénipotentiaire hors classe", "Conseiller d'État en service extraordinaire"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel traité signé en Espagne a partagé les terres nouvellement découvertes hors d'Europe entre le Portugal et la Castille ?",
+"correct": "Le traité de Tordesillas",
+"wrong": ["Le traité de Saragosse", "Le traité d'Alcáçovas", "Le traité d'Utrecht"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on la norme impérative du droit international général à laquelle aucune dérogation n'est permise ?",
+"correct": "Le jus cogens",
+"wrong": ["Le jus gentium", "Le jus ad bellum", "Le jus in bello"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle expression désigne l'événement où le déclenchement d'une alliance oblige un État allié à entrer en guerre ?",
+"correct": "Le casus foederis",
+"wrong": ["Le casus belli", "Le jus ad bellum", "Le statu quo ante"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte la salle du Quai d'Orsay où Robert Schuman a prononcé sa célèbre déclaration fondatrice de la construction européenne ?",
+"correct": "Le salon de l'Horloge",
+"wrong": ["La galerie des Glaces", "Le salon des Ambassadeurs", "La salle des Fêtes"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on un mémorandum d'entente non contraignant juridiquement signé entre deux administrations ou États ?",
+"correct": "Un MoU",
+"wrong": ["Un traité bilatéral", "Un concordat", "Un protocole additionnel"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel terme désigne l'accord conclu spécifiquement entre le Saint-Siège et un État sur les affaires religieuses ?",
+"correct": "Un concordat",
+"wrong": ["Une encyclique", "Une bulle pontificale", "Un motu proprio"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel diplomate français, prix Nobel de la paix, a négocié le pacte Briand-Kellogg mettant la guerre hors la loi ?",
+"correct": "Aristide Briand",
+"wrong": ["Léon Bourgeois", "Paul d'Estournelles de Constant", "René Cassin"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on le personnel technique et administratif d'une ambassade qui ne possède pas le statut de diplomate ?",
+"correct": "Le personnel administratif et technique",
+"wrong": ["Les attachés de légation", "Les secrétaires d'ambassade", "Les agents consulaires"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle ville suisse a accueilli la conférence internationale qui a entériné la fin de la guerre d'Indochine française ?",
+"correct": "Genève",
+"wrong": ["Lausanne", "Locarno", "Montreux"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel terme désigne l'ensemble des règles juridiques régissant la conduite des hostilités une fois qu'un conflit armé a éclaté ?",
+"correct": "Le jus in bello",
+"wrong": ["Le jus ad bellum", "Le jus cogens", "Le jus soli"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel mot d'origine grecque désigne la diplomatie exercée par des personnalités célèbres ou des artistes au nom d'une cause internationale ?",
+"correct": "La diplomatie des célébrités",
+"wrong": ["La paradiplomatie", "La diplomatie culturelle", "La diplomatie publique"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on l'action internationale menée directement par des collectivités territoriales comme les régions ou les villes ?",
+"correct": "La paradiplomatie",
+"wrong": ["La diplomatie parallèle", "La diplomatie bilatérale", "La diplomatie de proximité"]
+}
+]
+}

@@ -1,0 +1,805 @@
+{
+  "theme": "Esport français",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quel club esport français a été cofondé par le streameur Kameto et Prime ?",
+      "correct": "Karmine Corp",
+      "wrong": [
+        "Team Vitality",
+        "Gentle Mates",
+        "Solary"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle couleur emblématique est associée au club français Team Vitality ?",
+      "correct": "Le jaune",
+      "wrong": [
+        "Le bleu roi",
+        "Le rouge vif",
+        "Le vert fluo"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel célèbre trio de youtubeurs français a fondé le club Gentle Mates ?",
+      "correct": "Squeezie, Gotaga et Brawks",
+      "wrong": [
+        "Kameto, Prime et Kotei",
+        "Domingo, Ponce et Étoiles",
+        "Zerator, Dach et Doigby"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Sur quel jeu de tir tactique le joueur français ZywOo a-t-il été élu meilleur joueur du monde ?",
+      "correct": "Counter-Strike",
+      "wrong": [
+        "Valorant",
+        "Overwatch",
+        "Rainbow Six Siege"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle webTV et structure esportive française basée à Tours est représentée par un logo jaune et noir ?",
+      "correct": "Solary",
+      "wrong": [
+        "Lunary",
+        "Mandatory",
+        "Aegis"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel célèbre joueur français de Call of Duty est surnommé « The French Monster » ?",
+      "correct": "Gotaga",
+      "wrong": [
+        "Brawks",
+        "Carbon",
+        "Broken"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Sur quel jeu de football en voiture la Karmine Corp et Team Vitality ont-elles remporté des titres mondiaux majeurs ?",
+      "correct": "Rocket League",
+      "wrong": [
+        "EA Sports FC",
+        "Trackmania",
+        "F1"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel événement caritatif et compétitif annuel autour du speedrun et du jeu vidéo est organisé par ZeratoR ?",
+      "correct": "La ZLAN",
+      "wrong": [
+        "La Trackmania Cup",
+        "Le ZEvent",
+        "Le SpeeDons"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom du championnat de France officiel sur League of Legends ?",
+      "correct": "La LFL",
+      "wrong": [
+        "La LEC",
+        "La Div 2",
+        "La LCK"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel club esportif français fondé par ZeratoR tire son nom d'une expression liée à un marteau ?",
+      "correct": "Mandatory",
+      "wrong": [
+        "Aegis",
+        "Valiant",
+        "IziDream"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel célèbre joueur français de League of Legends a évolué au poste de midlaner chez Fnatic et G2 Esports ?",
+      "correct": "sOAZ (toplaner) — aucun midlaner",
+      "wrong": [
+        "Caps",
+        "Perkz",
+        "Rekkles"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel club français possède une arène dédiée à ses matchs et ses fans à Évry-Courcouronnes ?",
+      "correct": "La Karmine Corp",
+      "wrong": [
+        "Team Vitality",
+        "Team LDLC",
+        "GamersOrigin"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Sur quel jeu de course automobile le joueur CarlJr est-il une légende ?",
+      "correct": "Trackmania",
+      "wrong": [
+        "Gran Turismo",
+        "Forza Motorsport",
+        "Assetto Corsa"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel ancien champion du monde français de Warcraft III et StarCraft II est une figure historique de l'esport ?",
+      "correct": "Stephano",
+      "wrong": [
+        "ToD",
+        "MarineLorD",
+        "Clem"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel club esportif historique français portait les couleurs orange et noir et représentait la ville de Lyon ?",
+      "correct": "Team LDLC",
+      "wrong": [
+        "Millenium",
+        "against All authority",
+        "Team BDS"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel célèbre évènement de présentation d'équipes organisé par la Karmine Corp porte le nom « KCX » ?",
+      "correct": "Karmine Corp Experience",
+      "wrong": [
+        "Karmine Club Xtreme",
+        "Kameto Championship X",
+        "Karmine Clash X"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel joueur français de Street Fighter a remporté l'EVO et est surnommé « Luffy » ?",
+      "correct": "Olivier Hay",
+      "wrong": [
+        "Ryan Hart",
+        "Kayane",
+        "Mister Crimson"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel club esportif suisse-français est connu pour son logo rose et bleu et ses performances sur Rocket League et LoL ?",
+      "correct": "Team BDS",
+      "wrong": [
+        "Solary",
+        "Gentle Mates",
+        "GameWard"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle le groupe de supporters ultra-actif qui encourage la Karmine Corp dans les stades ?",
+      "correct": "Le Blue Wall",
+      "wrong": [
+        "Les Golden Hornets",
+        "La Meute",
+        "Les Ultras Bleus"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel ancien joueur professionnel français de League of Legends est devenu un commentateur emblématique d'OTP ?",
+      "correct": "Tweekz",
+      "wrong": [
+        "Nono",
+        "Trayton",
+        "Chips"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel duo de commentateurs français a popularisé l'esport League of Legends avec la structure O'Gaming ?",
+      "correct": "Chips et Noi",
+      "wrong": [
+        "Pomf et Thud",
+        "Doigby et Kameto",
+        "Tweekz et Trayton"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel joueur français de League of Legends a remporté le titre de MVP du Summer Split de la LEC avec MAD Lions ?",
+      "correct": "Nisqy",
+      "wrong": [
+        "Hans sama",
+        "Vetheo",
+        "Adam"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle la structure esportive fondée par les anciens membres de Millenium et d'O'Gaming autour de MisterMV, Shaunz et Dfg ?",
+      "correct": "Aegis",
+      "wrong": [
+        "Solary",
+        "Mandatory",
+        "Joblife"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel joueur français de Counter-Strike est célèbre pour ses actions spectaculaires au sniper et son surnom « kennyS » ?",
+      "correct": "Kenny Schrub",
+      "wrong": [
+        "Richard Papillon",
+        "Dan Madesclaire",
+        "Mathieu Herbaut"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle équipe française historique a remporté la toute première édition de la DreamHack sur League of Legends face à Fnatic en finale ?",
+      "correct": "against All authority (aAa)",
+      "wrong": [
+        "Millenium",
+        "Team LDLC",
+        "Eclypsia"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel joueur français de Rocket League a remporté les Championnats du monde avec Team Vitality en tant que prodige dès sa première saison ?",
+      "correct": "zen",
+      "wrong": [
+        "Vatira",
+        "Alpha54",
+        "Kaydop"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel club français fondé par le streameur Tomy porte un nom inspiré d'un cri de guerre ?",
+      "correct": "Joblife",
+      "wrong": [
+        "IziDream",
+        "Valiant",
+        "BK ROG"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel joueur français de Super Smash Bros. Ultimate est considéré comme l'un des meilleurs joueurs mondiaux de Mr. Game & Watch et Wario ?",
+      "correct": "Glutonny",
+      "wrong": [
+        "MkLeo",
+        "Raflow",
+        "Oryon"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel célèbre joueur français de StarCraft II a été sacré champion du monde à l'Esports World Cup ?",
+      "correct": "Clem",
+      "wrong": [
+        "Stephano",
+        "MarineLorD",
+        "Serral"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle le groupe officiel des supporters de Team Vitality ?",
+      "correct": "Les Golden Hornets",
+      "wrong": [
+        "Le Blue Wall",
+        "La Ruche",
+        "Les Yellow Jackets"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel joueur français évolue au poste de tireur (ADC) chez G2 Esports sur League of Legends ?",
+      "correct": "Hans sama",
+      "wrong": [
+        "Exakick",
+        "Caliste",
+        "Upset"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel ancien joueur professionnel français de Counter-Strike est le capitaine emblématique de Team Vitality ?",
+      "correct": "apEX",
+      "wrong": [
+        "shox",
+        "NBK-",
+        "ZywOo"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle joueuse française est une figure historique des jeux de combat, notamment sur Soulcalibur et Street Fighter ?",
+      "correct": "Kayane",
+      "wrong": [
+        "Geguri",
+        "Scarlett",
+        "Jiu"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel club français d'esport a été fondé par des anciens de l'olympique lyonnais avant de devenir LDLC OL ?",
+      "correct": "Team LDLC",
+      "wrong": [
+        "Team Vitality",
+        "GamersOrigin",
+        "MCES"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Sur quel jeu de cartes stratégique le Français Pavel a-t-il été sacré champion du monde à la BlizzCon ?",
+      "correct": "Hearthstone",
+      "wrong": [
+        "Magic: The Gathering",
+        "Legends of Runeterra",
+        "Gwent"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel club esport français a été cofondé par les footballeurs Antoine Griezmann et son frère Théo ?",
+      "correct": "Grizi Esport",
+      "wrong": [
+        "MCES",
+        "GameWard",
+        "IziDream"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel joueur français de Rocket League a remporté trois titres de champion du monde ?",
+      "correct": "Kaydop",
+      "wrong": [
+        "Fairy Peak!",
+        "Alpha54",
+        "M0nkey M00n"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle chaîne Twitch française diffuse l'intégralité des compétitions majeures de League of Legends depuis la fin d'O'Gaming LoL ?",
+      "correct": "OTP",
+      "wrong": [
+        "Solary",
+        "MGG",
+        "Eclypsia"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel célèbre joueur français de League of Legends a remporté le trophée des EMEA Masters à de multiples reprises avec la Karmine Corp ?",
+      "correct": "Saken",
+      "wrong": [
+        "Cabochard",
+        "Cinkrof",
+        "Targamas"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel joueur français de Valorant a remporté les Masters de Madrid avec l'équipe Sentinels ?",
+      "correct": "johnqt (marocain) — aucun français chez Sentinels",
+      "wrong": [
+        "nAts",
+        "Derke",
+        "scream"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du duo de commentateurs français pionniers sur StarCraft II ayant fondé O'Gaming TV ?",
+      "correct": "Pomf et Thud",
+      "wrong": [
+        "Chips et Noi",
+        "Yogo et Anoss",
+        "Makoz et Imre"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel joueur français de Street Fighter joue principalement Dhalsim au plus haut niveau mondial ?",
+      "correct": "Mister Crimson",
+      "wrong": [
+        "Luffy",
+        "Valmaster",
+        "Alioune"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel ancien toplaner français de la Karmine Corp a également joué pour Team Vitality et Fnatic en LEC ?",
+      "correct": "Cabochard",
+      "wrong": [
+        "Adam",
+        "sOAZ",
+        "Eika"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel joueur français de Counter-Strike a remporté deux Majors avec Team Envy et Team LDLC ?",
+      "correct": "NBK-",
+      "wrong": [
+        "ZywOo",
+        "bodyy",
+        "ALEX"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle la structure française basée à Boulogne-Billancourt connue pour ses équipes sur Fortnite et League of Legends ?",
+      "correct": "GameWard",
+      "wrong": [
+        "MCES",
+        "GamersOrigin",
+        "GO"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le pseudo du joueur français d'Age of Empires IV et StarCraft II réputé pour sa polyvalence sur les jeux de stratégie ?",
+      "correct": "MarineLorD",
+      "wrong": [
+        "Stephano",
+        "Clem",
+        "DnS"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle ancienne équipe française sur Counter-Strike: Source et Global Offensive était célèbre pour son duel au sommet contre Ninjas in Pyjamas ?",
+      "correct": "VeryGames",
+      "wrong": [
+        "Millenium",
+        "against All authority",
+        "Titan"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel joueur français de Rocket League a remporté deux titres mondiaux avec Team BDS ?",
+      "correct": "M0nkey M00n",
+      "wrong": [
+        "Extra",
+        "Seikoo",
+        "Vatira"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du joueur français de Tekken considéré comme l'un des meilleurs joueurs européens ?",
+      "correct": "Super Akouma",
+      "wrong": [
+        "Knee",
+        "Arslan Ash",
+        "Gen"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel club français fondé à Marseille comptait parmi ses actionnaires le nageur Yannick Agnel ?",
+      "correct": "MCES",
+      "wrong": [
+        "IziDream",
+        "Team Oplon",
+        "Lunary"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel jeune prodige français au poste d'ADC a remporté les EMEA Masters avec la Karmine Corp Blue avant de monter en LEC ?",
+      "correct": "Caliste",
+      "wrong": [
+        "Exakick",
+        "Hans sama",
+        "Jezu"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel joueur belge francophone surnommé « Headshot Machine » a marqué l'histoire de Counter-Strike et Valorant ?",
+      "correct": "ScreaM",
+      "wrong": [
+        "Ex6TenZ",
+        "Nivera",
+        "to1nou"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel ancien midlaner français de Team Vitality et de la Karmine Corp est connu pour son jeu agressif sur Akali et Zoe ?",
+      "correct": "Vetheo",
+      "wrong": [
+        "Saken",
+        "Toucouille",
+        "Eika"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel club esport français porte les couleurs de la célèbre marque de matériel informatique Asus ?",
+      "correct": "ROG Esport",
+      "wrong": [
+        "MSI Gaming",
+        "Predator Esport",
+        "Omen Squad"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel streameur et ancien joueur professionnel français de Hearthstone est l'un des cofondateurs de Solary ?",
+      "correct": "Tio",
+      "wrong": [
+        "Chap",
+        "Wakz",
+        "Lrb"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel joueur français d'Overwatch a remporté la Overwatch League avec les San Francisco Shock et les Dallas Fuel ?",
+      "correct": "Fielder (coréen) — aucun français",
+      "wrong": [
+        "SoOn",
+        "Poko",
+        "BenBest"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel joueur français de Rainbow Six Siege a remporté le Six Invitational avec G2 Esports ?",
+      "correct": "Aucun français chez G2 R6",
+      "wrong": [
+        "Elemzje",
+        "Shaiiko",
+        "BiBoo"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel joueur français de Rainbow Six Siege est considéré comme l'une des plus grandes stars mécaniques mondiales chez Team BDS ?",
+      "correct": "Shaiiko",
+      "wrong": [
+        "BriD",
+        "Renshiro",
+        "LikEfac"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel célèbre joueur français de FIFA / EA Sports FC a été sacré champion du monde à la FIFA eWorld Cup ?",
+      "correct": "Bruce Grannec",
+      "wrong": [
+        "DaXe",
+        "Maestro",
+        "Rocky"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du tournoi français sur Trackmania organisé par ZeratoR qui a rempli l'Accor Arena de Bercy ?",
+      "correct": "La ZrT TrackMania Cup",
+      "wrong": [
+        "La ZLAN",
+        "La Trackmania World Cup",
+        "L'Ascension"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le vrai prénom et nom du cofondateur de Team Vitality surnommé « Neo » ?",
+      "correct": "Fabien Devide",
+      "wrong": [
+        "Nicolas Maurer",
+        "Kamel Kebir",
+        "Corentin Houssein"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel joueur français de Counter-Strike a remporté le Major de Paris devant son public avec Team Vitality ?",
+      "correct": "ZywOo et apEX",
+      "wrong": [
+        "shox et kennyS",
+        "NBK- et bodyy",
+        "KioShiMa et Happy"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la première équipe de Kameto et Prime avant qu'elle ne soit rebaptisée Karmine Corp ?",
+      "correct": "Kameto Corp",
+      "wrong": [
+        "KCorp",
+        "Blue Wall Gaming",
+        "Team Kameto"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel joueur français de StarCraft II a été le premier non-Coréen à remporter un tournoi majeur en Corée du Sud (à l'IPL / WCS) ?",
+      "correct": "Stephano",
+      "wrong": [
+        "ToD",
+        "Dayshi",
+        "Lilbow"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le pseudonyme du joueur français qui a remporté la toute première édition de la Fortnite World Cup en mode Créatif ou Duo ?",
+      "correct": "Aucun français n'a gagné la finale",
+      "wrong": [
+        "Airwaks",
+        "Skite",
+        "Vato"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel joueur français de Hearthstone a atteint la finale du championnat du monde sous les couleurs de Millenium ?",
+      "correct": "Torlk n'y était pas, c'était Winamax",
+      "wrong": [
+        "Odemian",
+        "Tars",
+        "Maverick"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel ancien joueur français de League of Legends est célèbre pour avoir joué Darius, Olaf et Garen au plus haut niveau européen avec Schalke 04 et Team BDS ?",
+      "correct": "Adam",
+      "wrong": [
+        "Cabochard",
+        "sOAZ",
+        "Sheo"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la webTV historique fondée par Skyyart, Jiraya et Lege avant la création de Solary ?",
+      "correct": "Eclypsia",
+      "wrong": [
+        "Millenium",
+        "O'Gaming",
+        "Armateam"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel joueur français d'Overwatch était célèbre pour ses bombes autodestructrices avec D.Va au sein des Philadelphia Fusion ?",
+      "correct": "Poko",
+      "wrong": [
+        "SoOn",
+        "uNKOE",
+        "aKm"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel commentateur français emblématique d'O'Gaming et d'OTP est surnommé « le Général » ?",
+      "correct": "Noi",
+      "wrong": [
+        "Chips",
+        "Tweekz",
+        "Trayton"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel joueur français de Counter-Strike est surnommé « The Problem » après avoir remporté deux Majors avec Team EnVyUs et FaZe Clan ?",
+      "correct": "kioShiMa",
+      "wrong": [
+        "Happy",
+        "Sixer",
+        "RpK"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le pseudonyme de l'ancien joueur français de Counter-Strike surnommé « Le Tank » ?",
+      "correct": "RpK",
+      "wrong": [
+        "SmithZz",
+        "Ex6TenZ",
+        "Maniac"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle équipe française d'esport portait le nom d'une célèbre plateforme de streaming de jeux vidéo basée à Rennes ?",
+      "correct": "Millenium",
+      "wrong": [
+        "Eclypsia",
+        "aAa",
+        "GamersOrigin"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du jungler français ayant joué pour Team BDS en LEC aux côtés d'Adam et Nuc ?",
+      "correct": "Sheo",
+      "wrong": [
+        "Skeanz",
+        "Boukada",
+        "113"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel joueur français de Quake a remporté de nombreux titres mondiaux sur Quake III Arena et Quake Live ?",
+      "correct": "winz",
+      "wrong": [
+        "Strenx",
+        "Spart1e",
+        "aKm"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel ancien joueur français de League of Legends a été le premier Français à participer aux Championnats du monde (Worlds) ?",
+      "correct": "sOAZ et YellowStar",
+      "wrong": [
+        "Hans sama et Cabochard",
+        "Nisqy et Vetheo",
+        "Saken et Targamas"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du support français qui a disputé deux finales des Championnats du monde de League of Legends avec Fnatic ?",
+      "correct": "YellOwStaR",
+      "wrong": [
+        "Nrated",
+        "Hylissang",
+        "Mikyx"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel club français fondé par le streameur Kenny est connu pour ses équipes sur Trackmania et Valorant ?",
+      "correct": "Solary",
+      "wrong": [
+        "Mandatory",
+        "Joblife",
+        "Valiant"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel joueur français de FIFA a remporté la Coupe du Monde des Clubs avec la Team Vitality ?",
+      "correct": "Maestro et RocKy",
+      "wrong": [
+        "DaXe et Fouma",
+        "Bruce Grannec et Brak",
+        "Herozia et DPeix"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du tournoi français sur Teamfight Tactics organisé par Shaunz ?",
+      "correct": "La Hex League",
+      "wrong": [
+        "La Tactician Cup",
+        "Le TFT Open",
+        "La Golden Spatula"
+      ]
+    }
+  ]
+}

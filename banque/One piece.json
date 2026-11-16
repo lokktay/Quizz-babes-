@@ -1,0 +1,485 @@
+{
+"theme": "One Piece",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel est le rêve ultime de Monkey D. Luffy ?",
+"correct": "Devenir le Roi des Pirates",
+"wrong": ["Trouver All Blue", "Devenir amiral en chef", "Cartographier le monde"]
+},
+{
+"difficulty": "facile",
+"question": "Quel Fruit du Démon Luffy a-t-il mangé ?",
+"correct": "Le Gomu Gomu no Mi",
+"wrong": ["Le Mera Mera no Mi", "Le Bara Bara no Mi", "Le Hito Hito no Mi"]
+},
+{
+"difficulty": "facile",
+"question": "Qui a donné son célèbre chapeau de paille à Luffy ?",
+"correct": "Shanks le Roux",
+"wrong": ["Gol D. Roger", "Portgas D. Ace", "Monkey D. Garp"]
+},
+{
+"difficulty": "facile",
+"question": "Combien de sabres Roronoa Zoro utilise-t-il simultanément en combat ?",
+"correct": "Trois sabres",
+"wrong": ["Deux sabres", "Un seul sabre", "Quatre sabres"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le rôle de Nami au sein de l'équipage du Chapeau de Paille ?",
+"correct": "Navigatrice",
+"wrong": ["Cuisinière", "Médecin", "Archéologue"]
+},
+{
+"difficulty": "facile",
+"question": "Quel animal est Tony Tony Chopper ?",
+"correct": "Un renne",
+"wrong": ["Un raton laveur", "Un ours polaire", "Un chien viverrin"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la mer légendaire que Sanji rêve de découvrir ?",
+"correct": "All Blue",
+"wrong": ["Grand Line", "East Blue", "Red Line"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le nom du premier navire de l'équipage du Chapeau de Paille ?",
+"correct": "Le Vogue Merry",
+"wrong": ["Le Thousand Sunny", "Le Moby Dick", "L'Oro Jackson"]
+},
+{
+"difficulty": "facile",
+"question": "Qui est le frère adoptif de Luffy qui maîtrise les flammes ?",
+"correct": "Portgas D. Ace",
+"wrong": ["Trafalgar Law", "Eustass Kid", "Coby"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la faiblesse commune à tous les utilisateurs de Fruits du Démon ?",
+"correct": "L'eau de mer",
+"wrong": ["Le feu intense", "La lumière du jour", "Le sel marin"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le rôle de Sanji sur le navire de Luffy ?",
+"correct": "Cuisinier",
+"wrong": ["Charpentier", "Tireur d'élite", "Musicien"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le nom du deuxième navire de l'équipage construit par Franky ?",
+"correct": "Le Thousand Sunny",
+"wrong": ["Le Vogue Merry", "Le Red Force", "Le Polar Tang"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est l'instrument de musique de prédilection de Brook ?",
+"correct": "Le violon",
+"wrong": ["La trompette", "Le tambour", "La flûte"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la particularité physique de Usopp ?",
+"correct": "Un très long nez",
+"wrong": ["Des cheveux verts", "Une cicatrice à l'œil", "Des sourcils en spirale"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le métier de Nico Robin dans l'équipage ?",
+"correct": "Archéologue",
+"wrong": ["Cartographe", "Historienne", "Scientifique"]
+},
+{
+"difficulty": "facile",
+"question": "Quel pirate clown est l'un des premiers ennemis de Luffy sur East Blue ?",
+"correct": "Baggy le Clown",
+"wrong": ["Arlong", "Don Krieg", "Capitaine Kuro"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la devise inscrite sur le drapeau de l'équipage de Luffy ?",
+"correct": "Un crâne au chapeau de paille",
+"wrong": ["Un crâne aux trois cicatrices", "Un crâne entouré de flammes", "Un crâne avec deux sabres"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le défaut d'orientation bien connu de Roronoa Zoro ?",
+"correct": "Il se perd tout le temps",
+"wrong": ["Il lit les cartes à l'envers", "Il a le mal de mer", "Il confond droite et gauche"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle boisson énergise le corps cyborg de Franky ?",
+"correct": "Le cola",
+"wrong": ["Le café", "Le thé vert", "Le jus d'orange"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le grand-père de Luffy qui est vice-amiral de la Marine ?",
+"correct": "Monkey D. Garp",
+"wrong": ["Monkey D. Dragon", "Sengoku", "Smoker"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le sabre blanc que Zoro a hérité de son amie Kuina ?",
+"correct": "Wado Ichimonji",
+"wrong": ["Sandai Kitetsu", "Shusui", "Enma"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du royaume désertique où l'équipage affronte Crocodile ?",
+"correct": "Alabasta",
+"wrong": ["Dressrosa", "Skypiea", "Wano"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle la princesse d'Alabasta qui voyage temporairement avec l'équipage ?",
+"correct": "Nefertari Vivi",
+"wrong": ["Rebecca", "Shirahoshi", "Kozuki Hiyori"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du Fruit du Démon mangé par Trafalgar Law ?",
+"correct": "Le Ope Ope no Mi",
+"wrong": ["Le Yami Yami no Mi", "Le Gura Gura no Mi", "Le Ito Ito no Mi"]
+},
+{
+"difficulty": "moyen",
+"question": "Qui est le père biologique de Monkey D. Luffy ?",
+"correct": "Monkey D. Dragon",
+"wrong": ["Gol D. Roger", "Silvers Rayleigh", "Shanks le Roux"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du célèbre chirurgien de la mort allié de Luffy ?",
+"correct": "Trafalgar D. Water Law",
+"wrong": ["Eustass Captain Kid", "Capone Bege", "Basil Hawkins"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel amiral de la Marine possède les pouvoirs du Fruit du Magma ?",
+"correct": "Akainu",
+"wrong": ["Aokiji", "Kizaru", "Fujitora"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'île céleste située au-dessus des nuages ?",
+"correct": "Skypiea",
+"wrong": ["Zou", "Punk Hazard", "Water Seven"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom de la baleine géante qui attend l'équipage de Brook à Reverse Mountain ?",
+"correct": "Laboon",
+"wrong": ["Zunesha", "Wadatsumi", "Surume"]
+},
+{
+"difficulty": "moyen",
+"question": "Qui était le second de l'équipage de Gol D. Roger ?",
+"correct": "Silvers Rayleigh",
+"wrong": ["Scopper Gaban", "Crocus", "Kozuki Oden"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom de l'organisation criminelle dirigée secrètement par Crocodile ?",
+"correct": "Baroque Works",
+"wrong": ["CP9", "Germa 66", "La Famille Don Quichotte"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'arme climatologique fabriquée par Usopp pour Nami ?",
+"correct": "Le Climat-Tact",
+"wrong": ["Le Kabuto", "Le Log Pose", "Le Dial"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom de l'île judiciaire où l'équipage va sauver Nico Robin ?",
+"correct": "Enies Lobby",
+"wrong": ["Impel Down", "Marineford", "Marie Joie"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom de la prison sous-marine quasi inviolable du Gouvernement Mondial ?",
+"correct": "Impel Down",
+"wrong": ["Enies Lobby", "Punk Hazard", "Loguetown"]
+},
+{
+"difficulty": "moyen",
+"question": "De quelle espèce d'homme-poisson Jinbe fait-il partie ?",
+"correct": "Un requin-baleine",
+"wrong": ["Un grand requin blanc", "Un poulpe", "Une raie manta"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du restaurant flottant où Sanji travaillait comme sous-chef ?",
+"correct": "Le Baratie",
+"wrong": ["Le Sexy Foxy", "Le Thriller Bark", "Le Maxim"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le véritable nom de Franky ?",
+"correct": "Cutty Flam",
+"wrong": ["Iceburg", "Tom", "Pauly"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'île vivante située sur le dos d'un éléphant géant ?",
+"correct": "Zou",
+"wrong": ["Wano", "Elbaf", "Whole Cake Island"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom de l'éléphant géant qui porte la civilisation des Minks ?",
+"correct": "Zunesha",
+"wrong": ["Laboon", "Momoo", "Karoo"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel personnage dirige l'Armée Révolutionnaire ?",
+"correct": "Monkey D. Dragon",
+"wrong": ["Sabo", "Emporio Ivankov", "Bartholomew Kuma"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du navire de Gol D. Roger ?",
+"correct": "L'Oro Jackson",
+"wrong": ["Le Moby Dick", "Le Red Force", "Le Queen Mama Chanter"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du charpentier légendaire qui a construit le navire de Gol D. Roger ?",
+"correct": "Tom",
+"wrong": ["Iceburg", "Franky", "Den"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de l'archipel où les pirates doivent faire revêtir leur navire avant l'Île des Hommes-Poissons ?",
+"correct": "L'Archipel Sabaody",
+"wrong": ["L'Archipel Boin", "L'Île de Rusukaina", "L'Île de Kuraigana"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du médecin de bord de l'équipage de Gol D. Roger qui vit au Cap des Jumeaux ?",
+"correct": "Crocus",
+"wrong": ["Hiluluk", "Kureha", "Hogback"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le sabre noir légendaire manié par Dracule Mihawk ?",
+"correct": "Yoru",
+"wrong": ["Gryphon", "Ace", "Murakumogiri"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du Fruit du Démon de Barbe Noire ?",
+"correct": "Le Yami Yami no Mi",
+"wrong": ["Le Gura Gura no Mi", "Le Kage Kage no Mi", "Le Doku Doku no Mi"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de l'ancien équipage de pirates dans lequel naviguait Brook ?",
+"correct": "L'Équipage du Rumbar",
+"wrong": ["L'Équipage du Rolling", "L'Équipage des Rocks", "L'Équipage du Soleil"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'île natale de Nico Robin détruite par un Buster Call ?",
+"correct": "Ohara",
+"wrong": ["Flevance", "God Valley", "Lulusia"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de la maladie mortelle qui a ravagé Flevance, la ville natale de Trafalgar Law ?",
+"correct": "Le saturnisme",
+"wrong": ["La fièvre des arbres", "La maladie de l'ambre", "La peste blanche"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du sabre de Kozuki Oden qui draine le Haki de son porteur et est remis à Zoro ?",
+"correct": "Enma",
+"wrong": ["Ame no Habakiri", "Shusui", "Kitetsu"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le géant ancien de Thriller Bark dans lequel Gecko Moria implante l'ombre de Luffy ?",
+"correct": "Oars",
+"wrong": ["Dorry", "Brogy", "Hajrudin"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de l'identité secrète masquée d'Usopp à Enies Lobby ?",
+"correct": "Sogeking",
+"wrong": ["God Usopp", "Usohachi", "Capitaine Usopp"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle est la véritable identité du Fruit du Démon de Luffy révélée à Wano ?",
+"correct": "Hito Hito no Mi, modèle Nika",
+"wrong": ["Hito Hito no Mi, modèle Daibutsu", "Zou Zou no Mi, modèle Mammouth", "Tori Tori no Mi, modèle Phénix"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le royaume natal de la famille Vinsmoke ?",
+"correct": "Le Royaume de Germa",
+"wrong": ["Le Royaume de Ballywood", "Le Royaume de Drum", "Le Royaume de Goa"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de la boussole spéciale nécessaire pour naviguer sur Grand Line ?",
+"correct": "Le Log Pose",
+"wrong": ["L'Eternal Pose", "La Vivre Card", "Le South Bird"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le journal mondial dirigé par Morgans ?",
+"correct": "World Economy News Paper",
+"wrong": ["Grand Line Times", "Marine Chronicle", "Red Line Post"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du navire amiral de Barbe Blanche ?",
+"correct": "Le Moby Dick",
+"wrong": ["Le Queen Mama Chanter", "Le Saber of Xebec", "Le Victoria Punk"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel personnage dirigeait le CP9 lors de l'arc Enies Lobby ?",
+"correct": "Spandam",
+"wrong": ["Rob Lucci", "Kaku", "Jabura"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de l'île hivernale où l'équipage recrute Tony Tony Chopper ?",
+"correct": "L'Île de Drum",
+"wrong": ["L'Île de Karakuri", "Punk Hazard", "L'Île de Baltigo"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le mentor médecin qui a recueilli Chopper et lui a transmis sa passion ?",
+"correct": "Le Docteur Hiluluk",
+"wrong": ["Le Docteur Kureha", "Le Docteur Vegapunk", "Le Docteur Hogback"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom exact de l'épée de Shanks le Roux ?",
+"correct": "Gryphon",
+"wrong": ["Ace", "Murakumogiri", "Napoleon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de l'arme antique incarnée par la princesse sirène Shirahoshi ?",
+"correct": "Poséidon",
+"wrong": ["Pluton", "Uranus", "Hadès"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du sabre de Gol D. Roger ?",
+"correct": "Ace",
+"wrong": ["Gryphon", "Yoru", "Raiu"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelait le capitaine légendaire de l'équipage des Rocks ?",
+"correct": "Rocks D. Xebec",
+"wrong": ["Edward Newgate", "Shiki le Lion d'Or", "Wang Zhi"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la chèvre de compagnie de l'ancien amiral en chef Sengoku ?",
+"correct": "Elle n'a pas de nom officiel",
+"wrong": ["Biquette", "Mouton", "Sengokette"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du village natal de Monkey D. Luffy sur l'île de Dawn ?",
+"correct": "Le Village de Fuschia",
+"wrong": ["Le Village de Shimotsuki", "Le Village de Sirop", "Le Village de Cocoyashi"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du village natal de Nami ?",
+"correct": "Le Village de Cocoyashi",
+"wrong": ["Le Village de Fuschia", "Le Village de Sirop", "Le Village d'Orange"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du Fruit du Démon de Don Quichotte Doflamingo ?",
+"correct": "Le Ito Ito no Mi",
+"wrong": ["Le Hobi Hobi no Mi", "Le Beta Beta no Mi", "Le Buki Buki no Mi"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la technique de marche aérienne utilisée par Sanji et le CP9 ?",
+"correct": "Geppo",
+"wrong": ["Soru", "Tekkai", "Rankyaku"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de l'oiseau qui indique toujours le sud sur Grand Line ?",
+"correct": "Le South Bird",
+"wrong": ["Le News Coo", "Karoo", "Pierre"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du navigateur de l'équipage du Roux ?",
+"correct": "Building Snake",
+"wrong": ["Benn Beckman", "Lucky Roux", "Yasopp"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle le chien héroïque qui protège la boutique d'alimentation animale à Orange Town ?",
+"correct": "Chouchou",
+"wrong": ["Richie", "Lassou", "Stefan"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du ponéglyphe rouge permettant de localiser l'île finale de Laugh Tale ?",
+"correct": "Road Ponéglyphe",
+"wrong": ["Rio Ponéglyphe", "True Ponéglyphe", "Ancient Ponéglyphe"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du canard super-rapide fidèle à la princesse Vivi ?",
+"correct": "Karoo",
+"wrong": ["Pierre", "Hattori", "Pappag"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du pigeon posé sur l'épaule de Rob Lucci ?",
+"correct": "Hattori",
+"wrong": ["Karoo", "Morgans", "Billy"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la langue ancienne gravée sur les Ponéglyphes ?",
+"correct": "Elle n'a pas de nom officiel",
+"wrong": ["Le Lunarien", "L'Oharien", "Le Kozukien"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de l'ingénieur en chef de la Marine et génie scientifique mondial ?",
+"correct": "Dr Vegapunk",
+"wrong": ["Caesar Clown", "Vinsmoke Judge", "Queen"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de l'épée maudite acquise gratuitement par Zoro à Loguetown ?",
+"correct": "Sandai Kitetsu",
+"wrong": ["Yubashiri", "Shusui", "Wado Ichimonji"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle l'autre sabre offert à Zoro par le marchand Ipponmatsu à Loguetown ?",
+"correct": "Yubashiri",
+"wrong": ["Sandai Kitetsu", "Wado Ichimonji", "Enma"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du restaurant flottant de Zeff avant qu'il ne le transforme en navire ?",
+"correct": "Le Cooking George",
+"wrong": ["Le Baratie", "L'Orbit", "Le Miss Love Duck"]
+}
+]
+}

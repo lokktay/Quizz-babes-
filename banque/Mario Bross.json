@@ -1,0 +1,805 @@
+{
+  "theme": "Mario Bross",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quel est le métier historique des frères Mario et Luigi ?",
+      "correct": "Plombiers",
+      "wrong": [
+        "Charpentiers",
+        "Boulangers",
+        "Électriciens"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quelle couleur est la casquette emblématique de Mario ?",
+      "correct": "Rouge",
+      "wrong": [
+        "Verte",
+        "Bleue",
+        "Jaune"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quelle couleur est la casquette de Luigi ?",
+      "correct": "Verte",
+      "wrong": [
+        "Rouge",
+        "Violette",
+        "Orange"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle princesse Mario doit-il le plus souvent sauver ?",
+      "correct": "La princesse Peach",
+      "wrong": [
+        "La princesse Zelda",
+        "La princesse Daisy",
+        "La princesse Harmonie"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui est le grand ennemi juré de Mario, roi des Koopas ?",
+      "correct": "Bowser",
+      "wrong": [
+        "Wario",
+        "Ganondorf",
+        "Donkey Kong"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel petit dinosaure vert sert fidèlement de monture à Mario ?",
+      "correct": "Yoshi",
+      "wrong": [
+        "Birdo",
+        "Koopa",
+        "Rex"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel objet permet à Mario de grandir lorsqu'il le ramasse ?",
+      "correct": "Le Super Champignon",
+      "wrong": [
+        "La Fleur de feu",
+        "La Super Étoile",
+        "La Feuille tanuki"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel pouvoir donne la Fleur de feu à Mario ?",
+      "correct": "Lancer des boules de feu",
+      "wrong": [
+        "Voler dans les airs",
+        "Devenir invincible",
+        "Nager plus vite"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel effet procure la Super Étoile à Mario ?",
+      "correct": "Elle le rend temporairement invincible",
+      "wrong": [
+        "Elle lui donne une vie supplémentaire",
+        "Elle le rétrécit",
+        "Elle gèle ses ennemis"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel éditeur japonais possède et développe les jeux Mario ?",
+      "correct": "Nintendo",
+      "wrong": [
+        "Sega",
+        "Sony",
+        "Capcom"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui est le créateur japonais légendaire de Mario ?",
+      "correct": "Shigeru Miyamoto",
+      "wrong": [
+        "Hideo Kojima",
+        "Satoshi Tajiri",
+        "Masahiro Sakurai"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle le petit personnage à tête de champignon qui aide Peach ?",
+      "correct": "Toad",
+      "wrong": [
+        "Goomba",
+        "Maskass",
+        "Lakitu"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom du royaume gouverné par la princesse Peach ?",
+      "correct": "Le Royaume Champignon",
+      "wrong": [
+        "Le Royaume d'Hyrule",
+        "Le Royaume Sarasaland",
+        "Le Royaume des Nuages"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle célèbre série de jeux de course met en scène Mario et ses amis ?",
+      "correct": "Mario Kart",
+      "wrong": [
+        "Mario Party",
+        "Mario Strikers",
+        "Mario Tennis"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel projectile redouté de Mario Kart vise automatiquement le joueur en première position ?",
+      "correct": "La carapace bleue à épines",
+      "wrong": [
+        "La carapace verte",
+        "La banane",
+        "Le bloc POW"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel objet Mario utilise-t-il pour se déplacer rapidement d'un endroit à un autre dans les niveaux ?",
+      "correct": "Des tuyaux verts",
+      "wrong": [
+        "Des portails magiques",
+        "Des ascenseurs en pierre",
+        "Des tapis volants"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appellent les petits ennemis bruns en forme de champignon que Mario écrase dès les premiers niveaux ?",
+      "correct": "Les Goombas",
+      "wrong": [
+        "Les Koopas",
+        "Les Boos",
+        "Les Bloups"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel ennemi fantôme se cache le visage quand Mario le regarde ?",
+      "correct": "Boo",
+      "wrong": [
+        "Skelerex",
+        "Chomp",
+        "Bob-omb"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel rival gourmand de Mario porte une salopette violette et une casquette jaune ?",
+      "correct": "Wario",
+      "wrong": [
+        "Waluigi",
+        "Bowser Jr.",
+        "Kamek"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle pièce d'or flottante Mario collecte-t-il par centaines dans ses aventures ?",
+      "correct": "Des pièces",
+      "wrong": [
+        "Des anneaux",
+        "Des rubis",
+        "Des bananes"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel nom portait Mario lors de sa toute première apparition dans le jeu d'arcade Donkey Kong ?",
+      "correct": "Jumpman",
+      "wrong": [
+        "Mr. Video",
+        "Plumber Boy",
+        "Super Red"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Pourquoi Shigeru Miyamoto a-t-il doté Mario d'une moustache et d'une casquette à ses débuts ?",
+      "correct": "À cause des limites graphiques de l'époque",
+      "wrong": [
+        "En hommage à son propre père",
+        "Pour imiter un acteur italien",
+        "Pour cacher une cicatrice"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du frère jumeau rival de Luigi qui porte une tenue noire et violette ?",
+      "correct": "Waluigi",
+      "wrong": [
+        "Wario",
+        "Bosco",
+        "Nabbit"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle princesse règne sur le royaume de Sarasaland et apparaît dans Super Mario Land ?",
+      "correct": "La princesse Daisy",
+      "wrong": [
+        "La princesse Peach",
+        "La princesse Harmonie",
+        "La princesse Pauline"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel était le nom de la demoiselle en détresse que Mario devait sauver dans le tout premier Donkey Kong ?",
+      "correct": "Pauline",
+      "wrong": [
+        "Peach",
+        "Daisy",
+        "Toadette"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quel jeu Mario voyage-t-il de planète en planète accompagné d'Harmonie et des Lumas ?",
+      "correct": "Super Mario Galaxy",
+      "wrong": [
+        "Super Mario Sunshine",
+        "Super Mario Odyssey",
+        "Super Mario 64"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle est la principale arme à eau utilisée par Mario dans Super Mario Sunshine ?",
+      "correct": "J.E.T.",
+      "wrong": [
+        "A.Q.U.A.",
+        "O.N.D.E.",
+        "F.L.O.T."
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel compagnon en forme de chapeau vivant aide Mario à prendre le contrôle des ennemis dans Super Mario Odyssey ?",
+      "correct": "Cappy",
+      "wrong": [
+        "Tiara",
+        "Luma",
+        "Fawful"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel costume emblématique de Super Mario Bros. 3 permet à Mario de voler et de se transformer en statue ?",
+      "correct": "Le costume Tanuki",
+      "wrong": [
+        "Le costume Grenouille",
+        "Le costume Marteau",
+        "Le costume Chat"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle le fils unique de Bowser qui porte un foulard dessiné d'une bouche ?",
+      "correct": "Bowser Jr.",
+      "wrong": [
+        "Larry Koopa",
+        "Iggy Koopa",
+        "Roy Koopa"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel sorcier Koopa à lunettes élève Bowser et utilise sa magie pour agrandir les boss ?",
+      "correct": "Kamek",
+      "wrong": [
+        "Kammy",
+        "Ludwig",
+        "Grodus"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel ennemi en forme de grosse boule noire retenue par une chaîne aboie comme un chien ?",
+      "correct": "Chomp",
+      "wrong": [
+        "Thwomp",
+        "Whomp",
+        "Bob-omb"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel bloc de pierre rectangulaire au visage furieux s'écrase au sol dès que Mario passe dessous ?",
+      "correct": "Thwomp",
+      "wrong": [
+        "Chomp",
+        "Podoboo",
+        "Banzai Bill"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quelle série de jeux Luigi explore-t-il des manoirs hantés armé d'un aspirateur à fantômes ?",
+      "correct": "Luigi's Mansion",
+      "wrong": [
+        "Luigi's Haunted House",
+        "Super Luigi Bros",
+        "Ghost Hunter Luigi"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle le professeur excentrique qui fournit l'Ectoblast à Luigi ?",
+      "correct": "Le professeur K. Tastroff",
+      "wrong": [
+        "Le professeur Chen",
+        "Le professeur Karl",
+        "Le professeur Pétard"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel compositeur japonais a écrit les musiques cultes de Super Mario Bros. ?",
+      "correct": "Koji Kondo",
+      "wrong": [
+        "Nobuo Uematsu",
+        "Yasunori Mitsuda",
+        "Yoko Shimomura"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel acteur a prêté sa voix officielle à Mario dans les jeux vidéo pendant près de trente ans ?",
+      "correct": "Charles Martinet",
+      "wrong": [
+        "Kevin Afghani",
+        "Chris Pratt",
+        "Lou Albano"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel circuit final de Mario Kart se déroule dans l'espace sur une piste multicolore sans barrières ?",
+      "correct": "La Route Arc-en-Ciel",
+      "wrong": [
+        "Le Château de Bowser",
+        "Le Circuit Étoile",
+        "L'Autoroute Toad"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle la plante carnivore rouge à pois blancs qui sort des tuyaux ?",
+      "correct": "La Plante Piranha",
+      "wrong": [
+        "La Plante Carnivore",
+        "La Fleur Poison",
+        "La Ronce Koopa"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel ennemi sur un nuage lance des Hériss sur Mario depuis le ciel ?",
+      "correct": "Lakitu",
+      "wrong": [
+        "Paratroopa",
+        "Frère Marto",
+        "Bill Balle"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "D'où vient le prénom Mario choisi par Nintendo of America pour renommer Jumpman ?",
+      "correct": "De Mario Segale, le propriétaire de leur entrepôt américain",
+      "wrong": [
+        "D'un personnage de roman italien",
+        "Du prénom d'un développeur japonais",
+        "D'une pizzeria voisine des bureaux"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel jeu japonais non sorti immédiatement en Occident a servi de base graphique au Super Mario Bros. 2 occidental ?",
+      "correct": "Yume Kōjō: Doki Doki Panic",
+      "wrong": [
+        "The Lost Levels",
+        "Mario & Wario",
+        "Wrecking Crew"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel ennemi récurrent de la série Mario est apparu pour la première fois dans Super Mario Bros. 2 ?",
+      "correct": "Maskass",
+      "wrong": [
+        "Goomba",
+        "Koopa Troopa",
+        "Frère Marto"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel personnage rose portant un gros nœud rouge tire des œufs par sa bouche dans Super Mario Bros. 2 ?",
+      "correct": "Birdo",
+      "wrong": [
+        "Yoshi",
+        "Wendy O. Koopa",
+        "Toadette"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appellent les sept lieutenants de Bowser introduits comme boss dans Super Mario Bros. 3 ?",
+      "correct": "Les Koopalings",
+      "wrong": [
+        "Les Frères Marto",
+        "Les Magikoopas",
+        "Les Sbires Royaux"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Lequel des Koopalings porte une coiffure inspirée du compositeur Beethoven ?",
+      "correct": "Ludwig von Koopa",
+      "wrong": [
+        "Iggy Koopa",
+        "Lemmy Koopa",
+        "Morton Koopa Jr."
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Sur quelle île paradisiaque en forme de dauphin se déroule l'aventure de Super Mario Sunshine ?",
+      "correct": "L'île Delfino",
+      "wrong": [
+        "L'île Yoshi",
+        "L'île Pianta",
+        "L'île Sorbet"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel méchant déguisé en double liquide de Mario pollue l'île Delfino avec de la peinture ?",
+      "correct": "Antimario",
+      "wrong": [
+        "Wario",
+        "Fawful",
+        "Count Bleck"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du vaisseau volant en forme de chapeau haut-de-forme utilisé par Mario dans Super Mario Odyssey ?",
+      "correct": "L'Odyssée",
+      "wrong": [
+        "L'Étoile Filante",
+        "Le Dauphin",
+        "L'Aéro-Champi"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel pouvoir permet à Mario de se transformer en éléphant dans Super Mario Bros. Wonder ?",
+      "correct": "La Pomme d'éléphant",
+      "wrong": [
+        "Le Champignon Géant",
+        "La Fleur Prodige",
+        "La Noix Pachyderme"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel objet déclenche des transformations radicales et imprévisibles des niveaux dans Super Mario Bros. Wonder ?",
+      "correct": "La Fleur prodige",
+      "wrong": [
+        "La Super Étoile",
+        "La Fleur de glace",
+        "Le Champignon d'or"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans Super Mario 64, combien d'étoiles de puissance faut-il au minimum pour ouvrir la porte finale menant à Bowser sans glitch ?",
+      "correct": "Soixante-dix étoiles",
+      "wrong": [
+        "Cinquante étoiles",
+        "Quatre-vingts étoiles",
+        "Cent vingt étoiles"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel lapin jaune dans les sous-sols du château de Super Mario 64 doit être attrapé par Mario ?",
+      "correct": "Mips",
+      "wrong": [
+        "Carottin",
+        "Bips",
+        "Nabbit"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le lapin violet voleur d'objets jouable dans New Super Mario Bros. U Deluxe ?",
+      "correct": "Carottin",
+      "wrong": [
+        "Mips",
+        "Toadette",
+        "Popple"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel objet exclusif permet à Toadette de se transformer en Peachette dans New Super Mario Bros. U Deluxe ?",
+      "correct": "La Super Couronne",
+      "wrong": [
+        "La Fleur de Peach",
+        "Le Diadème Royal",
+        "L'Étoile Rose"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel jeu de rôle sur Super Nintendo a marqué la première collaboration entre Nintendo et Square autour de Mario ?",
+      "correct": "Super Mario RPG: Legend of the Seven Stars",
+      "wrong": [
+        "Paper Mario",
+        "Mario & Luigi: Superstar Saga",
+        "Mario + The Lapins Crétins"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel personnage en bois animé par une étoile accompagne Mario dans Super Mario RPG ?",
+      "correct": "Geno",
+      "wrong": [
+        "Mallow",
+        "Vivian",
+        "Goombario"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du grand méchant principal de Super Mario Land sur Game Boy ?",
+      "correct": "Tatanga",
+      "wrong": [
+        "Wart",
+        "Wario",
+        "Smithy"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel crapaud géant est le boss final de Super Mario Bros. 2 ?",
+      "correct": "Wart",
+      "wrong": [
+        "Tatanga",
+        "Bowser",
+        "Kamek"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle faiblesse alimentaire permet de vaincre Wart à la fin de Super Mario Bros. 2 ?",
+      "correct": "Les légumes",
+      "wrong": [
+        "Les champignons",
+        "Les boules de feu",
+        "Les bombes"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel nom d'écran officiel porte l'aspirateur à fantômes utilisé par Luigi dans le tout premier Luigi's Mansion ?",
+      "correct": "L'Ectoblast 3000",
+      "wrong": [
+        "L'Ectoblast 5000",
+        "L'Ectoblast GL-U",
+        "L'Ectoblast 1000"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le double gluant et vert de Luigi créé par le professeur K. Tastroff dans Luigi's Mansion 3 ?",
+      "correct": "Gluigi",
+      "wrong": [
+        "Luigoo",
+        "Vertigi",
+        "Slime Luigi"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans Super Mario World, quel est le nom complet du monde caché accessible via la Route Étoile ?",
+      "correct": "Le Monde Spécial",
+      "wrong": [
+        "Le Monde Secret",
+        "Le Monde Perdu",
+        "Le Monde Arc-en-Ciel"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel changement esthétique subtil subit la carte de Super Mario World une fois le Monde Spécial entièrement terminé ?",
+      "correct": "Les couleurs passent à l'automne et les Koopas portent des masques de Mario",
+      "wrong": [
+        "Tous les niveaux deviennent enneigés",
+        "Luigi remplace Mario sur la carte",
+        "Le ciel devient étoilé en permanence"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel était le nom de code de développement de la console Nintendo GameCube en référence à Mario ?",
+      "correct": "Dolphin",
+      "wrong": [
+        "Star Road",
+        "Mushroom",
+        "Plumber"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans Mario & Luigi: Voyage au centre de Bowser, quel antagoniste aux lunettes tourbillonnantes est célèbre pour sa phrase J'ai fureur ?",
+      "correct": "Gracowitz",
+      "wrong": [
+        "Fawful",
+        "Cackletta",
+        "Antasma"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom original anglais du personnage de Gracowitz dans la série Mario & Luigi ?",
+      "correct": "Fawful",
+      "wrong": [
+        "Dimentio",
+        "Grodus",
+        "Bleck"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel bouffon dimensionnel est le véritable manipulateur final dans Super Paper Mario sur Wii ?",
+      "correct": "Dimenzio",
+      "wrong": [
+        "Le Comte Niark",
+        "Mimi",
+        "O'C 초"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quel jeu de casse-briques sur NES Mario incarne-t-il un ouvrier de démolition armé d'un marteau ?",
+      "correct": "Wrecking Crew",
+      "wrong": [
+        "Mario Bros.",
+        "Donkey Kong Jr.",
+        "Pinball"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du contremaître rival de Mario dans le jeu Wrecking Crew ?",
+      "correct": "Foreman Spike",
+      "wrong": [
+        "Wario",
+        "Stanley",
+        "Cranky Kong"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quel jeu d'arcade Mario est-il exceptionnellement le méchant qui retient Donkey Kong en cage ?",
+      "correct": "Donkey Kong Jr.",
+      "wrong": [
+        "Donkey Kong 3",
+        "Mario's Cement Factory",
+        "Popeye"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel personnage manie un pulvérisateur d'insecticide à la place de Mario dans Donkey Kong 3 ?",
+      "correct": "Stanley",
+      "wrong": [
+        "Jumpman",
+        "Luigi",
+        "Foreman Spike"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle le nuage blanc souriant de Super Mario World qui est en réalité un nuage de fumée du château de Bowser ?",
+      "correct": "Lakitu's Cloud",
+      "wrong": [
+        "Jugem",
+        "Cumulus",
+        "Fluffy"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel jeu éducatif sur SNES met en scène Luigi parcourant le monde réel pour retrouver Mario capturé par Bowser ?",
+      "correct": "Mario Is Missing!",
+      "wrong": [
+        "Mario's Time Machine",
+        "Mario Teaches Typing",
+        "Hotel Mario"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Sur quelle console controversée de Philips est sorti le jeu Hotel Mario ?",
+      "correct": "Le Philips CD-i",
+      "wrong": [
+        "La Panasonic 3DO",
+        "L'Atari Jaguar",
+        "La Sega Saturn"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la petite fée noire qui accompagne Mario dans Paper Mario : La Porte Millénaire et rejoint son équipe ?",
+      "correct": "Cumulia",
+      "wrong": [
+        "Viviane",
+        "Goomélie",
+        "Koopek"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans Super Mario 64, quel célèbre effet visuel provoque l'apparition de la tête géante de Mario sur l'écran titre ?",
+      "correct": "On peut étirer et déformer son visage avec le curseur",
+      "wrong": [
+        "Elle répète ce que dit le joueur au micro",
+        "Elle change de couleur selon l'heure",
+        "Elle cligne des yeux en morse"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel ennemi métallique invulnérable de Super Mario 64 ressemble à une sphère noire avec des yeux et des pieds ?",
+      "correct": "M. Bull's-Eye ou Bully",
+      "wrong": [
+        "Whomp",
+        "Grindel",
+        "Spindrift"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom japonais original de Bowser dans les jeux Nintendo ?",
+      "correct": "Koopa",
+      "wrong": [
+        "Daimao",
+        "Ganon",
+        "Wario"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom japonais original de la princesse Peach avant son harmonisation mondiale ?",
+      "correct": "Peach-hime",
+      "wrong": [
+        "Kinoko-hime",
+        "Sakura-hime",
+        "Daisy-hime"
+      ]
+    }
+  ]
+}

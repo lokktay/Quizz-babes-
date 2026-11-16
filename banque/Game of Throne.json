@@ -1,0 +1,805 @@
+{
+  "theme": "Game of Thrones",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quelle est la devise célèbre de la maison Stark ?",
+      "correct": "L'hiver vient",
+      "wrong": [
+        "Je rugis",
+        "Feu et sang",
+        "Un Lannister paie toujours ses dettes"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle l'immense barrière de glace qui protège le nord de Westeros ?",
+      "correct": "Le Mur",
+      "wrong": [
+        "La Muraille Blanche",
+        "Le Rempart du Nord",
+        "La Falaise de Givre"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle famille a pour emblème un lion d'or sur fond rouge ?",
+      "correct": "La maison Lannister",
+      "wrong": [
+        "La maison Baratheon",
+        "La maison Targaryen",
+        "La maison Tyrell"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui est surnommée la « Mère des Dragons » ?",
+      "correct": "Daenerys Targaryen",
+      "wrong": [
+        "Cersei Lannister",
+        "Margaery Tyrell",
+        "Sansa Stark"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom du loup-garou blanc de Jon Snow ?",
+      "correct": "Fantôme",
+      "wrong": [
+        "Été",
+        "Nymeria",
+        "Croc-Blanc"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel métal très rare permet de tuer facilement les Marcheurs Blancs ?",
+      "correct": "L'acier valyrien",
+      "wrong": [
+        "L'acier de Damas",
+        "Le mithril",
+        "Le fer des Îles"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle le siège ancestral de la maison Stark ?",
+      "correct": "Winterfell",
+      "wrong": [
+        "Port-Réal",
+        "Castral Roc",
+        "Peyredragon"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le surnom de Tyrion Lannister en raison de sa petite taille ?",
+      "correct": "Le Lutin",
+      "wrong": [
+        "Le Régicide",
+        "Le Limier",
+        "La Montagne"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on le siège royal où règne le souverain des Sept Couronnes ?",
+      "correct": "Le Trône de Fer",
+      "wrong": [
+        "Le Trône de Pierre",
+        "Le Trône d'Or",
+        "Le Trône de Dragon"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle organisation militaire vêtue de noir protège la frontière nord du royaume ?",
+      "correct": "La Garde de Nuit",
+      "wrong": [
+        "La Garde Royale",
+        "Les Immaculés",
+        "La Compagnie Dorée"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom de la plus petite épée d'Arya Stark, offerte par Jon Snow ?",
+      "correct": "Aiguille",
+      "wrong": [
+        "Glace",
+        "Grand-Griffe",
+        "Féale"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui pousse Bran Stark du haut d'une tour dans le tout premier épisode ?",
+      "correct": "Jaime Lannister",
+      "wrong": [
+        "Theon Greyjoy",
+        "Sandor Clegane",
+        "Joffrey Baratheon"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle substance liquide verte et hautement inflammable est utilisée lors de la bataille de la Néra ?",
+      "correct": "Le feu grégeois",
+      "wrong": [
+        "L'huile de dragon",
+        "Le venin de manticore",
+        "Le naphte valyrien"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel personnage est surnommé « le Régicide » pour avoir tué le Roi Fou ?",
+      "correct": "Jaime Lannister",
+      "wrong": [
+        "Robert Baratheon",
+        "Eddard Stark",
+        "Tywin Lannister"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle le plus grand et le plus féroce des trois dragons de Daenerys ?",
+      "correct": "Drogon",
+      "wrong": [
+        "Rhaegal",
+        "Viserion",
+        "Balerion"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle est la devise officielle de la maison Targaryen ?",
+      "correct": "Feu et Sang",
+      "wrong": [
+        "L'hiver vient",
+        "Nôtre est la fureur",
+        "Plus haut que l'honneur"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel serviteur fidèle des Stark ne prononce que son propre nom en boucle ?",
+      "correct": "Hodor",
+      "wrong": [
+        "Podrick",
+        "Gendry",
+        "Mord"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle prêtresse rouge vénère le Maître de la Lumière et conseille Stannis Baratheon ?",
+      "correct": "Mélisandre",
+      "wrong": [
+        "Kinvara",
+        "Shireen",
+        "Selyse"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on l'armée d'esclaves eunuques d'élite libérée par Daenerys ?",
+      "correct": "Les Immaculés",
+      "wrong": [
+        "Les Dothrakis",
+        "Les Puînés",
+        "Les Fils de la Harpie"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle famille règne sur les Îles de Fer et a pour emblème un kraken d'or ?",
+      "correct": "La maison Greyjoy",
+      "wrong": [
+        "La maison Martell",
+        "La maison Tully",
+        "La maison Arryn"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom de l'épée en acier valyrien offerte à Jon Snow par Jeor Mormont ?",
+      "correct": "Grand-Griffe",
+      "wrong": [
+        "Glace",
+        "Féale",
+        "Pleureuse"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle est la devise officielle de la maison Lannister ?",
+      "correct": "Je rugis",
+      "wrong": [
+        "Un Lannister paie toujours ses dettes",
+        "L'or et le sang",
+        "Nul ne me défie"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle la forteresse réputée imprenable de la maison Arryn perchée dans les montagnes ?",
+      "correct": "Les Eyrié",
+      "wrong": [
+        "Vivesaigues",
+        "Hautjardin",
+        "Accalmie"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel poison est utilisé pour assassiner le roi Joffrey Baratheon lors de son mariage ?",
+      "correct": "L'Étrangleur",
+      "wrong": [
+        "Les Larmes de Lys",
+        "Le Sang de veuve",
+        "La Douceur nocturne"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui prononce la célèbre réplique « C'est ce que je fais : je bois et je sais des choses » ?",
+      "correct": "Tyrion Lannister",
+      "wrong": [
+        "Bronn",
+        "Petyr Baelish",
+        "Varys"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du continent situé à l'est de Westeros, séparé par le Détroit ?",
+      "correct": "Essos",
+      "wrong": [
+        "Sothoryos",
+        "Ulthos",
+        "Valyria"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle guilde d'assassins de Braavos forme Arya Stark à changer de visage ?",
+      "correct": "Les Sans-Visage",
+      "wrong": [
+        "Les Hommes Pleureurs",
+        "Les Lames Noires",
+        "Les Ombres d'Asshaï"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le vrai nom de naissance de Jon Snow ?",
+      "correct": "Aegon Targaryen",
+      "wrong": [
+        "Jaehaerys Targaryen",
+        "Viserys Targaryen",
+        "Rhaegar Targaryen"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel seigneur organise le massacre des « Noces Pourpres » avec le soutien de Tywin Lannister ?",
+      "correct": "Walder Frey",
+      "wrong": [
+        "Roose Bolton",
+        "Ramsay Bolton",
+        "Randyll Tarly"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle l'écuyer maladroit mais très loyal de Brienne de Torth ?",
+      "correct": "Podrick Payne",
+      "wrong": [
+        "Gendry Waters",
+        "Olyvar",
+        "Lancel Lannister"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle est la devise de la maison Baratheon ?",
+      "correct": "Nôtre est la fureur",
+      "wrong": [
+        "Ours is the Glory",
+        "Le cerf couronné",
+        "Fer et feu"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel titre porte Varys au sein du Conseil restreint du roi ?",
+      "correct": "Maître des chuchoteurs",
+      "wrong": [
+        "Grand Argentier",
+        "Maître des lois",
+        "Main du Roi"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle le géant sauvageon qui aide Jon Snow lors de la Bataille des Bâtards ?",
+      "correct": "Wun Wun",
+      "wrong": [
+        "Mag le Puissant",
+        "Tormund",
+        "Styr"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle roche volcanique noire est également efficace pour tuer les Marcheurs Blancs ?",
+      "correct": "Le verredragon",
+      "wrong": [
+        "La pierre de lune",
+        "L'onyx noir",
+        "Le basalte ancien"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom de la capitale de Dorne, siège de la maison Martell ?",
+      "correct": "Lancehélion",
+      "wrong": [
+        "Hautjardin",
+        "Villevieille",
+        "Lannisport"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui tue finalement le Roi de la Nuit lors de la bataille de Winterfell ?",
+      "correct": "Arya Stark",
+      "wrong": [
+        "Jon Snow",
+        "Bran Stark",
+        "Daenerys Targaryen"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle le frère aîné de Sandor Clegane, surnommé « La Montagne » ?",
+      "correct": "Gregor Clegane",
+      "wrong": [
+        "Amory Lorch",
+        "Polliver",
+        "Ilyn Payne"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du bateau piraté par Euron Greyjoy ?",
+      "correct": "Le Silence",
+      "wrong": [
+        "La Furie",
+        "Le Kraken Noir",
+        "La Victoire de Fer"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle est la devise de la maison Tyrell ?",
+      "correct": "Plus haut, plus fort",
+      "wrong": [
+        "Nous ne semons pas",
+        "Famille, Devoir, Honneur",
+        "Insoumis, Invaincus, Intacts"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel personnage dirige la Fraternité sans Bannières et est ressuscité plusieurs fois ?",
+      "correct": "Beric Dondarrion",
+      "wrong": [
+        "Thoros de Myr",
+        "Mance Rayder",
+        "Benjen Stark"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appellent les deux épées forgées à partir de « Glace », l'épée ancestrale des Stark ?",
+      "correct": "Féale et Pleureuse",
+      "wrong": [
+        "Aiguille et Grand-Griffe",
+        "Noire Sœur et Feu Noir",
+        "Lumière-Porteuse et Aube"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du dragon gigantesque monté par Aegon le Conquérant ?",
+      "correct": "Balerion",
+      "wrong": [
+        "Vhagar",
+        "Meraxes",
+        "Caraxès"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la devise officielle de la maison Martell de Dorne ?",
+      "correct": "Insoumis, Invaincus, Intacts",
+      "wrong": [
+        "Feu et Sang",
+        "Nôtre est la fureur",
+        "Plus haut que l'honneur"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle la ville où se trouve la Citadelle des Mestres ?",
+      "correct": "Villevieille",
+      "wrong": [
+        "Port-Réal",
+        "Lannisport",
+        "Blancport"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de l'ancien mestre de la Garde de Nuit qui s'avère être un grand-oncle de Daenerys ?",
+      "correct": "Aemon Targaryen",
+      "wrong": [
+        "Maester Luwin",
+        "Maester Pycelle",
+        "Maester Cressen"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle chanson sinistre les musiciens jouent-ils juste avant le massacre des Noces Pourpres ?",
+      "correct": "Les Pluies de Castamere",
+      "wrong": [
+        "L'Ours et la Belle",
+        "Les Mains d'Or",
+        "Le Chant de Jenny"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle l'épée légendaire en acier valyrien de la maison Tarly volée par Samwell ?",
+      "correct": "Corvenin",
+      "wrong": [
+        "Grand-Griffe",
+        "Féale",
+        "Aube"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le surnom donné aux enfants illégitimes nés à Dorne ?",
+      "correct": "Sand",
+      "wrong": [
+        "Snow",
+        "Waters",
+        "Pyke"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la devise de la maison Tully de Vivesaigues ?",
+      "correct": "Famille, Devoir, Honneur",
+      "wrong": [
+        "Plus haut que l'honneur",
+        "Nous ne semons pas",
+        "L'hiver vient"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle la sœur aînée de Catelyn Stark, qui dirige les Eyrié ?",
+      "correct": "Lysa Arryn",
+      "wrong": [
+        "Genna Lannister",
+        "Olenna Tyrell",
+        "Selyse Baratheon"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de la salle d'audience des Eyrié dotée d'un trou béant dans le sol ?",
+      "correct": "La Porte de la Lune",
+      "wrong": [
+        "Le Puits des Ombres",
+        "La Fosse du Ciel",
+        "La Porte des Étoiles"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel nom porte la banque la plus puissante du monde connu, située à Braavos ?",
+      "correct": "La Banque de Fer",
+      "wrong": [
+        "La Banque d'Or",
+        "La Banque des Sept",
+        "La Banque Valyrienne"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le cheval blanc offert à Daenerys par Khal Drogo lors de leur mariage ?",
+      "correct": "Argent",
+      "wrong": [
+        "Éclair",
+        "Fantôme",
+        "Ombre"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du premier homme de Braavos qui enseigne l'escrime à Arya Stark ?",
+      "correct": "Syrio Forel",
+      "wrong": [
+        "Jaqen H'ghar",
+        "Daario Naharis",
+        "Illyrio Mopatis"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle maison vassale des Stark a pour emblème un homme écorché ?",
+      "correct": "La maison Bolton",
+      "wrong": [
+        "La maison Karstark",
+        "La maison Umber",
+        "La maison Mormont"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle l'ami et fidèle compagnon de Daenerys qui trahit d'abord sa confiance en espionnant pour Robert Baratheon ?",
+      "correct": "Jorah Mormont",
+      "wrong": [
+        "Barristan Selmy",
+        "Daario Naharis",
+        "Ver Gris"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de l'auberge où Catelyn Stark fait arrêter Tyrion Lannister ?",
+      "correct": "L'Auberge du Carrefour",
+      "wrong": [
+        "L'Auberge de la Couronne",
+        "L'Auberge du Dragon",
+        "L'Auberge du Loup"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la devise de la maison Greyjoy ?",
+      "correct": "Nous ne semons pas",
+      "wrong": [
+        "Ce qui est mort ne saurait mourir",
+        "Fer et Sang",
+        "La mer est nôtre"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du seigneur commandant de la Garde Royale surnommé « Barristan le Hardi » ?",
+      "correct": "Barristan Selmy",
+      "wrong": [
+        "Arthur Dayne",
+        "Gerold Hightower",
+        "Meryn Trant"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le bourreau royal muet qui décapite Eddard Stark ?",
+      "correct": "Ilyn Payne",
+      "wrong": [
+        "Janos Slynt",
+        "Meryn Trant",
+        "Qyburn"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de l'épée ancestrale de la maison Dayne, forgée dans le cœur d'une étoile tombée ?",
+      "correct": "Aube",
+      "wrong": [
+        "Corvenin",
+        "Noire Sœur",
+        "Lumière-Porteuse"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle le père d'Olenna Tyrell, ou plutôt son nom de jeune fille avant son mariage ?",
+      "correct": "Redwyne",
+      "wrong": [
+        "Hightower",
+        "Tarly",
+        "Florent"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du cheval de Sandor Clegane ?",
+      "correct": "Étranger",
+      "wrong": [
+        "Furie",
+        "Ombre",
+        "Goliath"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle le marchand de Pentos qui héberge Daenerys et Viserys au début de la série ?",
+      "correct": "Illyrio Mopatis",
+      "wrong": [
+        "Xaro Xhoan Daxos",
+        "Hizdahr zo Loraq",
+        "Salladhor Saan"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la maladie cutanée mortelle et contagieuse qui transforme la peau en pierre ?",
+      "correct": "La grisécaille",
+      "wrong": [
+        "La peste pâle",
+        "La lèpre grise",
+        "Le mal de pierre"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la mère de Jon Snow, sœur d'Eddard Stark ?",
+      "correct": "Lyanna Stark",
+      "wrong": [
+        "Ashara Dayne",
+        "Wylla",
+        "Elia Martell"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la compagnie de mercenaires dirigée à l'origine par Daario Naharis avant qu'il ne tue ses capitaines ?",
+      "correct": "Les Puînés",
+      "wrong": [
+        "La Compagnie Dorée",
+        "Les Corbeaux Tornade",
+        "Les Fils du Vent"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le surnom donné aux bâtards nés dans le Bief (région de Hautjardin) ?",
+      "correct": "Flowers",
+      "wrong": [
+        "Rivers",
+        "Hill",
+        "Stone"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la colline de Port-Réal sur laquelle est bâti le Grand Septuaire de Baelor ?",
+      "correct": "La colline de Visenya",
+      "wrong": [
+        "La colline d'Aegon",
+        "La colline de Rhaenys",
+        "La colline du Dragon"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle le mestre déchu qui devient la Main de la Reine de Cersei Lannister ?",
+      "correct": "Qyburn",
+      "wrong": [
+        "Pycelle",
+        "Marwyn",
+        "Orwyle"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du Loup-garou de Rickon Stark ?",
+      "correct": "Broussaille",
+      "wrong": [
+        "Été",
+        "Vent Gris",
+        "Lady"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la devise officielle de la maison Arryn ?",
+      "correct": "Plus haut que l'honneur",
+      "wrong": [
+        "Aussi haut que l'aigle",
+        "Le ciel est nôtre",
+        "Toujours vigilant"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle l'ancien membre de la Garde Royale qui a tué le père et le frère de Jorah Mormont ? Non, quel est le nom de la sœur de Jorah qui dirige l'Île aux Ours ?",
+      "correct": "Maege Mormont",
+      "wrong": [
+        "Lyanna Mormont",
+        "Alysane Mormont",
+        "Dacey Mormont"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du chef sauvageon cannibal des Thenns qui attaque Châteaunoir ?",
+      "correct": "Styr",
+      "wrong": [
+        "Rattleshirt",
+        "Orell",
+        "Craster"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle le chevalier de la Garde Royale qui est le seul à survivre au combat de la Tour de la Joie aux côtés d'Eddard Stark ?",
+      "correct": "Howland Reed",
+      "wrong": [
+        "Arthur Dayne",
+        "Gerold Hightower",
+        "Oswell Whent"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du pirate originaire de Lys qui aide Davos Mervault et Stannis Baratheon ?",
+      "correct": "Salladhor Saan",
+      "wrong": [
+        "Euron Greyjoy",
+        "Victarion Greyjoy",
+        "Aurane Waters"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la femme de Robb Stark, guérieuse originaire de Volantis dans la série ?",
+      "correct": "Talisa Maegyr",
+      "wrong": [
+        "Jeyne Westerling",
+        "Roslin Frey",
+        "Myranda"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du chien de chasse favori de Ramsay Bolton ou de la compagne qui l'aide dans ses chasses ?",
+      "correct": "Myranda",
+      "wrong": [
+        "Tansy",
+        "Violet",
+        "Kyra"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la devise de la maison Bolton ?",
+      "correct": "Nos lames sont acérées",
+      "wrong": [
+        "Un homme nu a peu de secrets",
+        "La peur est notre arme",
+        "Le sang appelle le sang"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la sœur cadette de Cersei et Jaime Lannister, qui meurt avant le début de la série ?",
+      "correct": "Ils n'ont pas de sœur cadette",
+      "wrong": [
+        "Genna Lannister",
+        "Joanna Lannister",
+        "Myrcella Lannister"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "theme": "Mickey mouse",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quel animal est Mickey Mouse ?",
+      "correct": "Une souris",
+      "wrong": [
+        "Un chat",
+        "Un chien",
+        "Un lapin"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui est l'amoureuse éternelle de Mickey Mouse ?",
+      "correct": "Minnie Mouse",
+      "wrong": [
+        "Daisy Duck",
+        "Clarabelle",
+        "Lili"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom du chien de compagnie de Mickey ?",
+      "correct": "Pluto",
+      "wrong": [
+        "Dingo",
+        "Rantanplan",
+        "Pongo"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quelle couleur est le short emblématique de Mickey ?",
+      "correct": "Rouge",
+      "wrong": [
+        "Bleu",
+        "Vert",
+        "Jaune"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quelle couleur sont les chaussures de Mickey ?",
+      "correct": "Jaunes",
+      "wrong": [
+        "Blanches",
+        "Noires",
+        "Rouges"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quelle couleur sont les gants de Mickey ?",
+      "correct": "Blancs",
+      "wrong": [
+        "Noirs",
+        "Jaunes",
+        "Gris"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui a créé le personnage de Mickey Mouse ?",
+      "correct": "Walt Disney et Ub Iwerks",
+      "wrong": [
+        "Hanna et Barbera",
+        "Tex Avery et Chuck Jones",
+        "Stan Lee et Jack Kirby"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel grand ami maladroit de Mickey est un chien anthropomorphe qui parle ?",
+      "correct": "Dingo",
+      "wrong": [
+        "Pluto",
+        "Pat Hibulaire",
+        "Horace Horsecollar"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel canard colérique fait partie des meilleurs amis de Mickey ?",
+      "correct": "Donald Duck",
+      "wrong": [
+        "Picsou",
+        "Gontran Bonheur",
+        "Riri"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui est l'ennemi juré historique de Mickey Mouse ?",
+      "correct": "Pat Hibulaire",
+      "wrong": [
+        "Le Fantôme Noir",
+        "Gripsou",
+        "Capitaine Crochet"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quel célèbre court-métrage Mickey pilote-t-il un bateau à vapeur ?",
+      "correct": "Steamboat Willie",
+      "wrong": [
+        "Plane Crazy",
+        "The Band Concert",
+        "Brave Little Tailor"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quel grand classique Disney Mickey joue-t-il l'apprenti sorcier ?",
+      "correct": "Fantasia",
+      "wrong": [
+        "Pinocchio",
+        "Dumbo",
+        "Bambi"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle forme géométrique compose la tête et les oreilles de Mickey ?",
+      "correct": "Trois cercles",
+      "wrong": [
+        "Trois carrés",
+        "Trois triangles",
+        "Trois ovales"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quelle ville fictive vit Mickey Mouse ?",
+      "correct": "Mickeyville",
+      "wrong": [
+        "Donaldville",
+        "Bourg-Palette",
+        "Springfield"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel accessoire Minnie porte-t-elle presque toujours sur la tête ?",
+      "correct": "Un nœud papillon",
+      "wrong": [
+        "Une couronne",
+        "Un béret",
+        "Un bandeau à plumes"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom du célèbre parc à thème parisien dont Mickey est l'ambassadeur ?",
+      "correct": "Disneyland Paris",
+      "wrong": [
+        "Parc Astérix",
+        "Futuroscope",
+        "Puy du Fou"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quelle série télévisée pour enfants Mickey utilise-t-il des Tourniquets ?",
+      "correct": "La Maison de Mickey",
+      "wrong": [
+        "La Bande à Picsou",
+        "Myster Mask",
+        "Tic et Tac"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom de la petite vache amie de Mickey et Minnie ?",
+      "correct": "Clarabelle",
+      "wrong": [
+        "Marguerite",
+        "Bella",
+        "Rosalie"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Combien de gros boutons blancs ornent l'avant du short rouge de Mickey ?",
+      "correct": "Deux",
+      "wrong": [
+        "Un",
+        "Trois",
+        "Quatre"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel métier exerce souvent Mickey dans les bandes dessinées italiennes et françaises ?",
+      "correct": "Détective amateur",
+      "wrong": [
+        "Boulanger",
+        "Pompier",
+        "Médecin"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel nom Walt Disney voulait-il donner à Mickey avant que sa femme ne lui suggère Mickey ?",
+      "correct": "Mortimer",
+      "wrong": [
+        "Oswald",
+        "Barnaby",
+        "Chester"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui a prêté sa voix à Mickey Mouse lors de ses tout premiers courts-métrages ?",
+      "correct": "Walt Disney lui-même",
+      "wrong": [
+        "Mel Blanc",
+        "Clarence Nash",
+        "Pinto Colvig"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel personnage créé par Walt Disney avant Mickey était un lapin aux longues oreilles ?",
+      "correct": "Oswald le lapin chanceux",
+      "wrong": [
+        "Roger Rabbit",
+        "Bugs Bunny",
+        "Panpan"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du chef de la police de Mickeyville qui fait souvent appel à Mickey ?",
+      "correct": "Le commissaire Finot",
+      "wrong": [
+        "L'inspecteur Dupond",
+        "Le sergent Garcia",
+        "Le chef Wiggum"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle l'inspecteur maladroit qui seconde le commissaire Finot ?",
+      "correct": "L'inspecteur Duflair",
+      "wrong": [
+        "L'inspecteur Gadget",
+        "L'inspecteur Barnaby",
+        "L'inspecteur Clouseau"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du cheval anthropomorphe ami de Mickey ?",
+      "correct": "Horace Horsecollar",
+      "wrong": [
+        "Maximus",
+        "Philibert",
+        "Bucéphale"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quelle célèbre saga de jeux vidéo Mickey est-il le roi du château Disney ?",
+      "correct": "Kingdom Hearts",
+      "wrong": [
+        "Final Fantasy",
+        "Dragon Quest",
+        "Super Smash Bros"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle arme emblématique manie le Roi Mickey dans Kingdom Hearts ?",
+      "correct": "Une Keyblade",
+      "wrong": [
+        "Une épée laser",
+        "Un marteau magique",
+        "Un sceptre royal"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle l'ami venu du futur qui accompagne parfois Mickey dans ses enquêtes en BD ?",
+      "correct": "Iga Biva",
+      "wrong": [
+        "Géo Trouvetou",
+        "Flairsou",
+        "Popop"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle particularité physique possède Iga Biva, l'ami futuriste de Mickey ?",
+      "correct": "Il porte une jupette remplie d'objets",
+      "wrong": [
+        "Il a quatre bras",
+        "Il vole avec ses oreilles",
+        "Il est entièrement invisible"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "De quoi se nourrit uniquement Iga Biva dans les bandes dessinées de Mickey ?",
+      "correct": "De naphtaline",
+      "wrong": [
+        "De piles électriques",
+        "De savon noir",
+        "De craie blanche"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel grand méchant masqué tout de noir vêtu affronte régulièrement Mickey en BD ?",
+      "correct": "Le Fantôme Noir",
+      "wrong": [
+        "Fantômas",
+        "Le Cavalier Sans Tête",
+        "Maléfique"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quel court-métrage Mickey dirige-t-il un orchestre en plein air perturbé par une tornade ?",
+      "correct": "La Fanfare",
+      "wrong": [
+        "Symphonie sillies",
+        "Le Concert de la basse-cour",
+        "L'Orchestre fou"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel film de Noël met en scène Mickey dans le rôle de Bob Cratchit auprès de Picsou en Scrooge ?",
+      "correct": "Le Noël de Mickey",
+      "wrong": [
+        "Mickey, il était une fois Noël",
+        "La Magie de Noël",
+        "Le Conte d'hiver de Mickey"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel célèbre roman de Mark Twain a été adapté en moyen-métrage avec Mickey jouant un double rôle ?",
+      "correct": "Le Prince et le Pauvre",
+      "wrong": [
+        "Les Aventures de Tom Sawyer",
+        "Huckleberry Finn",
+        "Un Yankee à la cour du roi Arthur"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appellent les deux neveux turbulents de Mickey ?",
+      "correct": "Jojo et Michou",
+      "wrong": [
+        "Riri et Fifi",
+        "Tic et Tac",
+        "Balthazar et Gontran"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel jeu vidéo de plateforme sur Mega Drive met en scène Mickey explorant un château hanté ?",
+      "correct": "Castle of Illusion",
+      "wrong": [
+        "World of Illusion",
+        "Mickey Mania",
+        "Epic Mickey"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel jeu vidéo sur Wii permet à Mickey d'utiliser un pinceau magique et du dissolvant ?",
+      "correct": "Epic Mickey",
+      "wrong": [
+        "Disney Infinity",
+        "Mickey's Speedway",
+        "Magical Quest"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel célèbre magazine hebdomadaire français publie les aventures de Mickey depuis des décennies ?",
+      "correct": "Le Journal de Mickey",
+      "wrong": [
+        "Pif Gadget",
+        "Picsou Magazine",
+        "Spirou"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quel film d'animation Mickey et Bugs Bunny apparaissent-ils ensemble à l'écran ?",
+      "correct": "Qui veut la peau de Roger Rabbit",
+      "wrong": [
+        "Space Jam",
+        "Les Looney Tunes passent à l'action",
+        "Toy Story"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le tout premier court-métrage produit avec Mickey Mouse, avant même Steamboat Willie ?",
+      "correct": "Plane Crazy",
+      "wrong": [
+        "The Gallopin' Gaucho",
+        "The Barn Dance",
+        "The Opry House"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel court-métrage de Mickey a été le tout premier dessin animé de la série en Technicolor ?",
+      "correct": "La Fanfare",
+      "wrong": [
+        "Steamboat Willie",
+        "Les Trois Petits Cochons",
+        "Le Brave Petit Tailleur"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel nom portait le personnage de Mortimer dans les bandes dessinées comme rival amoureux de Mickey auprès de Minnie ?",
+      "correct": "Mortimer Mouse",
+      "wrong": [
+        "Maxime Mouse",
+        "Barnaby Mouse",
+        "Ferdinand Mouse"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel célèbre dessinateur italien de Disney a créé de nombreuses grandes aventures policières de Mickey ?",
+      "correct": "Romano Scarpa",
+      "wrong": [
+        "Carl Barks",
+        "Don Rosa",
+        "Floyd Gottfredson"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel dessinateur américain a illustré les strips quotidiens de Mickey Mouse pendant plus de quarante ans ?",
+      "correct": "Floyd Gottfredson",
+      "wrong": [
+        "Carl Barks",
+        "Al Taliaferro",
+        "Paul Murry"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans L'Apprenti Sorcier de Fantasia, quel est le nom du vieux magicien dont Mickey emprunte le chapeau ?",
+      "correct": "Yen Sid",
+      "wrong": [
+        "Merlin",
+        "Maléfique",
+        "Jafar"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle particularité orthographique cache le nom du sorcier Yen Sid dans Fantasia ?",
+      "correct": "C'est Disney écrit à l'envers",
+      "wrong": [
+        "C'est le nom du compositeur",
+        "C'est un anagramme de Mickey",
+        "C'est un mot latin pour magie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle œuvre musicale classique accompagne la séquence de L'Apprenti Sorcier dans Fantasia ?",
+      "correct": "L'Apprenti sorcier de Paul Dukas",
+      "wrong": [
+        "La Danse macabre de Saint-Saëns",
+        "Une nuit sur le mont Chauve de Moussorgski",
+        "Le Sacre du printemps de Stravinsky"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel long-métrage Disney associe Mickey, Donald et Dingo dans l'adaptation de Jacques et le Haricot magique ?",
+      "correct": "Coquin de printemps",
+      "wrong": [
+        "Saludos Amigos",
+        "Les Trois Caballeros",
+        "Mélodie Cocktail"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le harpe chantante enchantée que Mickey, Donald et Dingo doivent sauver du géant Willie ?",
+      "correct": "La Harpe magique",
+      "wrong": [
+        "La Lyre d'or",
+        "La Flûte enchantée",
+        "La Mandoline céleste"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du géant colérique qui garde le château dans le segment Mickey et le Haricot magique ?",
+      "correct": "Willie le Géant",
+      "wrong": [
+        "Goliath",
+        "Pat le Géant",
+        "Gustave"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quel film d'animation Mickey, Donald et Dingo incarnent-ils des mousquetaires ?",
+      "correct": "Mickey, Donald, Dingo : Les Trois Mousquetaires",
+      "wrong": [
+        "La Garde royale de Mickey",
+        "Les Chevaliers de la Table Ronde",
+        "Mickey au service de la Reine"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Qui est le grand méchant capitaine des mousquetaires dans le film Mickey, Donald, Dingo : Les Trois Mousquetaires ?",
+      "correct": "Pat Hibulaire",
+      "wrong": [
+        "Le Fantôme Noir",
+        "Le Cardinal Richelieu",
+        "Mortimer"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Combien de doigts possède Mickey Mouse à chaque main dans la plupart de ses apparitions ?",
+      "correct": "Quatre doigts",
+      "wrong": [
+        "Cinq doigts",
+        "Trois doigts",
+        "Six doigts"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Pourquoi les animateurs Disney ont-ils dessiné quatre doigts à Mickey au lieu de cinq ?",
+      "correct": "Pour gagner du temps et éviter un effet grappe de bananes",
+      "wrong": [
+        "À cause d'une erreur d'impression",
+        "Pour respecter une loi américaine",
+        "Parce que les souris ont quatre doigts"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le club télévisé emblématique lancé par Walt Disney avec de jeunes animateurs portant des oreilles de Mickey ?",
+      "correct": "The Mickey Mouse Club",
+      "wrong": [
+        "The Disney Kids Show",
+        "Mickey's Funhouse",
+        "The Magic Kingdom Club"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelles célébrités de la pop américaine ont débuté enfants dans The All-New Mickey Mouse Club ?",
+      "correct": "Britney Spears, Justin Timberlake et Christina Aguilera",
+      "wrong": [
+        "Beyoncé, Rihanna et Lady Gaga",
+        "Taylor Swift, Selena Gomez et Miley Cyrus",
+        "Katy Perry, Ariana Grande et Demi Lovato"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel terme désigne les silhouettes cachées de la tête de Mickey disséminées dans les parcs et films Disney ?",
+      "correct": "Les Hidden Mickeys",
+      "wrong": [
+        "Les Secret Ears",
+        "Les Shadow Mice",
+        "Les Magic Circles"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle l'assistant robotique ou scientifique qui aide souvent Mickey dans les histoires italiennes de Topolino ?",
+      "correct": "Le professeur Marlin",
+      "wrong": [
+        "Le professeur Nimbus",
+        "Le professeur Tournesol",
+        "Le professeur Foldingue"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle machine inventée par les professeurs Marlin et Zapotec permet à Mickey et Dingo de voyager dans le temps ?",
+      "correct": "La machine à remonter le temps",
+      "wrong": [
+        "Le téléporteur quantique",
+        "Le chronoscaphe",
+        "La capsule temporelle"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom exact du capitaine du bateau à vapeur dans le court-métrage Steamboat Willie ?",
+      "correct": "Pat Hibulaire",
+      "wrong": [
+        "Horace Horsecollar",
+        "Capitaine Crochet",
+        "Capitaine Haddock"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle chanson célèbre Mickey siffle-t-il à la barre du bateau dans Steamboat Willie ?",
+      "correct": "Steamboat Bill",
+      "wrong": [
+        "Yankee Doodle",
+        "Turkey in the Straw",
+        "Oh! Susanna"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel instrument de musique improvisé Mickey utilise-t-il sur une vache dans Steamboat Willie ?",
+      "correct": "Un xylophone avec ses dents",
+      "wrong": [
+        "Un tambour sur son ventre",
+        "Une trompette avec sa queue",
+        "Un accordéon avec ses côtes"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel acteur a doublé la voix officielle anglaise de Mickey Mouse pendant plus de trente ans après Jimmy MacDonald ?",
+      "correct": "Wayne Allwine",
+      "wrong": [
+        "Bret Iwan",
+        "Chris Diamantopoulos",
+        "Russi Taylor"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle particularité liait Wayne Allwine, voix de Mickey, et Russi Taylor, voix de Minnie dans la vraie vie ?",
+      "correct": "Ils étaient mariés",
+      "wrong": [
+        "Ils étaient frère et sœur",
+        "Ils étaient cousins",
+        "Ils étaient voisins d'enfance"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Qui a succédé à Walt Disney comme voix officielle de Mickey Mouse à partir de la fin des années quarante ?",
+      "correct": "Jimmy MacDonald",
+      "wrong": [
+        "Clarence Nash",
+        "Sterling Holloway",
+        "Cliff Edwards"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans la série de bandes dessinées Mickey Mystère, dans quelle grande ville Mickey s'installe-t-il pour ouvrir une agence de détectives ?",
+      "correct": "Anderville",
+      "wrong": [
+        "Mickeyville",
+        "Donaldville",
+        "Bourg-les-Canards"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du journal où travaille la journaliste Estrella dans la série de BD Mickey Mystère ?",
+      "correct": "Le Phare d'Anderville",
+      "wrong": [
+        "Le Cri de Mickeyville",
+        "La Gazette du Soir",
+        "L'Écho de la Baie"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel jeu vidéo de Super Nintendo permet à Mickey de changer de costumes aux pouvoirs variés comme magicien ou pompier ?",
+      "correct": "The Magical Quest Starring Mickey Mouse",
+      "wrong": [
+        "Mickey's Ultimate Challenge",
+        "Mickey Mania",
+        "Mickey no Tokyo Disneyland"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quel court-métrage Mickey affronte-t-il un géant pour sauver la princesse Minnie et gagne sa main ?",
+      "correct": "Le Brave Petit Tailleur",
+      "wrong": [
+        "Mickey et le Haricot magique",
+        "Le Tournoi de Mickey",
+        "Mickey chevalier"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Combien de mouches Mickey tue-t-il d'un seul coup dans Le Brave Petit Tailleur, provoquant un malentendu sur ses exploits ?",
+      "correct": "Sept",
+      "wrong": [
+        "Cinq",
+        "Neuf",
+        "Douze"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel court-métrage éducatif de propagande américaine montre Mickey et ses amis s'engager dans l'effort de guerre en achetant des bons du Trésor ?",
+      "correct": "All Together",
+      "wrong": [
+        "Der Fuehrer's Face",
+        "Education for Death",
+        "Victory Through Air Power"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du chien rival de Pluto dans plusieurs courts-métrages Disney ?",
+      "correct": "Butch le bouledogue",
+      "wrong": [
+        "Spike",
+        "Brutus",
+        "Hector"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la chienne teckel dont Pluto tombe souvent amoureux dans les courts-métrages ?",
+      "correct": "Dinah",
+      "wrong": [
+        "Fifi",
+        "Bella",
+        "Perdita"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel dessinateur américain a créé le personnage du Fantôme Noir dans les strips quotidiens de Mickey ?",
+      "correct": "Floyd Gottfredson",
+      "wrong": [
+        "Carl Barks",
+        "Ub Iwerks",
+        "Romano Scarpa"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans la série animée Mickey Mouse réalisée par Paul Rudish, quel style graphique rappelle les tout premiers cartoons des années trente ?",
+      "correct": "Le style rubber hose",
+      "wrong": [
+        "Le cel-shading 3D",
+        "La rotoscopie",
+        "Le stop-motion papier"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom complet du personnage d'Iga Biva dans la version originale américaine ?",
+      "correct": "Eega Beeva",
+      "wrong": [
+        "Zeta Beta",
+        "Omega Veeva",
+        "Iga Bava"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle lettre ajoute systématiquement Iga Biva devant certains mots lorsqu'il parle ?",
+      "correct": "La lettre P",
+      "wrong": [
+        "La lettre Z",
+        "La lettre K",
+        "La lettre B"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du chien à l'allure étrange qui accompagne Iga Biva dans les aventures de Mickey ?",
+      "correct": "Pflip",
+      "wrong": [
+        "Pluto",
+        "Bip",
+        "Flop"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel célèbre écrivain français a fondé Le Journal de Mickey en France grâce à son agence Opera Mundi ?",
+      "correct": "Paul Winkler",
+      "wrong": [
+        "Hergé",
+        "René Goscinny",
+        "Georges Rémi"
+      ]
+    }
+  ]
+}

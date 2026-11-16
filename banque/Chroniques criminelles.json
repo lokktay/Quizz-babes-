@@ -1,0 +1,805 @@
+{
+  "theme": "Chroniques criminelles",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Sur quelle chaîne de télévision française est diffusée l'émission Chroniques criminelles ?",
+      "correct": "TFX",
+      "wrong": [
+        "W9",
+        "RMC Story",
+        "C8"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui présente Chroniques criminelles depuis plusieurs saisons ?",
+      "correct": "Karine Ferri",
+      "wrong": [
+        "Carole Rousseau",
+        "Estelle Denis",
+        "Faustine Bollaert"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel était l'ancien nom de la chaîne TFX lors du lancement de l'émission ?",
+      "correct": "NT1",
+      "wrong": [
+        "Direct 8",
+        "D17",
+        "NRJ 12"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le sujet principal traité dans chaque numéro de l'émission ?",
+      "correct": "Des faits divers judiciaires",
+      "wrong": [
+        "Des phénomènes paranormaux",
+        "Des accidents de la route",
+        "Des escroqueries financières"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle présentatrice a incarné l'émission avant Karine Ferri ?",
+      "correct": "Julie Denayer",
+      "wrong": [
+        "Flavie Flament",
+        "Sandrine Quétier",
+        "Valérie Damidot"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel surnom donnait-on à Guy Georges, tueur en série souvent évoqué dans l'émission ?",
+      "correct": "Le tueur de l'Est parisien",
+      "wrong": [
+        "L'ogre des Ardennes",
+        "Le routard du crime",
+        "Le vampire de Düsseldorf"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel surnom a été donné à Michel Fourniret ?",
+      "correct": "L'ogre des Ardennes",
+      "wrong": [
+        "Le tueur au zodiaque",
+        "Le dépeceur de Mons",
+        "Le grêlé"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quel pays est originaire le célèbre tueur en série Ted Bundy ?",
+      "correct": "Les États-Unis",
+      "wrong": [
+        "Le Royaume-Uni",
+        "Le Canada",
+        "L'Australie"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel métier exerçait le tueur en série américain John Wayne Gacy pour animer des fêtes ?",
+      "correct": "Clown",
+      "wrong": [
+        "Magicien",
+        "Ventriloque",
+        "Jongleur"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quelle région française se déroule la célèbre affaire Grégory ?",
+      "correct": "Les Vosges",
+      "wrong": [
+        "La Savoie",
+        "Le Jura",
+        "L'Auvergne"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on le corbeau dans l'affaire Grégory ?",
+      "correct": "Un maître chanteur anonyme",
+      "wrong": [
+        "Un juge d'instruction",
+        "Un journaliste local",
+        "Un détective privé"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle couleur dominante habille généralement le plateau de Chroniques criminelles ?",
+      "correct": "Le noir et le rouge",
+      "wrong": [
+        "Le bleu et le blanc",
+        "Le vert et le gris",
+        "Le jaune et le marron"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel célèbre tueur en série français a piégé ses victimes via des petites annonces matrimoniales ?",
+      "correct": "Henri Désiré Landru",
+      "wrong": [
+        "Marcel Petiot",
+        "Émile Louis",
+        "Patrice Alègre"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom du médecin français condamné pour avoir assassiné des dizaines de personnes pendant l'Occupation ?",
+      "correct": "Marcel Petiot",
+      "wrong": [
+        "Jean-Claude Romand",
+        "Pierre Chanal",
+        "Francis Heaulme"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel faux métier Jean-Claude Romand prétendait-il exercer auprès de ses proches ?",
+      "correct": "Médecin à l'OMS",
+      "wrong": [
+        "Avocat d'affaires",
+        "Pilote de ligne",
+        "Diplomate à l'ONU"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quel département se situe la maison de Xavier Dupont de Ligonnès ?",
+      "correct": "La Loire-Atlantique",
+      "wrong": [
+        "Le Finistère",
+        "La Vendée",
+        "Le Morbihan"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle activité pratiquait Alexia Daval le matin de sa disparition ?",
+      "correct": "Le jogging",
+      "wrong": [
+        "Le cyclisme",
+        "La natation",
+        "L'équitation"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel surnom a été donné à Francis Heaulme ?",
+      "correct": "Le routard du crime",
+      "wrong": [
+        "Le tueur fou de l'Oise",
+        "Le monstre de Floreffe",
+        "Le prédateur de la gare"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quelle nationalité était le criminel Marc Dutroux ?",
+      "correct": "Belge",
+      "wrong": [
+        "Suisse",
+        "Française",
+        "Luxembourgeoise"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel groupe audiovisuel produit et diffuse Chroniques criminelles ?",
+      "correct": "Le groupe TF1",
+      "wrong": [
+        "Le groupe M6",
+        "France Télévisions",
+        "Le groupe Canal+"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui assurait la présentation de Chroniques criminelles lors de sa toute première diffusion ?",
+      "correct": "Magali Lunel",
+      "wrong": [
+        "Karine Ferri",
+        "Julie Denayer",
+        "Céline Bosquet"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel ancien policier intervient régulièrement comme consultant dans Chroniques criminelles ?",
+      "correct": "Jacques Pradel",
+      "wrong": [
+        "Christophe Hondelatte",
+        "Dominique Rizet",
+        "Georges Fenech"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Sous quelle terrasse la famille Dupont de Ligonnès a-t-elle été retrouvée ?",
+      "correct": "La terrasse de leur maison à Nantes",
+      "wrong": [
+        "La terrasse d'une villa dans le Var",
+        "La terrasse d'un chalet en Savoie",
+        "La terrasse d'une ferme en Normandie"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quelle ville Jonathann Daval a-t-il tué son épouse Alexia ?",
+      "correct": "Gray-la-Ville",
+      "wrong": [
+        "Vesoul",
+        "Besançon",
+        "Belfort"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel lien unissait le tueur en série Michel Fourniret à Monique Olivier ?",
+      "correct": "Ils étaient mariés",
+      "wrong": [
+        "Ils étaient frère et sœur",
+        "Ils étaient cousins germains",
+        "Ils étaient voisins de palier"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel surnom portait le tueur en série François Vérove avant d'être identifié par son ADN ?",
+      "correct": "Le Grêlé",
+      "wrong": [
+        "Le Borgne",
+        "Le Boiteux",
+        "Le Balafré"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle profession officielle exerçait François Vérove avant sa retraite ?",
+      "correct": "Gendarme",
+      "wrong": [
+        "Pompier",
+        "Douanier",
+        "Postier"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quelle ville de l'Yonne Émile Louis a-t-il sévi ?",
+      "correct": "Auxerre",
+      "wrong": [
+        "Sens",
+        "Avallon",
+        "Joigny"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel métier exerçait Émile Louis lorsqu'il a approché ses victimes ?",
+      "correct": "Chauffeur de car",
+      "wrong": [
+        "Facteur rural",
+        "Garde forestier",
+        "Agent d'entretien"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quelle commune des Yvelines Henri Désiré Landru brûlait-il les corps de ses victimes ?",
+      "correct": "Gambais",
+      "wrong": [
+        "Rambouillet",
+        "Mantes-la-Jolie",
+        "Versailles"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel appareil électroménager est resté célèbre dans l'affaire Landru ?",
+      "correct": "Une cuisinière à charbon",
+      "wrong": [
+        "Un congélateur coffre",
+        "Une machine à laver",
+        "Un poêle à mazout"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Où a eu lieu le quadruple meurtre de la famille Flactif ?",
+      "correct": "Au Grand-Bornand",
+      "wrong": [
+        "À Chamonix",
+        "À Megève",
+        "À Morzine"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui a été condamné pour l'assassinat de la famille Flactif ?",
+      "correct": "David Hotyat",
+      "wrong": [
+        "Patrick Dils",
+        "Omar Raddad",
+        "Jean-Louis Turquin"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle célèbre phrase écrite avec du sang est au cœur de l'affaire Omar Raddad ?",
+      "correct": "Omar m'a tuer",
+      "wrong": [
+        "Omar est coupable",
+        "C'est Omar qui l'a fait",
+        "Omar m'a frappée"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel était le métier d'Omar Raddad chez Ghislaine Marchal ?",
+      "correct": "Jardinier",
+      "wrong": [
+        "Chauffeur",
+        "Cuisinier",
+        "Majordome"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quel village des Vosges le corps du petit Grégory a-t-il été retrouvé ?",
+      "correct": "Docelles",
+      "wrong": [
+        "Lépanges-sur-Vologne",
+        "Épinal",
+        "Gérardmer"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quelle rivière le corps du petit Grégory a-t-il été découvert ?",
+      "correct": "La Vologne",
+      "wrong": [
+        "La Moselle",
+        "La Meurthe",
+        "La Saône"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle erreur judiciaire célèbre concerne un double meurtre d'enfants à Montigny-lès-Metz ?",
+      "correct": "L'affaire Patrick Dils",
+      "wrong": [
+        "L'affaire Christian Ranucci",
+        "L'affaire Seznec",
+        "L'affaire Mis et Thiennot"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel tueur en série a finalement été reconnu coupable des meurtres de Montigny-lès-Metz ?",
+      "correct": "Francis Heaulme",
+      "wrong": [
+        "Guy Georges",
+        "Michel Fourniret",
+        "Patrice Alègre"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel tueur en série américain sévissait à Milwaukee et conservait des restes humains chez lui ?",
+      "correct": "Jeffrey Dahmer",
+      "wrong": [
+        "Richard Ramirez",
+        "Ed Gein",
+        "Dennis Rader"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Qui assure la voix off emblématique des reportages de Chroniques criminelles ?",
+      "correct": "Jean-Baptiste Marcenac",
+      "wrong": [
+        "Dominique Duforest",
+        "Hervé Lacroix",
+        "Benoît Allemane"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quel café parisien Guy Georges a-t-il été reconnu et interpellé par un policier ?",
+      "correct": "Un café près de la place Blanche",
+      "wrong": [
+        "Un café de la place de la Bastille",
+        "Un bistrot de la gare du Nord",
+        "Une brasserie des Champs-Élysées"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel objet personnel de Jean-Claude Romand a permis aux pompiers de découvrir la supercherie lors de l'incendie ?",
+      "correct": "Son agenda",
+      "wrong": [
+        "Son passeport",
+        "Son carnet de chèques",
+        "Son ordinateur portable"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle commune de l'Ain habitait la famille de Jean-Claude Romand ?",
+      "correct": "Prévessin-Moëns",
+      "wrong": [
+        "Bourg-en-Bresse",
+        "Oyonnax",
+        "Ferney-Voltaire"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel château belge Michel Fourniret avait-il acheté grâce au magot du gang des Postiches ?",
+      "correct": "Le château du Sautou",
+      "wrong": [
+        "Le château de Bouillon",
+        "Le château de Reinhardstein",
+        "Le château de Vêves"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle ville du Var Xavier Dupont de Ligonnès a-t-il été vu pour la dernière fois sur une caméra de surveillance ?",
+      "correct": "Roquebrune-sur-Argens",
+      "wrong": [
+        "Fréjus",
+        "Draguignan",
+        "Sainte-Maxime"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel véhicule conduisait Xavier Dupont de Ligonnès lors de sa fuite vers le sud ?",
+      "correct": "Une Citroën C5",
+      "wrong": [
+        "Une Peugeot 407",
+        "Une Renault Laguna",
+        "Une Volkswagen Passat"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel militaire français a été condamné pour l'enlèvement et le meurtre de la petite Maëlys ?",
+      "correct": "Nordahl Lelandais",
+      "wrong": [
+        "Cédric Jubillar",
+        "Jonathan Daval",
+        "Willy Bardon"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle commune de l'Isère a eu lieu le mariage où Maëlys a disparu ?",
+      "correct": "Le Pont-de-Beauvoisin",
+      "wrong": [
+        "Bourgoin-Jallieu",
+        "Voiron",
+        "La Tour-du-Pin"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel autre jeune homme Nordahl Lelandais a-t-il reconnu avoir tué avant l'affaire Maëlys ?",
+      "correct": "Arthur Noyer",
+      "wrong": [
+        "Lucas Tronche",
+        "Antoine Zoia",
+        "Kévin Trompat"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle ville du Tarn habitait Delphine Jubillar avant sa disparition ?",
+      "correct": "Cagnac-les-Mines",
+      "wrong": [
+        "Albi",
+        "Castres",
+        "Carmaux"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel surnom donnait-on au tueur en série américain Dennis Rader ?",
+      "correct": "Le tueur BTK",
+      "wrong": [
+        "Le tueur du Golden State",
+        "Le fils de Sam",
+        "L'étrangleur de Boston"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Que signifient les initiales BTK choisies par le tueur américain Dennis Rader ?",
+      "correct": "Bind, Torture, Kill",
+      "wrong": [
+        "Burn, Track, Kill",
+        "Break, Take, Keep",
+        "Blood, Terror, Knife"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel tueur en série britannique était surnommé l'Éventreur du Yorkshire ?",
+      "correct": "Peter Sutcliffe",
+      "wrong": [
+        "Harold Shipman",
+        "Fred West",
+        "Ian Brady"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel médecin britannique est considéré comme l'un des tueurs en série les plus prolifiques au monde ?",
+      "correct": "Harold Shipman",
+      "wrong": [
+        "John Bodkin Adams",
+        "Michael Swango",
+        "Thomas Neill Cream"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle ville du sud-ouest de la France Patrice Alègre a-t-il commis la majorité de ses crimes ?",
+      "correct": "Toulouse",
+      "wrong": [
+        "Bordeaux",
+        "Montpellier",
+        "Pau"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel surnom portait le tueur en série allemand Peter Kürten ?",
+      "correct": "Le vampire de Düsseldorf",
+      "wrong": [
+        "Le boucher de Hanovre",
+        "Le loup-garou de Bedburg",
+        "Le monstre de Nuremberg"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel criminel français a inspiré le personnage principal du film L'Adversaire de Nicole Garcia ?",
+      "correct": "Jean-Claude Romand",
+      "wrong": [
+        "Philippe El Shennawy",
+        "Christophe Rocancourt",
+        "Jacques Mesrine"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel écrivain français a publié un célèbre récit intitulé L'Adversaire consacré à Jean-Claude Romand ?",
+      "correct": "Emmanuel Carrère",
+      "wrong": [
+        "Éric Vuillard",
+        "Delphine de Vigan",
+        "Laurent Binet"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle émission télévisée François Vérove avait-il participé comme candidat bien avant d'être démasqué ?",
+      "correct": "Tout le monde veut prendre sa place",
+      "wrong": [
+        "Questions pour un champion",
+        "Les Douze Coups de midi",
+        "Des chiffres et des lettres"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel était le nom de code de l'enquête policière française qui a permis d'arrêter Guy Georges ?",
+      "correct": "L'affaire SK1",
+      "wrong": [
+        "L'affaire K9",
+        "L'affaire X12",
+        "L'affaire M4"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Que signifie l'abréviation SK1 attribuée au dossier de Guy Georges avant son arrestation ?",
+      "correct": "Serial Killer numéro 1",
+      "wrong": [
+        "Suspect K numéro 1",
+        "Section Krim numéro 1",
+        "Série Meurtres 1"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel membre de la famille Villemin a été abattu par Jean-Marie Villemin dans l'affaire Grégory ?",
+      "correct": "Bernard Laroche",
+      "wrong": [
+        "Marcel Jacob",
+        "Michel Villemin",
+        "Jacky Villemin"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quelle rue parisienne se trouvait l'hôtel particulier où Marcel Petiot attirait ses victimes ?",
+      "correct": "La rue Le Sueur",
+      "wrong": [
+        "La rue Lauriston",
+        "La rue de Rivoli",
+        "La rue Saint-Honoré"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel tueur en série français, adjudant au camp de Mourmelon, est lié aux disparus de Mourmelon ?",
+      "correct": "Pierre Chanal",
+      "wrong": [
+        "Émile Louis",
+        "Michel Fourniret",
+        "Francis Heaulme"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quelle commune de Saône-et-Loire se trouvait la propriété de Véronique Courjault liée aux bébés congelés ?",
+      "correct": "Villeneuve-la-Comtesse",
+      "wrong": [
+        "Mâcon",
+        "Chalon-sur-Saône",
+        "Autun"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quel pays étranger la famille Courjault vivait-elle lorsque le mari a découvert les corps ?",
+      "correct": "La Corée du Sud",
+      "wrong": [
+        "Le Japon",
+        "Singapour",
+        "Taïwan"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel célèbre avocat pénaliste a défendu Patrick Dils lors de son procès en révision ?",
+      "correct": "Jean-Marc Florand",
+      "wrong": [
+        "Éric Dupond-Moretti",
+        "Henri Leclerc",
+        "Jacques Vergès"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du garde-chasse qui a mené l'enquête parallèle dans l'affaire des disparues de l'Yonne ?",
+      "correct": "Christian Jambert",
+      "wrong": [
+        "Jean-Pierre Treiber",
+        "Georges Boutron",
+        "Alain Lamare"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel ancien gendarme de l'Oise a été surnommé le tueur fou de l'Oise ?",
+      "correct": "Alain Lamare",
+      "wrong": [
+        "François Vérove",
+        "Pierre Chanal",
+        "Jean-Pierre Treiber"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quelle commune de l'Yonne se trouvait la maison forestière de Jean-Pierre Treiber ?",
+      "correct": "Saint-Sauveur-en-Puisaye",
+      "wrong": [
+        "Toucy",
+        "Vézelay",
+        "Tonnerre"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel couple de millionnaires a été assassiné dans l'affaire Treiber ?",
+      "correct": "Géraldine Giraud et Katia Lherbier",
+      "wrong": [
+        "Ghislaine Marchal et Jean-Louis Turquin",
+        "Anne-Marie et Roland Flactif",
+        "Agnès et Xavier Dupont de Ligonnès"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "De quel célèbre acteur français Géraldine Giraud était-elle la fille ?",
+      "correct": "Roland Giraud",
+      "wrong": [
+        "Bernard Giraudeau",
+        "Claude Brasseur",
+        "Jean Rochefort"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel criminel américain, surnommé le boucher de Plainfield, a inspiré le personnage de Norman Bates dans Psychose ?",
+      "correct": "Ed Gein",
+      "wrong": [
+        "Albert Fish",
+        "H. H. Holmes",
+        "Carl Panzram"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans quelle ville américaine H. H. Holmes a-t-il construit son célèbre hôtel piégé ?",
+      "correct": "Chicago",
+      "wrong": [
+        "New York",
+        "Boston",
+        "Philadelphie"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel tueur en série américain était surnommé le Night Stalker en Californie ?",
+      "correct": "Richard Ramirez",
+      "wrong": [
+        "Ted Bundy",
+        "Charles Manson",
+        "Edmund Kemper"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel tueur en série californien mesurait plus de deux mètres et était surnommé le tueur des étudiantes ?",
+      "correct": "Edmund Kemper",
+      "wrong": [
+        "Gary Ridgway",
+        "Arthur Shawcross",
+        "herb Baumeister"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel surnom portait le tueur en série américain Gary Ridgway ?",
+      "correct": "Le tueur de la Green River",
+      "wrong": [
+        "Le tueur de l'autoroute I-5",
+        "L'étrangleur de Hillside",
+        "Le tueur au visage heureux"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle société de production produit l'émission Chroniques criminelles pour TFX ?",
+      "correct": "GTNCO",
+      "wrong": [
+        "Endemol France",
+        "Banijay",
+        "Reservoir Prod"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel célèbre criminologue français est l'auteur de nombreux ouvrages de référence utilisés dans les émissions criminelles ?",
+      "correct": "Stéphane Bourgoin",
+      "wrong": [
+        "Alain Bauer",
+        "Xavier Raufer",
+        "Christophe Naudin"
+      ]
+    }
+  ]
+}

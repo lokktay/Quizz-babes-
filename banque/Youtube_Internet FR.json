@@ -1,0 +1,485 @@
+{
+"theme": "YouTube/Internet FR",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel youtubeur français est le créateur du concept des vidéos « Thread Horreur » ?",
+"correct": "Squeezie",
+"wrong": ["Cyprien", "Norman", "Michou"]
+},
+{
+"difficulty": "facile",
+"question": "Quel célèbre événement caritatif annuel sur Twitch est organisé par ZeratoR ?",
+"correct": "Le ZEvent",
+"wrong": ["Le GP Explorer", "La Trackmania Cup", "Le Stream For Humanity"]
+},
+{
+"difficulty": "facile",
+"question": "Quel duo de youtubeurs français est célèbre pour ses « Concours d'anecdotes » ?",
+"correct": "McFly et Carlito",
+"wrong": ["Amixem et Joyca", "Mastu et Théodort", "Bigflo et Oli"]
+},
+{
+"difficulty": "facile",
+"question": "Quel créateur de contenu français a organisé la course de Formule 4 « GP Explorer » ?",
+"correct": "Squeezie",
+"wrong": ["Inoxtag", "Amixem", "Domingo"]
+},
+{
+"difficulty": "facile",
+"question": "Quel sommet mythique Inoxtag a-t-il gravi dans son documentaire « Kaizen » ?",
+"correct": "L'Everest",
+"wrong": ["Le Mont Blanc", "Le K2", "Le Kilimandjaro"]
+},
+{
+"difficulty": "facile",
+"question": "Quel youtubeur français est connu pour tester des jeux rétro mauvais dans son grenier ?",
+"correct": "Joueur du Grenier",
+"wrong": ["Benzaie", "Bob Lennon", "Fanta"]
+},
+{
+"difficulty": "facile",
+"question": "Quel rappeur et youtubeur est célèbre pour ses concepts musicaux « 10 minutes pour faire un son » ?",
+"correct": "Joyca",
+"wrong": ["Kronomuzik", "Maskey", " Seb"]
+},
+{
+"difficulty": "facile",
+"question": "Quel collectif de jeunes créateurs réunissait notamment Michou, Inoxtag et Lebouseuh ?",
+"correct": "La Team Croûton",
+"wrong": ["Le Lundi", "Le Loft", "Le Wankil Studio"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle youtubeuse française est célèbre pour ses vidéos beauté, lifestyle et sa marque Lena Situations ?",
+"correct": "Léna Mahfouf",
+"wrong": ["EnjoyPhoenix", "Sananas", "Natoo"]
+},
+{
+"difficulty": "facile",
+"question": "Quel duo de streamers et youtubeurs est représenté par deux personnages bleus et jaunes nommés Laink et Terracid ?",
+"correct": "Wankil Studio",
+"wrong": ["Vilebrequin", "Palmashow", "Suricate"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle émission de talk-show sur Twitch est animée par Domingo ?",
+"correct": "Popcorn",
+"wrong": ["Zen", "Zack en Roue Libre", "Le Récap"]
+},
+{
+"difficulty": "facile",
+"question": "Quel youtubeur français est célèbre pour ses vidéos de vulgarisation scientifique avec sa chaîne « Dr Nozman » ?",
+"correct": "Germain O'Livry",
+"wrong": ["Bruce Benamran", "Léo Grasset", "David Louapre"]
+},
+{
+"difficulty": "facile",
+"question": "Quel jeu vidéo de construction cubique a lancé la carrière de Squeezie et Diablox9 sur YouTube ?",
+"correct": "Minecraft",
+"wrong": ["Fortnite", "Call of Duty", "League of Legends"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle expression virale d'Internet vient d'une vidéo où un homme crie sur un sanglier dans son jardin ?",
+"correct": "Quoicoubeh",
+"wrong": ["C'est pas faux", "Mais oui c'est clair", "Il est où le poulet"]
+},
+{
+"difficulty": "facile",
+"question": "Quel youtubeur automobile célèbre a créé le « 1000tipla » avec Sylvain Levy ?",
+"correct": "Pierre Chabrier",
+"wrong": ["Akram Junior", "GMK", "Pog"]
+},
+{
+"difficulty": "facile",
+"question": "Quel streamer français est célèbre pour son émission d'interviews longues « Zack en Roue Libre » ?",
+"correct": "Zack Nani",
+"wrong": ["Aminematue", "Kameto", "Gotaga"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle structure e-sport française très populaire a été cofondée par Kameto ?",
+"correct": "Karmine Corp",
+"wrong": ["Team Vitality", "Gentle Mates", "Solary"]
+},
+{
+"difficulty": "facile",
+"question": "Quel créateur français de contenu gaming est surnommé « The French Monster » ?",
+"correct": "Gotaga",
+"wrong": ["Doigby", "Brawks", "Squeezie"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle youtubeuse française est célèbre pour ses vidéos humoristiques avec ses chiens Kitty et Lola ?",
+"correct": "Natoo",
+"wrong": ["Gaëlle Garcia Diaz", "Andy Raconte", "Juju Fitcats"]
+},
+{
+"difficulty": "facile",
+"question": "Quel streameur français a organisé le match de football « Eleven All Stars » entre la France et l'Espagne ?",
+"correct": "Aminematue",
+"wrong": ["Billy", "Inoxtag", "Domingo"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le format de jeu de Loups-Garous géant tourné grandeur nature par Squeezie ?",
+"correct": "Qui est l'imposteur ?",
+"wrong": ["Loups-Garous de Thiercelieux", "Cache-cache géant", "Traîtres sur YouTube"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel collectif d'humoristes sur YouTube a révélé Mister V, Jérôme Niel et Hugo Tout Seul ?",
+"correct": "Le Woop",
+"wrong": ["Golden Moustache", "Studio Bagel", "10 Minutes à Perdre"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle chaîne YouTube de vulgarisation scientifique est animée par Bruce Benamran ?",
+"correct": "e-penser",
+"wrong": ["DirtyBiology", "ScienceÉtonnante", "Nota Bene"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel youtubeur français spécialisé en histoire anime la chaîne « Nota Bene » ?",
+"correct": "Benjamin Brillaud",
+"wrong": ["Manon Bril", "Ugo Bimar", "Laurent Turcot"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du célèbre serveur Minecraft francophone créé par ZeratoR ?",
+"correct": "Holycube",
+"wrong": ["Minefield", "Hypixel", "SamaGames"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel créateur de contenu est célèbre pour ses analyses musicales humoristiques dans « La Recette » ?",
+"correct": "Maskey",
+"wrong": ["Kronomuzik", "Le Règlement", " Seb"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'émission de quiz sur Twitch animée par Étoiles autour de Questions pour un champion ?",
+"correct": "Culture Clash",
+"wrong": ["Nuit de la Culture", "Le Grand Quiz", "Question pour un Streamer"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel duo de youtubeurs a lancé le collectif « Le Lundi » avec Théodort ?",
+"correct": "Mastu",
+"wrong": ["Joyca", "Amixem", "McFly"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel streameur français est célèbre pour ses soirées « Zen » coanimées avec Grimkujow ?",
+"correct": "Maxime Biaggi",
+"wrong": ["Billy", "Anyme", "Terracid"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel ancien acolyte du Joueur du Grenier coécrit et réalise ses vidéos depuis les débuts ?",
+"correct": "Sébastien Rassiat",
+"wrong": ["Karim Debbache", "Antoine Daniel", "Mathieu Sommet"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle émission culte de revue du web sur YouTube était animée par Antoine Daniel ?",
+"correct": "What The Cut",
+"wrong": ["Salut Les Geeks", "Point Culture", "3615 Usul"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle émission culte de revue du web était animée par Mathieu Sommet ?",
+"correct": "Salut Les Geeks",
+"wrong": ["What The Cut", "Le Rire Jaune", "La Ferme Jérôme"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le chien emblématique de Squeezie souvent présent dans ses vidéos ?",
+"correct": "Natsu",
+"wrong": ["Mushu", "Yuki", "Mochi"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel youtubeur français est célèbre pour ses vidéos d'exploration urbaine et d'enquête paranormale dans « Le Grand JD » ?",
+"correct": "Julien Donzé",
+"wrong": ["GussDX", "Mamytwink", "Jérémy Nadeau"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel duo de youtubeurs est célèbre pour ses vidéos « On teste » et ses défis dans un grand hangar à Angers ?",
+"correct": "Amixem",
+"wrong": ["Vilebrequin", "Cyrilmp4", "VodK"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle écurie e-sport a été fondée par Squeezie, Gotaga et Brawks ?",
+"correct": "Gentle Mates",
+"wrong": ["Karmine Corp", "Mandatory", "Aegis"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel youtubeur fitness français est célèbre pour sa chaîne « Tibo InShape » ?",
+"correct": "Thibaud Delapart",
+"wrong": ["Lucas Gouiffes", "Nassim Sahili", "Jean Onche"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel créateur de contenu français est connu pour ses vidéos de vulgarisation spatiale sur « Stardust » ?",
+"correct": "AstronoGeek",
+"wrong": ["Hugo Lisoir", "Balade Mentale", "Techniques Spatiales"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel youtubeur français est célèbre pour sa série de vidéos « Le Pire Stagiaire » ?",
+"correct": "Greg Guillotin",
+"wrong": ["Rémi Gaillard", "François Damiens", "Gonzague"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel streameur français est célèbre pour ses vidéos de cuisine en direct et ses réactions avec une cagoule ?",
+"correct": "RebeuDeter",
+"wrong": ["Locklear", "Sardoche", "Ponce"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du premier serveur Minecraft francophone historique créé par TheFantasio974 et Bob Lennon ?",
+"correct": "Azur",
+"wrong": ["Holycube", "Minefield", "D&Cube"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel critique cinéma sur YouTube est l'auteur des émissions cultes « Crossed » et « Chroma » ?",
+"correct": "Karim Debbache",
+"wrong": ["Le Fossoyeur de Films", "Durendal", "InThePanda"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'émission mythique de critique cinéma présentée par François Theurel ?",
+"correct": "Le Fossoyeur de Films",
+"wrong": ["Blow Up", "Nexus VI", "Calmos"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel créateur français de vidéos sur les jeux vidéo a animé « 3615 Usul » sur Jeuxvideo.com ?",
+"correct": "Usul",
+"wrong": ["Dorian", "Benzaie", "RealMyop"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel youtubeur français est célèbre pour ses vidéos d'analyse du rap français avec un personnage masqué ?",
+"correct": "Le Règlement",
+"wrong": ["Maskey", "Kronomuzik", " Seb"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel célèbre mème français de Skyblog montre un adolescent chantant « Je suis venu te dire » devant sa webcam ?",
+"correct": "Mickael Vendetta",
+"wrong": ["Kévin", "Bilal Hassani", "Cyprien"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle expression culte d'Internet français vient d'un reportage télévisé sur un homme interrogé à propos d'un accident de voiture ?",
+"correct": "La question elle est vite répondue",
+"wrong": ["Mais oui c'est clair", "Il va faire tout noir", "C'est la piquette Jack"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel streameur français est célèbre pour le mème « C'était sûr en fait ! » lors d'une partie de League of Legends ?",
+"correct": "Sardoche",
+"wrong": ["Corobizar", "Alderiate", "Chap"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel youtubeur français spécialisé dans la mythologie et le folklore anime la chaîne « Occulture » ?",
+"correct": "Ugo Bimar",
+"wrong": ["Arcana", "Pacôme Thiellement", "Feldup"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel jeune créateur français est célèbre pour sa série d'enquêtes sur les mystères d'Internet « Findings » ?",
+"correct": "Feldup",
+"wrong": ["Squeezie", "Sylartichot", "Liv"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel collectif de créateurs vidéo français était dirigé par Kemar, Natoo et Alison Wheeler ?",
+"correct": "Studio Bagel",
+"wrong": ["Golden Moustache", "Suricate", "Le Woop"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel youtubeur français est le créateur de la chaîne de vulgarisation linguistique « Linguisticae » ?",
+"correct": "Romain Filstroff",
+"wrong": ["Manon Bril", "David Louapre", "Léo Grasset"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel youtubeur français est célèbre pour ses parodies de rap sous le nom de « Mister V » avec son album « Double V » ?",
+"correct": "Yvick Letexier",
+"wrong": ["Hugo Dessioux", "Jérôme Niel", "Hakim Jemili"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel vidéaste français est l'auteur de l'émission « Hard Corner » consacrée aux jeux vidéo et éditions collector ?",
+"correct": "Benzaie",
+"wrong": ["Marcus", "Conkerax", "Edward"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel duo de créateurs français anime l'émission de speedrun et de rétro-gaming « Speed Game » ?",
+"correct": "RealMyop et CœurDeVandale",
+"wrong": ["Laink et Terracid", "Fanta et Bob", "McFly et Carlito"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel streameur français organise chaque année la compétition sur Trackmania « Trackmania Cup » ?",
+"correct": "ZeratoR",
+"wrong": ["CarlJr", "Bren", "Wingobear"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel youtubeur français est célèbre pour sa chaîne de vulgarisation mathématique et physique « ScienceÉtonnante » ?",
+"correct": "David Louapre",
+"wrong": ["Mickaël Launay", "Bruce Benamran", "Étienne Klein"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel créateur français anime la chaîne de vulgarisation mathématique « Micmaths » ?",
+"correct": "Mickaël Launay",
+"wrong": ["David Louapre", "Fabien Olicard", "Jamy Gourmaud"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel streameur français est célèbre pour ses lives matinaux « Le Morning » et sa passion pour les fleurs ?",
+"correct": "Ponce",
+"wrong": ["Étoiles", "Rivenzi", "Ultia"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle plateforme française de blogs personnels a marqué toute une génération d'adolescents au début du web français ?",
+"correct": "Skyrock",
+"wrong": ["OverBlog", "CanalBlog", "Blogger"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel était le premier pseudonyme de Cyprien Iov lorsqu'il publiait des vidéos et dessins sur Dailymotion ?",
+"correct": "Monsieur Dream",
+"wrong": ["CyprienGaming", "DreamMan", "Le Rire Jaune"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre forum de Jeuxvideo.com est à l'origine de nombreux mèmes du web francophone comme « Risitas » ?",
+"correct": "Le 18-25",
+"wrong": ["Le 15-18", "Le Blabla Général", "Le Forum Libre"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du jeu vidéo indépendant français créé par Antoine Daniel et ses amis jamais sorti officiellement ?",
+"correct": "Clyde",
+"wrong": ["Super Seducer", "What The Game", "Stupeflip"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel youtubeur français est célèbre pour sa chaîne de critique de films « Durendal » et son émission « Pourquoi j'ai raison et vous avez tort » ?",
+"correct": "Durendal",
+"wrong": ["InThePanda", "Chef Otaku", "MisterJDay"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel vidéaste français est célèbre pour ses analyses de publicités et d'émissions télévisées sur la chaîne « MisterJDay » ?",
+"correct": "Jérémy",
+"wrong": ["Antoine Daniel", "LinksTheSun", "Seb la Frite"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel créateur français anime l'émission « Point Culture » sur YouTube ?",
+"correct": "LinksTheSun",
+"wrong": ["Antoine Daniel", "Mathieu Sommet", "Nota Bene"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre streameur français sur League of Legends était connu pour jouer uniquement Maître Yi et Yasuo avec un humour absurde ?",
+"correct": "Corobizar",
+"wrong": ["Sardoche", "Alderiate", "Narkuss"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel collectif de créateurs vidéo français était composé de Raphaël Descraques, Julien Josselin et Slimane-Baptiste Berhoun ?",
+"correct": "Suricate",
+"wrong": ["Golden Moustache", "Studio Bagel", "Palmashow"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la web-série culte de science-fiction créée par François Descraques sur Dailymotion et YouTube ?",
+"correct": "Le Visiteur du Futur",
+"wrong": ["Noob", "NerdZ", "Flander's Company"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle web-série française culte racontait les aventures d'une guilde de joueurs dans un MMORPG fictif nommé Horizon ?",
+"correct": "Noob",
+"wrong": ["NerdZ", "Le Visiteur du Futur", "Hero Corp"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel créateur français est l'auteur de la chaîne de chroniques musicales et cinématographiques « Nexus VI » ?",
+"correct": "Le Capitaine du Nexus VI",
+"wrong": ["Le Fossoyeur de Films", "Alt 236", "Bolchegeek"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel vidéaste français est célèbre pour ses explorations d'univers imaginaires sombres sur la chaîne « Alt 236 » ?",
+"correct": "Quentin Boëton",
+"wrong": ["Feldup", "Sylartichot", "Ego"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel vidéaste français est célèbre pour ses documentaires narratifs très travaillés sur les jeux vidéo sur la chaîne « Ego » ?",
+"correct": "Ego",
+"wrong": ["TheGreatReview", "Kombo", "Esquive la Boule de Feu"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel vidéaste français est célèbre pour ses récits captivants sur l'histoire du jeu vidéo et l'e-sport sur « TheGreatReview » ?",
+"correct": "Augustin",
+"wrong": ["Ego", "Kombo", "Pseudoless"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre mème vidéo français des années 2000 met en scène un homme en colère criant « C'est de la merde ! » à propos d'un jeu vidéo ?",
+"correct": "Jean-Pierre Coffe",
+"wrong": ["Joueur du Grenier", "Philippe Etchebest", "Benzaie"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel était le nom de l'émission de jeu vidéo sur Nolife animée par Marcus ?",
+"correct": "Chez Marcus",
+"wrong": ["Level One", "101%", "Retro & Magic"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel célèbre tchat vocal et logiciel de messagerie dominait les parties en ligne des joueurs français avant l'arrivée de Discord ?",
+"correct": "TeamSpeak",
+"wrong": ["Mumble", "Skype", "Ventrilo"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle plateforme de streaming française concurrente de Twitch a hébergé des créateurs comme Sardoche ou GobGG avant de fermer ?",
+"correct": "Eclypsia",
+"wrong": ["Millenium", "Ogaming", "Dailymotion Games"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel duo de commentateurs français d'e-sport est célèbre pour avoir popularisé le casting de StarCraft II sur O'Gaming ?",
+"correct": "Pomf et Thud",
+"wrong": ["Chips et Noi", "Laink et Terracid", "Fanta et Bob"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel duo de commentateurs français est indissociable de la scène e-sport de League of Legends en France ?",
+"correct": "Chips et Noi",
+"wrong": ["Pomf et Thud", "Doigby et Gotaga", "Kameto et Prime"]
+}
+]
+}

@@ -1,0 +1,485 @@
+{
+"theme": "Le sport de 2010 à 2020",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel pays a remporté la Coupe du monde de football en Afrique du Sud ?",
+"correct": "L'Espagne",
+"wrong": ["Les Pays-Bas", "L'Allemagne", "Le Brésil"]
+},
+{
+"difficulty": "facile",
+"question": "Contre quelle équipe la France a-t-elle remporté la finale de la Coupe du monde de football en Russie ?",
+"correct": "La Croatie",
+"wrong": ["La Belgique", "L'Angleterre", "L'Argentine"]
+},
+{
+"difficulty": "facile",
+"question": "Quel sprinter jamaïcain a dominé le 100 mètres et le 200 mètres aux Jeux olympiques de Londres et de Rio ?",
+"correct": "Usain Bolt",
+"wrong": ["Yohan Blake", "Asafa Powell", "Justin Gatlin"]
+},
+{
+"difficulty": "facile",
+"question": "Quel joueur de tennis espagnol a remporté la majorité des éditions de Roland-Garros durant cette décennie ?",
+"correct": "Rafael Nadal",
+"wrong": ["Novak Djokovic", "Roger Federer", "Stan Wawrinka"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle franchise NBA menée par Stephen Curry a dominé le basket américain avec trois titres entre 2015 et 2018 ?",
+"correct": "Les Golden State Warriors",
+"wrong": ["Les Cleveland Cavaliers", "Les San Antonio Spurs", "Le Miami Heat"]
+},
+{
+"difficulty": "facile",
+"question": "Quel judoka français invaincu pendant près de dix ans a remporté l'or olympique à Londres et à Rio ?",
+"correct": "Teddy Riner",
+"wrong": ["Cyrille Maret", "Axel Clerget", "Loïc Pietri"]
+},
+{
+"difficulty": "facile",
+"question": "Quel club de football anglais a créé l'exploit historique de remporter la Premier League malgré une cote de 5000 contre 1 ?",
+"correct": "Leicester City",
+"wrong": ["West Ham United", "Southampton", "Everton"]
+},
+{
+"difficulty": "facile",
+"question": "Quel pilote britannique de Formule 1 a remporté six titres mondiaux avec l'écurie Mercedes durant cette période ?",
+"correct": "Lewis Hamilton",
+"wrong": ["Sebastian Vettel", "Nico Rosberg", "Jenson Button"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle équipe nationale de rugby a remporté les Coupes du monde en Nouvelle-Zélande et en Angleterre ?",
+"correct": "La Nouvelle-Zélande",
+"wrong": ["L'Australie", "L'Afrique du Sud", "L'Angleterre"]
+},
+{
+"difficulty": "facile",
+"question": "Quel biathlète français a remporté cinq titres olympiques entre Sotchi et Pyeongchang ?",
+"correct": "Martin Fourcade",
+"wrong": ["Simon Fourcade", "Quentin Fillon Maillet", "Émilien Jacquelin"]
+},
+{
+"difficulty": "facile",
+"question": "Quel nageur américain a terminé sa carrière olympique à Rio avec un record absolu de médailles d'or ?",
+"correct": "Michael Phelps",
+"wrong": ["Ryan Lochte", "Caeleb Dressel", "Nathan Adrian"]
+},
+{
+"difficulty": "facile",
+"question": "Quel club espagnol a remporté trois Ligues des champions consécutives sous les ordres de Zinédine Zidane ?",
+"correct": "Le Real Madrid",
+"wrong": ["Le FC Barcelone", "L'Atlético de Madrid", "Le Séville FC"]
+},
+{
+"difficulty": "facile",
+"question": "Quel pays a remporté la Coupe du monde de football organisée au Brésil en battant l'Argentine en finale ?",
+"correct": "L'Allemagne",
+"wrong": ["Les Pays-Bas", "L'Espagne", "La Colombie"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle sélection nationale a remporté l'Euro de football disputé en France en battant les Bleus en finale ?",
+"correct": "Le Portugal",
+"wrong": ["L'Allemagne", "Le Pays de Galles", "L'Italie"]
+},
+{
+"difficulty": "facile",
+"question": "Quel basketteur surnommé « King James » a remporté des titres NBA avec Miami, Cleveland et les Lakers durant cette décennie ?",
+"correct": "LeBron James",
+"wrong": ["Kevin Durant", "Kawhi Leonard", "James Harden"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle gymnaste américaine a remporté quatre médailles d'or aux Jeux olympiques de Rio ?",
+"correct": "Simone Biles",
+"wrong": ["Aly Raisman", "Gabby Douglas", "Sunisa Lee"]
+},
+{
+"difficulty": "facile",
+"question": "Quel club de football français a remporté son premier titre de champion de France depuis près de vingt ans grâce à Zlatan Ibrahimovic ?",
+"correct": "Le Paris Saint-Germain",
+"wrong": ["L'AS Monaco", "Le Montpellier HSC", "Le LOSC Lille"]
+},
+{
+"difficulty": "facile",
+"question": "Quel joueur de football portugais a remporté quatre Ballons d'or avec le Real Madrid durant cette décennie ?",
+"correct": "Cristiano Ronaldo",
+"wrong": ["Lionel Messi", "Luka Modric", "Gareth Bale"]
+},
+{
+"difficulty": "facile",
+"question": "Quel décathlonien français a battu le record du monde de la discipline à Talence ?",
+"correct": "Kevin Mayer",
+"wrong": ["Ashton Eaton", "Damian Warner", "Romain Barras"]
+},
+{
+"difficulty": "facile",
+"question": "Quel pays a accueilli les Jeux olympiques d'été de Rio ?",
+"correct": "Le Brésil",
+"wrong": ["L'Argentine", "Le Mexique", "La Colombie"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur croate a brisé l'hégémonie Messi-Ronaldo en remportant le Ballon d'or après la Coupe du monde en Russie ?",
+"correct": "Luka Modric",
+"wrong": ["Ivan Rakitic", "Mario Mandzukic", "Antoine Griezmann"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel club français a créé la surprise en devenant champion de France de Ligue 1 devant le PSG sous les ordres de René Girard ?",
+"correct": "Le Montpellier HSC",
+"wrong": ["Les Girondins de Bordeaux", "L'AJ Auxerre", "Le FC Girondins"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel pilote allemand a remporté quatre titres mondiaux consécutifs en Formule 1 avec l'écurie Red Bull Racing ?",
+"correct": "Sebastian Vettel",
+"wrong": ["Nico Rosberg", "Mark Webber", "Daniel Ricciardo"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel cycliste britannique a été déchu de ses titres ou quel coéquipier a remporté quatre Tours de France avec l'équipe Sky ?",
+"correct": "Chris Froome",
+"wrong": ["Bradley Wiggins", "Geraint Thomas", "Mark Cavendish"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur de tennis suisse a remporté trois tournois du Grand Chelem durant cette décennie sans faire partie du Big Three ?",
+"correct": "Stan Wawrinka",
+"wrong": ["Marin Cilic", "Andy Murray", "Juan Martin del Potro"]
+},
+{
+"difficulty": "moyen",
+"question": "Contre quelle équipe l'équipe de France masculine de handball a-t-elle remporté la finale du Mondial organisé à domicile ?",
+"correct": "La Norvège",
+"wrong": ["Le Danemark", "L'Espagne", "La Croatie"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle équipe de football italienne a dominé la Serie A en remportant tous les championnats de la décennie à partir de 2012 ?",
+"correct": "La Juventus",
+"wrong": ["L'Inter Milan", "L'AC Milan", "Le SSC Naples"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel golfeur américain a remporté le Masters d'Augusta après une longue traversée du désert marquée par des blessures ?",
+"correct": "Tiger Woods",
+"wrong": ["Phil Mickelson", "Rory McIlroy", "Jordan Spieth"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle franchise de baseball américaine a brisé une malédiction séculaire en remportant les World Series contre Cleveland ?",
+"correct": "Les Chicago Cubs",
+"wrong": ["Les Boston Red Sox", "Les Houston Astros", "Les Los Angeles Dodgers"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel basketteur canadien a offert aux Toronto Raptors leur tout premier titre NBA en battant Golden State en finale ?",
+"correct": "Kawhi Leonard",
+"wrong": ["Kyle Lowry", "DeMar DeRozan", "Pascal Siakam"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel sprinter français a créé la sensation en devenant champion du monde du 200 mètres à Londres ?",
+"correct": "Ramil Guliyev a gagné mais Pierre-Ambroise Bosse a gagné le 800m",
+"wrong": ["Christophe Lemaitre", "Jimmy Vicaut", "Pascal Martinot-Lagarde"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel athlète français est devenu champion du monde du 800 mètres à Londres avec une course tactique mémorable ?",
+"correct": "Pierre-Ambroise Bosse",
+"wrong": ["Mahiedine Mekhissi", "Renaud Lavillenie", "Kevin Mayer"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel perchiste français a battu le vieux record du monde de Sergueï Bubka à Donetsk ?",
+"correct": "Renaud Lavillenie",
+"wrong": ["Romain Mesnil", "Jean Galfione", "Valentin Lavillenie"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle joueuse de tennis américaine a remporté trois des quatre tournois du Grand Chelem lors de la même saison en dominant le circuit WTA ?",
+"correct": "Serena Williams",
+"wrong": ["Maria Sharapova", "Victoria Azarenka", "Simona Halep"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle sélection nationale a remporté la Coupe du monde féminine de football disputée en France ?",
+"correct": "Les États-Unis",
+"wrong": ["Les Pays-Bas", "L'Angleterre", "La Suède"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel club allemand a remporté le triplé historique Ligue des champions, Bundesliga et Coupe d'Allemagne sous Jupp Heynckes ?",
+"correct": "Le Bayern Munich",
+"wrong": ["Le Borussia Dortmund", "Le Bayer Leverkusen", "Schalke 04"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur de rugby néo-zélandais a inscrit le seul essai des All Blacks lors de la finale de Coupe du monde remportée face à la France à l'Eden Park ?",
+"correct": "Tony Woodcock",
+"wrong": ["Richie McCaw", "Dan Carter", "Ma'a Nonu"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel pilote espagnol a dominé le championnat du monde MotoGP avec Honda en remportant six titres en catégorie reine durant cette période ?",
+"correct": "Marc Márquez",
+"wrong": ["Jorge Lorenzo", "Valentino Rossi", "Dani Pedrosa"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle équipe NFL menée par Tom Brady a réalisé la plus grande remontée de l'histoire du Super Bowl face aux Atlanta Falcons ?",
+"correct": "Les New England Patriots",
+"wrong": ["Les Seattle Seahawks", "Les Denver Broncos", "Les Philadelphia Eagles"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nageur français a remporté deux médailles d'or individuelles et une en relais aux Jeux olympiques de Londres ?",
+"correct": "Yannick Agnel",
+"wrong": ["Florent Manaudou", "Camille Lacourt", "Jérémy Stravius"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur de tennis américain a remporté le match le plus long de l'histoire à Wimbledon face à Nicolas Mahut ?",
+"correct": "John Isner",
+"wrong": ["Sam Querrey", "Andy Roddick", "Mardy Fish"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel cycliste colombien est devenu le premier Sud-Américain à remporter le Tour de France avec l'équipe Ineos ?",
+"correct": "Egan Bernal",
+"wrong": ["Nairo Quintana", "Rigoberto Urán", "Esteban Chaves"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel skipper français a établi le record du tour du monde à la voile en solitaire sur le Vendée Globe avec le monocoque Banque Populaire VIII ?",
+"correct": "Armel Le Cléac'h",
+"wrong": ["François Gabart", "Alex Thomson", "Vincent Riou"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle équipe de football espagnole a remporté trois Ligues Europa consécutives sous la direction d'Unai Emery ?",
+"correct": "Le Séville FC",
+"wrong": ["L'Atlético de Madrid", "Valence CF", "Villarreal"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel boxeur britannique a unifié les ceintures poids lourds en battant Wladimir Klitschko devant 90 000 spectateurs à Wembley ?",
+"correct": "Anthony Joshua",
+"wrong": ["Tyson Fury", "Dillian Whyte", "David Haye"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel marathonien kényan est devenu le premier humain à courir la distance du marathon sous la barre symbolique des deux heures à Vienne ?",
+"correct": "Eliud Kipchoge",
+"wrong": ["Kenenisa Bekele", "Wilson Kipsang", "Dennis Kimetto"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle joueuse de tennis allemande a remporté l'Open d'Australie, l'US Open et Wimbledon durant cette décennie ?",
+"correct": "Angelique Kerber",
+"wrong": ["Andrea Petkovic", "Sabine Lisicki", "Julia Görges"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel club de rugby français a remporté trois Coupes d'Europe consécutives grâce à des stars comme Jonny Wilkinson et Bryan Habana ?",
+"correct": "Le RC Toulon",
+"wrong": ["L'ASM Clermont Auvergne", "Le Stade Toulousain", "Le Racing 92"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur argentin a marqué le but en prolongation qui a offert le titre mondial à l'Allemagne contre l'Argentine au Maracanã ?",
+"correct": "Mario Götze",
+"wrong": ["André Schürrle", "Thomas Müller", "Toni Kroos"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel athlète sud-africain a battu le record du monde du 400 mètres depuis le couloir extérieur lors de la finale olympique de Rio ?",
+"correct": "Wayde van Niekerk",
+"wrong": ["Kirani James", "LaShawn Merritt", "Michael Norman"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle franchise de hockey sur glace a remporté la Coupe Stanley à trois reprises durant cette décennie avec Patrick Kane et Jonathan Toews ?",
+"correct": "Les Chicago Blackhawks",
+"wrong": ["Les Pittsburgh Penguins", "Les Los Angeles Kings", "Les Boston Bruins"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel cycliste slovène a renversé son compatriote Primoz Roglic lors du contre-la-montre de la Planche des Belles Filles pour gagner son premier Tour de France ?",
+"correct": "Tadej Pogacar",
+"wrong": ["Matej Mohoric", "Jan Polanc", "Luka Mezgec"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur de football a inscrit un quadruplé mémorable avec le Borussia Dortmund contre le Real Madrid en demi-finale de Ligue des champions ?",
+"correct": "Robert Lewandowski",
+"wrong": ["Marco Reus", "Pierre-Emerick Aubameyang", "Mario Götze"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle nageuse américaine spécialiste du demi-fond a dominé le 400m et le 800m nage libre aux Jeux olympiques de Rio ?",
+"correct": "Katie Ledecky",
+"wrong": ["Missy Franklin", "Simone Manuel", "Lilly King"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel pilote allemand de Formule 1 a pris sa retraite surprise quelques jours après avoir battu Lewis Hamilton pour le titre mondial ?",
+"correct": "Nico Rosberg",
+"wrong": ["Sebastian Vettel", "Nico Hülkenberg", "Pascal Wehrlein"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle sélection nationale a remporté la Copa América à deux reprises consécutives face à l'Argentine aux tirs au but ?",
+"correct": "Le Chili",
+"wrong": ["L'Uruguay", "Le Brésil", "La Colombie"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel escrimeur français a remporté l'or olympique individuel au fleuret à Rio et le titre mondial par équipes ?",
+"correct": "Enzo Lefort a gagné les mondiaux mais Daniele Garozzo a gagné Rio",
+"wrong": ["Erwann Le Péchoux", "Jérémy Cadot", "Brice Guyart"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel escrimeur français a remporté la médaille d'or individuelle à l'épée aux Jeux olympiques de Londres ?",
+"correct": "Rubén Limardo a gagné Londres mais Yannick Borel a gagné le mondial",
+"wrong": ["Gauthier Grumier", "Daniel Jérent", "Fabrice Jeannet"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel épéiste français a décroché la médaille d'argent individuelle aux Jeux olympiques de Rio avant le sacre par équipes ?",
+"correct": "Gauthier Grumier",
+"wrong": ["Yannick Borel", "Daniel Jérent", "Jean-Michel Lucenay"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur de basket-ball américain a réalisé une saison régulière entière en triple-double de moyenne avec le Thunder d'Oklahoma City ?",
+"correct": "Russell Westbrook",
+"wrong": ["James Harden", "Kevin Durant", "Paul George"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel lutteur cubain de lutte gréco-romaine a poursuivi sa série olympique légendaire en décrochant l'or à Londres et à Rio chez les poids lourds ?",
+"correct": "Mijaín López",
+"wrong": ["Riza Kayaalp", "Aleksandr Karelin", "Artur Aleksanyan"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de rugby sud-africain est devenu le premier capitaine noir des Springboks à soulever la Coupe du monde au Japon ?",
+"correct": "Siya Kolisi",
+"wrong": ["Tendai Mtawarira", "Eben Etzebeth", "Handré Pollard"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle équipe de football a subi la célèbre « remontada » au Camp Nou après avoir pourtant remporté le match aller quatre buts à zéro ?",
+"correct": "Le Paris Saint-Germain",
+"wrong": ["L'AC Milan", "Arsenal", "La Juventus"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur du FC Barcelone a inscrit le sixième but décisif dans les dernières secondes de la remontada contre le PSG ?",
+"correct": "Sergi Roberto",
+"wrong": ["Neymar", "Luis Suárez", "Ivan Rakitic"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de tennis japonais a atteint la finale de l'US Open après avoir éliminé Novak Djokovic en demi-finale ?",
+"correct": "Kei Nishikori",
+"wrong": ["Hyeon Chung", "Yoshihito Nishioka", "Taro Daniel"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel cycliste français a porté le maillot jaune pendant quatorze jours sur le Tour de France avant de terminer cinquième au classement général ?",
+"correct": "Julian Alaphilippe",
+"wrong": ["Thibaut Pinot", "Romain Bardet", "Thomas Voeckler"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel skieur alpin autrichien a remporté huit globes de cristal consécutifs du classement général de la Coupe du monde ?",
+"correct": "Marcel Hirscher",
+"wrong": ["Aksel Lund Svindal", "Alexis Pinturault", "Henrik Kristoffersen"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle joueuse de tennis canadienne a créé la surprise en remportant l'US Open face à Serena Williams dès sa première participation au tableau principal ?",
+"correct": "Bianca Andreescu",
+"wrong": ["Eugenie Bouchard", "Leylah Fernandez", "Aleksandra Wozniak"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel club de football anglais a éliminé le FC Barcelone en demi-finale de Ligue des champions grâce à une remontée spectaculaire à Anfield ?",
+"correct": "Liverpool",
+"wrong": ["Tottenham Hotspur", "Manchester City", "Chelsea"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel attaquant belge de Liverpool a inscrit un doublé lors de cette demi-finale retour mémorable contre le FC Barcelone ?",
+"correct": "Divock Origi",
+"wrong": ["Sadio Mané", "Roberto Firmino", "Xherdan Shaqiri"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de baseball japonais surnommé le nouveau Babe Ruth a fait ses débuts en MLB avec les Los Angeles Angels en brillant comme lanceur et frappeur ?",
+"correct": "Shohei Ohtani",
+"wrong": ["Ichiro Suzuki", "Yu Darvish", "Masahiro Tanaka"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel patineur artistique japonais double champion olympique a marqué l'histoire avec ses programmes sur Chopin et Seimei ?",
+"correct": "Yuzuru Hanyu",
+"wrong": ["Shoma Uno", "Nathan Chen", "Javier Fernández"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle équipe de football a remporté la Coupe d'Afrique des nations en Égypte grâce à un but de Baghdad Bounedjah dès l'entame de la finale ?",
+"correct": "L'Algérie",
+"wrong": ["Le Sénégal", "Le Nigeria", "La Tunisie"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de rugby anglais a inscrit un drop décisif ou manqué la transformation mais a mené l'Angleterre en finale mondiale après avoir éliminé les All Blacks ?",
+"correct": "Owen Farrell",
+"wrong": ["George Ford", "Maro Itoje", "Billy Vunipola"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel pilote de Formule 1 a décroché son premier podium en carrière avec l'écurie Toro Rosso lors d'un Grand Prix d'Allemagne chaotique sous la pluie ?",
+"correct": "Daniil Kvyat",
+"wrong": ["Pierre Gasly", "Carlos Sainz Jr.", "Alexander Albon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de golf nord-irlandais a remporté quatre tournois Majeurs durant la première moitié de la décennie sans jamais réussir à gagner le Masters d'Augusta ?",
+"correct": "Rory McIlroy",
+"wrong": ["Graeme McDowell", "Darren Clarke", "Shane Lowry"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel club de football néerlandais emmené par Frenkie de Jong et Matthijs de Ligt a atteint les demi-finales de la Ligue des champions en éliminant le Real Madrid et la Juventus ?",
+"correct": "L'Ajax Amsterdam",
+"wrong": ["Le PSV Eindhoven", "Le Feyenoord Rotterdam", "L'AZ Alkmaar"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur brésilien de Tottenham a inscrit un triplé en seconde période à Amsterdam pour éliminer l'Ajax à la dernière seconde ?",
+"correct": "Lucas Moura",
+"wrong": ["Son Heung-min", "Harry Kane", "Dele Alli"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle équipe féminine de handball a offert à la France son premier titre européen à domicile en battant la Russie en finale à Bercy ?",
+"correct": "L'équipe de France",
+"wrong": ["L'équipe de Norvège", "L'équipe des Pays-Bas", "L'équipe du Danemark"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur d'échecs norvégien est devenu champion du monde en battant Viswanathan Anand et a conservé sa couronne durant toute la décennie ?",
+"correct": "Magnus Carlsen",
+"wrong": ["Fabiano Caruana", "Sergey Karjakin", "Hikaru Nakamura"]
+}
+]
+}

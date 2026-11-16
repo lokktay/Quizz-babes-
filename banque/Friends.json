@@ -1,0 +1,485 @@
+{
+"theme": "Friends",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le café où la bande se retrouve tout le temps ?",
+"correct": "Central Perk",
+"wrong": ["Central Park", "Coffee Bean", "Java Joe's"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le métier principal de Monica Geller ?",
+"correct": "Cheffe cuisinière",
+"wrong": ["Serveuse", "Créatrice de mode", "Masseuse"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le titre de la chanson la plus célèbre de Phoebe Buffay ?",
+"correct": "Tu pues le chat",
+"wrong": ["Tu pues le chien", "Mon petit chaton", "Le chat malade"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la réplique fétiche de Joey pour draguer ?",
+"correct": "Ça va vous ?",
+"wrong": ["Comment ça va ?", "Tu es libre ?", "Salut beauté"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle spécialité universitaire Ross Geller est-il docteur ?",
+"correct": "La paléontologie",
+"wrong": ["L'archéologie", "La géologie", "L'anthropologie"]
+},
+{
+"difficulty": "facile",
+"question": "Qui est le frère aîné de Monica ?",
+"correct": "Ross",
+"wrong": ["Chandler", "Joey", "Gunther"]
+},
+{
+"difficulty": "facile",
+"question": "Quel animal de compagnie Ross adopte-t-il dans la première saison ?",
+"correct": "Un singe",
+"wrong": ["Un canard", "Un poussin", "Un chat"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le colocataire et meilleur ami de Chandler ?",
+"correct": "Joey Tribbiani",
+"wrong": ["Ross Geller", "Richard Burke", "Mike Hannigan"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle couleur est le célèbre canapé du Central Perk ?",
+"correct": "Orange",
+"wrong": ["Marron", "Rouge", "Beige"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel feuilleton télévisé Joey décroche-t-il le rôle du Dr Drake Ramoray ?",
+"correct": "Des jours et des vies",
+"wrong": ["Les Feux de l'amour", "Amour, Gloire et Beauté", "Hôpital Central"]
+},
+{
+"difficulty": "facile",
+"question": "Avec qui Monica finit-elle par se marier ?",
+"correct": "Chandler Bing",
+"wrong": ["Richard Burke", "Pete Becker", "Joey Tribbiani"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le serveur blond du Central Perk amoureux de Rachel ?",
+"correct": "Gunther",
+"wrong": ["Treeger", "Heckles", "Paolo"]
+},
+{
+"difficulty": "facile",
+"question": "Quels sont les deux animaux de compagnie de Joey et Chandler ?",
+"correct": "Un poussin et un canard",
+"wrong": ["Un chien et un chat", "Deux furets", "Un lapin et un hamster"]
+},
+{
+"difficulty": "facile",
+"question": "Quel aliment Joey refuse-t-il catégoriquement de partager ?",
+"correct": "Sa nourriture",
+"wrong": ["Ses bières", "Ses sandwichs", "Ses pizzas"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle la fille de Ross et Rachel ?",
+"correct": "Emma",
+"wrong": ["Erica", "Ella", "Emily"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle ville américaine se déroule la quasi-totalité de la série ?",
+"correct": "New York",
+"wrong": ["Chicago", "Boston", "Los Angeles"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la profession de Phoebe Buffay ?",
+"correct": "Masseuse",
+"wrong": ["Coiffeuse", "Fleuriste", "Esthéticienne"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle l'ex-petite amie de Chandler à la voix très nasillarde ?",
+"correct": "Janice",
+"wrong": ["Kathy", "Carol", "Susan"]
+},
+{
+"difficulty": "facile",
+"question": "Quel prénom Ross prononce-t-il par erreur devant l'autel à Londres ?",
+"correct": "Rachel",
+"wrong": ["Carol", "Monica", "Susan"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel magasin de mode prestigieux Rachel finit-elle par travailler ?",
+"correct": "Ralph Lauren",
+"wrong": ["Calvin Klein", "Gucci", "Donna Karan"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle la sœur jumelle maléfique de Phoebe ?",
+"correct": "Ursula",
+"wrong": ["Regina", "Cassandra", "Lily"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du premier fils de Ross ?",
+"correct": "Ben",
+"wrong": ["Jack", "Sam", "Max"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel mot Ross crie-t-il en boucle en montant son canapé dans l'escalier ?",
+"correct": "Pivote !",
+"wrong": ["Tourne !", "Pousse !", "Soulève !"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quelle ville Chandler est-il muté pour son travail ?",
+"correct": "Tulsa",
+"wrong": ["Dallas", "Houston", "Austin"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le mari de Phoebe ?",
+"correct": "Mike Hannigan",
+"wrong": ["David le scientifique", "Gary le policier", "Duncan le patineur"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel faux nom Phoebe utilise-t-elle souvent pour se présenter ?",
+"correct": "Regina Phalange",
+"wrong": ["Ken Adams", "Valerie Metatarsal", "Princess Consuela"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le faux nom utilisé par Joey pour draguer ?",
+"correct": "Ken Adams",
+"wrong": ["Drake Ramoray", "Joseph Stalin", "Holden McGroin"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle erreur gastronomique Rachel commet-elle dans son célèbre trifle de Thanksgiving ?",
+"correct": "Elle met du bœuf",
+"wrong": ["Elle met du thon", "Elle met du poulet", "Elle met du porc"]
+},
+{
+"difficulty": "moyen",
+"question": "De quelle couleur est la porte d'entrée de l'appartement de Monica ?",
+"correct": "Violette",
+"wrong": ["Bleue", "Jaune", "Verte"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel objet est encadré autour du judas de la porte de Monica ?",
+"correct": "Un cadre photo jaune",
+"wrong": ["Un miroir rond", "Une couronne de fleurs", "Une horloge"]
+},
+{
+"difficulty": "moyen",
+"question": "Pour quel magazine de télévision Chandler et Joey remportent-ils un abonnement gratuit ?",
+"correct": "TV Guide",
+"wrong": ["Time", "People", "Rolling Stone"]
+},
+{
+"difficulty": "moyen",
+"question": "À quel nom est adressé l'abonnement de magazine de Chandler et Joey ?",
+"correct": "Miss Chanandler Bong",
+"wrong": ["Mr Chandler Bing", "Miss Chandler Bong", "Mrs Chanandler Bing"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel sport la bande joue-t-elle lors de l'épisode de Thanksgiving pour la « Coupe Geller » ?",
+"correct": "Le football américain",
+"wrong": ["Le baseball", "Le basket-ball", "Le frisbee"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le métier d'ophtalmologue exercé par Richard Burke, l'ex-petit ami de Monica ?",
+"correct": "Ophtalmologue",
+"wrong": ["Dentiste", "Cardiologue", "Dermatologue"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le singe de Ross ?",
+"correct": "Marcel",
+"wrong": ["Maurice", "Michel", "Martin"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel prénom ridicule Phoebe choisit-elle légalement après son mariage ?",
+"correct": "Princesse Consuela Banana Hammock",
+"wrong": ["Reine Regina Phalange", "Duchesse Valerie Consuela", "Lady Banana Hammock"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment Mike réplique-t-il au changement de nom de Phoebe ?",
+"correct": "Sac à Caca",
+"wrong": ["Pot de Chambre", "Boîte à Ordures", "Tas de Boue"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel restaurant thématique des années 50 Monica travaille-t-elle en patins à roulettes ?",
+"correct": "Moondance Diner",
+"wrong": ["Starlight Diner", "Central Diner", "Sunset Diner"]
+},
+{
+"difficulty": "moyen",
+"question": "Qui accouche des triplés du frère de Phoebe ?",
+"correct": "Phoebe",
+"wrong": ["Alice", "Monica", "Rachel"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quelle ville européenne Ross et Emily se marient-ils ?",
+"correct": "Londres",
+"wrong": ["Paris", "Rome", "Dublin"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le deuxième prénom de Chandler ?",
+"correct": "Muriel",
+"wrong": ["Francis", "Eustace", "Tobias"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le deuxième prénom de Rachel ?",
+"correct": "Karen",
+"wrong": ["Marie", "Elizabeth", "Louise"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle la peluche pingouin préférée de Joey ?",
+"correct": "Hugsy",
+"wrong": ["Pingu", "Waddles", "Flipper"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du chien en céramique blanc grandeur nature de Joey ?",
+"correct": "Pat",
+"wrong": ["Spot", "Rex", "Max"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle langue Joey prétend-il parler couramment sur son CV d'acteur ?",
+"correct": "Le français",
+"wrong": ["L'italien", "L'espagnol", "L'allemand"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'ami imaginaire d'enfance de Joey ?",
+"correct": "Maurice",
+"wrong": ["Marcel", "Bernard", "Henri"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel était le métier de l'ami imaginaire de Joey ?",
+"correct": "Cowboy de l'espace",
+"wrong": ["Pirate des airs", "Chevalier du futur", "Détective privé"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle la mère biologique des jumeaux adoptés par Monica et Chandler ?",
+"correct": "Erica",
+"wrong": ["Emma", "Erin", "Elena"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appellent les jumeaux de Monica et Chandler ?",
+"correct": "Jack et Erica",
+"wrong": ["Ben et Emma", "Jack et Judy", "Ross et Rachel"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom du groupe de rock formé par Ross et Chandler à l'université ?",
+"correct": "Way, No Way",
+"wrong": ["Emotional Knapsack", "The Chick and the Duck", "Smelly Cats"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle est la profession du père de Chandler à Las Vegas ?",
+"correct": "Meneur de revue cabaret",
+"wrong": ["Croupier de casino", "Magicien illusionniste", "Chanteur de jazz"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de scène du père de Chandler à Las Vegas ?",
+"correct": "Helena Handbasket",
+"wrong": ["Nora Tyler", "Vivian Las Vegas", "Gloria Glitter"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel fruit Ross est-il gravement allergique au point de gonfler ?",
+"correct": "Le kiwi",
+"wrong": ["La fraise", "La mangue", "L'ananas"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel jeu télévisé Joey participe-t-il en tant que candidat célèbre ?",
+"correct": "Pyramide",
+"wrong": ["Jeopardy", "La Roue de la Fortune", "Qui veut gagner des millions"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le voisin du dessous grincheux qui meurt en laissant ses affaires à Rachel et Monica ?",
+"correct": "Monsieur Heckles",
+"wrong": ["Monsieur Treeger", "Monsieur Zelner", "Monsieur Waltham"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel vêtement en cuir rouge pose un énorme problème à Ross lors d'un rendez-vous galant ?",
+"correct": "Un pantalon en cuir",
+"wrong": ["Une veste en cuir", "Une chemise en cuir", "Un short en cuir"]
+},
+{
+"difficulty": "difficile",
+"question": "Pour quelle marque de mode Rachel passe-t-elle un entretien où elle embrasse le recruteur par erreur ?",
+"correct": "Ralph Lauren",
+"wrong": ["Bloomingdale's", "Gucci", "Louis Vuitton"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel dessert Joey commande-t-il deux parts lors de son rendez-vous avec Sarah ?",
+"correct": "Un gâteau au chocolat",
+"wrong": ["Un cheesecake", "Un tiramisu", "Une tarte aux pommes"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel pays David le scientifique part-il travailler pendant des années ?",
+"correct": "La Biélorussie",
+"wrong": ["L'Ukraine", "La Russie", "La Pologne"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle la bande dessinée créée par Ross dans son enfance ?",
+"correct": "Science Boy",
+"wrong": ["Dino Man", "Fossil Kid", "Paleo Hero"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom exact de la discipline d'arts martiaux inventée par Ross pour être toujours prêt ?",
+"correct": "Unagi",
+"wrong": ["Sashimi", "Karate-do", "Wasabi"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la chienne que Phoebe garde et dont Chandler a une peur bleue ?",
+"correct": "Clunkers",
+"wrong": ["Lapooh", "Mozzarella", "Chi-Chi"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel ingrédient secret la grand-mère de Phoebe utilisait-elle pour ses célèbres cookies ?",
+"correct": "Les pépites Nestlé Toulouse",
+"wrong": ["Du beurre salé breton", "De la cassonade brune", "De l'extrait d'amande"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de famille de Gunther révélé tardivement dans la série ?",
+"correct": "Central Perk",
+"wrong": ["Gunther", "perkson", "Inconnu"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du yacht acheté par Rachel lors d'une vente aux enchères caritative ?",
+"correct": "The Mr. Beaumont",
+"wrong": ["The Sea Breeze", "The Geller", "The Nauti-Gal"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle l'émission de cuisine que Monica tente de présenter ?",
+"correct": "Cooking with Monica",
+"wrong": ["Monica's Kitchen", "Chef Geller", "The Clean Plate"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le métier exact de Chandler avant sa reconversion dans la publicité ?",
+"correct": "Analyse statistique et reconfiguration de données",
+"wrong": ["Comptable financier senior", "Analyste informatique bancaire", "Gestionnaire de bases de données"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle le film de guerre dans lequel Joey tourne à Las Vegas ?",
+"correct": "Shutter Speed",
+"wrong": ["Over There", "Desert Storm", "Final Mission"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du personnage que Joey joue dans la pièce de théâtre de science-fiction « Boxing Day » ?",
+"correct": "Vic",
+"wrong": ["Mac", "C.H.E.E.S.E.", "Drake"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la série policière où Joey joue avec un robot partenaire ?",
+"correct": "Mac et C.H.E.E.S.E.",
+"wrong": ["RoboCop NY", "Joey et Bot", "Law & Robot"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle la petite amie de Ross qui se rase entièrement la tête à la plage ?",
+"correct": "Bonnie",
+"wrong": ["Mona", "Charlie", "Julie"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle est la couleur du pull que Ross oublie chez Rachel et qui révèle qu'il est le père d'Emma ?",
+"correct": "Rouge",
+"wrong": ["Bleu marine", "Vert sapin", "Gris anthracite"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle le concierge de l'immeuble que Joey aide à s'entraîner pour le bal ?",
+"correct": "Monsieur Treeger",
+"wrong": ["Monsieur Heckles", "Monsieur Zelner", "Monsieur Geller"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du fauteuil inclinable adoré par Joey et Chandler ?",
+"correct": "Rosita",
+"wrong": ["Stevie", "Lucille", "Betsy"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle l'autre fauteuil inclinable acheté par Chandler pour remplacer Rosita ?",
+"correct": "Stevie",
+"wrong": ["Rosita", "Maria", "Carmen"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel animal empaillé Joey offre-t-il à Chandler pour célébrer leur amitié ?",
+"correct": "Un canard",
+"wrong": ["Un chien", "Un pingouin", "Un coq"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel livre Joey met-il au congélateur parce qu'il lui fait trop peur ?",
+"correct": "Shining",
+"wrong": ["Ça", "L'Exorciste", "Les Quatre Filles du docteur March"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de famille de la mère biologique de Phoebe ?",
+"correct": "Abbott",
+"wrong": ["Buffay", "Hannigan", "Green"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans quel musée de New York Ross travaille-t-il comme paléontologue ?",
+"correct": "Musée d'histoire naturelle",
+"wrong": ["Metropolitan Museum", "Musée de la ville de New York", "Guggenheim"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle chanson Ross joue-t-il à la cornemuse lors d'une soirée entre amis ?",
+"correct": "Celebration",
+"wrong": ["Amazing Grace", "Scotland the Brave", "Auld Lang Syne"]
+}
+]
+}

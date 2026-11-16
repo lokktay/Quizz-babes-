@@ -1,0 +1,444 @@
+[
+  {
+    "id": "animaux",
+    "label": "Animaux",
+    "emoji": "🦁",
+    "file": "Animaux.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "arcane",
+    "label": "Arcane",
+    "emoji": "🧪",
+    "file": "Arcane.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "chiens",
+    "label": "Chiens",
+    "emoji": "🐕",
+    "file": "Chiens.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "chroniques-criminelles",
+    "label": "Chroniques criminelles",
+    "emoji": "🔪",
+    "file": "Chroniques criminelles.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "competition-d-escalade",
+    "label": "Compétition d'escalade",
+    "emoji": "🧗",
+    "file": "Escalade de compétition.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "cuisine",
+    "label": "Cuisine",
+    "emoji": "🍳",
+    "file": "cuisine.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "dessins-animes-animation",
+    "label": "Dessins animés & animation",
+    "emoji": "🎨",
+    "file": "Dessins animées & animation.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "disneys",
+    "label": "Disneys",
+    "emoji": "🏰",
+    "file": "Disneys.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "dragon-les-films",
+    "label": "Dragon les films",
+    "emoji": "🐉",
+    "file": "Dragons les films.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "equitation",
+    "label": "Equitation",
+    "emoji": "🐎",
+    "file": "Equitation.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "escalade-hdf",
+    "label": "Escalade HDF",
+    "emoji": "🧗",
+    "file": "Escalade HDF.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "esport-francais",
+    "label": "Esport français",
+    "emoji": "🎮",
+    "file": "Esport Français.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "friends",
+    "label": "Friends",
+    "emoji": "🛋️",
+    "file": "Friends.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "game-of-thrones",
+    "label": "Game of Thrones",
+    "emoji": "👑",
+    "file": "Game of Throne.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "geographie",
+    "label": "Géographie",
+    "emoji": "🌍",
+    "file": "Géographie.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "hunter-x-hunter",
+    "label": "Hunter X Hunter",
+    "emoji": "🎣",
+    "file": "Hunter hunter.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "jeux-de-societe",
+    "label": "Jeux de société",
+    "emoji": "🎲",
+    "file": "jeux de société.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "jeux-olympiques",
+    "label": "Jeux Olympiques",
+    "emoji": "🏅",
+    "file": "JO.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "la-diplomatie",
+    "label": "La diplomatie",
+    "emoji": "🕊️",
+    "file": "La diplomatie.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "le-caca",
+    "label": "Le caca",
+    "emoji": "💩",
+    "file": "caca.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "le-sport-de-2010-a-2020",
+    "label": "Le sport de 2010 à 2020",
+    "emoji": "🏆",
+    "file": "Sport de 2010 à 2020.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "league-of-legends",
+    "label": "League of Legends",
+    "emoji": "⚔️",
+    "file": "League of Legend.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "mario-bross",
+    "label": "Mario Bross",
+    "emoji": "🍄",
+    "file": "Mario Bross.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "mickey-mouse",
+    "label": "Mickey mouse",
+    "emoji": "🐭",
+    "file": "Mickey mouse.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "minecraft",
+    "label": "Minecraft",
+    "emoji": "⛏️",
+    "file": "Minecraft.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "musique-instruments",
+    "label": "Musique (instruments)",
+    "emoji": "🎸",
+    "file": "Instruments de musique.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "one-piece",
+    "label": "One Piece",
+    "emoji": "🏴‍☠️",
+    "file": "One piece.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "plantes",
+    "label": "Plantes",
+    "emoji": "🌿",
+    "file": "plantes.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "pokemon",
+    "label": "Pokémon",
+    "emoji": "⚡",
+    "file": "Pokémon.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "psych-enqueteur-malgre-lui",
+    "label": "Psych enquêteur malgré lui",
+    "emoji": "🍍",
+    "file": "Psych enquêteur malgré lui.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "sciences",
+    "label": "Sciences",
+    "emoji": "🔬",
+    "file": "Sciences.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "sports",
+    "label": "Sports",
+    "emoji": "⚽",
+    "file": "Sports.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "vitality",
+    "label": "Vitality",
+    "emoji": "🐝",
+    "file": "Vitality.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  },
+  {
+    "id": "youtube-internet-fr",
+    "label": "YouTube/Internet FR",
+    "emoji": "📺",
+    "file": "Youtube_Internet FR.json",
+    "count": 80,
+    "levels": {
+      "facile": 20,
+      "moyen": 20,
+      "difficile": 20,
+      "tres_difficile": 20
+    }
+  }
+]

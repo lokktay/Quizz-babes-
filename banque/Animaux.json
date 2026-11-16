@@ -1,0 +1,485 @@
+{
+"theme": "Animaux",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel est le plus grand mammifère terrestre actuel ?",
+"correct": "L'éléphant d'Afrique",
+"wrong": ["Le rhinocéros blanc", "L'hippopotame amphibie", "La girafe"]
+},
+{
+"difficulty": "facile",
+"question": "Quel animal est considéré comme le plus rapide sur terre à la course ?",
+"correct": "Le guépard",
+"wrong": ["Le lion", "L'antilope springbok", "Le lévrier"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le plus grand animal vivant sur Terre ?",
+"correct": "La baleine bleue",
+"wrong": ["Le requin-baleine", "Le cachalot", "Le calmar géant"]
+},
+{
+"difficulty": "facile",
+"question": "Quel oiseau est incapable de voler mais nage très vite dans l'hémisphère Sud ?",
+"correct": "Le manchot",
+"wrong": ["Le macareux", "Le pélican", "L'albatros"]
+},
+{
+"difficulty": "facile",
+"question": "De quel aliment principal se nourrit presque exclusivement le panda géant ?",
+"correct": "Le bambou",
+"wrong": ["L'eucalyptus", "Les baies sauvages", "Les racines d'acacia"]
+},
+{
+"difficulty": "facile",
+"question": "Quel marsupial australien porte son petit dans une poche ventrale et se déplace en bondissant ?",
+"correct": "Le kangourou",
+"wrong": ["Le koala", "Le wombat", "L'ornithorynque"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on la femelle du sanglier ?",
+"correct": "La laie",
+"wrong": ["La biche", "La hase", "La louve"]
+},
+{
+"difficulty": "facile",
+"question": "Quel reptile est célèbre pour sa capacité à changer de couleur afin de communiquer ou se camoufler ?",
+"correct": "Le caméléon",
+"wrong": ["L'iguane vert", "Le gecko léopard", "Le varan de Komodo"]
+},
+{
+"difficulty": "facile",
+"question": "Quel insecte produit du miel à partir du nectar des fleurs ?",
+"correct": "L'abeille domestique",
+"wrong": ["La guêpe commune", "Le frelon asiatique", "Le bourdon terrestre"]
+},
+{
+"difficulty": "facile",
+"question": "Quel mammifère volant utilise l'écholocation pour chasser la nuit ?",
+"correct": "La chauve-souris",
+"wrong": ["L'écureuil volant", "Le hibou grand-duc", "Le galéopithèque"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on le petit du cerf et de la biche ?",
+"correct": "Le faon",
+"wrong": ["Le marcassin", "Le chevreau", "Le levraut"]
+},
+{
+"difficulty": "facile",
+"question": "Quel animal marin possède huit bras garnis de ventouses et trois cœurs ?",
+"correct": "La pieuvre",
+"wrong": ["La seiche", "L'étoile de mer", "La méduse"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le plus grand oiseau vivant actuel, incapable de voler mais très rapide à la course ?",
+"correct": "L'autruche",
+"wrong": ["L'émeu", "Le casoar", "Le nandou"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle couleur est la peau de l'ours polaire sous sa fourrure translucide ?",
+"correct": "Noire",
+"wrong": ["Blanche", "Rose pâle", "Gris clair"]
+},
+{
+"difficulty": "facile",
+"question": "Quel mammifère marin possède une longue défense torsadée ressemblant à une corne de licorne ?",
+"correct": "Le narval",
+"wrong": ["Le béluga", "L'orque", "Le marsouin"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on un animal qui ne se nourrit que de végétaux ?",
+"correct": "Un herbivore",
+"wrong": ["Un carnivore", "Un omnivore", "Un insectivore"]
+},
+{
+"difficulty": "facile",
+"question": "Quel amphibien commence sa vie sous forme de têtard aquatique muni de branchies ?",
+"correct": "La grenouille",
+"wrong": ["La tortue", "Le crocodile", "L'orvet"]
+},
+{
+"difficulty": "facile",
+"question": "Quel rongeur construit des barrages avec des branches et de la boue sur les cours d'eau ?",
+"correct": "Le castor",
+"wrong": ["La loutre", "Le ragondin", "La marmotte"]
+},
+{
+"difficulty": "facile",
+"question": "Quel grand félin vit principalement en groupe appelé troupe ou clan en Afrique ?",
+"correct": "Le lion",
+"wrong": ["Le tigre", "Le léopard", "Le jaguar"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle couleur devient le plumage du flamant rose grâce aux pigments présents dans sa nourriture ?",
+"correct": "Rose",
+"wrong": ["Orange vif", "Rouge carmin", "Jaune doré"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel mammifère australien pond des œufs tout en allaitant ses petits ?",
+"correct": "L'ornithorynque",
+"wrong": ["Le koala", "Le diable de Tasmanie", "Le wallaby"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel oiseau est capable de voler en arrière ainsi que sur place grâce à un battement d'ailes très rapide ?",
+"correct": "Le colibri",
+"wrong": ["Le martinet noir", "L'hirondelle rustique", "Le martin-pêcheur"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le plus grand lézard vivant au monde, originaire d'Indonésie ?",
+"correct": "Le dragon de Komodo",
+"wrong": ["Le monstre de Gila", "L'iguane marin", "Le basilic vert"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on la femelle du lièvre ?",
+"correct": "La hase",
+"wrong": ["La lapine", "La laie", "La chevrette"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel animal possède la morsure la plus puissante parmi tous les animaux terrestres actuels ?",
+"correct": "Le crocodile marin",
+"wrong": ["Le grand requin blanc", "La hyène tachetée", "Le grizzly"]
+},
+{
+"difficulty": "moyen",
+"question": "De quelle couleur est la langue de la girafe, qui lui permet d'éviter les coups de soleil en broutant ?",
+"correct": "Bleu-noir",
+"wrong": ["Rose vif", "Jaune pâle", "Rouge écarlate"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel poisson est connu pour gonfler son corps d'eau ou d'air lorsqu'il se sent menacé ?",
+"correct": "Le poisson-globe",
+"wrong": ["Le poisson-clown", "Le poisson-scie", "Le poisson-lion"]
+},
+{
+"difficulty": "moyen",
+"question": "Chez quel animal marin est-ce le mâle qui porte les œufs dans une poche ventrale jusqu'à l'éclosion ?",
+"correct": "L'hippocampe",
+"wrong": ["La raie manta", "L'anguille électrique", "Le homard"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel oiseau dépose ses œufs dans le nid d'autres espèces pour qu'elles élèvent ses petits à sa place ?",
+"correct": "Le coucou gris",
+"wrong": ["La pie bavarde", "Le geai des chênes", "L'étourneau sansonnet"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grand singe d'Asie du Sud-Est au pelage roux vit principalement dans les arbres de Bornéo et Sumatra ?",
+"correct": "L'orang-outan",
+"wrong": ["Le gorille", "Le bonobo", "Le mandrill"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on l'état de sommeil profond et prolongé dans lequel entrent certains animaux en hiver ?",
+"correct": "L'hibernation",
+"wrong": ["L'estivation", "La migration", "La mue"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel mammifère à écailles kératinisées se roule en boule pour se protéger et fait l'objet d'un important braconnage ?",
+"correct": "Le pangolin",
+"wrong": ["Le tatou", "L'oryctérope", "Le fourmilier géant"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le plus grand félin vivant à l'état sauvage ?",
+"correct": "Le tigre",
+"wrong": ["Le lion", "Le jaguar", "Le puma"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle araignée venimeuse d'Amérique du Nord est reconnaissable à la tache rouge en forme de sablier sous son abdomen ?",
+"correct": "La veuve noire",
+"wrong": ["La mygale", "La tarentule", "L'épeire diadème"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on le cri du cerf pendant la période de reproduction en automne ?",
+"correct": "Le brame",
+"wrong": ["Le rugissement", "Le barrissement", "Le glapissement"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel rongeur sud-américain est le plus grand rongeur vivant au monde ?",
+"correct": "Le capybara",
+"wrong": ["Le ragondin", "Le chinchilla", "Le porc-épic"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel oiseau marin d'Arctique et de l'Atlantique Nord possède un grand bec coloré et triangulaire ?",
+"correct": "Le macareux moine",
+"wrong": ["Le fou de Bassan", "Le guillemot de Troïl", "Le pétrel fulmar"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel mammifère carnivore d'Afrique a une mâchoire capable de broyer les os et rit pour communiquer ?",
+"correct": "La hyène tachetée",
+"wrong": ["Le lycaon", "Le chacal doré", "Le serval"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel insecte lumineux produit de la lumière froide par bioluminescence au niveau de son abdomen ?",
+"correct": "La luciole",
+"wrong": ["La cigale", "La mante religieuse", "Le scarabée rhinocéros"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel animal d'Amérique du Sud crache un mélange de salive et de contenu stomacal lorsqu'il est irrité ?",
+"correct": "Le lama",
+"wrong": ["Le tapir", "Le pécari", "Le coati"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel amphibien mexicain est célèbre pour sa capacité à régénérer ses membres et à conserver ses branchies externes à l'âge adulte ?",
+"correct": "L'axolotl",
+"wrong": ["Le protée anguillard", "La salamandre tachetée", "Le triton alpestre"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel oiseau terrestre endémique de Nouvelle-Zélande est nocturne, incapable de voler et possède des narines au bout de son long bec ?",
+"correct": "Le kiwi",
+"wrong": ["Le kakapo", "Le kéa", "Le takahé"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on l'ordre de mammifères qui regroupe uniquement l'ornithorynque et les échidnés, caractérisés par la ponte d'œufs ?",
+"correct": "Les monotrèmes",
+"wrong": ["Les marsupiaux", "Les placentaires", "Les xénarthres"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel petit mammifère africain vit en colonies souterraines organisées comme celles des insectes sociaux avec une reine reproductrice ?",
+"correct": "Le rat-taupe nu",
+"wrong": ["Le suricate", "La mangouste naine", "Le daman des rochers"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel oiseau détient le record de la plus grande envergure parmi tous les oiseaux vivants ?",
+"correct": "L'albatros hurleur",
+"wrong": ["Le condor des Andes", "Le pélican frisé", "Le gypaète barbu"]
+},
+{
+"difficulty": "difficile",
+"question": "De quelle forme géométrique sont les excréments du wombat, ce qui les empêche de rouler ?",
+"correct": "Cubique",
+"wrong": ["Sphérique", "Pyramidal", "Cylindrique"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel requin, le deuxième plus grand poisson vivant après le requin-baleine, se nourrit uniquement de plancton en nageant la gueule ouverte ?",
+"correct": "Le requin pèlerin",
+"wrong": ["Le requin-tigre", "Le requin-bouledogue", "Le requin-marteau"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel perroquet nocturne de Nouvelle-Zélande est le seul perroquet au monde incapable de voler ?",
+"correct": "Le kakapo",
+"wrong": ["Le kéa", "Le cacatoès à huppe jaune", "L'ara hyacinthe"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel crustacé marin possède des pinces capables de frapper si vite qu'elles créent une bulle de cavitation lumineuse et brûlante ?",
+"correct": "La crevette-mante",
+"wrong": ["Le crabe de cocotier", "Le homard européen", "La langouste rouge"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel mammifère carnivore d'Asie appelé chat-ours dégage une odeur rappelant celle du pop-corn chaud ?",
+"correct": "Le binturong",
+"wrong": ["Le panda roux", "Le fossa", "La civette palmiste"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le plus grand prédateur terrestre de l'île de Madagascar ?",
+"correct": "Le fossa",
+"wrong": ["Le lémur catta", "L'aye-aye", "Le tenrec"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel poisson osseux préhistorique, longtemps cru disparu avec les dinosaures, a été redécouvert vivant dans l'océan Indien ?",
+"correct": "Le cœlacanthe",
+"wrong": ["L'esturgeon beluga", "Le dipneuste", "La lamproie marine"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel lémurien nocturne de Madagascar utilise un troisième doigt très long et squelettique pour extraire les larves des troncs d'arbres ?",
+"correct": "L'aye-aye",
+"wrong": ["L'indri", "Le sifaka", "Le microcèbe"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on les lames cornées qui remplacent les dents chez les baleines à fanons pour filtrer le krill ?",
+"correct": "Les fanons",
+"wrong": ["Les branchies", "Les barbillons", "Les opercules"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel animal marin proche des méduses possède les tentacules venimeux les plus dangereux pour l'être humain en Australie ?",
+"correct": "La cuboméduse",
+"wrong": ["La physalie", "L'aurélie", "La pélagie"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel mammifère sud-américain possède une carapace articulée composée de plaques osseuses recouvertes de corne ?",
+"correct": "Le tatou",
+"wrong": ["Le pangolin", "Le tamanoir", "Le paresseux"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel oiseau migre chaque année d'un pôle à l'autre, réalisant la plus longue migration connue du règne animal ?",
+"correct": "La sterne arctique",
+"wrong": ["La barge rousse", "Le puffin fuligineux", "La grue cendrée"]
+},
+{
+"difficulty": "difficile",
+"question": "De quelle couleur est le sang du limule, un arthropode marin utilisé en médecine pour détecter les toxines bactériennes ?",
+"correct": "Bleu",
+"wrong": ["Vert", "Jaune", "Incolore"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel reptile de Nouvelle-Zélande ressemble à un lézard mais possède un troisième œil pariétal sur le sommet du crâne ?",
+"correct": "Le tuatara",
+"wrong": ["Le caméléon panthère", "L'orvet fragile", "Le scinque à langue bleue"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment appelle-t-on l'organe sensoriel situé sur le palais des serpents qui analyse les particules captées par leur langue fourchue ?",
+"correct": "L'organe de Jacobson",
+"wrong": ["La ligne latérale", "Les ampoules de Lorenzini", "Le tympan interne"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on les électrorécepteurs situés sur le museau des requins qui leur permettent de détecter les champs électriques de leurs proies ?",
+"correct": "Les ampoules de Lorenzini",
+"wrong": ["L'organe de Jacobson", "Les statocystes", "Les neuromastes"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel minuscule invertébré aquatique surnommé ourson d'eau est célèbre pour sa résistance extrême au vide spatial et aux radiations ?",
+"correct": "Le tardigrade",
+"wrong": ["Le rotifère", "Le nématode", "L'hydre d'eau douce"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle méduse est connue comme biologiquement immortelle grâce à sa capacité à inverser son cycle de vie vers le stade polype ?",
+"correct": "Turritopsis dohrnii",
+"wrong": ["Chironex fleckeri", "Aurelia aurita", "Pelagia noctiluca"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel grand oiseau échassier d'Afrique centrale doit son nom à son énorme bec en forme de sabot ?",
+"correct": "Le bec-en-sabot du Nil",
+"wrong": ["Le marabout d'Afrique", "Le jabiru d'Afrique", "L'ombrette africaine"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel mammifère aquatique d'Amérique du Nord est le seul mammifère connu à pouvoir sentir les odeurs sous l'eau grâce à des bulles d'air expirées puis réaspirées ?",
+"correct": "Le condylure à nez étoilé",
+"wrong": ["La loutre de rivière", "Le desman des Pyrénées", "Le castor du Canada"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le seul serpent venimeux au monde qui construit un véritable nid de feuilles pour protéger ses œufs ?",
+"correct": "Le cobra royal",
+"wrong": ["Le mamba noir", "Le crotale diamantin", "La vipère du Gabon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel mammifère volant appelé renard volant est en réalité une grande chauve-souris frugivore ?",
+"correct": "La roussette",
+"wrong": ["Le vampire commun", "La pipistrelle", "Le grand rhinolophe"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel oiseau d'Amérique du Sud possède des griffes fonctionnelles sur les ailes lorsqu'il est oisillon pour grimper dans les branches ?",
+"correct": "L'hoazin huppé",
+"wrong": ["Le quetzal resplendissant", "Le toucan toco", "Le cariama huppé"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel requin des eaux profondes possède la plus grande longévité connue parmi tous les vertébrés ?",
+"correct": "Le requin du Groenland",
+"wrong": ["Le requin-lutin", "Le requin-lézard", "Le requin grande-gueule"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment appelle-t-on l'adaptation physiologique permettant à certains oiseaux et mammifères marins de dormir avec un seul hémisphère cérébral à la fois ?",
+"correct": "Le sommeil unihémisphérique",
+"wrong": ["La torpeur diurne", "La diapause embryonnaire", "La bradycardie d'apnée"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel insecte de Nouvelle-Zélande compte parmi les plus lourds du monde et ressemble à une sauterelle géante dépourvue d'ailes ?",
+"correct": "Le weta géant",
+"wrong": ["Le phasme géant", "Le scarabée goliath", "La courtilière"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel mammifère marin des rivières d'Asie est devenu fonctionnellement aveugle mais navigue grâce à un sonar très perfectionné ?",
+"correct": "Le dauphin du Gange",
+"wrong": ["Le lamantin des Caraïbes", "Le dugong", "La loutre géante"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel animal terrestre possède les plus grands yeux proportionnellement à la taille de sa tête parmi tous les mammifères ?",
+"correct": "Le tarsier",
+"wrong": ["Le galago", "Le loris lent", "Le chinchilla"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel phénomène permet à la femelle kangourou de mettre en pause le développement d'un embryon tant que le petit précédent occupe la poche ?",
+"correct": "La diapause embryonnaire",
+"wrong": ["La parthénogenèse", "L'ovoviviparité", "La néoténie"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel mammifère d'Afrique subsaharienne, seul représentant vivant de l'ordre des tubulidentés, se nourrit presque uniquement de fourmis et de termites ?",
+"correct": "L'oryctérope du Cap",
+"wrong": ["Le protèle", "Le zorille commun", "Le galago du Sénégal"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel rapace diurne se nourrit presque exclusivement de moelle osseuse en laissant tomber les gros os sur des rochers pour les briser ?",
+"correct": "Le gypaète barbu",
+"wrong": ["Le vautour fauve", "Le percnoptère d'Égypte", "Le balbuzard pêcheur"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel céphalopode des grands fonds utilise une bioluminescence spectaculaire et retourne ses bras palmés au-dessus de sa tête en cas de danger ?",
+"correct": "Le vampire des abysses",
+"wrong": ["Le nautile", "La seiche flamboyante", "L'argonaute"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle toxine mortelle produite par certaines grenouilles dendrobates d'Amérique du Sud est l'un des poisons naturels les plus puissants connus ?",
+"correct": "La batrachotoxine",
+"wrong": ["La tétrodotoxine", "La saxitoxine", "La ricine"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel oiseau australien construit des berceaux sophistiqués décorés d'objets bleus ou brillants pour séduire les femelles ?",
+"correct": "Le jardinier satiné",
+"wrong": ["L'oiseau-lyre superbe", "Le paradisier grand-émeraude", "Le kookaburra"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel canidé sauvage d'Amérique du Sud aux très longues pattes rousses est surnommé un renard sur échasses ?",
+"correct": "Le loup à crinière",
+"wrong": ["Le dhole", "Le chien viverrin", "Le renard de Magellan"]
+}
+]
+}

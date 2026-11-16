@@ -1,0 +1,805 @@
+{
+  "theme": "League of Legends",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom de la carte principale en 5 contre 5 sur League of Legends ?",
+      "correct": "La Faille de l'invocateur",
+      "wrong": [
+        "L'Abîme hurlant",
+        "La Forêt torturée",
+        "La Cicatrice de cristal"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel bâtiment faut-il détruire pour remporter une partie ?",
+      "correct": "Le Nexus",
+      "wrong": [
+        "L'Inhibiteur",
+        "La Fontaine",
+        "Le Bastion"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel monstre épique donne un buff permettant d'améliorer les sbires proches ?",
+      "correct": "Le Baron Nashor",
+      "wrong": [
+        "Le Dragon ancestral",
+        "Le Héraut de la Faille",
+        "Les Larves du Néant"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle est la sœur ennemie jurée de Vi ?",
+      "correct": "Jinx",
+      "wrong": [
+        "Caitlyn",
+        "Lux",
+        "Morgana"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel champion porte le titre de « Roi déchu » ?",
+      "correct": "Viego",
+      "wrong": [
+        "Mordekaiser",
+        "Jarvan IV",
+        "Azir"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle créature de la jungle donne une réduction des délais de récupération ?",
+      "correct": "La Sentinelle bleue",
+      "wrong": [
+        "Le Roncier rouge",
+        "Le Carapateur",
+        "Le Gromp"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel champion pose des champignons explosifs invisibles sur la carte ?",
+      "correct": "Teemo",
+      "wrong": [
+        "Shaco",
+        "Ziggs",
+        "Heimerdinger"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quelle cité utopique du progrès vivent Jayce et Viktor ?",
+      "correct": "Piltover",
+      "wrong": [
+        "Demacia",
+        "Ionia",
+        "Bilgewater"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle est l'arme principale de Yasuo ?",
+      "correct": "Un katana",
+      "wrong": [
+        "Une lance",
+        "Une hache",
+        "Un marteau"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel sort d'invocateur permet de se téléporter instantanément sur une courte distance ?",
+      "correct": "Saut éclair",
+      "wrong": [
+        "Fantôme",
+        "Purge",
+        "Barrière"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel champion est un petit renard à neuf queues ?",
+      "correct": "Ahri",
+      "wrong": [
+        "Neeko",
+        "Lillia",
+        "Yuumi"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel rôle joue principalement un champion dans la jungle ?",
+      "correct": "Jungler",
+      "wrong": [
+        "Toplaner",
+        "Midlaner",
+        "Support"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle nation est connue pour rejeter la magie et porter des armures en pétricite ?",
+      "correct": "Demacia",
+      "wrong": [
+        "Noxus",
+        "Freljord",
+        "Shurima"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel champion est un ours polaire demi-dieu de Freljord ?",
+      "correct": "Volibear",
+      "wrong": [
+        "Ornn",
+        "Udyr",
+        "Nunu"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel objet de départ est conçu pour les tireurs ayant besoin de dégâts physiques et de vol de vie ?",
+      "correct": "Lame de Doran",
+      "wrong": [
+        "Anneau de Doran",
+        "Bouclier de Doran",
+        "Larme de la déesse"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel champion utilise une lanterne pour sauver ses alliés et capturer des âmes ?",
+      "correct": "Thresh",
+      "wrong": [
+        "Lucian",
+        "Hecarim",
+        "Karthus"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle est la ressource utilisée par Garen pour lancer ses compétences ?",
+      "correct": "Aucune ressource",
+      "wrong": [
+        "Du mana",
+        "De l'énergie",
+        "De la fureur"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel champion peut avaler un allié ou un ennemi avec son ultime ou son sort ?",
+      "correct": "Tahm Kench",
+      "wrong": [
+        "Cho'Gath",
+        "Zac",
+        "Gragas"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel mode de jeu se déroule exclusivement sur une seule voie centrale ?",
+      "correct": "ARAM",
+      "wrong": [
+        "URF",
+        "Arena",
+        "Blitz du Nexus"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel champion est un chat magique perché sur un grimoire volant ?",
+      "correct": "Yuumi",
+      "wrong": [
+        "Rengar",
+        "Nidalee",
+        "Lulu"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du corbeau démon qui accompagne Swain ?",
+      "correct": "Béatrice",
+      "wrong": [
+        "Valmar",
+        "Valor",
+        "Pix"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel dragon élémentaire octroie de la régénération de PV manquants et d'armure/résistance magique ?",
+      "correct": "Le dragon des montagnes",
+      "wrong": [
+        "Le dragon des océans",
+        "Le dragon infernal",
+        "Le dragon des nuages"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le vrai nom de Jinx avant sa transformation ?",
+      "correct": "Powder",
+      "wrong": [
+        "Violet",
+        "Sarah",
+        "Shauna"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel champion possède un passif nommé « Murmure » et compte ses balles jusqu'à quatre ?",
+      "correct": "Jhin",
+      "wrong": [
+        "Graves",
+        "Aphelios",
+        "Caitlyn"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "De quelle région provient le champion Gangplank ?",
+      "correct": "Bilgewater",
+      "wrong": [
+        "Les Îles obscures",
+        "Ixtal",
+        "Targon"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel objet mythique ou légendaire permet d'entrer en stase pendant un court instant ?",
+      "correct": "Sablier de Zhonya",
+      "wrong": [
+        "Ange gardien",
+        "Voile de la banshee",
+        "Force de la trinité"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui est le frère aîné de Yasuo ?",
+      "correct": "Yone",
+      "wrong": [
+        "Zed",
+        "Shen",
+        "Kayn"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel champion se transforme en mégamonstre lorsqu'il accumule assez de rage ?",
+      "correct": "Gnar",
+      "wrong": [
+        "Shyvana",
+        "Rumble",
+        "Kled"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel monstre de la jungle se promène paisiblement dans la rivière sans attaquer ?",
+      "correct": "Le Carapateur",
+      "wrong": [
+        "Le Gromp",
+        "Les Corbins",
+        "Les Lycans"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom de la hache magique de Sion ou de l'arme de Darius ?",
+      "correct": "Une hache à double tranchant",
+      "wrong": [
+        "Une hallebarde runique",
+        "Une masse d'armes",
+        "Une faux sombre"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel champion peut voler la compétence ultime d'un champion ennemi ?",
+      "correct": "Sylas",
+      "wrong": [
+        "Viego",
+        "Neeko",
+        "Rubick"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle est la profession d'origine de Braum dans les contes de Freljord ?",
+      "correct": "Berger",
+      "wrong": [
+        "Forgeron",
+        "Chasseur",
+        "Pêcheur"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel champion est une poupée devenue humaine grâce à la magie d'Isolde ?",
+      "correct": "Gwen",
+      "wrong": [
+        "Orianna",
+        "Annie",
+        "Vex"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel sort d'invocateur révèle une zone de la carte et réduit l'armure des ennemis ?",
+      "correct": "Aucun sort ne fait cela",
+      "wrong": [
+        "Clarté",
+        "Fatigue",
+        "Embrasement"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle organisation secrète de Noxus est dirigée par LeBlanc ?",
+      "correct": "La Rose Noire",
+      "wrong": [
+        "Le Trifarix",
+        "L'Ordre de l'Ombre",
+        "Les Sentinelles de la Lumière"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel champion utilise une pelle comme arme principale ?",
+      "correct": "Yorick",
+      "wrong": [
+        "Trundle",
+        "Jax",
+        "Nasus"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du yéti qui accompagne Nunu ?",
+      "correct": "Willump",
+      "wrong": [
+        "Skaarl",
+        "Tibbers",
+        "Daisy"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel champion porte un masque et dit chercher une « vraie arme » ?",
+      "correct": "Jax",
+      "wrong": [
+        "Lee Sin",
+        "Master Yi",
+        "Shen"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle championne est la sœur jumelle de Kayle ?",
+      "correct": "Morgana",
+      "wrong": [
+        "Leona",
+        "Diana",
+        "Lissandra"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du monstre invoqué par l'ultime d'Ivern ?",
+      "correct": "Marguerite",
+      "wrong": [
+        "Tibbers",
+        "Skaarl",
+        "Béatrice"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de la créature lézard lâche qui sert de monture à Kled ?",
+      "correct": "Skaarl",
+      "wrong": [
+        "Willump",
+        "Bristle",
+        "Valor"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel champion a forgié le pont de l'Abîme hurlant et les armes des demi-dieux ?",
+      "correct": "Ornn",
+      "wrong": [
+        "Volibear",
+        "Anivia",
+        "Braum"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom complet de Miss Fortune ?",
+      "correct": "Sarah Fortune",
+      "wrong": [
+        "Shauna Fortune",
+        "Katarina Fortune",
+        "Camille Fortune"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la particularité d'Aphelios concernant sa façon de parler ?",
+      "correct": "Il est temporairement muet à cause d'un poison",
+      "wrong": [
+        "Il ne parle qu'en langage des signes",
+        "Il a perdu sa langue au combat",
+        "Il communique uniquement par télépathie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel champion est un Darkin enfermé dans un arc ?",
+      "correct": "Varus",
+      "wrong": [
+        "Aatrox",
+        "Rhaast",
+        "Naafiri"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de la fée qui accompagne Lulu ?",
+      "correct": "Pix",
+      "wrong": [
+        "Navi",
+        "Blink",
+        "Nym"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle plante de la jungle projette les champions dans les airs lorsqu'on la frappe ?",
+      "correct": "Pomme de pin explosive",
+      "wrong": [
+        "Fleur de vision",
+        "Fruit miel",
+        "Bourgeon spectrale"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du père adoptif de Katarina et Cassiopeia ?",
+      "correct": "Marcus Du Couteau",
+      "wrong": [
+        "Boram Darkwill",
+        "Jericho Swain",
+        "Darius Trifarix"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel champion a pour passif « Pèlerinage » et collecte des carillons sur la carte ?",
+      "correct": "Bard",
+      "wrong": [
+        "Aurelion Sol",
+        "Zoe",
+        "Taric"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quelle région se situe la cité cachée d'Ixaocan ?",
+      "correct": "Ixtal",
+      "wrong": [
+        "Shurima",
+        "Ionia",
+        "Targon"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel champion est un golem de vapeur créé par Viktor à Zaun ?",
+      "correct": "Blitzcrank",
+      "wrong": [
+        "Nautilus",
+        "Galio",
+        "Orianna"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le titre officiel du dragon élémentaire Hextech ?",
+      "correct": "Dragon Hextech",
+      "wrong": [
+        "Dragon Technochimique",
+        "Dragon Mécanique",
+        "Dragon Arcanique"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel champion a trahi Azir juste avant son ascension à Shurima ?",
+      "correct": "Xerath",
+      "wrong": [
+        "Renekton",
+        "Nasus",
+        "Sivir"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de l'épée magique utilisée par Riven ?",
+      "correct": "Lame runique",
+      "wrong": [
+        "Lame d'infini",
+        "Lame du roi déchu",
+        "Lame d'ébène"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle championne est la cheffe de la tribu des Avarosans à Freljord ?",
+      "correct": "Ashe",
+      "wrong": [
+        "Sejuani",
+        "Lissandra",
+        "Illaoi"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du sanglier géant que monte Sejuani ?",
+      "correct": "Bristle",
+      "wrong": [
+        "Skaarl",
+        "Tusk",
+        "Gromp"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel champion est un esprit de la nature pacifiste qui libère les camps de la jungle ?",
+      "correct": "Ivern",
+      "wrong": [
+        "Maokai",
+        "Zyra",
+        "Lillia"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle arme utilise Senna au combat ?",
+      "correct": "Un canon relique",
+      "wrong": [
+        "Deux pistolets de lumière",
+        "Une arbalète d'argent",
+        "Un fusil Hextech"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de la sœur jumelle d'Aphelios qui le guide depuis le royaume spirituel ?",
+      "correct": "Alune",
+      "wrong": [
+        "Diana",
+        "Soraka",
+        "Nami"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel champion est un démon primordial de la peur ?",
+      "correct": "Fiddlesticks",
+      "wrong": [
+        "Evelynn",
+        "Nocturne",
+        "Tahm Kench"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de l'ancienne femme de Lucian qui a été piégée dans la lanterne de Thresh ?",
+      "correct": "Senna",
+      "wrong": [
+        "Isolde",
+        "Vayne",
+        "Kalista"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le vrai nom complet de Twisted Fate ?",
+      "correct": "Tobias Felix",
+      "wrong": [
+        "Malcolm Graves",
+        "Toby Fox",
+        "Thomas Fletcher"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel était le nom de l'ancien objet qui permettait de réanimer instantanément son champion à la fontaine ?",
+      "correct": "Réanimation",
+      "wrong": [
+        "Résurrection",
+        "Renaissance",
+        "Seconde vie"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du dieu kraken vénéré par Illaoi à Bilgewater ?",
+      "correct": "Nagakabouros",
+      "wrong": [
+        "Jaull",
+        "Leviathan",
+        "Maelstrom"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la mère d'Orianna, dont le nom figurait sur la boutique de Corin Reveck ?",
+      "correct": "Aucune mention officielle de son nom",
+      "wrong": [
+        "Camille",
+        "Clara",
+        "Isolde"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel champion porte le titre d'« Œil du Crépuscule » ?",
+      "correct": "Shen",
+      "wrong": [
+        "Zed",
+        "Kennen",
+        "Akali"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du navire amiral de Gangplank avant qu'il ne soit détruit par Miss Fortune ?",
+      "correct": "Le Dead Pool",
+      "wrong": [
+        "Le Syren",
+        "Le Leviathan",
+        "Le Black Pearl"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la créature du Néant qui a creusé des tunnels dans les déserts de Shurima ?",
+      "correct": "Rek'Sai",
+      "wrong": [
+        "Vel'Koz",
+        "Kha'Zix",
+        "Kog'Maw"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel champion est le créateur de Blitzcrank dans le lore actuel de Zaun ?",
+      "correct": "Viktor",
+      "wrong": [
+        "Singed",
+        "Heimerdinger",
+        "Jayce"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de l'ordre ninjas fondé par Zed après avoir quitté les Kinkou ?",
+      "correct": "L'Ordre de l'Ombre",
+      "wrong": [
+        "Le Lotus Noir",
+        "La Main de Noxus",
+        "Les Lames silencieuses"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel objet disparu permettait autrefois d'infliger un pourcentage des PV max d'une cible et d'augmenter les dégâts magiques subis ?",
+      "correct": "Bracelet de feu mortel",
+      "wrong": [
+        "Sceptre abyssal",
+        "Volonté des anciens",
+        "Pierre philosophale"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la femme décédée de Viego dont il cherche à rassembler les fragments d'âme ?",
+      "correct": "Isolde",
+      "wrong": [
+        "Kalista",
+        "Gwen",
+        "Seraphine"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel champion est une statuette de pétricite géante qui s'éveille au contact de la magie ?",
+      "correct": "Galio",
+      "wrong": [
+        "Malphite",
+        "Sion",
+        "Mordekaiser"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du premier empereur de Noxus renversé par Jericho Swain ?",
+      "correct": "Boram Darkwill",
+      "wrong": [
+        "Darius",
+        "Mordekaiser",
+        "Sion"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel champion a pour passif « Mépris des faibles » et inflige des dégâts supplémentaires aux cibles isolées ?",
+      "correct": "Kha'Zix",
+      "wrong": [
+        "Rengar",
+        "Zed",
+        "Talon"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du démon de l'agonie qui prend l'apparence d'une femme séduisante ?",
+      "correct": "Evelynn",
+      "wrong": [
+        "Ahri",
+        "Elise",
+        "Zyra"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel champion a perdu son bras gauche face à Irelia lors de l'invasion d'Ionia par Noxus ?",
+      "correct": "Swain",
+      "wrong": [
+        "Darius",
+        "Sion",
+        "Draven"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la ville sous-marine d'où est originaire Nami ?",
+      "correct": "Marai",
+      "wrong": [
+        "Atlantis",
+        "Bilgewater",
+        "Nautilus"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel champion est le seul Darkin à être enfermé dans une dague et à posséder une meute de chiens ?",
+      "correct": "Naafiri",
+      "wrong": [
+        "Aatrox",
+        "Rhaast",
+        "Varus"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du titre honorifique donné aux chasseurs de monstres comme Vayne ?",
+      "correct": "Chasseuse nocturne",
+      "wrong": [
+        "Sentinelle de l'aube",
+        "Traqueuse d'ombres",
+        "Purificatrice"
+      ]
+    }
+  ]
+}

@@ -2,10 +2,12 @@ import {
   ref, set, update, remove, push, get, onValue, query, orderByChild, equalTo, endAt,
   runTransaction, onDisconnect, serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-database.js";
-import { db } from "./firebase.js?v=2";
-import { SETTINGS } from "./config.js?v=2";
-import { collectThemes, computeScores, prepareBank, prepareBoard, shuffle } from "./logic.js?v=2";
-import { generateInBatches } from "./ai.js?v=3";
+import { db } from "./firebase.js?v=4";
+import { SETTINGS } from "./config.js?v=4";
+import { collectThemes, createPools, createSupply, normalize, questionKey } from "./logic.js?v=7";
+import { DEFAULT_SETTINGS, buildRounds, firstState, planProgram } from "./modes.js?v=3";
+import { generatePools } from "./ai.js?v=6";
+import { loadIndex, loadThemeQuestions } from "./bank.js?v=1";
 
 let uid = null;
 let clockOffset = 0;
@@ -39,19 +41,48 @@ export async function cleanOldGames() {
   await Promise.allSettled(Object.keys(old.val() ?? {}).map((id) => remove(gameRef(id))));
 }
 
-export async function createGame(name, playerName) {
+const playerRecord = (name, avatar) => (avatar ? { name, connected: true, avatar } : { name, connected: true });
+
+// Nom de groupe → clé Firebase stable (« Les Babes ! » → « les-babes »).
+export const groupKey = (name) => normalize(name).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40);
+
+// `ai` : le créateur a une clé Gemini, chaque joueur peut donc proposer un thème libre.
+// `settings` : { modes: [...], minutes } — les modes de jeu choisis et la durée visée.
+export async function createGame(name, playerName, avatar, groupName = "", ai = true, settings = DEFAULT_SETTINGS) {
   const newGame = push(ref(db, "games"));
+  const group = groupKey(groupName);
   await set(newGame, {
     name,
     hostId: uid,
     createdAt: serverTimestamp(),
+    ai: Boolean(ai),
+    settings: { modes: settings.modes, minutes: settings.minutes },
     state: { phase: "lobby" },
-    players: { [uid]: { name: playerName, connected: true } },
+    players: { [uid]: playerRecord(playerName, avatar) },
+    ...(group ? { group, groupName: groupName.trim().slice(0, 40) } : {}),
   });
   return newGame.key;
 }
 
-export async function joinGame(id, playerName) {
+// Revanche : nouvelle partie avec le même nom et le même groupe ; l'ancienne pointe vers elle.
+export async function createRematch(id, game, ai = game.ai) {
+  const host = game.players?.[uid] ?? {};
+  const nextId = await createGame(game.name, host.name ?? "Hôte", host.avatar, game.groupName ?? "", ai,
+    { ...DEFAULT_SETTINGS, ...(game.settings ?? {}) });
+  await set(gameRef(id, "/next"), nextId);
+  return nextId;
+}
+
+export const setAvatar = (id, avatar) => set(gameRef(id, `/players/${uid}/avatar`), avatar);
+
+export const sendReaction = (id, emoji, to = null) =>
+  set(push(gameRef(id, "/reactions")), { uid, e: emoji, at: serverTimestamp(), ...(to ? { to } : {}) });
+
+export const sendVote = (id, target) => set(gameRef(id, `/votes/${uid}`), target);
+
+export const reportQuestion = (id, key) => set(gameRef(id, `/reports/${key}/${uid}`), true);
+
+export async function joinGame(id, playerName, avatar) {
   const game = await get(gameRef(id));
   if (!game.exists() || game.child("state/phase").val() !== "lobby") {
     throw new Error("Cette partie n'accepte plus de joueurs.");
@@ -60,22 +91,26 @@ export async function joinGame(id, playerName) {
   if (!players[uid] && Object.keys(players).length >= SETTINGS.maxPlayers) {
     throw new Error("Cette partie est complète (10 joueurs maximum, créateur inclus).");
   }
-  await set(gameRef(id, `/players/${uid}`), { name: playerName, connected: true });
+  await set(gameRef(id, `/players/${uid}`), playerRecord(playerName, avatar));
 }
 
 export const leaveLobby = (id) => remove(gameRef(id, `/players/${uid}`));
 export const deleteGame = (id) => remove(gameRef(id));
 
+// Présence : on note aussi l'heure de déconnexion, pour laisser quelques secondes
+// à un téléphone qui se met en veille avant de passer son tour.
 export function startPresence(id) {
-  const connected = gameRef(id, `/players/${uid}/connected`);
+  const player = gameRef(id, `/players/${uid}`);
   const stopListening = onValue(ref(db, ".info/connected"), (snap) => {
     if (!snap.val()) return;
-    onDisconnect(connected).set(false).then(() => set(connected, true)).catch(() => {});
+    onDisconnect(player).update({ connected: false, offlineAt: serverTimestamp() })
+      .then(() => update(player, { connected: true, offlineAt: null }))
+      .catch(() => {});
   });
   return async (markOffline) => {
     stopListening();
-    await onDisconnect(connected).cancel().catch(() => {});
-    if (markOffline) await set(connected, false).catch(() => {});
+    await onDisconnect(player).cancel().catch(() => {});
+    if (markOffline) await update(player, { connected: false, offlineAt: serverTimestamp() }).catch(() => {});
   };
 }
 
@@ -85,124 +120,188 @@ function moveTo(id, from, next) {
     if (current === null) return null;
     if (current.phase !== from.phase) return undefined;
     if (from.index !== undefined && current.index !== from.index) return undefined;
-    return next();
+    return next(current);
   });
 }
 
 export const startThemes = (id) => moveTo(id, { phase: "lobby" }, () => ({ phase: "themes" }));
-export const submitThemes = (id, themes) => set(gameRef(id, `/themes/${uid}`), themes);
-export const startGeneration = (id) => moveTo(id, { phase: "themes" }, () => ({ phase: "generating" }));
+// Choix en cours d'un joueur, enregistré à chaque clic pour que les autres le voient en direct.
+export const saveThemes = (id, entry) => set(gameRef(id, `/themes/${uid}`), entry);
+export const startGeneration = (id) => moveTo(id, { phase: "themes" }, (current) =>
+  ({ phase: "generating", since: serverNow(), ...(current.noAi ? { noAi: true } : {}) }));
+
+// Plan B : on renonce aux thèmes libres (IA trop lente ou en erreur). Chaque joueur
+// choisit un thème de plus dans la banque pour remplacer le sien.
+export const dropFreeThemes = (id) => moveTo(id, { phase: "generating" }, () => ({ phase: "themes", noAi: true }));
+
+// Questions par thème : 4 pour le plateau + celles de la manche 1.
+const BOARD_PER_THEME = 4;
+const READY_COUNT = BOARD_PER_THEME + SETTINGS.questionsPerTheme;
+// En dessous, un thème est jugé inutilisable (4 au plateau + au moins 2 en manche 1).
+const MIN_COUNT = BOARD_PER_THEME + 2;
+
+// Les questions déjà générées sont gardées si le créateur doit relancer.
+// `inflight` : thèmes en cours de génération anticipée ; `tried` : thèmes déjà lancés une fois.
+const poolsByGame = new Map();
+function gameStore(id) {
+  if (!poolsByGame.has(id)) poolsByGame.set(id, { pools: createPools(), inflight: new Map(), tried: new Set() });
+  return poolsByGame.get(id);
+}
+
+// Génération anticipée : dès qu'un joueur valide ses thèmes, l'hôte envoie son thème libre à l'IA
+// sans attendre les autres. Un échec ici n'est pas grave : la génération finale reprendra ce thème.
+export async function prefetchThemes(id, game, apiKey) {
+  if (!apiKey || game.state?.noAi) return;
+  const { pools, inflight, tried } = gameStore(id);
+  const todo = collectThemes(game, await loadIndex())
+    .filter((theme) => theme.source === "ai" && !tried.has(normalize(theme.theme)));
+  if (!todo.length) return;
+  todo.forEach((theme) => tried.add(normalize(theme.theme)));
+  const run = generatePools(apiKey, todo, {
+    addToPool: pools.add,
+    isReady: (theme) => pools.count(theme) >= READY_COUNT,
+  }).catch(console.error).finally(() => todo.forEach((theme) => inflight.delete(normalize(theme.theme))));
+  todo.forEach((theme) => inflight.set(normalize(theme.theme), run));
+}
 
 export async function generateQuestions(id, game, apiKey) {
-  if (!apiKey) throw new Error("Colle la clé API pour générer les questions.");
-  const themes = collectThemes(game);
-  const questions = shuffle(await generateInBatches(apiKey, themes, SETTINGS.questionsPerTheme + 1, "mixte",
-    (raw, batch) => prepareBank(raw, batch, SETTINGS.questionsPerTheme)));
-  const board = await generateInBatches(apiKey, themes, 4, "plateau",
-    (raw, batch) => prepareBoard(raw, batch, SETTINGS.difficultyPoints));
-  if (!questions.length || !board.length) throw new Error("L'IA n'a pas produit de questions utilisables. Relance la génération.");
-  await update(gameRef(id), {
-    questions,
-    board,
-    state: { phase: "question", index: 0, deadline: serverNow() + SETTINGS.questionSeconds * 1000 },
-  });
+  const noAi = Boolean(game.state.noAi);
+  const themes = collectThemes(game, await loadIndex());
+  if (!themes.length) throw new Error("Aucun thème n'a été choisi.");
+  const aiThemes = themes.filter((theme) => theme.source === "ai");
+  const bankThemes = themes.filter((theme) => theme.source === "bank");
+  if (aiThemes.length && !apiKey) throw new Error("Colle la clé API Gemini pour générer les thèmes libres, ou lance sans eux.");
+  const { pools: store, inflight } = gameStore(id);
+
+  // Thèmes de la banque : chargés directement, aucune attente.
+  for (const theme of bankThemes) {
+    for (const raw of await loadThemeQuestions(theme.bankId)) store.add({ ...raw, theme: theme.theme });
+  }
+  const report = (done) => update(gameRef(id, "/state"), { progress: { done: bankThemes.length + done, total: themes.length } }).catch(() => {});
+
+  if (aiThemes.length) {
+    // On attend d'abord les générations anticipées encore en cours, pour ne rien demander deux fois.
+    report(aiThemes.filter((theme) => store.count(theme) >= READY_COUNT).length);
+    await Promise.allSettled([...new Set(inflight.values())]);
+
+    let lastReported = -1;
+    const lastError = await generatePools(apiKey, aiThemes, {
+      addToPool: store.add,
+      isReady: (theme) => store.count(theme) >= READY_COUNT,
+      onProgress: (done) => {
+        if (done === lastReported) return;
+        lastReported = done;
+        report(done);
+      },
+    });
+
+    const unusable = aiThemes.filter((theme) => store.count(theme) < MIN_COUNT);
+    if (unusable.length) {
+      const names = unusable.slice(0, 3).map((t) => t.theme).join(", ") + (unusable.length > 3 ? "…" : "");
+      const reason = lastError?.message ? ` (${lastError.message})` : "";
+      throw new Error(`Thèmes libres incomplets : ${names}${reason}. Relance (seuls les thèmes manquants seront regénérés) ou lance sans les thèmes libres.`);
+    }
+  }
+
+  // Si le créateur a entre-temps renoncé aux thèmes libres, cette génération est périmée : on n'écrit rien.
+  const state = (await get(gameRef(id, "/state"))).val();
+  if (state?.phase !== "generating" || Boolean(state.noAi) !== noAi) return;
+
+  // Mémoire du groupe : on évite de reposer une question déjà vue par ce groupe.
+  const asked = game.group ? (await get(ref(db, `groups/${game.group}/asked`)).catch(() => null))?.val() ?? {} : {};
+  const supply = createSupply(themes, store.pools, (text) => Boolean(asked[questionKey(text)]));
+  const settings = { ...DEFAULT_SETTINGS, ...(game.settings ?? {}) };
+  const program = planProgram({ modes: settings.modes, minutes: settings.minutes, themeCount: supply.themes.length });
+  const rounds = buildRounds(program, supply);
+  await update(gameRef(id), { rounds, state: firstState(serverNow()) });
+  poolsByGame.delete(id);
 }
 
 export const setGenerationError = (id, message) => update(gameRef(id, "/state"), { error: message });
 export const clearGenerationError = (id) => update(gameRef(id, "/state"), { error: null });
 
-export const sendAnswer = (id, index, choice) =>
-  set(gameRef(id, `/answers/${index}/${uid}`), { choice, at: serverTimestamp() });
+/* ---------- Ce qu'envoient les joueurs ---------- */
 
-export const reveal = (id, index) =>
-  moveTo(id, { phase: "question", index }, () => ({
-    phase: "reveal",
-    index,
-    deadline: serverNow() + SETTINGS.revealSeconds * 1000,
-  }));
+export const sendAnswer = (id, round, step, choice) =>
+  set(gameRef(id, `/answers/${round}/${step}/${uid}`), { choice, at: serverTimestamp() });
+export const sendBet = (id, round, step, value) => set(gameRef(id, `/bets/${round}/${step}/${uid}`), value);
+export const sendDecision = (id, round, step, choice) => set(gameRef(id, `/decisions/${round}/${step}/${uid}`), choice);
+export const sendPick = (id, round, step, value) => set(gameRef(id, `/picks/${round}/${step}`), value);
+export const sendSprint = (id, round, sprint, index, choice) =>
+  set(gameRef(id, `/sprint/${round}/${sprint}/${uid}/${index}`), { choice, at: serverTimestamp() });
 
-export const nextQuestion = (id, index) =>
-  moveTo(id, { phase: "reveal", index }, () =>
-    ({ phase: "question", index: index + 1, deadline: serverNow() + SETTINGS.questionSeconds * 1000 }));
+/* ---------- Arbitrage (écran principal) ---------- */
 
-export async function beginBoard(id, index, game, activeIds) {
-  const order = computeScores(game).map((player) => player.uid).filter((playerId) => activeIds.includes(playerId));
-  return moveTo(id, { phase: "reveal", index }, () =>
-    index + 1 < game.questions.length
-      ? undefined
-      : order.length
-        ? { phase: "boardChoose", turnOrder: order, turnIndex: 0, turnNumber: 0, used: {} }
-        : { phase: "finished", index });
-}
-
-export const submitBoardPick = (id, turnNumber, boardIndex) =>
-  set(gameRef(id, `/boardPicks/${turnNumber}`), boardIndex);
-
-export function activateBoardPick(id, turnNumber, boardIndex, boardLength) {
-  return runTransaction(gameRef(id, "/state"), (current) => {
-    if (!current || current.phase !== "boardChoose" || current.turnNumber !== turnNumber) return undefined;
-    if (!Number.isInteger(boardIndex) || boardIndex < 0 || boardIndex >= boardLength || current.used?.[boardIndex]) return undefined;
-    const expectedPlayer = current.turnOrder?.[current.turnIndex];
-    if (!expectedPlayer) return undefined;
-    return {
-      ...current,
-      phase: "boardQuestion",
-      selectedBoardIndex: boardIndex,
-      selectedBy: expectedPlayer,
-      deadline: serverNow() + SETTINGS.questionSeconds * 1000,
-      used: { ...(current.used ?? {}), [boardIndex]: true },
-    };
-  });
-}
-
-export const sendBoardAnswer = (id, boardIndex, choice) =>
-  set(gameRef(id, `/boardAnswers/${boardIndex}/${uid}`), { choice, at: serverTimestamp() });
-
-export function revealBoardQuestion(id, turnNumber) {
-  return runTransaction(gameRef(id, "/state"), (current) => {
-    if (!current || current.phase !== "boardQuestion" || current.turnNumber !== turnNumber) return undefined;
-    return {
-      ...current,
-      phase: "boardReveal",
-      deadline: serverNow() + SETTINGS.revealSeconds * 1000,
-    };
-  });
-}
-
-function nextActiveIndex(turnOrder, currentIndex, activeIds) {
-  for (let step = 1; step <= turnOrder.length; step++) {
-    const index = (currentIndex + step) % turnOrder.length;
-    if (activeIds.includes(turnOrder[index])) return index;
+// Applique une transition calculée par modes.js : résultats d'abord, puis changement d'étape.
+// La transaction vérifie que la partie est toujours à l'étape attendue (pas de double transition).
+export async function applyTransition(id, transition) {
+  if (!transition) return;
+  if (transition.writes && Object.keys(transition.writes).length) {
+    const writes = Object.fromEntries(Object.entries(transition.writes).map(([path, value]) => [`games/${id}/${path}`, value]));
+    await update(ref(db), writes);
   }
-  return -1;
-}
-
-export function nextBoardTurn(id, turnNumber, activeIds, boardLength) {
-  return runTransaction(gameRef(id, "/state"), (current) => {
-    if (!current || current.phase !== "boardReveal" || current.turnNumber !== turnNumber) return undefined;
-    if (Object.keys(current.used ?? {}).length >= boardLength) return { ...current, phase: "finished" };
-    const nextIndex = nextActiveIndex(current.turnOrder ?? [], current.turnIndex, activeIds);
-    if (nextIndex < 0) return { ...current, phase: "finished" };
-    const { selectedBoardIndex, selectedBy, deadline, ...rest } = current;
-    return {
-      ...rest,
-      phase: "boardChoose",
-      turnIndex: nextIndex,
-      turnNumber: turnNumber + 1,
-    };
+  const { expect } = transition;
+  await runTransaction(gameRef(id, "/state"), (current) => {
+    if (!current) return undefined;
+    if (current.phase !== expect.phase || current.round !== expect.round || (current.step ?? 0) !== (expect.step ?? 0)) return undefined;
+    return transition.state;
   });
 }
 
-export function skipBoardTurn(id, turnNumber, activeIds) {
-  return runTransaction(gameRef(id, "/state"), (current) => {
-    if (!current || current.phase !== "boardChoose" || current.turnNumber !== turnNumber) return undefined;
-    const nextIndex = nextActiveIndex(current.turnOrder ?? [], current.turnIndex, activeIds);
-    if (nextIndex < 0) return { ...current, phase: "finished" };
-    return {
-      ...current,
-      phase: "boardChoose",
-      turnIndex: nextIndex,
-      turnNumber: turnNumber + 1,
+/* ---------- Mémoire du groupe ---------- */
+
+export async function getGroup(group) {
+  if (!group) return null;
+  return (await get(ref(db, `groups/${group}/players`))).val() ?? {};
+}
+
+// Toutes les questions de la partie, retrouvées par leur empreinte (pour les signalements).
+export function findQuestion(game, key) {
+  for (const round of game.rounds ?? []) {
+    const all = [
+      ...(round.questions ?? []), ...(round.board ?? []),
+      ...(round.pools ?? []).flat(), ...(round.ladders ?? []).flat(), ...(round.lists ?? []).flat(),
+    ];
+    const found = all.find((q) => q && questionKey(q.question) === key);
+    if (found) return found;
+  }
+  return null;
+}
+
+// Enregistre la partie dans l'historique du groupe, une seule fois (drapeau `recorded`).
+export async function recordResults(id, game, scores, awards) {
+  if (game.recorded) return;
+  const claimed = await runTransaction(gameRef(id, "/recorded"), (current) => (current ? undefined : true));
+  if (!claimed.committed) return;
+
+  const updates = {};
+  if (game.group) {
+    const players = await getGroup(game.group).catch(() => ({}));
+    const best = scores[0]?.score ?? 0;
+    scores.forEach((s, rank) => {
+      const key = groupKey(s.name) || s.uid;
+      const old = players[key] ?? {};
+      const titles = { ...(old.titles ?? {}) };
+      awards.filter((a) => a.uids.includes(s.uid)).forEach((a) => { titles[a.key] = (titles[a.key] ?? 0) + 1; });
+      updates[`groups/${game.group}/players/${key}`] = {
+        name: s.name,
+        games: (old.games ?? 0) + 1,
+        wins: (old.wins ?? 0) + (s.score === best && best > 0 ? 1 : 0),
+        points: (old.points ?? 0) + s.score,
+        last: (old.last ?? 0) + (scores.length >= 2 && rank === scores.length - 1 ? 1 : 0),
+        titles,
+      };
+    });
+    updates[`groups/${game.group}/name`] = game.groupName ?? game.group;
+    for (const key of Object.keys(game.asked ?? {})) updates[`groups/${game.group}/asked/${key}`] = true;
+  }
+  // Questions signalées : gardées à part pour nettoyer la banque.
+  for (const [key, voters] of Object.entries(game.reports ?? {})) {
+    const q = findQuestion(game, key);
+    if (!q) continue;
+    updates[`reports/${id}_${key}`] = {
+      theme: q.theme, question: q.question, correct: q.answers[q.correct], count: Object.keys(voters).length, at: serverTimestamp(),
     };
-  });
+  }
+  if (Object.keys(updates).length) await update(ref(db), updates);
 }

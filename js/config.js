@@ -12,9 +12,11 @@ export const firebaseConfig = {
 export const SETTINGS = {
   maxPlayers: 10,
   themesPerPlayer: 3,
+  bankPicks: 3, // thèmes choisis dans la banque, plus 1 thème libre (IA) ou 1 de plus dans la banque sans IA
+  freeThemeWaitSeconds: 20, // au-delà, le créateur peut lancer sans les thèmes libres
   questionsPerTheme: 5,
   questionSeconds: 20,
-  revealSeconds: 6,
+  revealSeconds: 9,
   difficultyPoints: {
     facile: 1,
     moyen: 3,

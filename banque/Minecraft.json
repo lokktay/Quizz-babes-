@@ -1,0 +1,805 @@
+{
+  "theme": "Minecraft",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quelle créature verte et silencieuse explose lorsqu'elle s'approche trop près du joueur ?",
+      "correct": "Le Creeper",
+      "wrong": [
+        "Le Zombie",
+        "Le Slime",
+        "Le Phantom"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel outil est indispensable pour miner de la pierre et des minerais ?",
+      "correct": "Une pioche",
+      "wrong": [
+        "Une pelle",
+        "Une hache",
+        "Une houe"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle la dimension infernale remplie de lave et de forteresses ?",
+      "correct": "Le Nether",
+      "wrong": [
+        "L'End",
+        "L'Aether",
+        "Le Vide"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel boss final ressemble à un grand dragon noir volant dans l'End ?",
+      "correct": "L'Ender Dragon",
+      "wrong": [
+        "Le Wither",
+        "Le Warden",
+        "L'Ancien Gardien"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel matériau bleu très rare permet de fabriquer les meilleures armes et armures classiques ?",
+      "correct": "Le diamant",
+      "wrong": [
+        "L'émeraude",
+        "Le lapis-lazuli",
+        "L'améthyste"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle créature noire et grande se téléporte et devient agressive si on la regarde dans les yeux ?",
+      "correct": "L'Enderman",
+      "wrong": [
+        "Le Wither Squelette",
+        "Le Vagabond",
+        "L'Illageois"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel bloc permet de fabriquer des objets sur une grille de 3 cases sur 3 ?",
+      "correct": "L'établi",
+      "wrong": [
+        "Le fourneau",
+        "Le coffre",
+        "L'enclume"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle pierre noire extrêmement résistante se forme lorsque l'eau entre en contact avec une source de lave ?",
+      "correct": "L'obsidienne",
+      "wrong": [
+        "La bedrock",
+        "Le basalte",
+        "La roche noire"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel animal peut être apprivoisé avec des os pour devenir un chien fidèle ?",
+      "correct": "Le loup",
+      "wrong": [
+        "Le renard",
+        "L'ocelot",
+        "L'ours polaire"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle poudre rouge permet de créer des circuits électriques et des mécanismes automatisés ?",
+      "correct": "La redstone",
+      "wrong": [
+        "La poudre à canon",
+        "La poudre de Blaze",
+        "La poussière lumineuse"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle le personnage par défaut masculin portant un t-shirt bleu ciel ?",
+      "correct": "Steve",
+      "wrong": [
+        "Alex",
+        "Herobrine",
+        "Notch"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel bloc incassable forme le fond du monde normal et le plafond du Nether ?",
+      "correct": "La bedrock",
+      "wrong": [
+        "L'obsidienne",
+        "La pierre taillée",
+        "L'ardoise des abîmes"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle monnaie les villageois utilisent-ils pour échanger des objets avec le joueur ?",
+      "correct": "L'émeraude",
+      "wrong": [
+        "Le lingot d'or",
+        "Le diamant",
+        "Le rubis"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel liquide permet d'amortir n'importe quelle chute si on le pose au sol juste avant l'impact ?",
+      "correct": "L'eau",
+      "wrong": [
+        "La lave",
+        "Le miel",
+        "Le lait"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle créature squelettique utilise un arc pour attaquer le joueur à distance ?",
+      "correct": "Le Squelette",
+      "wrong": [
+        "Le Noyé",
+        "Le Piglin",
+        "Le Ravageur"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel aliment permet de restaurer sa barre de faim et s'obtient en cuisant du blé ?",
+      "correct": "Le pain",
+      "wrong": [
+        "Le gâteau",
+        "Le cookie",
+        "La tarte à la citrouille"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel bloc permet d'accéder à la dimension du Nether une fois allumé ?",
+      "correct": "Un portail en obsidienne",
+      "wrong": [
+        "Un cadre de l'End",
+        "Une balise lumineuse",
+        "Un autel de pierre"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel animal fait fuir les Creepers et les Phantoms lorsqu'il se trouve à proximité ?",
+      "correct": "Le chat",
+      "wrong": [
+        "Le perroquet",
+        "Le lapin",
+        "Le cheval"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment appelle-t-on les grands golems de métal qui protègent les villages contre les monstres ?",
+      "correct": "Les golems de fer",
+      "wrong": [
+        "Les golems de neige",
+        "Les gardiens",
+        "Les allays"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle créature jaune et flottante lance des boules de feu dans les forteresses du Nether ?",
+      "correct": "Le Blaze",
+      "wrong": [
+        "Le Ghast",
+        "Le Magma Cube",
+        "L'Arpenteur"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel métal encore plus résistant que le diamant s'obtient en combinant des débris antiques et des lingots d'or ?",
+      "correct": "La Netherite",
+      "wrong": [
+        "Le Titane",
+        "L'Orichalque",
+        "Le Cobalt"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle créature géante et blanche vole dans le Nether en pleurant et en crachant des boules explosives ?",
+      "correct": "Le Ghast",
+      "wrong": [
+        "Le Phantom",
+        "Le Blaze",
+        "Le Vex"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel bloc magique entouré de bibliothèques permet d'améliorer ses armes et outils ?",
+      "correct": "La table d'enchantement",
+      "wrong": [
+        "L'enclume",
+        "Le pupitre",
+        "L'alambic"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle créature aveugle et extrêmement puissante apparaît dans les cités antiques des profondeurs ?",
+      "correct": "Le Warden",
+      "wrong": [
+        "Le Wither",
+        "Le Ravageur",
+        "L'Ancien Gardien"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel objet permet de planer dans les airs et se trouve dans les navires des cités de l'End ?",
+      "correct": "Les élytres",
+      "wrong": [
+        "Le totem d'immortalité",
+        "Le trident",
+        "La plume de phénix"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel boss peut être invoqué par le joueur en assemblant du sable des âmes et trois crânes de Wither Squelette ?",
+      "correct": "Le Wither",
+      "wrong": [
+        "L'Ender Dragon",
+        "Le Warden",
+        "Le Géant"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle pièce d'armure faut-il porter dans le Nether pour que les Piglins ne vous attaquent pas à vue ?",
+      "correct": "Une pièce d'armure en or",
+      "wrong": [
+        "Une pièce d'armure en fer",
+        "Une pièce d'armure en cuir",
+        "Une pièce d'armure en maille"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel objet tenu en main sauve le joueur de la mort en lui redonnant de la vie et des effets protecteurs ?",
+      "correct": "Le totem d'immortalité",
+      "wrong": [
+        "La pomme dorée enchantée",
+        "L'étoile du Nether",
+        "Le cœur de la mer"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle créature aquatique hostiles lance un rayon laser et protège les monuments sous-marins ?",
+      "correct": "Le Gardien",
+      "wrong": [
+        "Le Noyé",
+        "Le Poulpe luisant",
+        "L'Axolotl"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel animal pacifiste permet de marcher sur les océans de lave du Nether à l'aide d'une selle ?",
+      "correct": "L'Arpenteur",
+      "wrong": [
+        "Le Hoglin",
+        "Le Sniffer",
+        "Le Dromadaire"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle créature volante attaque les joueurs qui n'ont pas dormi dans un lit depuis plusieurs nuits ?",
+      "correct": "Le Phantom",
+      "wrong": [
+        "La chauve-souris",
+        "Le Vex",
+        "L'Allay"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel liquide permet de supprimer instantanément tous les effets de potions actifs sur le joueur ?",
+      "correct": "Le lait",
+      "wrong": [
+        "L'eau",
+        "Le miel",
+        "La potion de faiblesse"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle créature de l'End ressemble à une boîte violette et tire des projectiles qui font léviter le joueur ?",
+      "correct": "Le Shulker",
+      "wrong": [
+        "L'Endermite",
+        "Le Silverfish",
+        "Le Poisson d'argent"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel minerai bleu est indispensable comme ingrédient pour enchanter des objets sur une table d'enchantement ?",
+      "correct": "Le lapis-lazuli",
+      "wrong": [
+        "Le diamant",
+        "Le quartz",
+        "La prismarine"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle créature ressemblant à un taureau blindé charge les villageois lors des raids d'Illageois ?",
+      "correct": "Le Ravageur",
+      "wrong": [
+        "Le Hoglin",
+        "Le Zoglin",
+        "Le Golem"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel bloc permet de stocker des objets tout en conservant son contenu même lorsqu'on le casse ?",
+      "correct": "La boîte de Shulker",
+      "wrong": [
+        "Le coffre piégé",
+        "Le tonneau",
+        "Le distributeur"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel enchantement permet de récupérer des blocs tels qu'ils sont naturellement, comme la glace ou le minerai brut ?",
+      "correct": "Toucher de soie",
+      "wrong": [
+        "Fortune",
+        "Solidité",
+        "Butin"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel aliment permet de soigner un villageois zombie après lui avoir lancé une potion de faiblesse ?",
+      "correct": "Une pomme dorée",
+      "wrong": [
+        "Une carotte dorée",
+        "Une pastèque scintillante",
+        "Un gâteau"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle structure générée sous terre renferme le portail menant vers la dimension de l'End ?",
+      "correct": "Le fort",
+      "wrong": [
+        "Le donjon",
+        "Le temple de la jungle",
+        "Le manoir"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel bloc fabriqué avec une étoile du Nether projette un faisceau lumineux vers le ciel et donne des bonus ?",
+      "correct": "La balise",
+      "wrong": [
+        "Le conduit",
+        "La lanterne des âmes",
+        "L'ancre de réapparition"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel enchantement très recherché permet de réparer ses outils et armures grâce aux orbes d'expérience récoltés ?",
+      "correct": "Raccommodage",
+      "wrong": [
+        "Solidité",
+        "Épines",
+        "Affinité aquatique"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment appelle-t-on la version surpuissante et électrifiée d'un Creeper frappé par la foudre ?",
+      "correct": "Un Creeper chargé",
+      "wrong": [
+        "Un Creeper mutant",
+        "Un Super Creeper",
+        "Un Creeper arcanique"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel bloc permet de définir son point de réapparition directement dans la dimension du Nether ?",
+      "correct": "L'ancre de réapparition",
+      "wrong": [
+        "La magnétite",
+        "Le lit d'obsidienne",
+        "La balise du Nether"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel item est obtenu en faisant exploser un Creeper chargé à côté d'un squelette, d'un zombie ou d'un autre Creeper ?",
+      "correct": "La tête de la créature",
+      "wrong": [
+        "Un disque de musique",
+        "Une étoile du Nether",
+        "Un fragment d'âme"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du biome rarissime où poussent des champignons géants et où aucune créature hostile n'apparaît ?",
+      "correct": "Les champs de champignons",
+      "wrong": [
+        "La forêt sombre",
+        "Le marais",
+        "Les terres stériles"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle créature petite et bleue ramasse les objets au sol identiques à celui qu'on lui donne ?",
+      "correct": "L'Allay",
+      "wrong": [
+        "Le Vex",
+        "Le Sniffer",
+        "L'Endermite"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel bloc permet d'orienter une boussole vers un endroit précis lorsqu'on clique dessus avec elle ?",
+      "correct": "La magnétite",
+      "wrong": [
+        "La boussole de récupération",
+        "Le bloc de redstone",
+        "L'obsidienne pleureuse"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle créature ancienne et gigantesque peut être ressuscitée à partir d'un œuf trouvé dans les ruines sous-marines ?",
+      "correct": "Le Sniffer",
+      "wrong": [
+        "Le Strider",
+        "Le Tatou",
+        "Le Ravageur"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel enchantement exclusif au trident permet au joueur de se propulser dans les airs sous la pluie ou dans l'eau ?",
+      "correct": "Impulsion",
+      "wrong": [
+        "Loyauté",
+        "Canalisation",
+        "Empalement"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le villageois vêtue d'une robe verte qui ne peut accepter aucun métier ?",
+      "correct": "Le villageois idiot",
+      "wrong": [
+        "Le vagabond",
+        "L'apprenti",
+        "Le marchand ambulant"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel effet négatif infligé par l'Ancien Gardien ralentit considérablement la vitesse de minage du joueur ?",
+      "correct": "Fatigue de minage",
+      "wrong": [
+        "Lenteur",
+        "Faiblesse",
+        "Cécité"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle structure sous-marine construite avec de la prismarine et un cœur de la mer donne des bonus respiratoires et de vision ?",
+      "correct": "Le conduit",
+      "wrong": [
+        "La balise",
+        "L'autel marin",
+        "Le récif lumineux"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel disque de musique célèbre se compose uniquement de bruits angoissants, de pas et de respirations ?",
+      "correct": "Le disque 11",
+      "wrong": [
+        "Le disque Cat",
+        "Le disque Pigstep",
+        "Le disque Mall"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel bloc de redstone permet d'émettre un signal uniquement lorsqu'un bloc situé devant sa face change d'état ?",
+      "correct": "L'observateur",
+      "wrong": [
+        "Le comparateur",
+        "Le répéteur",
+        "Le capteur sculk"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle plante rare et mortelle pour les perroquets doit être évitée si l'on veut les apprivoiser ?",
+      "correct": "Les cookies",
+      "wrong": [
+        "Les graines de blé",
+        "Les baies sucrées",
+        "Les pommes"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du biome des grottes souterraines rempli de mousses, de lianes lumineuses et d'axolotls ?",
+      "correct": "Les cavernes luxuriantes",
+      "wrong": [
+        "Les grottes de spéléothèmes",
+        "Les abîmes sombres",
+        "Les grottes d'améthyste"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle créature petite et rapide armée d'une épée en fer est invoquée par les Évocateurs dans les manoirs ?",
+      "correct": "Le Vex",
+      "wrong": [
+        "L'Allay",
+        "Le Silverfish",
+        "Le Phantom"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel enchantement de bottes permet au joueur de marcher sans déclencher les capteurs sculk ni les vibrations au sol ?",
+      "correct": "Furtivité rapide",
+      "wrong": [
+        "Agilité aquatique",
+        "Semelles givrantes",
+        "Chute amortie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle créature hostile apparaît sous forme de bloc de pierre infesté et attaque en groupe dans les forts et montagnes ?",
+      "correct": "Le poisson d'argent",
+      "wrong": [
+        "L'Endermite",
+        "Le Slime",
+        "La mite"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel bloc issu de la mise à jour Tricky Trials s'ouvre avec une clé d'épreuve pour offrir du butin ?",
+      "correct": "Le coffre-fort",
+      "wrong": [
+        "Le générateur d'épreuves",
+        "Le tonneau scellé",
+        "La boîte de Shulker"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du compositeur allemand qui a créé la bande originale iconique des premières versions de Minecraft ?",
+      "correct": "C418",
+      "wrong": [
+        "Lena Raine",
+        "Kumi Tanioka",
+        "Aaron Cherof"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle créature pacifiste apparaît lorsque la foudre frappe une vache champignon rouge ?",
+      "correct": "Une vache champignon marron",
+      "wrong": [
+        "Un Creeper chargé",
+        "Un cochon-zombie",
+        "Une sorcière"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de l'arme lourde ajoutée avec les chambres des épreuves dont les dégâts augmentent selon la hauteur de chute ?",
+      "correct": "La masse",
+      "wrong": [
+        "Le marteau de guerre",
+        "La hache lourde",
+        "Le fléau"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la créature hostile flottante des chambres des épreuves qui tire des charges de vent ?",
+      "correct": "Le Breeze",
+      "wrong": [
+        "Le Blaze",
+        "Le Gust",
+        "Le Zephyr"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel effet de potion caché et inutilisé en survie classique donne une chance améliorée lors de la pêche ?",
+      "correct": "Chance",
+      "wrong": [
+        "Bénédiction",
+        "Fortune marine",
+        "Prospérité"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle créature apparaît si l'on nomme un mouton « jeb_ » à l'aide d'une étiquette ?",
+      "correct": "Un mouton multicolore changeant de couleur",
+      "wrong": [
+        "Un mouton inversé à l'envers",
+        "Un mouton géant",
+        "Un mouton invisible"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel nom faut-il donner avec une étiquette à une créature pour qu'elle se retourne la tête en bas ?",
+      "correct": "Dinnerbone ou Grumm",
+      "wrong": [
+        "Notch ou Jeb",
+        "Herobrine ou Steve",
+        "Toast ou Johnny"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel comportement spécial adopte un Vindicateur nommé « Johnny » avec une étiquette ?",
+      "correct": "Il attaque toutes les créatures autour de lui",
+      "wrong": [
+        "Il devient pacifiste envers le joueur",
+        "Il se met à danser",
+        "Il explose au contact"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la particularité d'un lapin nommé « Toast » avec une étiquette ?",
+      "correct": "Il adopte un pelage noir et blanc unique",
+      "wrong": [
+        "Il devient hostile envers le joueur",
+        "Il saute deux fois plus haut",
+        "Il lâche du pain à sa mort"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel bloqueur de mouvement ralentit fortement les entités et permet de récupérer des boules de neige sans pelle ?",
+      "correct": "La neige poudreuse",
+      "wrong": [
+        "La toile d'araignée",
+        "Le sable des âmes",
+        "Le bloc de miel"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel minerai était présent dans les toutes premières versions de développement de Minecraft avant d'être remplacé par l'émeraude ?",
+      "correct": "Le rubis",
+      "wrong": [
+        "Le saphir",
+        "La topaze",
+        "L'ambre"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la structure rare en terre cuite et briques enfouie sous terre contenant du gravier suspect ?",
+      "correct": "Les ruines de sentier",
+      "wrong": [
+        "Les catacombes",
+        "Le temple enfoui",
+        "Les vestiges anciens"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel outil est nécessaire pour brosser délicatement le sable ou le gravier suspect sans le détruire ?",
+      "correct": "Le pinceau",
+      "wrong": [
+        "La plume",
+        "Le burin",
+        "La pelle en or"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle créature hostile du Nether se transforme en Zoglin si elle est amenée dans le monde normal ?",
+      "correct": "Le Hoglin",
+      "wrong": [
+        "Le Piglin",
+        "L'Arpenteur",
+        "Le Magma Cube"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel bloc de redstone émet une impulsion de signal d'une intensité proportionnelle à la page ouverte d'un livre ?",
+      "correct": "Le pupitre",
+      "wrong": [
+        "La bibliothèque sculptée",
+        "Le comparateur",
+        "Le capteur solaire"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la particularité du verre teinté fabriqué avec des éclats d'améthyste ?",
+      "correct": "Il bloque la lumière tout en restant transparent",
+      "wrong": [
+        "Il est totalement incassable",
+        "Il change de couleur la nuit",
+        "Il repousse les monstres"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle le boss géant non utilisé dans le jeu standard qui ressemble à un zombie de douze blocs de haut ?",
+      "correct": "Le Géant",
+      "wrong": [
+        "Le Titan",
+        "Le Colosse",
+        "Le Goliath"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel bloc permet de fabriquer automatiquement des objets grâce à des impulsions de redstone ?",
+      "correct": "Le fabricateur",
+      "wrong": [
+        "Le distributeur",
+        "Le droppeur",
+        "L'entonnoir"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle créature terrestre peut être brossée pour obtenir des écailles permettant de fabriquer une armure pour loup ?",
+      "correct": "Le tatou",
+      "wrong": [
+        "La tortue",
+        "Le lézard",
+        "Le pangolin"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel disque de musique composé par Lena Raine se trouve uniquement dans les vestiges de bastion du Nether ?",
+      "correct": "Pigstep",
+      "wrong": [
+        "Otherside",
+        "Relic",
+        "Creator"
+      ]
+    }
+  ]
+}

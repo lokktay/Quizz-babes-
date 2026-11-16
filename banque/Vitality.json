@@ -1,0 +1,485 @@
+{
+"theme": "Vitality",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel est le nom complet de l'organisation française d'esport Vitality ?",
+"correct": "Team Vitality",
+"wrong": ["Vitality Gaming", "Club Vitality", "Vitality Esport"]
+},
+{
+"difficulty": "facile",
+"question": "Quel animal figure sur le logo officiel de Team Vitality ?",
+"correct": "Une abeille",
+"wrong": ["Un frelon", "Une guêpe", "Un bourdon"]
+},
+{
+"difficulty": "facile",
+"question": "Quelles sont les deux couleurs principales de l'identité visuelle de Team Vitality ?",
+"correct": "Jaune et noir",
+"wrong": ["Jaune et bleu", "Orange et noir", "Jaune et blanc"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle ville se situe le siège principal de Team Vitality ?",
+"correct": "Paris",
+"wrong": ["Lyon", "Marseille", "Lille"]
+},
+{
+"difficulty": "facile",
+"question": "Comment appelle-t-on les supporters de Team Vitality ?",
+"correct": "La Ruche",
+"wrong": ["L'Essaim", "Les Abeilles", "Le Nid"]
+},
+{
+"difficulty": "facile",
+"question": "Quel surnom est attribué aux fans les plus fervents de Vitality en tribune ?",
+"correct": "Les Golden Hornets",
+"wrong": ["Les Yellow Wasps", "Les Black Bees", "Les Royal Stingers"]
+},
+{
+"difficulty": "facile",
+"question": "Quel célèbre joueur français de Counter-Strike évolue chez Team Vitality ?",
+"correct": "ZywOo",
+"wrong": ["shox", "kennyS", "NBK"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le prénom de ZywOo, star de l'équipe Counter-Strike de Vitality ?",
+"correct": "Mathieu",
+"wrong": ["Alexandre", "Maxime", "Nicolas"]
+},
+{
+"difficulty": "facile",
+"question": "Sur quel jeu de football en voiture Team Vitality a-t-elle remporté de nombreux titres mondiaux ?",
+"correct": "Rocket League",
+"wrong": ["FIFA", "Trackmania", "eFootball"]
+},
+{
+"difficulty": "facile",
+"question": "Quel prodige français de Rocket League a rejoint Vitality avant de devenir champion du monde ?",
+"correct": "Zen",
+"wrong": ["Vatira", "Seikoo", "M0nkey M00n"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quelle compétition européenne majeure de League of Legends évolue Team Vitality ?",
+"correct": "Le LEC",
+"wrong": ["La LCK", "La LCS", "La LPL"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le lieu d'accueil et de boutique officiel de Vitality au cœur de Paris ?",
+"correct": "V.Hive",
+"wrong": ["V.Base", "V.Nest", "V.Arena"]
+},
+{
+"difficulty": "facile",
+"question": "Quel célèbre stade français abrite le centre de performance de Team Vitality ?",
+"correct": "Le Stade de France",
+"wrong": ["Le Parc des Princes", "La Paris La Défense Arena", "Le Stade Jean-Bouin"]
+},
+{
+"difficulty": "facile",
+"question": "Quel jeu de tir tactique développé par Riot Games compte une équipe Team Vitality en VCT EMEA ?",
+"correct": "Valorant",
+"wrong": ["Overwatch", "Apex Legends", "Rainbow Six Siege"]
+},
+{
+"difficulty": "facile",
+"question": "Quel président de Team Vitality est également un ancien manager de joueurs ?",
+"correct": "Fabien Devide",
+"wrong": ["Nicolas Maurer", " Bertrand Amar", "Alban Dechelotte"]
+},
+{
+"difficulty": "facile",
+"question": "Quel cofondateur occupe le poste de directeur général (CEO) de Team Vitality ?",
+"correct": "Nicolas Maurer",
+"wrong": ["Fabien Devide", "Corentin Houssein", "Kévin Georges"]
+},
+{
+"difficulty": "facile",
+"question": "Sur quel jeu de cartes stratégique Team Vitality a-t-elle aligné une équipe dès ses débuts ?",
+"correct": "Hearthstone",
+"wrong": ["Magic: The Gathering", "Legends of Runeterra", "Gwent"]
+},
+{
+"difficulty": "facile",
+"question": "Quel célèbre joueur de FIFA a longtemps représenté Team Vitality sur la scène internationale ?",
+"correct": "Bruce Grannec",
+"wrong": ["Maestro", "DaXe", "Fouma"]
+},
+{
+"difficulty": "facile",
+"question": "Quel jeu de tir à la première personne historique a vu naître Team Vitality ?",
+"correct": "Call of Duty",
+"wrong": ["Counter-Strike", "Halo", "Battlefield"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle expression anglaise sert de cri de ralliement officiel à Team Vitality ?",
+"correct": "V for Victory",
+"wrong": ["V for Vitality", "We are the Hive", "Sting to Win"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel cofondateur de Vitality est connu sur YouTube sous le pseudonyme Gotaga ?",
+"correct": "Corentin Houssein",
+"wrong": ["Kévin Georges", "Fabien Devide", "Lucas Hauchard"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel pseudonyme portait Fabien Devide lorsqu'il était manager sur Call of Duty ?",
+"correct": "Neo",
+"wrong": ["Daks", "Broky", "riskiN"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur français formait avec Kaydop et Fairy Peak! le trio légendaire de Vitality sur Rocket League ?",
+"correct": "Alpha54",
+"wrong": ["Radosin", "Zen", "Ferra"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quelle ville française s'est déroulé le Major de Counter-Strike remporté par Team Vitality ?",
+"correct": "Paris",
+"wrong": ["Lyon", "Montpellier", "Bordeaux"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur danois d'expérience a été capitaine de l'équipe Counter-Strike de Vitality ?",
+"correct": "apEX",
+"wrong": ["dupreeh", "Magisk", "blameF"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur danois quadruple vainqueur de Major a rejoint Vitality en même temps que Magisk et zonic ?",
+"correct": "dupreeh",
+"wrong": ["device", "gla1ve", "Xyp9x"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel célèbre entraîneur danois a dirigé l'équipe Counter-Strike de Vitality lors de sa victoire au Major ?",
+"correct": "zonic",
+"wrong": ["XTQZZZ", "mithR", "ave"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel entraîneur français a dirigé l'équipe Counter-Strike de Vitality avant et après zonic ?",
+"correct": "XTQZZZ",
+"wrong": ["maLeK", "SmithZz", "NiaK"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'équipe académique de Team Vitality évoluant en LFL sur League of Legends ?",
+"correct": "Vitality.Bee",
+"wrong": ["Vitality Academy", "Vitality.Next", "Vitality.Hive"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel midlaner croate très célèbre a rejoint Team Vitality en LEC ?",
+"correct": "Perkz",
+"wrong": ["Caps", "Nukeduck", "Jensen"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel midlaner italien a brillé sous les couleurs de Team Vitality en LEC ?",
+"correct": "Jiizuke",
+"wrong": ["Humanoid", "Vetheo", "Larssen"]
+},
+{
+"difficulty": "moyen",
+"question": "Contre quelle équipe Vitality a-t-elle remporté la finale du Major de Paris sur CS:GO ?",
+"correct": "GamerLegion",
+"wrong": ["Heroic", "FaZe Clan", "Natus Vincere"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel arrondissement de Paris se trouve le V.Hive ?",
+"correct": "Le 2e arrondissement",
+"wrong": ["Le 1er arrondissement", "Le 11e arrondissement", "Le 13e arrondissement"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur français de FIFA a remporté une eWorld Cup sous les couleurs de Vitality ?",
+"correct": "Rocky",
+"wrong": ["Maestro", "Rafsou", "Dylo"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel grand groupe français de médias a investi massivement dans Team Vitality via le fonds Reworld Media / Tej Kohli ?",
+"correct": "Tej Kohli (Rewired.GG)",
+"wrong": ["Webedia", "Vivendi", "Altice"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel constructeur automobile allemand est devenu un partenaire majeur et sponsor maillot de Vitality ?",
+"correct": "Audi",
+"wrong": ["BMW", "Mercedes-Benz", "Volkswagen"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel équipementier sportif habille officiellement Team Vitality après Adidas ?",
+"correct": "Hummel",
+"wrong": ["Puma", "Nike", "Le Coq Sportif"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur israélien de Counter-Strike a rejoint Team Vitality en provenance d'ENCE ?",
+"correct": "Spinx",
+"wrong": ["flameZ", "Nertz", "xertioN"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur britannique a été recruté par Vitality pour remplacer dupreeh sur Counter-Strike ?",
+"correct": "mezii",
+"wrong": ["smooya", "ALEX", "mantuu"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quelle salle parisienne s'est tenue la finale du Major de CS:GO remportée par Vitality ?",
+"correct": "L'Accor Arena",
+"wrong": ["Le Zénith de Paris", "La Seine Musicale", "Le Palais des Sports"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel pseudonyme portait Kévin Georges, l'un des quatre cofondateurs de Team Vitality ?",
+"correct": "BrokyBrawks",
+"wrong": ["riskiN", "Gotaga", "ag0nie"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel ancien footballeur international français a investi dans Team Vitality ?",
+"correct": "Bafétimbi Gomis",
+"wrong": ["Antoine Griezmann", "Karim Benzema", "Blaise Matuidi"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle ancienne joueuse et streameuse française a longtemps été ambassadrice emblématique de Vitality ?",
+"correct": "LittleBigWhale",
+"wrong": ["Jeel", "Maghla", "Baghera Jones"]
+},
+{
+"difficulty": "difficile",
+"question": "Sous quel nom d'équipe Vitality a-t-elle fait ses débuts sur League of Legends en rachetant le slot de Gambit Gaming ?",
+"correct": "Team Vitality",
+"wrong": ["Vitality.FR", "Vitality Gaming", "Millenium Vitality"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel toplaner français a joué pour Team Vitality en LCS EU ?",
+"correct": "Cabochard",
+"wrong": ["sOAZ", "Adam", "Eika"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur français de Rainbow Six Siege a mené l'équipe Vitality en Pro League ?",
+"correct": "BiBoo",
+"wrong": ["Elemzje", "Shaiiko", "BriD"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte l'application mobile de fidélité lancée par Team Vitality pour ses fans ?",
+"correct": "V.Hive",
+"wrong": ["Vitality App", "Buzz", "HoneyComb"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur coréen champion du monde sur League of Legends a brièvement évolué chez Vitality en tant que jungler ?",
+"correct": "Mightybear",
+"wrong": ["Trick", "Spirit", "Kakao"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur français de Hearthstone a représenté Vitality aux championnats du monde ?",
+"correct": "Pavel",
+"wrong": ["Torlk", "Maverick", "Kalàxz"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel ancien joueur de Counter-Strike a été le premier leader in-game (IGL) de l'histoire de Vitality sur CS:GO ?",
+"correct": "NBK-",
+"wrong": ["apEX", "Happy", "ALEX"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quelle ville indienne Team Vitality a-t-elle ouvert des bureaux pour développer sa présence en Asie du Sud ?",
+"correct": "Mumbai",
+"wrong": ["New Delhi", "Bangalore", "Hyderabad"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur français a remporté la finale des RLCS avec Vitality aux côtés de Zen et Alpha54 ?",
+"correct": "Radosin",
+"wrong": ["Kaydop", "Fairy Peak!", "Vatira"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel coach français dirigeait l'équipe Rocket League de Vitality lors du sacre de Zen ?",
+"correct": "Ferra",
+"wrong": ["Mout", "Gregan", "Eversax"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur britannique a été leader in-game de Vitality sur CS:GO après le départ de NBK- ?",
+"correct": "ALEX",
+"wrong": ["mezii", "smooya", "dephh"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel célèbre joueur de Street Fighter français a porté les couleurs de Team Vitality ?",
+"correct": "Luffy",
+"wrong": ["Mister Crimson", "Valmaster", "Kayane"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur de FIFA français surnommé le « Maestro » a évolué chez Team Vitality ?",
+"correct": "Corentin Thuillier",
+"wrong": ["Lucas Cuillerier", "Dylan Bance", "Nathan Nayagom"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle entreprise française de télécommunications a été sponsor principal sur le devant du maillot de Vitality ?",
+"correct": "Orange",
+"wrong": ["SFR", "Bouygues Telecom", "Free"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel midlaner français a joué pour Vitality.Bee avant de rejoindre la scène nord-américaine ?",
+"correct": "Eika",
+"wrong": ["Toucouille", "Vetheo", "Saken"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur israélien a rejoint l'équipe CS de Vitality en remplacement de Magisk ?",
+"correct": "flameZ",
+"wrong": ["Spinx", "HeavyGod", "anarkez"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom portait la structure fondée par Nicolas Maurer avant la création de Team Vitality ?",
+"correct": "Millenium",
+"wrong": ["against All authority", "Epsilon eSports", "LDLC"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de Call of Duty faisait partie du tout premier roster Vitality.Returns ?",
+"correct": "Broken",
+"wrong": ["Wailers", "Malls", "Zayrox"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Sur quel boulevard parisien l'entrée du V.Hive est-elle située ?",
+"correct": "Boulevard de Sébastopol",
+"wrong": ["Boulevard Saint-Germain", "Boulevard Haussmann", "Boulevard Montmartre"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de StarCraft II français a représenté Team Vitality ?",
+"correct": "MarineLorD",
+"wrong": ["Stephano", "Lilbow", "Drogo"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel entraîneur sud-coréen a dirigé l'équipe League of Legends de Vitality en LEC ?",
+"correct": "Mephisto",
+"wrong": ["YamatoCannon", "Duke", "Mac"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel support français a accompagné Cabochard et Jiizuke lors de l'épopée des Worlds de Vitality ?",
+"correct": "Jactroll",
+"wrong": ["kaSing", "Steeelback", "Targamas"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Contre quelle équipe coréenne célèbre Vitality a-t-elle créé l'exploit en phase de groupes des Worlds de LoL ?",
+"correct": "Gen.G",
+"wrong": ["SK Telecom T1", "KT Rolster", "Afreeca Freecs"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur français a occupé le poste de sixième joueur dans le roster CS:GO de Vitality avec Nivera ?",
+"correct": "Nivera",
+"wrong": ["misutaaa", "Kyojin", "Hadji"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "De quel célèbre joueur belge de Counter-Strike Nivera est-il le petit frère ?",
+"correct": "ScreaM",
+"wrong": ["Ex6TenZ", "to1nou", "keoz"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur français de Trackmania a longtemps porté les couleurs de Team Vitality ?",
+"correct": "Bren",
+"wrong": ["CarlJr", "Pac", "Gwen"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur britannique a été le premier coach anglais de l'équipe Rocket League de Vitality ?",
+"correct": "Gregan",
+"wrong": ["Ferra", "Virge", "Snaski"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de Valorant français a mené Vitality lors de son accession au VCT EMEA ?",
+"correct": "ceNder",
+"wrong": ["BONECOLD", "MOLSI", "Twisten"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle équipe de football italienne a conclu un partenariat esport avec Team Vitality pour la eSerie A ?",
+"correct": "L'AS Roma",
+"wrong": ["La Juventus", "L'Inter Milan", "L'AC Milan"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel club de football français a collaboré avec Team Vitality sur FIFA avant le lancement de sa propre section ?",
+"correct": "Le LOSC Lille",
+"wrong": ["L'Olympique Lyonnais", "L'AS Monaco", "Le Stade Rennais"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur australien de Fortnite a fait partie du roster international de Team Vitality ?",
+"correct": "zarby",
+"wrong": ["Nikof", "Airwaks", "DRG"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel duo français de Fortnite a représenté Team Vitality à la World Cup de New York ?",
+"correct": "Airwaks et Nikof",
+"wrong": ["Skite et Vato", "Nayte et Andilex", "Kinstaar et Hunter"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel ancien pilote de Formule 1 a investi dans Team Vitality via son fonds d'investissement ?",
+"correct": "Nico Rosberg",
+"wrong": ["Romain Grosjean", "Alain Prost", "Pierre Gasly"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur allemand de League of Legends a été jungler pour Vitality lors des Worlds ?",
+"correct": "Kikis",
+"wrong": ["Gilius", "Amazing", "Selfmade"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur polonais a été recruté par Vitality au poste de jungler après avoir brillé chez Fnatic ?",
+"correct": "Selfmade",
+"wrong": ["Jankos", "Inspired", "Cinkrof"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom portait le premier maillot collector de Vitality conçu avec l'artiste français Veneda Carter ou le studio Bleacher Report ?",
+"correct": "Le maillot Golden Hornet",
+"wrong": ["Le maillot Black Bee", "Le maillot Parisienne", "Le maillot Hive Edition"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur français de Counter-Strike a remplacé RpK chez Team Vitality ?",
+"correct": "Kyojin",
+"wrong": ["misutaaa", "shox", "ZywOo"]
+}
+]
+}

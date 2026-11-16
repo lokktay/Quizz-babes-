@@ -1,0 +1,485 @@
+{
+"theme": "Sports",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Dans quel sport marque-t-on un essai en aplatissant le ballon dans l'en-but adverse ?",
+"correct": "Le rugby",
+"wrong": ["Le football américain", "Le handball", "Le hockey sur gazon"]
+},
+{
+"difficulty": "facile",
+"question": "Quel pays a remporté la Coupe du monde masculine de football en Russie face à la Croatie ?",
+"correct": "La France",
+"wrong": ["L'Allemagne", "L'Argentine", "Le Brésil"]
+},
+{
+"difficulty": "facile",
+"question": "Quel sportif détient le record du monde du cent mètres en athlétisme ?",
+"correct": "Usain Bolt",
+"wrong": ["Tyson Gay", "Yohan Blake", "Justin Gatlin"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle couleur de maillot porte le leader du classement général du Tour de France ?",
+"correct": "Jaune",
+"wrong": ["Vert", "Blanc", "Rose"]
+},
+{
+"difficulty": "facile",
+"question": "Sur quelle surface se joue le tournoi de tennis de Roland-Garros ?",
+"correct": "La terre battue",
+"wrong": ["Le gazon", "Le dur", "La moquette"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport utilise-t-on un volant au lieu d'une balle ?",
+"correct": "Le badminton",
+"wrong": ["Le tennis de table", "Le squash", "La pelote basque"]
+},
+{
+"difficulty": "facile",
+"question": "Quel basketteur américain légendaire a porté le numéro vingt-trois aux Chicago Bulls ?",
+"correct": "Michael Jordan",
+"wrong": ["LeBron James", "Kobe Bryant", "Magic Johnson"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport se disputent les quatre tournois du Grand Chelem ?",
+"correct": "Le tennis",
+"wrong": ["Le golf", "Le ski alpin", "L'escrime"]
+},
+{
+"difficulty": "facile",
+"question": "Quel nageur américain est l'athlète le plus médaillé de l'histoire des Jeux olympiques ?",
+"correct": "Michael Phelps",
+"wrong": ["Ryan Lochte", "Ian Thorpe", "Mark Spitz"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport collectif un gardien protège-t-il une cage avec une crosse sur une patinoire ?",
+"correct": "Le hockey sur glace",
+"wrong": ["Le curling", "Le patinage de vitesse", "Le water-polo"]
+},
+{
+"difficulty": "facile",
+"question": "Quel judoka français a remporté de nombreux titres olympiques et mondiaux chez les poids lourds ?",
+"correct": "Teddy Riner",
+"wrong": ["David Douillet", "Clarisse Agbegnenou", "Luka Mkheidze"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport l'équipe de Nouvelle-Zélande est-elle surnommée les All Blacks ?",
+"correct": "Le rugby à quinze",
+"wrong": ["Le football", "Le basket-ball", "Le cricket"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle couleur de ceinture représente le plus haut grade courant avant les dans au judo ?",
+"correct": "Noire",
+"wrong": ["Marron", "Bleue", "Verte"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport individuel utilise-t-on un fleuret, une épée ou un sabre ?",
+"correct": "L'escrime",
+"wrong": ["Le tir à l'arc", "Le pentathlon moderne", "L'aviron"]
+},
+{
+"difficulty": "facile",
+"question": "Quel club de football espagnol évolue au stade Santiago-Bernabéu ?",
+"correct": "Le Real Madrid",
+"wrong": ["Le FC Barcelone", "L'Atlético de Madrid", "Le Séville FC"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport de précision fait-on glisser des pierres en granit sur la glace vers une cible ?",
+"correct": "Le curling",
+"wrong": ["Le bobsleigh", "La luge", "Le biathlon"]
+},
+{
+"difficulty": "facile",
+"question": "Quel joueur de tennis espagnol a remporté quatorze fois le tournoi de Roland-Garros en simple ?",
+"correct": "Rafael Nadal",
+"wrong": ["Roger Federer", "Novak Djokovic", "Carlos Alcaraz"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport combine-t-on le ski de fond et le tir à la carabine ?",
+"correct": "Le biathlon",
+"wrong": ["Le combiné nordique", "Le saut à ski", "Le ski-alpinisme"]
+},
+{
+"difficulty": "facile",
+"question": "Quel pays accueille traditionnellement le tournoi de tennis de Wimbledon ?",
+"correct": "Le Royaume-Uni",
+"wrong": ["L'Australie", "Les États-Unis", "Le Canada"]
+},
+{
+"difficulty": "facile",
+"question": "Dans quel sport un joueur tente-t-il de faire tomber dix quilles avec une boule lourde ?",
+"correct": "Le bowling",
+"wrong": ["La pétanque", "Le billard", "Le croquet"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel pilote britannique de Formule 1 a remporté sept titres de champion du monde, égalant le record de Michael Schumacher ?",
+"correct": "Lewis Hamilton",
+"wrong": ["Sebastian Vettel", "Max Verstappen", "Fernando Alonso"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quelle discipline athlétique utilise-t-on une longue perche souple pour franchir une barre en hauteur ?",
+"correct": "Le saut à la perche",
+"wrong": ["Le saut en hauteur", "Le triple saut", "Le lancer du javelot"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel club de football anglais joue ses matchs à domicile dans le stade d'Anfield ?",
+"correct": "Liverpool",
+"wrong": ["Manchester United", "Arsenal", "Chelsea"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle couleur de maillot distingue le leader du classement général du Tour d'Italie cycliste ?",
+"correct": "Rose",
+"wrong": ["Jaune", "Rouge", "Bleu"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel joueur de football argentin a remporté huit Ballons d'Or au cours de sa carrière ?",
+"correct": "Lionel Messi",
+"wrong": ["Cristiano Ronaldo", "Diego Maradona", "Michel Platini"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel sport collectif les joueurs n'ont-ils pas le droit de toucher le ballon avec les pieds ni de marcher ballon en main sans dribbler ?",
+"correct": "Le handball",
+"wrong": ["Le rugby", "Le football australien", "Le futsal"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel perchiste suédois a battu à de nombreuses reprises le record du monde du saut à la perche ?",
+"correct": "Armand Duplantis",
+"wrong": ["Renaud Lavillenie", "Sergueï Bubka", "Sam Kendricks"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nageur français a remporté quatre médailles d'or individuelles lors des Jeux olympiques de Paris ?",
+"correct": "Léon Marchand",
+"wrong": ["Florent Manaudou", "Alain Bernard", "Camille Lacourt"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel sport se dispute la célèbre course d'endurance automobile des Vingt-Quatre Heures du Mans ?",
+"correct": "Le sport automobile",
+"wrong": ["Le moto GP", "Le rallye-raid", "La Formule E"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel pays a remporté la finale de la Coupe du monde de rugby à quinze organisée en France ?",
+"correct": "L'Afrique du Sud",
+"wrong": ["La Nouvelle-Zélande", "L'Irlande", "L'Angleterre"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle joueuse de tennis américaine a remporté vingt-trois titres du Grand Chelem en simple dans l'ère Open ?",
+"correct": "Serena Williams",
+"wrong": ["Venus Williams", "Steffi Graf", "Martina Navratilova"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel sport utilise-t-on des termes comme birdie, eagle et bogey pour compter les coups ?",
+"correct": "Le golf",
+"wrong": ["Le billard", "Le cricket", "Le baseball"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle équipe de basket-ball américaine compte le plus grand nombre de titres de champion NBA avec Boston ?",
+"correct": "Les Los Angeles Lakers",
+"wrong": ["Les Chicago Bulls", "Les Golden State Warriors", "Les San Antonio Spurs"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel biathlète français est l'athlète français le plus titré de l'histoire des Jeux olympiques d'hiver ?",
+"correct": "Martin Fourcade",
+"wrong": ["Quentin Fillon Maillet", "Raphaël Poirée", "Jason Lamy-Chappuis"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel sport de raquette frappe-t-on une balle creuse contre les murs d'un court fermé à deux joueurs côte à côte ?",
+"correct": "Le squash",
+"wrong": ["Le padel", "Le tennis", "Le badminton"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel pays est le berceau historique du sumo ?",
+"correct": "Le Japon",
+"wrong": ["La Chine", "La Corée du Sud", "La Mongolie"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel entraîneur français a dirigé l'équipe de France de football lors de ses sacres mondiaux en tant que joueur puis sélectionneur ?",
+"correct": "Didier Deschamps",
+"wrong": ["Zinédine Zidane", "Aimé Jacquet", "Laurent Blanc"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel terme désigne le fait de réussir trois buts dans un même match de football ?",
+"correct": "Un triplé",
+"wrong": ["Un doublé", "Un coup du chapeau", "Une panenka"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel sport se dispute chaque année le Tournoi des Six Nations ?",
+"correct": "Le rugby à quinze",
+"wrong": ["Le rugby à sept", "Le handball", "Le hockey sur glace"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle épreuve d'athlétisme combine dix disciplines différentes sur deux jours chez les hommes ?",
+"correct": "Le décathlon",
+"wrong": ["L'heptathlon", "Le pentathlon", "Le triathlon"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel pilote de Formule 1 brésilien triple champion du monde a trouvé la mort lors du Grand Prix de Saint-Marin à Imola ?",
+"correct": "Ayrton Senna",
+"wrong": ["Nelson Piquet", "Emerson Fittipaldi", "Rubens Barrichello"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle gymnaste américaine est la plus médaillée de l'histoire des championnats du monde de gymnastique artistique ?",
+"correct": "Simone Biles",
+"wrong": ["Nadia Comăneci", "Svetlana Khorkina", "Larissa Latynina"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel cycliste belge surnommé le Cannibale a remporté cinq Tours de France, cinq Tours d'Italie et un Tour d'Espagne ?",
+"correct": "Eddy Merckx",
+"wrong": ["Bernard Hinault", "Jacques Anquetil", "Miguel Indurain"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel sport nautique les rameurs tournent-ils le dos à la direction dans laquelle avance leur embarcation ?",
+"correct": "L'aviron",
+"wrong": ["Le canoë-kayak", "Le dragon-boat", "La pirogue polynésienne"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel basketteur français a été sélectionné en première position de la draft NBA par les San Antonio Spurs ?",
+"correct": "Victor Wembanyama",
+"wrong": ["Tony Parker", "Rudy Gobert", "Zaccharie Risacher"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle couleur de maillot récompense le meilleur grimpeur du Tour de France ?",
+"correct": "Blanc à pois rouges",
+"wrong": ["Vert uni", "Blanc uni", "Jaune à pois noirs"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur de tennis suisse a remporté huit fois le tournoi de Wimbledon en simple messieurs ?",
+"correct": "Roger Federer",
+"wrong": ["Pete Sampras", "Novak Djokovic", "Björn Borg"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quelle discipline de l'escrime la surface valable comprend-elle uniquement le tronc, sans les bras ni la tête ?",
+"correct": "Le fleuret",
+"wrong": ["L'épée", "Le sabre", "La rapière"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel club de rugby français détient le record du plus grand nombre de titres de champion de France et de Coupes d'Europe ?",
+"correct": "Le Stade Toulousain",
+"wrong": ["L'ASM Clermont Auvergne", "Le Stade Français", "Le RC Toulon"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel athlète français a battu le record du monde du décathlon à Talence avant de remporter plusieurs titres mondiaux ?",
+"correct": "Kevin Mayer",
+"wrong": ["Romain Barras", "Christian Plaziat", "Alain Blondel"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel sport se dispute la Coupe Davis par équipes nationales masculines ?",
+"correct": "Le tennis",
+"wrong": ["Le golf", "Le badminton", "Le tennis de table"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel navigateur français détient le record du tour du monde à la voile en solitaire sans escale ?",
+"correct": "François Gabart",
+"wrong": ["Francis Joyon", "Thomas Coville", "Armel Le Cléac'h"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel boxeur américain surnommé The Greatest a remporté le célèbre combat Rumble in the Jungle à Kinshasa ?",
+"correct": "Mohamed Ali",
+"wrong": ["George Foreman", "Joe Frazier", "Mike Tyson"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle joueuse de tennis allemande a réalisé le Grand Chelem doré en remportant les quatre tournois majeurs et l'or olympique la même année ?",
+"correct": "Steffi Graf",
+"wrong": ["Monica Seles", "Martina Hingis", "Chris Evert"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel sport collectif les joueurs évoluent-ils sur un terrain divisé par un filet haut sans que le ballon ne puisse toucher le sol ?",
+"correct": "Le volley-ball",
+"wrong": ["Le handball", "Le sepak takraw", "Le tchoukball"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel coureur de fond kényan a été le premier humain à courir la distance d'un marathon en moins de deux heures lors d'une tentative non homologuée à Vienne ?",
+"correct": "Eliud Kipchoge",
+"wrong": ["Kenenisa Bekele", "Kelvin Kiptum", "Haile Gebrselassie"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle équipe nationale féminine de football a remporté le plus grand nombre de Coupes du monde de la FIFA ?",
+"correct": "Les États-Unis",
+"wrong": ["L'Allemagne", "La Norvège", "Le Japon"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur de rugby français a été élu meilleur joueur du monde World Rugby et a mené l'équipe de France de rugby à sept à l'or olympique à Paris ?",
+"correct": "Antoine Dupont",
+"wrong": ["Romain Ntamack", "Grégory Alldritt", "Damian Penaud"]
+},
+{
+"difficulty": "difficile",
+"question": "Dans quel sport de glace les athlètes descendent-ils une piste glacée à plat ventre la tête la première sur un petit traîneau ?",
+"correct": "Le skeleton",
+"wrong": ["La luge", "Le bobsleigh", "Le patinage sur piste courte"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel club de football italien porte les couleurs rouge et noir et joue au stade San Siro ?",
+"correct": "L'AC Milan",
+"wrong": ["L'Inter Milan", "La Juventus", "L'AS Rome"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel athlète américain a remporté quatre médailles d'or lors des Jeux olympiques de Berlin en sprint et saut en longueur ?",
+"correct": "Jesse Owens",
+"wrong": ["Carl Lewis", "Bob Beamon", "Jim Thorpe"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de snooker anglais surnommé The Rocket détient le record du break maximal le plus rapide de l'histoire ?",
+"correct": "Ronnie O'Sullivan",
+"wrong": ["Stephen Hendry", "Judd Trump", "Mark Selby"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle gymnaste roumaine a obtenu la toute première note parfaite de dix aux Jeux olympiques de Montréal ?",
+"correct": "Nadia Comăneci",
+"wrong": ["Olga Korbut", "Svetlana Boginskaya", "Simona Amânar"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de baseball américain a frappé le ballon lors du célèbre coup de circuit appelé Shot Heard 'Round the World ?",
+"correct": "Bobby Thomson",
+"wrong": ["Babe Ruth", "Joe DiMaggio", "Mickey Mantle"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans quel sport de raquette originaire d'Asie du Sud-Est les joueurs utilisent-ils uniquement leurs pieds, leurs genoux, leur poitrine et leur tête pour renvoyer une balle en rotin par-dessus un filet ?",
+"correct": "Le sepak takraw",
+"wrong": ["Le plumfoot", "Le pelota", "Le bossaball"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel cycliste espagnol a remporté cinq Tours de France consécutifs dans les années quatre-vingt-dix ?",
+"correct": "Miguel Indurain",
+"wrong": ["Alberto Contador", "Pedro Delgado", "Carlos Sastre"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de hockey sur glace canadien surnommé The Great One détient la quasi-totalité des records offensifs de la NHL ?",
+"correct": "Wayne Gretzky",
+"wrong": ["Mario Lemieux", "Sidney Crosby", "Gordie Howe"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle sauteuse à la perche russe a été la première femme à franchir la barre symbolique des cinq mètres ?",
+"correct": "Yelena Isinbayeva",
+"wrong": ["Svetlana Feofanova", "Sandi Morris", "Katie Moon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel terme désigne en tennis le fait pour un joueur de remporter un set sans perdre un seul point ?",
+"correct": "Un set d'or",
+"wrong": ["Une roue de bicyclette", "Un tie-break blanc", "Un grand chelem"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel pilote finlandais de rallye a remporté quatre titres de champion du monde des rallyes consécutifs au volant d'une Mitsubishi Lancer Evolution ?",
+"correct": "Tommi Mäkinen",
+"wrong": ["Juha Kankkunen", "Ari Vatanen", "Marcus Grönholm"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de football américain détient le record absolu du plus grand nombre de victoires au Super Bowl avec sept bagues ?",
+"correct": "Tom Brady",
+"wrong": ["Joe Montana", "Peyton Manning", "Patrick Mahomes"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans quel sport équestre et collectif d'Asie centrale les cavaliers se disputent-ils la carcasse d'une chèvre sans tête pour la déposer dans un cercle ?",
+"correct": "Le buzkashi",
+"wrong": ["Le polo", "Le horse-ball", "Le pato"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel skipper français a remporté à deux reprises le Vendée Globe, la course autour du monde en solitaire sans escale ni assistance ?",
+"correct": "Michel Desjoyeaux",
+"wrong": ["Vincent Riou", "Alain Gautier", "Christophe Auguin"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel sauteur en hauteur américain a révolutionné sa discipline en introduisant le saut dorsal aux Jeux olympiques de Mexico ?",
+"correct": "Dick Fosbury",
+"wrong": ["Javier Sotomayor", "Mutaz Essa Barshim", "Valeriy Brumel"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel joueur de tennis australien est le seul homme de l'histoire à avoir réalisé deux fois le Grand Chelem calendaire en simple ?",
+"correct": "Rod Laver",
+"wrong": ["Roy Emerson", "Ken Rosewall", "John Newcombe"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle course cycliste d'un jour surnommée l'Enfer du Nord se termine sur le vélodrome de Roubaix ?",
+"correct": "Paris-Roubaix",
+"wrong": ["Le Tour des Flandres", "Liège-Bastogne-Liège", "Milan-San Remo"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel athlète éthiopien a remporté le marathon olympique de Rome en courant pieds nus ?",
+"correct": "Abebe Bikila",
+"wrong": ["Haile Gebrselassie", "Kenenisa Bekele", "Mamo Wolde"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Dans quelle discipline de l'athlétisme l'Américain Bob Beamon a-t-il établi un record du monde resté invaincu pendant plus de deux décennies à Mexico ?",
+"correct": "Le saut en longueur",
+"wrong": ["Le triple saut", "Le saut en hauteur", "Le lancer du disque"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel club de football allemand a remporté la Ligue des champions de l'UEFA sous la direction de Jürgen Klopp avant que celui-ci ne rejoigne Liverpool ?",
+"correct": "Aucun, Klopp a perdu la finale avec Dortmund",
+"wrong": ["Le Borussia Dortmund", "Le Bayern Munich", "Le Bayer Leverkusen"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel escrimeur français a remporté six médailles d'or olympiques au fleuret et à l'épée au milieu du vingtième siècle ?",
+"correct": "Christian d'Oriola",
+"wrong": ["Lucien Gaudin", "Philippe Cattiau", "Roger Ducret"]
+}
+]
+}

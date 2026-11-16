@@ -1,0 +1,805 @@
+{
+  "theme": "Arcane",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom de la ville riche et technologiquement avancée dans Arcane ?",
+      "correct": "Piltover",
+      "wrong": [
+        "Zaun",
+        "Demacia",
+        "Noxus"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Comment s'appelle la sœur cadette de Vi dans la première partie de la saison 1 ?",
+      "correct": "Powder",
+      "wrong": [
+        "Caitlyn",
+        "Mel",
+        "Mylo"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel nom adopte Powder en grandissant ?",
+      "correct": "Jinx",
+      "wrong": [
+        "Lux",
+        "Sevika",
+        "Ambessa"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle substance violette transforme les habitants de Zaun en monstres surpuissants ?",
+      "correct": "Le Shimmer",
+      "wrong": [
+        "L'Hextech",
+        "La Pétricite",
+        "L'Éther"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel scientifique est le partenaire de Jayce dans la création de l'Hextech ?",
+      "correct": "Viktor",
+      "wrong": [
+        "Heimerdinger",
+        "Singed",
+        "Silco"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui dirige la pègre de Zaun et devient le père adoptif de Jinx ?",
+      "correct": "Silco",
+      "wrong": [
+        "Vander",
+        "Marcus",
+        "Finn"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle jeune policière de Piltover fait équipe avec Vi pour enquêter sur Silco ?",
+      "correct": "Caitlyn",
+      "wrong": [
+        "Mel",
+        "Grayson",
+        "Elora"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel personnage dirige l'auberge « La Dernière Goutte » avant l'arrivée au pouvoir de Silco ?",
+      "correct": "Vander",
+      "wrong": [
+        "Benzo",
+        "Huck",
+        "Ekko"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle arme emblématique Vi utilise-t-elle lors de ses combats ?",
+      "correct": "Des gantelets Hextech",
+      "wrong": [
+        "Un marteau Hextech",
+        "Un fusil de précision",
+        "Une mitrailleuse"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel groupe interprète le générique « Enemy » de la série Arcane ?",
+      "correct": "Imagine Dragons",
+      "wrong": [
+        "Linkin Park",
+        "Twenty One Pilots",
+        "OneRepublic"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle est l'arme principale créée et maniée par Jayce ?",
+      "correct": "Un marteau Hextech",
+      "wrong": [
+        "Une épée runique",
+        "Un canon laser",
+        "Des gantelets mécaniques"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel membre du Conseil de Piltover est un Yordle à la fourrure touffue ?",
+      "correct": "Heimerdinger",
+      "wrong": [
+        "Bolbok",
+        "Hoskel",
+        "Salo"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel ami d'enfance de Powder et Vi devient le chef des Feux Volants ?",
+      "correct": "Ekko",
+      "wrong": [
+        "Mylo",
+        "Claggor",
+        "Deckard"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quel studio français l'animation de la série Arcane a-t-elle été réalisée ?",
+      "correct": "Fortiche Production",
+      "wrong": [
+        "Illumination Mac Guff",
+        "Ankama Animations",
+        "Xilam Animation"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "De quelle couleur sont les yeux de Jinx après son opération par Singed ?",
+      "correct": "Rose fluo",
+      "wrong": [
+        "Bleu électrique",
+        "Vert émeraude",
+        "Jaune doré"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle conseillère de Piltover entretient une relation amoureuse avec Jayce ?",
+      "correct": "Mel Medarda",
+      "wrong": [
+        "Cassandra Kiramman",
+        "Shoola",
+        "Grayson"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel animal accompagne souvent Heimerdinger dans son laboratoire ?",
+      "correct": "Un Poro",
+      "wrong": [
+        "Un corbeau",
+        "Un chat mécanique",
+        "Un rat"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le nom de la ville souterraine polluée située sous Piltover ?",
+      "correct": "Zaun",
+      "wrong": [
+        "Bilgewater",
+        "Ionia",
+        "Shurima"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle arme Jinx utilise-t-elle pour attaquer le Conseil de Piltover à la fin de la saison 1 ?",
+      "correct": "Un lance-roquettes",
+      "wrong": [
+        "Une bombe fumigène",
+        "Un fusil à pompe",
+        "Un rayon laser"
+      ]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel personnage porte un masque de chouette et se déplace sur un hoverboard volant ?",
+      "correct": "Ekko",
+      "wrong": [
+        "Viktor",
+        "Scar",
+        "Jayce"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom de famille de Caitlyn, issu d'une riche famille de Piltover ?",
+      "correct": "Kiramman",
+      "wrong": [
+        "Talis",
+        "Medarda",
+        "Ferros"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle le bras droit cybernétique de Silco ?",
+      "correct": "Sevika",
+      "wrong": [
+        "Renni",
+        "Smeech",
+        "Chross"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du shérif corrompu de Piltover qui collabore secrètement avec Silco ?",
+      "correct": "Marcus",
+      "wrong": [
+        "Grayson",
+        "Steb",
+        "Loris"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "De quelle nation guerrière est originaire Ambessa, la mère de Mel Medarda ?",
+      "correct": "Noxus",
+      "wrong": [
+        "Demacia",
+        "Shurima",
+        "Freljord"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel nom porte la mitrailleuse rotative de Jinx ?",
+      "correct": "Pow-Pow",
+      "wrong": [
+        "Fishbones",
+        "Zap",
+        "Chomper"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du lance-roquettes en forme de requin utilisé par Jinx ?",
+      "correct": "Fishbones",
+      "wrong": [
+        "Pow-Pow",
+        "Jaws",
+        "Sharky"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appellent les deux frères adoptifs de Vi et Powder qui meurent dans l'usine ?",
+      "correct": "Mylo et Claggor",
+      "wrong": [
+        "Deckard et Huck",
+        "Benzo et Scar",
+        "Finn et Renni"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du scientifique défiguré qui fabrique le Shimmer pour Silco ?",
+      "correct": "Singed",
+      "wrong": [
+        "Viktor",
+        "Corin",
+        "Heimerdinger"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle créature monstrueuse Vander devient-il après les expériences de Singed ?",
+      "correct": "Warwick",
+      "wrong": [
+        "Mundo",
+        "Twitch",
+        "Urgot"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom de la petite fille muette qui s'attache à Jinx dans la saison 2 ?",
+      "correct": "Isha",
+      "wrong": [
+        "Gert",
+        "Maddie",
+        "Elora"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel groupe de résistance basé autour d'un grand arbre Ekko dirige-t-il ?",
+      "correct": "Les Feux Volants",
+      "wrong": [
+        "Les Enfants de Zaun",
+        "La Rose Noire",
+        "Les Veilleurs"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le prénom de la mère de Caitlyn, qui siège au Conseil de Piltover ?",
+      "correct": "Cassandra",
+      "wrong": [
+        "Ambessa",
+        "Grayson",
+        "Shoola"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Comment s'appelle le propriétaire de la boutique d'antiquités qui sert de mentor à Ekko ?",
+      "correct": "Benzo",
+      "wrong": [
+        "Huck",
+        "Jericho",
+        "Babette"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle chanson de Stromae et Pomme accompagne la danse entre Ekko et Powder ?",
+      "correct": "Ma Meilleure Ennemie",
+      "wrong": [
+        "Formidable",
+        "Tous les mêmes",
+        "Papaoutai"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel membre du Conseil est un être mécanique doré portant un masque sans visage ?",
+      "correct": "Bolbok",
+      "wrong": [
+        "Salo",
+        "Hoskel",
+        "Shoola"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel nom porte la prison haute sécurité où Vi est enfermée pendant plusieurs années ?",
+      "correct": "Stillwater",
+      "wrong": [
+        "Blackwater",
+        "Ironhold",
+        "Deepstone"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle organisation secrète de Noxus traque Ambessa et Mel Medarda ?",
+      "correct": "La Rose Noire",
+      "wrong": [
+        "Le Trifarix",
+        "L'Ordre de l'Ombre",
+        "Les Sentinelles"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du barman gigantesque de Zaun qui sert des plats de créatures marines à Vi ?",
+      "correct": "Jericho",
+      "wrong": [
+        "Benzo",
+        "Huck",
+        "Chross"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel objet Volé par Powder dans l'appartement de Jayce déclenche la première explosion ?",
+      "correct": "Des cristaux Hextech",
+      "wrong": [
+        "Une fiole de Shimmer",
+        "Un noyau arcanique",
+        "Un catalyseur runique"
+      ]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom de la jeune policière aux cheveux roux qui intègre l'escouade de Caitlyn ?",
+      "correct": "Maddie",
+      "wrong": [
+        "Loris",
+        "Steb",
+        "Elora"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel nom porte le cœur technologique vivant créé par Viktor et alimenté par son sang ?",
+      "correct": "L'Hexcore",
+      "wrong": [
+        "L'Hexgate",
+        "Le Nexus",
+        "L'Arcanum"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le garçon de Zaun qui sert de cobaye à Silco pour tester le Shimmer ?",
+      "correct": "Deckard",
+      "wrong": [
+        "Mylo",
+        "Huck",
+        "Finn"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du Baron de la chimie qui tente de trahir Silco avec l'aide de Sevika ?",
+      "correct": "Finn",
+      "wrong": [
+        "Smeech",
+        "Chross",
+        "Renni"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle l'assistante dévouée de Mel Medarda à Piltover ?",
+      "correct": "Elora",
+      "wrong": [
+        "Shoola",
+        "Maddie",
+        "Grayson"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du Chireur Yordle prothésiste qui affronte Sevika dans la saison 2 ?",
+      "correct": "Smeech",
+      "wrong": [
+        "Bolbok",
+        "Babette",
+        "Ziggs"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le prénom du père de Caitlyn ?",
+      "correct": "Tobias",
+      "wrong": [
+        "Marcus",
+        "Corin",
+        "Harold"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la profession d'origine de Singed avant de devenir le savant fou de Zaun ?",
+      "correct": "Alchimiste",
+      "wrong": [
+        "Chirurgien",
+        "Mécanicien",
+        "Architecte"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de la fille de Marcus, à qui Silco rend visite pour menacer le shérif ?",
+      "correct": "Ren",
+      "wrong": [
+        "Isha",
+        "Gert",
+        "Maddie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle le grand portail de téléportation commerciale conçu par Jayce et Viktor ?",
+      "correct": "Les Hexgates",
+      "wrong": [
+        "Les Portes Runiques",
+        "Le Pont du Progrès",
+        "Les Tourbillons"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de la dirigeante de la maison close de Zaun où Vi et Caitlyn enquêtent ?",
+      "correct": "Babette",
+      "wrong": [
+        "Renni",
+        "Margot",
+        "Sevika"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel membre du Conseil survit à l'attaque de Jinx mais se retrouve en fauteuil roulant ?",
+      "correct": "Salo",
+      "wrong": [
+        "Hoskel",
+        "Bolbok",
+        "Cassandra"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de l'ancien shérif de Piltover qui avait passé un accord de paix avec Vander ?",
+      "correct": "Grayson",
+      "wrong": [
+        "Marcus",
+        "Steb",
+        "Loris"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle musicienne est l'assistante de Viktor dans son laboratoire avant d'être désintégrée par l'Hexcore ?",
+      "correct": "Sky Young",
+      "wrong": [
+        "Elora",
+        "Mel",
+        "Maddie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Comment s'appelle l'homme-poisson silencieux qui fait partie de l'escouade de Caitlyn ?",
+      "correct": "Steb",
+      "wrong": [
+        "Loris",
+        "Scar",
+        "Jericho"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du colossal policier alcoolique qui se lie d'amitié avec Vi ?",
+      "correct": "Loris",
+      "wrong": [
+        "Steb",
+        "Huck",
+        "Claggor"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle chanson de Woodkid accompagne le combat de Jayce et Vi dans l'usine de Shimmer ?",
+      "correct": "Guns for Hire",
+      "wrong": [
+        "To Ashes and Blood",
+        "Playground",
+        "Dynasties and Dystopia"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du pont célèbre qui relie Piltover à Zaun ?",
+      "correct": "Le Pont du Progrès",
+      "wrong": [
+        "Le Pont des Soupirs",
+        "Le Pont Hextech",
+        "Le Pont de Fer"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel animal mécanique Powder fabrique-t-elle comme bombe dans la saison 1 ?",
+      "correct": "Un singe à cymbales",
+      "wrong": [
+        "Un lapin mécanique",
+        "Un corbeau explosif",
+        "Un chien d'horlogerie"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle Baronne de la chimie attaque le mémorial de Piltover pour venger la mort de son fils ?",
+      "correct": "Renni",
+      "wrong": [
+        "Margot",
+        "Babette",
+        "Sevika"
+      ]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom de famille de Jayce ?",
+      "correct": "Talis",
+      "wrong": [
+        "Kiramman",
+        "Medarda",
+        "Reveck"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le vrai nom complet de Singed révélé dans la série ?",
+      "correct": "Corin Reveck",
+      "wrong": [
+        "Tobias Kiramman",
+        "Boram Darkwill",
+        "Stanwick Pididly"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la fille de Singed qu'il cherche à ramener à la vie ?",
+      "correct": "Orianna",
+      "wrong": [
+        "Isolde",
+        "Sky",
+        "Camille"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du membre du Conseil de Piltover qui porte un collier métallique imposant et survit à la saison 1 ?",
+      "correct": "Shoola",
+      "wrong": [
+        "Hoskel",
+        "Bolbok",
+        "Salo"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le prénom du fils de Renni tué par Jayce dans l'usine de Shimmer ?",
+      "correct": "L'enfant n'a pas de prénom révélé",
+      "wrong": [
+        "Deckard",
+        "Mylo",
+        "Finn"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du lieutenant d'Ambessa Medarda qui meurt lors de l'attaque de la Rose Noire ?",
+      "correct": "Rictus",
+      "wrong": [
+        "Kino",
+        "Bram",
+        "Darius"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle le frère décédé de Mel Medarda mentionné par Ambessa ?",
+      "correct": "Kino",
+      "wrong": [
+        "Rictus",
+        "Salo",
+        "Jago"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du membre du Conseil de Piltover amateur de grands crus qui meurt dans l'explosion finale de la saison 1 ?",
+      "correct": "Hoskel",
+      "wrong": [
+        "Salo",
+        "Bolbok",
+        "Talis"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du toxicomane de Zaun à qui Viktor rend temporairement sa santé avant qu'il ne rejoigne sa commune ?",
+      "correct": "Huck",
+      "wrong": [
+        "Deckard",
+        "Scar",
+        "Jericho"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle l'habitant de Zaun ressemblant à une chauve-souris qui seconde Ekko chez les Feux Volants ?",
+      "correct": "Scar",
+      "wrong": [
+        "Gert",
+        "Huck",
+        "Smeech"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du mage mystérieux qui a sauvé le jeune Jayce et sa mère dans la tempête de neige ?",
+      "correct": "Viktor",
+      "wrong": [
+        "Ryze",
+        "Heimerdinger",
+        "Zilean"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel nom porte la fleur utilisée par Ekko et Heimerdinger dans l'univers alternatif ?",
+      "correct": "La fleur de lumière",
+      "wrong": [
+        "La rose noire",
+        "Le lotus bleu",
+        "L'orchidée lunaire"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du lieu souterrain rempli de gaz toxiques où Vander et Silco se sont jadis battus ?",
+      "correct": "Les Mines",
+      "wrong": [
+        "Les Puisards",
+        "Les Égouts",
+        "La Fosse"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la profession de Ximena Talis, la mère de Jayce ?",
+      "correct": "Artisane fabriqueuse d'outils",
+      "wrong": [
+        "Conseillère municipale",
+        "Médecin",
+        "Marchande d'art"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la créature chimérique massive envoyée par Ambessa lors de la bataille finale de Piltover ?",
+      "correct": "Warwick",
+      "wrong": [
+        "Un Béhémoth",
+        "Un Léviathan",
+        "Sion"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Comment s'appelle la jeune femme aux cheveux violets membre des Feux Volants ?",
+      "correct": "Gert",
+      "wrong": [
+        "Isha",
+        "Maddie",
+        "Sky"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du dispositif inventé par Ekko permettant de remonter le temps de quelques secondes ?",
+      "correct": "Le Z-Drive",
+      "wrong": [
+        "L'Hexcore",
+        "Le Chronomètre",
+        "La Boucle Runique"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel nom porte la prisonnier musclé qui tente de tuer Vi à la cantine de Stillwater ?",
+      "correct": "Mylo n'y est pas, c'est un détenu anonyme",
+      "wrong": [
+        "Rictus",
+        "Loris",
+        "Urgot"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le titre de la chanson de Linkin Park utilisée dans la saison 2 d'Arcane ?",
+      "correct": "Heavy Is the Crown",
+      "wrong": [
+        "Numb",
+        "In the End",
+        "The Emptiness Machine"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du livre ou carnet que Viktor tient constamment dans la saison 1 ?",
+      "correct": "Son journal de recherche",
+      "wrong": [
+        "Le Grimoire des Runes",
+        "Le Codex Hextech",
+        "Le Traité de Piltover"
+      ]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel symbole Mel Medarda porte-t-elle sur sa peau et qui s'illumine lorsqu'elle active ses pouvoirs ?",
+      "correct": "Des marques dorées",
+      "wrong": [
+        "Des runes bleues",
+        "Des tatouages noirs",
+        "Des cicatrices argentées"
+      ]
+    }
+  ]
+}

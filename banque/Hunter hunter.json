@@ -1,0 +1,485 @@
+{
+"theme": "Hunter X Hunter",
+"questions": [
+{
+"difficulty": "facile",
+"question": "Quel est le nom de famille du héros principal de Hunter x Hunter, Gon ?",
+"correct": "Freecss",
+"wrong": ["Zoldyck", "Kurta", "Paladiknight"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le prénom du père de Gon qu'il cherche à retrouver ?",
+"correct": "Ging",
+"wrong": ["Kite", "Netero", "Silva"]
+},
+{
+"difficulty": "facile",
+"question": "Sur quelle île Gon a-t-il grandi avant de passer l'examen Hunter ?",
+"correct": "L'île de la Baleine",
+"wrong": ["L'île de Greed", "L'île de Zevil", "L'île de Dolle"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle est la profession de la célèbre famille de Kirua ?",
+"correct": "Assassins",
+"wrong": ["Chasseurs de primes", "Alchimistes", "Mercenaires"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle couleur deviennent les yeux de Kurapika lorsqu'il est submergé par la colère ?",
+"correct": "Écarlate",
+"wrong": ["Doré", "Violet", "Argenté"]
+},
+{
+"difficulty": "facile",
+"question": "Quel métier Léolio souhaite-t-il exercer grâce à l'argent de la licence Hunter ?",
+"correct": "Médecin",
+"wrong": ["Avocat", "Architecte", "Journaliste"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle arme emblématique Gon utilise-t-il au début de l'histoire ?",
+"correct": "Une canne à pêche",
+"wrong": ["Un bâton bo", "Une fronde", "Un couteau de chasse"]
+},
+{
+"difficulty": "facile",
+"question": "Quel est le nom de l'énergie vitale maîtrisée par les Hunters ?",
+"correct": "Le Nen",
+"wrong": ["Le Chakra", "Le Ki", "Le Reiatsu"]
+},
+{
+"difficulty": "facile",
+"question": "Quel personnage excentrique adore utiliser des cartes à jouer comme armes tranchantes ?",
+"correct": "Hisoka",
+"wrong": ["Illumi", "Chrollo", "Feitan"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle l'organisation criminelle tatouée d'une araignée à douze pattes ?",
+"correct": "La Brigade Fantôme",
+"wrong": ["Les Zodiaques", "Les Bêtes de l'Ombre", "La Famille Nostrade"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle catégorie de Nen appartient à Gon ?",
+"correct": "Le Renforcement",
+"wrong": ["La Transformation", "L'Émission", "La Manipulation"]
+},
+{
+"difficulty": "facile",
+"question": "Quelle catégorie de Nen appartient à Kirua ?",
+"correct": "La Transformation",
+"wrong": ["Le Renforcement", "La Matérialisation", "La Spécialisation"]
+},
+{
+"difficulty": "facile",
+"question": "Quel test utilise-t-on pour déterminer la catégorie de Nen d'une personne ?",
+"correct": "La divination par l'eau",
+"wrong": ["La lecture de flamme", "Le tirage de runes", "Le test du pendule"]
+},
+{
+"difficulty": "facile",
+"question": "Quel célèbre jeu vidéo très rare Gon et Kirua intègrent-ils pour trouver des indices sur Ging ?",
+"correct": "Greed Island",
+"wrong": ["Dark Continent", "Heaven's Arena", "Hunter World"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle le roi des fourmis chimères ?",
+"correct": "Meruem",
+"wrong": ["Neferpitou", "Shaiapouf", "Menthuthuyoupi"]
+},
+{
+"difficulty": "facile",
+"question": "Qui est le président de l'Association des Hunters durant la majeure partie de l'histoire ?",
+"correct": "Isaac Netero",
+"wrong": ["Pariston Hill", "Cheadle Yorkshire", "Beyond Netero"]
+},
+{
+"difficulty": "facile",
+"question": "Quel nom porte la technique de poing de Gon inspirée du pierre-feuille-ciseaux ?",
+"correct": "Jajanken",
+"wrong": ["Jan-Ken-Punch", "Rock-Paper-Fist", "Ken-Gu"]
+},
+{
+"difficulty": "facile",
+"question": "De quelle nature élémentaire est l'aura transformée de Kirua ?",
+"correct": "L'électricité",
+"wrong": ["Le feu", "La glace", "Le vent"]
+},
+{
+"difficulty": "facile",
+"question": "Quel objet Kurapika matérialise-t-il sur les doigts de sa main droite pour combattre ?",
+"correct": "Des chaînes",
+"wrong": ["Des dagues", "Des fils d'acier", "Des aiguilles"]
+},
+{
+"difficulty": "facile",
+"question": "Comment s'appelle la tante qui a élevé Gon sur l'île de la Baleine ?",
+"correct": "Mito",
+"wrong": ["Biscuit", "Canary", "Melody"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom complet du chef de la Brigade Fantôme ?",
+"correct": "Chrollo Lucilfer",
+"wrong": ["Feitan Portor", "Phinks Magcub", "Nobunaga Hazama"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nom porte la capacité Nen élastique et collante d'Hisoka ?",
+"correct": "Bungee Gum",
+"wrong": ["Texture Trompeuse", "Elastic Aura", "Rubber Nen"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du jeu de plateau stratégique auquel Meruem joue contre Komugi ?",
+"correct": "Le Gungi",
+"wrong": ["Le Shogi", "Le Go", "Le Mah-jong"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le handicap physique de Komugi, la championne du monde de Gungi ?",
+"correct": "Elle est aveugle",
+"wrong": ["Elle est sourde", "Elle est muette", "Elle est paralysée"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle le maître de Nen qui entraîne Gon et Kirua à la Tour Céleste ?",
+"correct": "Wing",
+"wrong": ["Zushi", "Biscuit", "Kastro"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle est la véritable apparence de Biscuit Krueger ?",
+"correct": "Une femme très musclée",
+"wrong": ["Une vieille dame fragile", "Une créature chimère", "Un homme déguisé"]
+},
+{
+"difficulty": "moyen",
+"question": "Dans quel pays se situe le domaine familial des Zoldyck sur le mont Kukuroo ?",
+"correct": "La République de Padokia",
+"wrong": ["L'Empire de Kakin", "La République de Rokario", "La Fédération de Mitene"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nom porte le gigantesque chien de garde qui protège la porte de la vérification chez les Zoldyck ?",
+"correct": "Mike",
+"wrong": ["Tsubone", "Gotoh", "Zeno"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle la petite sœur de Kirua capable d'exaucer des vœux grâce à Nanika ?",
+"correct": "Alluka",
+"wrong": ["Kalluto", "Milluki", "Kikyo"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom de la capacité ultime de Netero invoquant une statue dorée à cent bras ?",
+"correct": "Hyakushiki Kannon",
+"wrong": ["Zero Hand", "Bodhisattva Punch", "Golden Buddha"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle arme de destruction massive Netero déclenche-t-il à sa mort contre Meruem ?",
+"correct": "La Rose du Pauvre",
+"wrong": ["La Bombe Écarlate", "Le Souffle du Dragon", "La Fleur de Cendre"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment s'appelle l'arc narratif centré sur la grande vente aux enchères souterraine ?",
+"correct": "Yorknew City",
+"wrong": ["NGL", "Élection du Président", "Tour Céleste"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel livre Chrollo matérialise-t-il pour voler les capacités Nen d'autres utilisateurs ?",
+"correct": "Skill Hunter",
+"wrong": ["Bandit's Secret", "Nen Grimoire", "Phantom Book"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel membre de la Brigade Fantôme a été tué en premier par Kurapika lors d'un duel ?",
+"correct": "Uvogin",
+"wrong": ["Pakunoda", "Shalnark", "Kortopi"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel est le nom du continent mystérieux et mortel situé au-delà du monde connu ?",
+"correct": "Le Continent Caché",
+"wrong": ["Le Nouveau Monde", "La Terre Interdite", "L'Archipel Noir"]
+},
+{
+"difficulty": "moyen",
+"question": "Comment appelle-t-on les douze conseillers d'élite choisis par Netero portant des noms d'animaux ?",
+"correct": "Les Zodiaques",
+"wrong": ["Les Douze Lunes", "Les Gardiens Royaux", "Les Étoiles Filantes"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nom porte la technique de vitesse divine de Kirua qui court-circuite ses réflexes ?",
+"correct": "Kanmuru",
+"wrong": ["Narukami", "Izutsushi", "Raikou"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel animal géant Gon doit-il pêcher sur l'île de la Baleine pour avoir le droit de passer l'examen Hunter ?",
+"correct": "Le Seigneur du Lac",
+"wrong": ["Le Léviathan Blanc", "Le Roi des Rivières", "Le Silure Géant"]
+},
+{
+"difficulty": "moyen",
+"question": "Quel nom porte le majordome en chef des Zoldyck qui combat avec des pièces de monnaie ?",
+"correct": "Gotoh",
+"wrong": ["Canary", "Tsubone", "Amane"]
+},
+{
+"difficulty": "moyen",
+"question": "Quelle chaîne de Kurapika est strictement réservée aux membres de la Brigade Fantôme sous peine de mort ?",
+"correct": "Chain Jail",
+"wrong": ["Judgment Chain", "Holy Chain", "Dowsing Chain"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom complet de l'auteur du manga Hunter x Hunter ?",
+"correct": "Yoshihiro Togashi",
+"wrong": ["Tite Kubo", "Masashi Kishimoto", "Eiichiro Oda"]
+},
+{
+"difficulty": "difficile",
+"question": "De quelle ville fantôme et décharge géante la plupart des membres fondateurs de la Brigade Fantôme sont-ils originaires ?",
+"correct": "L'Étoile Filante",
+"wrong": ["Meteor City", "La Ville Rouge", "Le Cratère"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le candidat surnommé le « Broyeur de bleus » lors de l'examen Hunter ?",
+"correct": "Tonpa",
+"wrong": ["Sommy", "Bodoro", "Bourbon"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de la capacité Nen de Knuckle Bine qui attache une petite mascotte invincible à sa cible ?",
+"correct": "Hakoware",
+"wrong": ["APR", "Potclean", "Hotel Rafflesia"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le pouvoir de Knov permettant de créer des salles dimensionnelles accessibles par des portails ?",
+"correct": "Hide and Seek",
+"wrong": ["Scream", "Deep Purple", "Smoky Jail"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte la capacité de Neferpitou qui invoque une marionnette géante pour soigner les blessures ?",
+"correct": "Doctor Blythe",
+"wrong": ["Terpsichora", "Puppeteering", "Black Goreinu"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle est la condition d'activation de la capacité Nen « Pain Packer » de Feitan ?",
+"correct": "Subir des dégâts physiques",
+"wrong": ["Tuer un adversaire", "Verser son propre sang", "Retenir sa respiration"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel joueur de Greed Island se fait appeler le « Bombardier » et piège les autres joueurs avec des bombes Nen ?",
+"correct": "Genthru",
+"wrong": ["Razor", "Tsezguerra", "Bara"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle la carte de sort la plus célèbre de Greed Island permettant d'accompagner quelqu'un jusqu'à un joueur déjà rencontré ?",
+"correct": "Accompany",
+"wrong": ["Magnetic Force", "Return", "Leave"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte la capacité Nen de Morel Mackernasey basée sur la manipulation de fumée ?",
+"correct": "Deep Purple",
+"wrong": ["Smoky Jail", "Purple Haze", "Smoke Screen"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom complet du père de Kirua, chef actuel de la famille Zoldyck ?",
+"correct": "Silva Zoldyck",
+"wrong": ["Zeno Zoldyck", "Maha Zoldyck", "Zigg Zoldyck"]
+},
+{
+"difficulty": "difficile",
+"question": "Quelle particularité possède la capacité Nen « Texture Trompeuse » d'Hisoka ?",
+"correct": "Elle reproduit n'importe quelle apparence sur une surface fine",
+"wrong": ["Elle rend son corps invisible", "Elle transforme son aura en verre", "Elle absorbe l'aura ennemie"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est le nom de la musique de flûte maléfique qui a défiguré Melody mais lui a donné une ouïe surhumaine ?",
+"correct": "La Sonate des Ténèbres",
+"wrong": ["Le Requiem du Diable", "La Mélodie Maudite", "Le Nocturne Noir"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le pays dirigé par Gyro où les premières fourmis chimères humaines apparaissent ?",
+"correct": "NGL",
+"wrong": ["East Gorteau", "Balsa", "Kakin"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel nom porte la technique de Nen avancée consistant à concentrer toute son aura sur une seule partie du corps au détriment du reste ?",
+"correct": "Ko",
+"wrong": ["Ken", "Ryu", "Gyo"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est l'animal du Zodiaque représenté par Pariston Hill ?",
+"correct": "Le Rat",
+"wrong": ["Le Singe", "Le Serpent", "Le Chien"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel est l'animal du Zodiaque représenté par Ging Freecss avant sa démission ?",
+"correct": "Le Sanglier",
+"wrong": ["Le Tigre", "Le Bœuf", "Le Dragon"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle le maître de salle de Greed Island affronté par Gon, Kirua et Hisoka lors d'un match de balle au prisonnier ?",
+"correct": "Razor",
+"wrong": ["Goreinu", "Binolt", "Abengane"]
+},
+{
+"difficulty": "difficile",
+"question": "Quel membre de la Brigade Fantôme est spécialisé dans l'effacement de mémoire grâce à ses balles Nen ?",
+"correct": "Pakunoda",
+"wrong": ["Machi", "Shizuku", "Bonolenov"]
+},
+{
+"difficulty": "difficile",
+"question": "Comment s'appelle l'aspirateur matérialisé par Shizuku capable d'aspirer tout objet non vivant ?",
+"correct": "Démé-chan",
+"wrong": ["Blinky", "Vacuum Nen", "Black Hole"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom véritable de l'exorciste de Nen engagé par la Brigade Fantôme pour libérer Chrollo de la chaîne de Kurapika ?",
+"correct": "Abengane",
+"wrong": ["Tsezguerra", "Goreinu", "Nickes"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte le pouvoir de Kastro qui lui a coûté la vie contre Hisoka à cause d'une mauvaise affinité de Nen ?",
+"correct": "Double",
+"wrong": ["Tiger Bite Fist", "Clone Nen", "Mirror Image"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle l'examinateur de la première phase de l'examen Hunter qui marche sans bouche apparente ?",
+"correct": "Satotz",
+"wrong": ["Menchi", "Buhara", "Lippo"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel plat Menchi demande-t-elle aux candidats de préparer lors de la deuxième phase de l'examen Hunter ?",
+"correct": "Des sushis",
+"wrong": ["Un ragoût de sanglier", "Des raviolis vapeur", "Un poisson grillé"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte la capacité Nen de Shoot McMahon qui lui permet de voler et d'enfermer des parties du corps de ses ennemis dans une cage ?",
+"correct": "Hotel Rafflesia",
+"wrong": ["Black Cage", "Phantom Hands", "Dark Prison"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle le guerrier de la tribu Gyudondond membre de la Brigade Fantôme dont le corps perforé produit des sons mortels ?",
+"correct": "Bonolenov Ndongo",
+"wrong": ["Franklin Bordeau", "Kortopi", "Phinks Magcub"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la capacité Nen de Palm Siberia une fois transformée en hybride fourmi chimère ?",
+"correct": "Black Widow",
+"wrong": ["Wink Blue", "Crystal Ball", "Bloody Rose"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte le prince de Kakin particulièrement sadique qui collectionne les yeux écarlates du clan Kurta ?",
+"correct": "Tserriednich",
+"wrong": ["Benjamin", "Camilla", "Halkenburg"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle la bête de Nen gardienne du prince Tserriednich ?",
+"correct": "Elle a un visage féminin sur un corps chevalin",
+"wrong": ["Un lion ailé à trois têtes", "Un serpent mécanique géant", "Un œil flottant entouré de mains"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte le navire géant en forme de baleine qui transporte les princes de Kakin vers le Continent Caché ?",
+"correct": "Le Black Whale",
+"wrong": ["Le Leviathan", "Le Royal Ark", "Le White Dragon"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quelle est la particularité de l'épée matérialisée par Kite grâce à sa capacité « Crazy Slots » lorsqu'il tire le numéro 2 ?",
+"correct": "Une faux géante",
+"wrong": ["Une carabine de précision", "Une masse d'armes", "Un fouet tranchant"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel membre de la Brigade Fantôme a remplace Hisoka après son départ ?",
+"correct": "Kalluto Zoldyck",
+"wrong": ["Illumi Zoldyck", "Omokage", "Abengane"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte la capacité de Shalnark qui lui permet de se contrôler lui-même en mode automatique avec une puissance décuplée ?",
+"correct": "Autopilot",
+"wrong": ["Black Voice", "Overdrive", "Antenna Boost"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom du garde du corps et mentor de Kurapika au sein de la famille Nostrade ?",
+"correct": "Izunavi",
+"wrong": ["Basho", "Baise", "Dalzollene"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel membre de l'équipe de Kurapika chez les Nostrade a le pouvoir de rendre esclave quiconque elle embrasse ?",
+"correct": "Baise",
+"wrong": ["Melody", "Neon", "Squala"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle la capacité de prédiction de l'avenir de Neon Nostrade volée par Chrollo ?",
+"correct": "Lovely Ghostwriter",
+"wrong": ["Fortune Teller", "Prophecy Poem", "Spirit Ink"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel nom porte la fourmi chimère ancienne chef d'escadron qui ressemble à un guépard obsédé par sa vitesse ?",
+"correct": "Cheetu",
+"wrong": ["Leol", "Zazan", "Meleoron"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Comment s'appelle la capacité de Meleoron qui le rend totalement indétectable tant qu'il retient son souffle ?",
+"correct": "God's Accomplice",
+"wrong": ["Perfect Plan", "Invisible Camouflage", "Silent Breath"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel est le nom de la grand-mère majordome des Zoldyck capable de se transformer en véhicules motorisés ?",
+"correct": "Tsubone",
+"wrong": ["Amane", "Kikyo", "Mitsuba"]
+},
+{
+"difficulty": "tres_difficile",
+"question": "Quel mot de passe sert de déclencheur pour que Kirua accède directement aux vœux d'Alluka sans subir les requêtes de Nanika ?",
+"correct": "Un ordre direct donné par Kirua",
+"wrong": ["Un code secret en langue Zoldyck", "Le contact de son sang sur sa main", "Une mélodie sifflée"]
+}
+]
+}
