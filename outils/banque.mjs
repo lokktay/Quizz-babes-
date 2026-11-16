@@ -71,7 +71,7 @@ const nameMatches = (file, text) => {
   const theme = themeOf(text).replace(/[^a-z0-9]/g, "");
   return Boolean(name && theme && (theme.includes(name.slice(0, 5)) || name.includes(theme.slice(0, 5))));
 };
-const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && f !== "index.json")
+const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json") && !["index.json", "undercover.json"].includes(f))
   .map((file) => ({ file, matches: nameMatches(file, fs.readFileSync(path.join(DIR, file), "utf8")) }))
   .sort((a, b) => Number(b.matches) - Number(a.matches) || a.file.localeCompare(b.file, "fr"))
   .map((f) => f.file);

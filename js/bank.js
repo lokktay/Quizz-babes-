@@ -40,3 +40,14 @@ export async function loadThemeQuestions(id) {
   }
   return themeCache.get(id);
 }
+
+// Paires de mots de l'undercover (banque/undercover.json) : [{ theme, words: [mot, mot voisin] }].
+export async function loadUndercoverPairs() {
+  try {
+    const response = await fetch("banque/undercover.json", { cache: "no-cache" });
+    const data = response.ok ? await response.json() : {};
+    return (data.undercover ?? []).filter((p) => Array.isArray(p.words) && p.words.length === 2 && p.words.every((w) => String(w).trim()));
+  } catch {
+    return [];
+  }
+}

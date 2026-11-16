@@ -1,12 +1,12 @@
 import { SETTINGS } from "./config.js?v=4";
 import { isConfigured, signIn } from "./firebase.js?v=4";
-import * as api from "./game.js?v=11";
+import * as api from "./game.js?v=14";
 import { computeScores } from "./logic.js?v=7";
-import * as modes from "./modes.js?v=3";
-import * as fun from "./fun.js?v=6";
+import * as modes from "./modes.js?v=6";
+import * as fun from "./fun.js?v=8";
 import * as sound from "./sound.js?v=2";
 import * as comfort from "./comfort.js?v=2";
-import * as bank from "./bank.js?v=1";
+import * as bank from "./bank.js?v=2";
 
 const root = document.getElementById("app");
 const LETTERS = ["A", "B", "C", "D"];
@@ -104,6 +104,8 @@ async function closeGame() {
   stopWatching?.();
   stopWatching = null;
   fun.setReactionBar(false);
+  pauseOverlay?.remove();
+  pauseOverlay = null;
   updateToolbar(false);
   comfort.keepAwake(false);
   document.body.classList.remove("tv");
@@ -140,9 +142,11 @@ function updateToolbar(inGame) {
     toolbar.innerHTML = `
       <button type="button" data-tool="tv" title="Mode TV : texte agrandi pour l'écran principal">📺</button>
       <button type="button" data-tool="full" title="Plein écran">⛶</button>
+      <button type="button" data-tool="pause" title="Mettre en pause">⏸</button>
       <button type="button" data-tool="sound"></button>`;
     toolbar.addEventListener("click", (event) => {
       const tool = event.target.closest("[data-tool]")?.dataset.tool;
+      if (tool === "pause" && game) api.requestPause(gameId, !(game.pause || game.state.paused)).catch(() => toast("Pause impossible, réessaie."));
       if (tool === "tv") save(TV_KEY, tvOn() ? "off" : "on");
       if (tool === "full") comfort.toggleFullscreen()?.catch?.(() => {});
       if (tool === "sound") sound.setOn(!sound.isOn(isHost()));
@@ -156,6 +160,9 @@ function updateToolbar(inGame) {
   toolbar.querySelector('[data-tool="tv"]').classList.toggle("on", host && tvOn());
   toolbar.querySelector('[data-tool="full"]').hidden = !comfort.canFullscreen();
   toolbar.querySelector('[data-tool="full"]').classList.toggle("on", comfort.isFullscreen());
+  const pauseButton = toolbar.querySelector('[data-tool="pause"]');
+  pauseButton.hidden = !(inGame && canPause());
+  pauseButton.classList.toggle("on", Boolean(game?.pause || game?.state?.paused));
   const soundButton = toolbar.querySelector('[data-tool="sound"]');
   soundButton.hidden = !inGame;
   if (inGame) {
@@ -335,10 +342,56 @@ const playersOf = () => Object.entries(game.players ?? {}).map(([uid, p]) => ({ 
 const participantsOf = () => playersOf().filter((p) => p.uid !== game.hostId);
 const answeringPlayers = () => participantsOf().filter((p) => p.connected);
 
-const PLAYING_PHASES = ["intro", "bet", "pick", "ask", "decide", "reveal", "vote", "finished"];
+const PLAYING_PHASES = ["intro", "bet", "pick", "ask", "decide", "reveal", "vote", "role", "word", "clue", "ballot", "verdict", "end", "finished"];
+
+// La pause et la fin anticipée sont possibles pendant toutes les manches.
+const canPause = () => Boolean(game?.rounds) && game.state?.phase !== "finished" && PLAYING_PHASES.includes(game.state?.phase);
+
+let pauseOverlay = null;
+let confirmStop = false;
+function updatePauseOverlay() {
+  const active = Boolean(game?.players?.[me]) && canPause() && Boolean(game.pause || game.state.paused || game.stop);
+  if (!active) {
+    pauseOverlay?.remove();
+    pauseOverlay = null;
+    confirmStop = false;
+    return;
+  }
+  if (!pauseOverlay) {
+    pauseOverlay = document.createElement("div");
+    pauseOverlay.className = "pause-overlay";
+    pauseOverlay.addEventListener("click", (event) => {
+      const action = event.target.closest("[data-pause]")?.dataset.pause;
+      if (action === "resume") api.requestPause(gameId, false).catch(() => toast("Reprise impossible, réessaie."));
+      if (action === "stop") { confirmStop = true; updatePauseOverlay(); }
+      if (action === "cancel") { confirmStop = false; updatePauseOverlay(); }
+      if (action === "confirm") api.requestStop(gameId).catch(() => toast("Impossible de terminer, réessaie."));
+    });
+    document.body.append(pauseOverlay);
+  }
+  const by = game.players?.[game.pause?.by ?? game.state.paused?.by]?.name;
+  pauseOverlay.innerHTML = game.stop ? `
+    <div class="pause-box"><div class="pause-icon">⏹</div><h2>Fin de la partie…</h2></div>` : `
+    <div class="pause-box">
+      <div class="pause-icon">⏸</div>
+      <h2>Pause</h2>
+      <p class="muted">${by ? `Demandée par ${esc(by)}.` : ""} Le chrono est figé.</p>
+      ${confirmStop ? `
+        <p><b>Terminer la partie maintenant ?</b><br><span class="muted small">Le classement actuel devient le classement final.</span></p>
+        <div class="pause-actions">
+          <button class="big danger" data-pause="confirm">⏹ Oui, terminer</button>
+          <button class="big" data-pause="cancel">Annuler</button>
+        </div>` : `
+        <div class="pause-actions">
+          <button class="primary big" data-pause="resume">▶ Reprendre</button>
+          <button class="big" data-pause="stop">⏹ Terminer la partie</button>
+        </div>`}
+    </div>`;
+}
 
 function updateFun() {
   const inGame = Boolean(game.players?.[me]);
+  updatePauseOverlay();
   const played = fun.playReactions(gameId, game, avatarFor);
   if (played.floats) sound.pop();
   if (played.throws) setTimeout(() => sound.splat(), 450);
@@ -375,6 +428,12 @@ function renderGame() {
   if (phase === "decide") return showDecide();
   if (phase === "sprint") return showSprint();
   if (phase === "vote") return showVote();
+  if (phase === "role") return showRole();
+  if (phase === "word") return showWord();
+  if (phase === "clue") return showClue();
+  if (phase === "ballot") return showBallot();
+  if (phase === "verdict") return showVerdict();
+  if (phase === "end") return showGameEnd();
   if (phase === "reveal") {
     if (currentMode() === "chrono") return showSprintReveal();
     if (currentMode() === "echelle") return showLadderReveal();
@@ -491,7 +550,7 @@ function showLobby() {
           toast(gameLink(gameId));
         }
       });
-      $("#start").addEventListener("click", () => api.startThemes(gameId));
+      $("#start").addEventListener("click", () => api.startThemes(gameId, game));
     } else {
       const chooseAvatar = (avatar) => {
         save(AVATAR_KEY, avatar);
@@ -894,6 +953,8 @@ function stepLabel() {
     case "cadeau": return `Cadeau ${s + 1} / ${round.count}`;
     case "chrono": return `Sprint ${s + 1} / ${round.count}`;
     case "duel": return "Duel";
+    case "espion": return `Partie ${(game.state.g ?? 0) + 1} · question ${(game.state.k ?? 0) + 1} / 5`;
+    case "undercover": return `Partie ${(game.state.uc?.g ?? 0) + 1}`;
     case "echelle": return `Question ${s + 1} / ${round.count}`;
     default: return `Question ${s + 1} / ${round?.questions?.length ?? 0}`;
   }
@@ -911,11 +972,12 @@ function timerHtml() {
 function startBar() {
   let lastSecond = null;
   return () => {
-    const { start, deadline, accept } = game.state;
+    const { start, deadline, accept, paused } = game.state;
     const total = Math.max(1, (deadline ?? 0) - (start ?? 0));
-    const left = Math.max(0, (deadline ?? 0) - api.serverNow());
+    // En pause, le chrono reste figé sur le temps restant.
+    const left = paused ? paused.remaining : Math.max(0, (deadline ?? 0) - api.serverNow());
     const bar = $("#bar");
-    const urgent = accept === "answers" && left <= 5000;
+    const urgent = !paused && !game.pause && accept === "answers" && left <= 5000;
     if (bar) {
       bar.style.width = `${Math.min(100, (left / total) * 100)}%`;
       bar.classList.toggle("urgent", urgent);
@@ -1014,6 +1076,8 @@ function modeInfoHtml() {
       return `<p class="mode-info">⚡ Plus vite tu réponds, plus tu marques (5 → 1 pt)</p>`;
     case "majorite":
       return `<p class="mode-info">🐑 Choisis la réponse que la majorité va choisir</p>`;
+    case "espion":
+      return `<p class="mode-info">🕵️ Réponse de l'équipe = la plus choisie · ${teamLogHtml()}</p>`;
     default:
       return "";
   }
@@ -1171,6 +1235,10 @@ function revealNote() {
       const ok = res[target]?.ok === 1;
       return ok ? `🎁 ${esc(game.players?.[target]?.name)} a trouvé : les points sont pour lui ou elle !`
         : `☠️ Raté ! Les points vont à ${esc(game.players?.[st.chooser]?.name)}.`;
+    }
+    case "espion": {
+      const ok = st.teamChoice === modes.sharedQuestion(game)?.correct;
+      return `${st.teamChoice >= 0 ? `🕵️ L'équipe a répondu ${LETTERS[st.teamChoice]} : ${ok ? "bonne réponse ✓" : "raté ✗"}` : "🕵️ Égalité dans l'équipe : la question est perdue ✗"} ${teamLogHtml()}`;
     }
     case "duel":
       return st.winner ? `⚔️ ${esc(game.players?.[st.winner]?.name)} remporte le duel (+5). Les bons parieurs gagnent 2 points.` : "⚔️ Personne n'a trouvé : pas de vainqueur.";
@@ -1597,6 +1665,241 @@ function showVote() {
   });
 }
 
+/* ---------- Jeux à part entière : l'espion et l'undercover ---------- */
+
+let hostSkipKey = null;
+const skipButton = (label) => (isHost() ? `<button class="big" id="host-skip">${label}</button>` : "");
+function bindSkip() {
+  $("#host-skip")?.addEventListener("click", (event) => {
+    event.currentTarget.disabled = true;
+    hostSkipKey = `${game.state.phase}:${game.state.round}:${game.state.step}`;
+  });
+}
+
+function teamLogHtml() {
+  const log = game.state.teamLog ?? [];
+  return `<div class="team-log">${Array.from({ length: 5 }, (_, i) => `<span class="${log[i] === 1 ? "ok" : log[i] === 0 ? "ko" : ""}">${log[i] === 1 ? "✓" : log[i] === 0 ? "✗" : i + 1}</span>`).join("")}</div>`;
+}
+
+// L'espion : chacun découvre son rôle en secret.
+function showRole() {
+  const { round: r, g } = game.state;
+  show(`role:${r}:${g}`, () => {
+    const spy = game.state.spy === me;
+    root.innerHTML = isHost() ? `
+      <div class="stack center">
+        <p class="eyebrow">${roundLabel()} · partie ${g + 1}</p>
+        <div class="intro-emoji">🕵️</div>
+        <h1>Un espion se cache parmi vous</h1>
+        <p class="intro-desc">Regardez votre rôle sur votre téléphone, sans le montrer. L'équipe répond ensemble à 5 questions : la réponse la plus choisie l'emporte. L'espion doit faire perdre l'équipe sans se faire repérer.</p>
+        ${timerHtml()}
+        ${skipButton("Tout le monde est prêt ⏭")}
+      </div>` : `
+      <div class="stack">
+        <p class="eyebrow">${roundLabel()} · partie ${g + 1}</p>
+        ${timerHtml()}
+        <div class="secret-card ${spy ? "spy" : "team"}" id="secret">
+          <p class="secret-hint">Appuie pour révéler ton rôle (cache l'écran)</p>
+          <div class="secret-content">
+            <div class="intro-emoji">${spy ? "🕵️" : "🤝"}</div>
+            <h1>${spy ? "Tu es l'espion" : "Tu es dans l'équipe"}</h1>
+            <p>${spy ? "Fais perdre l'équipe : pousse-la vers les mauvaises réponses, sans te faire démasquer au vote final." : "Un espion se cache parmi vous. Répondez juste… et repérez qui vous fait perdre."}</p>
+          </div>
+        </div>
+      </div>`;
+    $("#secret")?.addEventListener("click", (event) => event.currentTarget.classList.toggle("open"));
+    bindSkip();
+    return { tick: startBar() };
+  });
+}
+
+// Undercover : chacun découvre son mot.
+function showWord() {
+  const { round: r } = game.state;
+  const uc = game.state.uc;
+  show(`word:${r}:${uc.g}`, () => {
+    const word = uc.words?.[me];
+    root.innerHTML = isHost() || !word ? `
+      <div class="stack center">
+        <p class="eyebrow">${roundLabel()} · partie ${uc.g + 1}</p>
+        <div class="intro-emoji">🎭</div>
+        <h1>Regardez votre mot</h1>
+        <p class="intro-desc">Les civils ont tous le même mot. ${Object.values(uc.roles).filter((x) => x === "undercover").length > 1 ? "Deux undercovers ont" : "Un undercover a"} un mot voisin… sans le savoir. Thème : <b>${esc(uc.theme)}</b>.</p>
+        ${timerHtml()}
+        ${skipButton("Tout le monde a vu son mot ⏭")}
+      </div>` : `
+      <div class="stack">
+        <p class="eyebrow">${roundLabel()} · partie ${uc.g + 1} · thème ${esc(uc.theme)}</p>
+        ${timerHtml()}
+        <div class="secret-card word" id="secret">
+          <p class="secret-hint">Appuie pour révéler ton mot (cache l'écran)</p>
+          <div class="secret-content">
+            <p class="muted">Ton mot secret</p>
+            <p class="secret-word">${esc(word)}</p>
+            <p class="muted small">Personne ne sait s'il est civil ou undercover. Tes indices doivent rester assez vagues !</p>
+          </div>
+        </div>
+      </div>`;
+    $("#secret")?.addEventListener("click", (event) => event.currentTarget.classList.toggle("open"));
+    bindSkip();
+    return { tick: startBar() };
+  });
+}
+
+function showClue() {
+  const { round: r, step: s, chooser } = game.state;
+  const uc = game.state.uc;
+  show(`clue:${r}:${s}`, () => {
+    const speaker = playerById(chooser);
+    const mine = chooser === me;
+    const order = uc.order.filter((uid) => uc.alive.includes(uid));
+    root.innerHTML = `
+      <div class="stack">
+        <p class="eyebrow">${roundLabel()} · tour d'indices ${uc.cycle}</p>
+        ${timerHtml()}
+        <div class="center speaker">
+          ${avatarFor(speaker, "xl")}
+          <h1>${mine ? "À toi !" : `${esc(speaker.name ?? "?")} parle`}</h1>
+          <p class="intro-desc">${mine ? "Donne un indice à voix haute (un seul mot ou une courte phrase), puis valide." : "Écoute son indice."}</p>
+        </div>
+        ${mine ? `<button class="primary big" id="clue-done">✔ J'ai donné mon indice</button>` : ""}
+        ${!isHost() && uc.words?.[me] ? `<p class="center muted small">Ton mot : <b>${esc(uc.words[me])}</b></p>` : ""}
+        <div class="clue-order">${order.map((uid, i) => `<span class="${i < uc.turn ? "done" : i === uc.turn ? "now" : ""}">${avatarFor(playerById(uid), "sm")}</span>`).join("")}</div>
+        ${skipButton("Indice suivant ⏭")}
+      </div>`;
+    $("#clue-done")?.addEventListener("click", async (event) => {
+      event.currentTarget.disabled = true;
+      await api.sendPick(gameId, r, s, true).catch(() => toast("Non envoyé, réessaie."));
+    });
+    bindSkip();
+    return { tick: startBar() };
+  });
+}
+
+function showBallot() {
+  const { round: r, step: s } = game.state;
+  const mode = currentMode();
+  const uc = game.state.uc;
+  const voters = mode === "undercover" ? uc.alive : participantsOf().map((p) => p.uid);
+  const canVote = !isHost() && voters.includes(me);
+  show(`ballot:${r}:${s}:${canVote ? "v" : "w"}`, () => {
+    const candidates = (mode === "undercover" ? uc.alive : (game.state.team ?? participantsOf().map((p) => p.uid))).filter((uid) => uid !== me);
+    root.innerHTML = `
+      <div class="stack">
+        <header class="center">
+          <p class="eyebrow">${roundLabel()}</p>
+          <h1>${mode === "espion" ? "Qui est l'espion ?" : "Qui éliminer ?"}</h1>
+          <p class="tagline">${mode === "espion" ? `L'équipe a eu ${(game.state.teamLog ?? []).filter((x) => x === 1).length} bonne(s) réponse(s) sur 5. Discutez, puis votez.` : "Discutez, puis votez pour la personne qui vous semble être l'undercover."}</p>
+          ${mode === "espion" ? teamLogHtml() : ""}
+        </header>
+        ${timerHtml()}
+        <div class="vote-grid" id="ballot-grid"></div>
+        <p class="muted center" id="ballot-count"></p>
+        ${skipButton("Clore le vote ⏭")}
+      </div>`;
+    if (canVote) {
+      $("#ballot-grid").addEventListener("click", async (event) => {
+        const target = event.target.closest("[data-ballot]")?.dataset.ballot;
+        if (!target) return;
+        navigator.vibrate?.(30);
+        await api.sendBallot(gameId, r, s, target).catch(() => toast("Vote non enregistré."));
+      });
+    }
+    bindSkip();
+    return {
+      update() {
+        const ballots = game.ballots?.[r]?.[s] ?? {};
+        $("#ballot-grid").innerHTML = (isHost() ? voters : candidates).map((uid) => {
+          const p = playerById(uid);
+          return canVote
+            ? `<button class="vote-card ${ballots[me] === uid ? "on" : ""}" data-ballot="${esc(uid)}">${avatarFor(p, "xl")}<b>${esc(p.name ?? "?")}</b></button>`
+            : `<div class="vote-card ${ballots[uid] ? "voted" : ""}">${avatarFor(p, "xl")}<b>${esc(p.name ?? "?")}</b><span class="muted small">${ballots[uid] ? "a voté ✓" : "réfléchit…"}</span></div>`;
+        }).join("");
+        const done = voters.filter((uid) => ballots[uid]).length;
+        $("#ballot-count").textContent = canVote && ballots[me]
+          ? `Tu as voté pour ${game.players?.[ballots[me]]?.name ?? "?"}. Tu peux changer d'avis.` : `${done} / ${voters.length} votes`;
+      },
+      tick: startBar(),
+    };
+  });
+}
+
+function showVerdict() {
+  const { round: r, step: s } = game.state;
+  show(`verdict:${r}:${s}`, () => {
+    const mode = currentMode();
+    const accused = game.state.accused;
+    const p = accused ? playerById(accused) : null;
+    let title = "";
+    let line = "";
+    if (mode === "espion") {
+      const spy = playerById(game.state.spy);
+      title = game.state.found ? "Espion démasqué !" : "L'espion s'en sort !";
+      line = accused
+        ? `${esc(p.name)} ${game.state.found ? "était bien l'espion" : "était innocent·e"}. ${game.state.found ? "+1 pour chaque membre de l'équipe." : `L'espion était ${esc(spy.name)} : +2 pour lui ou elle.`}`
+        : `Pas de majorité : l'espion (${esc(spy.name)}) passe entre les mailles. +2 pour lui ou elle.`;
+    } else {
+      const uc = game.state.uc;
+      const role = accused ? uc.roles[accused] : null;
+      title = !accused ? "Personne ne sort" : role === "undercover" ? "Bien vu : undercover !" : "Raté : c'était un·e civil·e…";
+      line = accused ? `${esc(p.name)} était ${role === "undercover" ? "undercover" : "civil·e"} (mot : « ${esc(uc.words[accused])} »).` : "Égalité au vote : on refait un tour d'indices.";
+      if (uc.winner) line += uc.winner === "civils" ? " Les civils gagnent : +2 chacun !" : " L'undercover gagne : +4 !";
+    }
+    root.innerHTML = `
+      <div class="stack center verdict">
+        <p class="eyebrow">${roundLabel()}</p>
+        ${p ? avatarFor(p, "xl") : `<div class="intro-emoji">🤷</div>`}
+        <h1>${title}</h1>
+        <p class="intro-desc">${line}</p>
+        ${timerHtml()}
+      </div>`;
+    const hype = fun.verdictHype(game);
+    const timer = setTimeout(() => { fun.showHype(hype, avatarFor); sound.playHype(hype); }, 900);
+    return { tick: startBar(), leave() { clearTimeout(timer); } };
+  });
+}
+
+// Fin d'une partie d'espion ou d'undercover : partie suivante ou mode suivant.
+function showGameEnd() {
+  const { round: r, step: s } = game.state;
+  show(`end:${r}:${s}`, () => {
+    const mode = currentMode();
+    const round = currentRound();
+    const g = mode === "espion" ? game.state.g : game.state.uc.g;
+    const more = mode === "espion" ? g + 1 < (round.games?.length ?? 0) : g + 1 < (round.pairs?.length ?? 0);
+    let recap = "";
+    if (mode === "espion") {
+      recap = `L'espion était <b>${esc(game.players?.[game.state.spy]?.name ?? "?")}</b>. ${teamLogHtml()}`;
+    } else {
+      const uc = game.state.uc;
+      const civilWord = Object.entries(uc.words).find(([uid]) => uc.roles[uid] === "civil")?.[1];
+      const ucWord = Object.entries(uc.words).find(([uid]) => uc.roles[uid] === "undercover")?.[1];
+      const undercovers = Object.keys(uc.roles).filter((uid) => uc.roles[uid] === "undercover");
+      recap = `${uc.winner === "civils" ? "🎉 Les civils gagnent" : "🎭 L'undercover gagne"}.<br>Civils : « ${esc(civilWord)} » · Undercover (${esc(names(undercovers))}) : « ${esc(ucWord)} »`;
+    }
+    root.innerHTML = `
+      <div class="reveal-layout">
+        <div class="stack center">
+          <p class="eyebrow">${roundLabel()} · partie ${g + 1} terminée</p>
+          <div class="intro-emoji">${modeMeta().emoji}</div>
+          <p class="intro-desc">${recap}</p>
+          <div class="actions" id="end-actions">
+            ${more ? `<button class="primary big" data-choice-end="again">🔁 Partie suivante</button>` : ""}
+            <button class="big" data-choice-end="next">⏭ Passer à la suite</button>
+          </div>
+        </div>
+        ${rankingCard(false)}
+      </div>`;
+    $("#end-actions").addEventListener("click", async (event) => {
+      const choice = event.target.closest("[data-choice-end]")?.dataset.choiceEnd;
+      if (!choice) return;
+      root.querySelectorAll("[data-choice-end]").forEach((b) => { b.disabled = true; });
+      await api.sendChoice(gameId, r, s, choice).catch(() => toast("Choix non enregistré."));
+    });
+    return {};
+  });
+}
+
 /* ---------- Fin de partie ---------- */
 
 function showFinal() {
@@ -1609,7 +1912,7 @@ function showFinal() {
     root.innerHTML = `
       <div class="stack">
         <header class="center">
-          <p class="eyebrow">Fin de la partie</p>
+          <p class="eyebrow">${game.state.stoppedEarly ? "Partie terminée plus tôt" : "Fin de la partie"}</p>
           <p class="muted">${winners.includes(" et ") ? "Égalité entre" : "Victoire de"}</p>
           <p class="winner">${esc(winners)}</p>
         </header>
@@ -1770,8 +2073,16 @@ function drive() {
       });
     }
   } else if (game.rounds) {
+    // Fin anticipée, pause et reprise : demandées par n'importe qui, appliquées ici.
+    if (game.stop) return once(`${key}:stop`, () => api.applyStop(gameId));
+    if (game.pause && !game.state.paused) return once(`${key}:pause`, () => api.applyPause(gameId, game.pause.by));
+    if (!game.pause && game.state.paused) return once(`${key}:resume`, () => api.applyResume(gameId));
+    if (game.state.paused) return;
     // Toutes les manches passent par le même arbitre (modes.js).
+    // Bouton « suivant » de l'écran principal (espion, undercover).
+    const skip = hostSkipKey === `${phase}:${game.state.round}:${game.state.step}`;
     const transition = modes.nextTransition(game, now, {
+      skip,
       active: activeIds(),
       goneFor: (uid) => goneFor(uid, now),
       scores: computeScores(game),

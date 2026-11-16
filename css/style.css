@@ -498,7 +498,7 @@ div.vote-card.voted { opacity: 1; border-color: var(--green); }
   padding: 16px;
   overflow: hidden;
   background: radial-gradient(circle at 50% 45%, #1d1934ee 0, #05040af2 70%);
-  animation: hype-fade 3.4s ease forwards;
+  animation: hype-fade 5.4s ease forwards;
   cursor: pointer;
 }
 .hype-box { position: relative; display: grid; justify-items: center; gap: 18px; width: 100%; max-width: 760px; text-align: center; }
@@ -681,7 +681,7 @@ body.tv .qr { width: min(360px, 40vw); }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
-  .hype { animation: hype-fade 3.4s steps(1) forwards !important; }
+  .hype { animation: hype-fade 5.4s steps(1) forwards !important; }
   .float-reaction { animation: float-up 2.6s steps(2) forwards !important; }
   .throw-target { animation: hype-fade 2.2s steps(1) forwards !important; }
   .spinner { animation: spin 4s linear infinite !important; }
@@ -918,3 +918,79 @@ body.tv .intro-desc { font-size: 1.5rem; }
 }
 
 .plan-summary .warn { color: var(--orange); font-weight: 600; }
+
+/* ---------- Pause ---------- */
+.pause-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 65;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: #05040ae6;
+  backdrop-filter: blur(6px);
+}
+.pause-box {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  width: min(440px, 100%);
+  padding: 24px;
+  text-align: center;
+  background: linear-gradient(160deg, var(--card-2), var(--card));
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  box-shadow: 0 20px 60px #000c;
+  animation: pop-in .25s both;
+}
+.pause-icon { font-size: 3.5rem; line-height: 1; }
+.pause-box h2 { font-family: var(--display); font-weight: 400; font-size: 2rem; color: var(--yellow); }
+.pause-actions { display: grid; gap: 10px; width: 100%; }
+button.danger { color: #fff; background: #8a1f33; border-color: var(--red); }
+button.danger:hover:not(:disabled) { background: #a5263d; border-color: var(--red); }
+
+/* ---------- L'espion et l'undercover ---------- */
+.secret-card {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 300px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  background: repeating-linear-gradient(45deg, #1d1934, #1d1934 12px, #221d3d 12px, #221d3d 24px);
+  border: 2px dashed var(--line-strong);
+  border-radius: var(--radius);
+  user-select: none;
+}
+.secret-hint { font-weight: 700; color: var(--muted); }
+.secret-content { display: none; gap: 10px; justify-items: center; }
+.secret-card.open .secret-hint { display: none; }
+.secret-card.open .secret-content { display: grid; animation: pop-in .25s both; }
+.secret-card.open.spy { background: #3d1826; border: 2px solid var(--red); }
+.secret-card.open.team { background: #123425; border: 2px solid var(--green); }
+.secret-card.open.word { background: #1d2b4a; border: 2px solid var(--blue); }
+.secret-card.spy h1 { color: var(--red); }
+.secret-word { font-family: var(--display); font-size: clamp(2rem, 10vw, 3.4rem); color: var(--yellow); line-height: 1.1; overflow-wrap: anywhere; }
+.team-log { display: inline-flex; gap: 6px; vertical-align: middle; }
+.team-log span {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  font-weight: 800;
+  font-size: .85rem;
+  color: var(--muted);
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+}
+.team-log .ok { color: var(--bg); background: var(--green); border-color: var(--green); }
+.team-log .ko { color: #fff; background: var(--red); border-color: var(--red); }
+.speaker { display: grid; justify-items: center; gap: 10px; padding-top: 10px; }
+.speaker .av.xl { --size: 120px; }
+.clue-order { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.clue-order .done { opacity: .35; }
+.clue-order .now .avatar { box-shadow: 0 0 0 3px var(--yellow), 0 0 18px #ffe66d88; }
+.verdict { display: grid; justify-items: center; gap: 12px; padding-top: 16px; }
+.verdict .av.xl { --size: 120px; }
+.stack > header .team-log { justify-self: center; }

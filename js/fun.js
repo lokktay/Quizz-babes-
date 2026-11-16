@@ -204,6 +204,12 @@ const LINES = {
   ladderFall: ["{name} dégringole de l'échelle !", "Chute libre pour {name}."],
   sprintKing: ["{name} a tout dévoré : {n} bonnes réponses !", "{name}, plus rapide que son ombre : {n} réponses justes."],
   sheep: ["Le troupeau a parlé, {name} a suivi.", "Bêêê : {name} pense comme tout le monde."],
+  spyFound: ["{name} était l'espion ! Démasqué·e en beauté.", "Grillé·e, {name} ! L'espion, c'était toi.", "{name}, l'espion le moins discret de l'histoire."],
+  spyEscaped: ["{name} était l'espion… et personne n'a rien vu.", "Bravo {name} : espion de génie, l'équipe est ridicule.", "{name} a roulé tout le monde dans la farine."],
+  spyWrong: ["Vous avez accusé {name}… qui était innocent·e. Bande de loosers.", "{name} n'y était pour rien. L'espion rigole."],
+  ucCaught: ["{name} était l'undercover ! Bien vu.", "Démasqué·e, {name} ! Le mot ne collait pas."],
+  ucWrong: ["{name} était civil·e… Vous venez d'éliminer un·e allié·e.", "Oups : {name} avait le bon mot. Looser collectif."],
+  ucWin: ["{name} gagne en undercover : chapeau l'artiste.", "L'undercover {name} a berné tout le monde !"],
   blackSheep: ["{name} a voulu faire son malin : seul·e contre le troupeau.", "{name}, le mouton noir de la soirée.", "Tout le monde d'accord… sauf {name}. Looser."],
   shame: [
     "Le peuple a parlé : {name} porte le chapeau jusqu'à la fin.",
@@ -234,6 +240,12 @@ const TITLES = {
   sprintKing: ["ÉCLAIR !", "TURBO !"],
   sheep: ["BÊÊÊ !"],
   blackSheep: ["MOUTON NOIR !"],
+  spyFound: ["DÉMASQUÉ !", "GRILLÉ !"],
+  spyEscaped: ["INSAISISSABLE !", "AGENT SECRET !"],
+  spyWrong: ["MAUVAISE PISTE !", "RATÉ !"],
+  ucCaught: ["TROUVÉ !", "DÉMASQUÉ !"],
+  ucWrong: ["ERREUR JUDICIAIRE !", "INNOCENT !"],
+  ucWin: ["CHAPEAU L'ARTISTE !", "ARNAQUE RÉUSSIE !"],
 };
 
 const EMOJIS = {
@@ -260,6 +272,12 @@ const EMOJIS = {
   sprintKing: ["⚡", "🏃", "⏱️"],
   sheep: ["🐑", "🐑", "🐏"],
   blackSheep: ["🐑", "🖤", "🐏"],
+  spyFound: ["🕵️", "🔍", "🎯"],
+  spyEscaped: ["🕵️", "🕶️", "😎"],
+  spyWrong: ["🤦", "🕵️", "❌"],
+  ucCaught: ["🎭", "🔍", "🎯"],
+  ucWrong: ["⚖️", "😇", "🤦"],
+  ucWin: ["🎭", "🎩", "😈"],
 };
 
 function participants(game) {
@@ -400,6 +418,25 @@ export function hypeFor(game, ranking, at = null, withCooldown = true) {
   return null;
 }
 
+// Animation au moment du verdict (espion, undercover). Même résultat sur tous les écrans.
+export function verdictHype(game) {
+  const st = game.state;
+  const rand = seeded(`${game.createdAt}:verdict:${st.round}:${st.step}`);
+  const P = (uid) => ({ uid, ...game.players?.[uid] });
+  if (st.spy !== undefined && !st.uc) {
+    if (st.found) return event(rand, "spyFound", "good", [P(st.spy)]);
+    if (st.accused) return rand() < 0.5 ? event(rand, "spyWrong", "bad", [P(st.accused)]) : event(rand, "spyEscaped", "good", [P(st.spy)]);
+    return event(rand, "spyEscaped", "good", [P(st.spy)]);
+  }
+  const uc = st.uc;
+  if (!uc) return null;
+  if (uc.winner === "undercover") {
+    return event(rand, "ucWin", "good", Object.keys(uc.roles).filter((uid) => uc.roles[uid] === "undercover").map(P));
+  }
+  if (!st.accused) return null;
+  return uc.roles[st.accused] === "undercover" ? event(rand, "ucCaught", "good", [P(st.accused)]) : event(rand, "ucWrong", "bad", [P(st.accused)]);
+}
+
 export function shameHype(game) {
   const people = (game.state.shame ?? []).filter((uid) => game.players?.[uid]).map((uid) => ({ uid, ...game.players[uid] }));
   return people.length ? event(seeded(`${game.createdAt}:shame`), "shame", "bad", people) : null;
@@ -426,7 +463,7 @@ export function showHype(hype, avatarFor) {
     </div>`;
   el.addEventListener("click", () => el.remove());
   document.body.append(el);
-  hypeTimer = setTimeout(() => el.remove(), 3400);
+  hypeTimer = setTimeout(() => el.remove(), 5400);
 }
 
 /* ---------- Réactions et lancers ---------- */

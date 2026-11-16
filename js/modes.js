@@ -9,59 +9,73 @@ export const LEVEL_NAMES = ["Facile", "Moyen", "Difficile", "Très difficile"];
 
 // Durées (ms) de chaque étape.
 export const TIMING = {
-  intro: 8000, ask: 20000, fast: 15000, reveal: 9000, bet: 12000, decide: 10000,
+  intro: 12000, ask: 40000, fast: 35000, reveal: 11000, bet: 12000, decide: 10000,
   pick: 20000, sprint: 90000, vote: 20000,
+  role: 15000, word: 15000, clue: 45000, ballot: 60000, verdict: 10000,
 };
+// Points des jeux à part entière.
+export const SPY_POINTS = { found: 1, escaped: 2 };
+export const UNDERCOVER_POINTS = { civil: 2, undercover: 4 };
 const SPRINT_LOCK_MS = 2000;
 export { SPRINT_LOCK_MS };
 
 export const MODES = {
   classique: {
-    emoji: "🎯", title: "Classique", stepSec: 31,
+    emoji: "🎯", title: "Classique", stepSec: 38,
     desc: "Tout le monde répond à la même question. 2 points par bonne réponse.",
   },
   plateau: {
-    emoji: "🧩", title: "Le plateau", fixed: true, stepSec: 40,
+    emoji: "🧩", title: "Le plateau", fixed: true, stepSec: 46,
     desc: "Un tableau de cases par thème et par difficulté (1, 3, 5 ou 7 points). Chacun son tour choisit une case et répond seul. Taille fixe : 4 cases par thème, 6 thèmes au plus.",
   },
   rapide: {
-    emoji: "⚡", title: "Le plus rapide", stepSec: 26,
+    emoji: "⚡", title: "Le plus rapide", stepSec: 32,
     desc: "Plus tu réponds vite, plus tu marques : de 5 points à 1 point. Une erreur ne coûte rien.",
   },
   mortSubite: {
-    emoji: "💀", title: "Mort subite", stepSec: 31,
+    emoji: "💀", title: "Mort subite", stepSec: 38,
     desc: "Une erreur et tu es éliminé de la manche. Chaque question survécue rapporte 1 point, et la dernière personne en vie en gagne 8 de plus.",
   },
   chrono: {
-    emoji: "⏱️", title: "Contre-la-montre", stepSec: 100,
+    emoji: "⏱️", title: "Contre-la-montre", stepSec: 103,
     desc: "90 secondes pour enchaîner un maximum de bonnes réponses, chacun à son rythme sur son téléphone. 1 point par bonne réponse, une erreur bloque 2 secondes.",
   },
   paris: {
-    emoji: "🎰", title: "Paris", stepSec: 42,
+    emoji: "🎰", title: "Paris", stepSec: 49,
     desc: "Avant chaque question, tu vois le thème et la difficulté et tu mises 1, 2, 3 ou 5 points. Juste : tu gagnes ta mise. Faux : tu la perds.",
   },
   quitteDouble: {
-    emoji: "🎲", title: "Quitte ou double", stepSec: 120,
+    emoji: "🎲", title: "Quitte ou double", stepSec: 140,
     desc: "Chaque bonne réponse double ta cagnotte (1, 2, 4, 8, 16) sur des questions de plus en plus dures. Encaisse à temps : une erreur fait tout perdre.",
   },
   echelle: {
-    emoji: "🪜", title: "L'échelle", stepSec: 31,
+    emoji: "🪜", title: "L'échelle", stepSec: 38,
     desc: "Chacun grimpe à son rythme : une bonne réponse fait monter d'un niveau, une erreur fait redescendre. Plus tu es haut, plus ça rapporte (1 à 4 points).",
   },
   cadeau: {
-    emoji: "🎁", title: "Cadeau empoisonné", stepSec: 46,
+    emoji: "🎁", title: "Cadeau empoisonné", stepSec: 53,
     desc: "À ton tour, tu choisis qui répond et à quelle difficulté. Si la personne trouve, elle gagne les points ; sinon, c'est toi qui les prends.",
   },
   majorite: {
-    emoji: "🐑", title: "Majorité", stepSec: 31,
+    emoji: "🐑", title: "Majorité", stepSec: 38,
     desc: "Peu importe la bonne réponse : 2 points si tu choisis la même réponse que la majorité du groupe.",
   },
+  espion: {
+    emoji: "🕵️", title: "L'espion", standalone: true, stepSec: 600,
+    desc: "Jeu à part entière. Tout le monde joue en équipe, sauf un espion secret qui doit la faire perdre. 5 questions, la réponse de l'équipe est la plus choisie. Puis on vote : espion trouvé, +1 pour chaque membre de l'équipe ; sinon, +2 pour l'espion.",
+  },
+  undercover: {
+    emoji: "🎭", title: "Undercover", standalone: true, noQuestions: true, stepSec: 600,
+    desc: "Jeu à part entière. Chacun reçoit un mot secret ; l'undercover a un mot voisin. Chacun donne un indice à voix haute, puis on vote pour éliminer. Civils gagnants : +2 chacun ; undercover gagnant : +4.",
+  },
   duel: {
-    emoji: "⚔️", title: "Duels", interlude: true, stepSec: 55,
+    emoji: "⚔️", title: "Duels", interlude: true, stepSec: 64,
     desc: "De temps en temps entre deux modes (4 duels au plus), deux joueurs tirés au sort s'affrontent sur une question. Les autres parient sur le gagnant.",
   },
 };
-export const MODE_ORDER = ["classique", "plateau", "rapide", "mortSubite", "chrono", "paris", "quitteDouble", "echelle", "cadeau", "majorite", "duel"];
+export const MODE_ORDER = ["classique", "plateau", "rapide", "mortSubite", "chrono", "paris", "quitteDouble", "echelle", "cadeau", "majorite", "espion", "undercover", "duel"];
+// Faut-il des thèmes et des questions ? (Non si le programme ne contient que l'undercover.)
+export const needsQuestions = (modes) => (modes ?? []).some((m) => MODES[m] && !MODES[m].noQuestions);
 export const DURATIONS = [20, 30, 45, 60, 90, 120];
 export const DEFAULT_SETTINGS = { modes: ["classique", "plateau"], minutes: 45 };
 const BOARD_THEMES = 6;
@@ -81,14 +95,16 @@ export function planProgram({ modes, minutes, themeCount }) {
   const duels = valid.includes("duel") ? Math.min(MAX_DUELS, Math.max(1, Math.ceil(gaps / 2))) : 0;
   const duelAfter = new Set(Array.from({ length: duels }, (_, k) => Math.round(((k + 1) * (gaps + 1)) / (duels + 1)) - 1));
   const boardCases = Math.min(Math.max(themeCount, 1), BOARD_THEMES) * 4;
-  const fixedSec = main.includes("plateau") ? boardCases * MODES.plateau.stepSec : 0;
+  // Le plateau a une taille fixe ; les jeux à part entière durent le temps qu'on veut (comptés ~10 min).
+  const fixedSec = (main.includes("plateau") ? boardCases * MODES.plateau.stepSec : 0)
+    + main.filter((m) => MODES[m].standalone).length * 600;
   const overhead = (main.length + duels) * 10 + 30 + duels * MODES.duel.stepSec;
-  const variable = main.filter((m) => !MODES[m].fixed);
+  const variable = main.filter((m) => !MODES[m].fixed && !MODES[m].standalone);
   const share = variable.length ? Math.max(120, (minutes * 60 - overhead - fixedSec) / variable.length) : 0;
 
   const count = (mode) => {
     if (mode === "plateau") return boardCases;
-    if (mode === "duel") return 1;
+    if (mode === "duel" || MODES[mode].standalone) return 1;
     return Math.max(mode === "chrono" || mode === "quitteDouble" ? 1 : 3, Math.round(share / MODES[mode].stepSec));
   };
   const program = [];
@@ -109,10 +125,18 @@ export function estimateMinutes(program) {
 const takeMany = (supply, n, level = () => null) =>
   Array.from({ length: n }, (_, i) => supply.take(level(i))).filter(Boolean);
 
-export function buildRounds(program, supply) {
+export function buildRounds(program, supply, extras = {}) {
   return program.map(({ mode, count }) => {
     const round = { mode, count };
     switch (mode) {
+      case "espion":
+        // Jusqu'à 8 parties : 2 faciles, 2 moyennes, 1 difficile ou très difficile.
+        round.games = Array.from({ length: 8 }, () => [0, 0, 1, 1, 2 + Math.floor(Math.random() * 2)].map((lvl) => supply.take(lvl)).filter(Boolean))
+          .filter((list) => list.length === 5);
+        break;
+      case "undercover":
+        round.pairs = shuffle(extras.pairs ?? []).slice(0, 40);
+        break;
       case "classique":
       case "paris":
       case "majorite":
@@ -178,6 +202,10 @@ export function questionFor(game, uid, state = game.state) {
       return round.board?.[state.selected] ?? null;
     case "duel":
       return round.questions?.[0] ?? null;
+    case "espion":
+      return round.games?.[state.g]?.[state.k] ?? null;
+    case "undercover":
+      return null;
     default:
       return round.questions?.[s] ?? null;
   }
@@ -249,6 +277,10 @@ function beginRound(game, state, now, active, scores) {
     }
     case "chrono":
       return { ...base, phase: "sprint", accept: "sprint", start: now, deadline: now + TIMING.sprint };
+    case "espion":
+      return spyGame(game, base, now, active, 0);
+    case "undercover":
+      return undercoverGame(game, base, now, active, 0);
     case "duel": {
       const dueled = state.dueled ?? [];
       const fresh = shuffle(active.filter((uid) => !dueled.includes(uid)));
@@ -381,6 +413,21 @@ function resolveAsk(game, state, now, active) {
       set(state.chooser, ok, ok === 1 ? q.points : 0, q.lvl, { solo: 1 });
       break;
     }
+    case "espion": {
+      // La réponse de l'équipe est la plus choisie ; une égalité compte comme une erreur.
+      const counts = [0, 0, 0, 0];
+      for (const uid of who) {
+        const a = answerOf(game, state, uid);
+        if (a) counts[a.choice]++;
+        set(uid, resultFor(shared, a), 0, shared.lvl);
+      }
+      const top = Math.max(...counts);
+      const choices = counts.map((c, i) => (c === top ? i : -1)).filter((i) => i >= 0);
+      const teamChoice = top > 0 && choices.length === 1 ? choices[0] : -1;
+      next.teamChoice = teamChoice;
+      next.teamLog = [...(state.teamLog ?? []), teamChoice === shared.correct ? 1 : 0];
+      break;
+    }
     case "duel": {
       const [a, b] = state.duelists ?? [];
       const correct = [a, b].filter((uid) => resultFor(shared, answerOf(game, state, uid)) === 1);
@@ -496,6 +543,80 @@ export function nextTransition(game, now, ctx) {
       return { expect, state: afterReveal(game, state, now, ctx) };
     }
 
+    case "role":
+    case "word":
+      if (!due && !ctx.skip) return null;
+      if (state.phase === "role") return { expect, state: askState(game, { ...state, step: state.step }, now, { k: 0 }) };
+      return { expect, state: clueState(state, now, 0) };
+
+    case "clue": {
+      // Le joueur qui parle valide son indice (ou l'écran principal passe, ou le temps est écoulé).
+      const done = game.picks?.[r]?.[s] === true || ctx.skip || due || ctx.goneFor(state.chooser) > 10000;
+      if (!done) return null;
+      const uc = state.uc;
+      const order = uc.order.filter((uid) => uc.alive.includes(uid));
+      if (uc.turn + 1 < order.length) return { expect, state: clueState(state, now, uc.turn + 1) };
+      return { expect, state: { ...state, chooser: null, phase: "ballot", accept: "ballot", step: s + 1, start: now, deadline: now + TIMING.ballot } };
+    }
+
+    case "ballot": {
+      const mode = round.mode;
+      const voters = mode === "undercover" ? state.uc.alive.filter((uid) => ctx.active.includes(uid)) : ctx.active;
+      const ballots = game.ballots?.[r]?.[s] ?? {};
+      if (!due && !ctx.skip && !(voters.length && voters.every((uid) => ballots[uid]))) return null;
+      const tally = {};
+      for (const uid of voters) {
+        const target = ballots[uid];
+        if (target && target !== uid && game.players?.[target]) tally[target] = (tally[target] ?? 0) + 1;
+      }
+      const top = Math.max(0, ...Object.values(tally));
+      const leaders = Object.keys(tally).filter((t) => tally[t] === top);
+      const accused = top && leaders.length === 1 ? leaders[0] : "";
+      const verdict = { ...state, phase: "verdict", accept: null, accused, start: now, deadline: now + TIMING.verdict };
+      if (mode === "espion") {
+        const found = accused === state.spy;
+        const results = {};
+        for (const uid of state.team ?? []) {
+          if (uid === state.spy) results[uid] = { pts: found ? 0 : SPY_POINTS.escaped, spy: 1 };
+          else results[uid] = { pts: found ? SPY_POINTS.found : 0 };
+        }
+        return { expect, state: { ...verdict, found }, writes: { [`results/${r}/${s}`]: results } };
+      }
+      // Undercover : la personne désignée est éliminée et son rôle révélé.
+      const uc = { ...state.uc, alive: state.uc.alive.filter((uid) => uid !== accused) };
+      const outcome = ucOutcome(uc);
+      const writes = {};
+      if (outcome) {
+        const results = {};
+        for (const [uid, role] of Object.entries(uc.roles)) {
+          const won = (outcome === "civils") === (role === "civil");
+          results[uid] = { pts: won ? UNDERCOVER_POINTS[role === "civil" ? "civil" : "undercover"] : 0, ...(role === "undercover" ? { uc: 1 } : {}) };
+        }
+        writes[`results/${r}/${s}`] = results;
+      }
+      return { expect, state: { ...verdict, uc: { ...uc, winner: outcome ?? "" } }, writes };
+    }
+
+    case "verdict":
+      if (!due && !ctx.skip) return null;
+      if (round.mode === "undercover" && !state.uc?.winner) return { expect, state: ucAfterVerdict(game, state, now, ctx) };
+      return { expect, state: { ...state, phase: "end", accept: "continue", start: now, deadline: null } };
+
+    case "end": {
+      // On attend que quelqu'un choisisse : partie suivante ou mode suivant.
+      const choice = game.choices?.[r]?.[s];
+      if (choice === "again") {
+        const g = (round.mode === "espion" ? state.g : state.uc.g) + 1;
+        const more = round.mode === "espion" ? g < (round.games?.length ?? 0) : g < (round.pairs?.length ?? 0);
+        if (more) {
+          const base = { ...keep(state), round: r, step: s + 1, ...(state.spy ? { lastSpy: state.spy } : {}) };
+          return { expect, state: round.mode === "espion" ? spyGame(game, base, now, ctx.active, g) : undercoverGame(game, base, now, ctx.active, g) };
+        }
+      }
+      if (choice === "again" || choice === "next") return { expect, state: endRound(game, state, now, ctx.active) };
+      return null;
+    }
+
     case "vote": {
       const voters = ctx.active;
       if (!due && !(voters.length && voters.every((uid) => game.votes?.[uid]))) return null;
@@ -570,10 +691,68 @@ function afterReveal(game, state, now, ctx) {
       return { ...nextStep, phase: "sprint", accept: "sprint", start: now, deadline: now + TIMING.sprint };
     case "duel":
       return endRound(game, state, now, ctx.active);
+    case "espion":
+      if (state.k + 1 < 5) return askState(game, { ...nextStep, k: state.k + 1, teamChoice: null }, now);
+      return { ...nextStep, teamChoice: null, phase: "ballot", accept: "ballot", start: now, deadline: now + TIMING.ballot };
+    case "undercover":
+      return ucAfterVerdict(game, state, now, ctx);
     default:
       if (state.step + 1 >= (round.questions?.length ?? 0)) return endRound(game, state, now, ctx.active);
       return askState(game, nextStep, now);
   }
+}
+
+/* ---------- L'espion ---------- */
+
+function spyGame(game, base, now, active, g) {
+  const candidates = active.filter((uid) => uid !== base.lastSpy);
+  const pool = candidates.length ? candidates : active;
+  const spy = pool[Math.floor(Math.random() * pool.length)];
+  return {
+    ...base, g, k: 0, spy, team: active, teamLog: [], teamChoice: null,
+    phase: "role", accept: null, start: now, deadline: now + TIMING.role,
+  };
+}
+
+/* ---------- Undercover ---------- */
+
+function undercoverGame(game, base, now, active, g) {
+  const round = roundOf(game, base.round);
+  const pair = round.pairs?.[g];
+  if (!pair || active.length < 3) return endRound(game, base, now, active);
+  const [civilWord, ucWord] = Math.random() < 0.5 ? pair.words : [...pair.words].reverse();
+  const players = shuffle(active);
+  const ucCount = active.length >= 6 ? 2 : 1;
+  const roles = Object.fromEntries(players.map((uid, i) => [uid, i < ucCount ? "undercover" : "civil"]));
+  const words = Object.fromEntries(players.map((uid) => [uid, roles[uid] === "civil" ? civilWord : ucWord]));
+  const uc = { g, theme: pair.theme ?? "", roles, words, alive: active, order: shuffle(active), turn: 0, cycle: 1, winner: "" };
+  return { ...base, uc, phase: "word", accept: null, start: now, deadline: now + TIMING.word };
+}
+
+function clueState(state, now, turn) {
+  const order = state.uc.order.filter((uid) => state.uc.alive.includes(uid));
+  return {
+    ...state, uc: { ...state.uc, turn }, chooser: order[turn], phase: "clue", accept: "pick",
+    step: state.phase === "word" ? state.step : state.step + 1, start: now, deadline: now + TIMING.clue,
+  };
+}
+
+// Qui a gagné ? null tant que la partie continue.
+function ucOutcome(uc) {
+  const undercovers = uc.alive.filter((uid) => uc.roles[uid] === "undercover").length;
+  const civils = uc.alive.length - undercovers;
+  if (!undercovers) return "civils";
+  if (undercovers >= civils) return "undercover";
+  return null;
+}
+
+// Après l'élimination : nouveau tour d'indices avec les survivants, ou fin de la partie.
+function ucAfterVerdict(game, state, now, ctx) {
+  if (state.uc.winner) return { ...state, phase: "end", accept: "continue", start: now, deadline: null };
+  const alive = state.uc.alive.filter((uid) => ctx.active.includes(uid));
+  const order = [...state.uc.order.filter((uid) => alive.includes(uid))];
+  order.push(order.shift());
+  return clueState({ ...state, phase: "verdict", uc: { ...state.uc, alive, order, cycle: state.uc.cycle + 1 } }, now, 0);
 }
 
 export const firstState = (now) => ({ phase: "intro", round: 0, step: 0, start: now, deadline: now + TIMING.intro });

@@ -23,6 +23,12 @@
         "recorded": {
           ".write": "auth != null && data.parent().child('hostId').val() === auth.uid"
         },
+        "pause": {
+          ".write": "auth != null && (root.child('games').child($gameId).child('players').hasChild(auth.uid))"
+        },
+        "stop": {
+          ".write": "auth != null && root.child('games').child($gameId).child('players').hasChild(auth.uid)"
+        },
         "players": {
           "$uid": {
             ".write": "auth != null && auth.uid === $uid && (data.exists() || root.child('games').child($gameId).child('state/phase').val() === 'lobby')",
@@ -80,6 +86,24 @@
                   ".write": "auth != null && auth.uid === $uid && !data.exists() && root.child('games').child($gameId).child('players').hasChild(auth.uid) && root.child('games').child($gameId).child('state/accept').val() === 'sprint' && root.child('games').child($gameId).child('state/round').val() + '' === $round && root.child('games').child($gameId).child('state/step').val() + '' === $sprint"
                 }
               }
+            }
+          }
+        },
+        "ballots": {
+          "$round": {
+            "$step": {
+              "$uid": {
+                ".write": "auth != null && auth.uid === $uid && auth.uid !== root.child('games').child($gameId).child('hostId').val() && root.child('games').child($gameId).child('players').hasChild(auth.uid) && root.child('games').child($gameId).child('state/accept').val() === 'ballot' && root.child('games').child($gameId).child('state/round').val() + '' === $round && root.child('games').child($gameId).child('state/step').val() + '' === $step",
+                ".validate": "newData.isString() && newData.val() !== $uid && root.child('games').child($gameId).child('players').hasChild(newData.val())"
+              }
+            }
+          }
+        },
+        "choices": {
+          "$round": {
+            "$step": {
+              ".write": "auth != null && root.child('games').child($gameId).child('players').hasChild(auth.uid) && root.child('games').child($gameId).child('state/accept').val() === 'continue' && root.child('games').child($gameId).child('state/round').val() + '' === $round && root.child('games').child($gameId).child('state/step').val() + '' === $step",
+              ".validate": "newData.val() === 'again' || newData.val() === 'next'"
             }
           }
         },

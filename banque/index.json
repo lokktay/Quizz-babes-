@@ -78,6 +78,19 @@
     }
   },
   {
+    "id": "culture-generale",
+    "label": "culture générale",
+    "emoji": "❓",
+    "file": "culture générale.json",
+    "count": 100,
+    "levels": {
+      "facile": 25,
+      "moyen": 25,
+      "difficile": 25,
+      "tres_difficile": 25
+    }
+  },
+  {
     "id": "dessins-animes-animation",
     "label": "Dessins animés & animation",
     "emoji": "🎨",

@@ -21,6 +21,8 @@ Un site de quiz en français, hébergé gratuitement sur GitHub Pages. Firebase 
   | 🪜 L'échelle | Chacun monte d'un niveau en cas de bonne réponse, redescend sinon ; 1 à 4 points selon le niveau. |
   | 🎁 Cadeau empoisonné | À son tour, on choisit qui répond et à quelle difficulté ; en cas d'erreur, les points vont à celui ou celle qui a offert. |
   | 🐑 Majorité | 2 points si l'on donne la même réponse que la majorité, juste ou non. |
+  | 🕵️ L'espion | Jeu à part entière : tout le monde en équipe sauf un espion secret. 5 questions (2 faciles, 2 moyennes, 1 difficile ou très difficile), la réponse de l'équipe est la plus choisie. Vote final : espion trouvé, +1 pour chaque membre de l'équipe ; sinon +2 pour l'espion. Puis « Partie suivante » (nouvel espion) ou « Passer à la suite ». |
+  | 🎭 Undercover | Jeu à part entière, avec les mots de `banque/undercover.json` : chacun reçoit un mot secret, l'undercover (2 à partir de 6 joueurs) un mot voisin. Indices à voix haute chacun son tour, puis vote d'élimination. Civils gagnants : +2 chacun ; undercover gagnant : +4. Si le programme ne contient que l'undercover, l'étape des thèmes est sautée. |
   | ⚔️ Duels | Environ un duel tous les 2 modes (4 au plus) : deux joueurs tirés au sort s'affrontent ; les autres parient sur le gagnant (+2). |
 
 - Les corrections et le classement sont affichés après chaque question.

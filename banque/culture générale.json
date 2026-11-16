@@ -1,0 +1,605 @@
+{
+  "theme": "culture générale",
+  "questions": [
+    {
+      "difficulty": "facile",
+      "question": "Quelle est la capitale de l'Australie ?",
+      "correct": "Canberra",
+      "wrong": ["Sydney", "Melbourne", "Brisbane"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel peintre a réalisé la toile « La Joconde » ?",
+      "correct": "Léonard de Vinci",
+      "wrong": ["Michel-Ange", "Raphaël", "Botticelli"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le symbole chimique de l'or ?",
+      "correct": "Au",
+      "wrong": ["Ag", "Or", "Fe"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "correct": "Mercure",
+      "wrong": ["Vénus", "Mars", "La Terre"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel océan borde la côte ouest de la France ?",
+      "correct": "L'océan Atlantique",
+      "wrong": ["L'océan Pacifique", "L'océan Indien", "L'océan Arctique"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Qui a écrit le roman « Les Misérables » ?",
+      "correct": "Victor Hugo",
+      "wrong": ["Émile Zola", "Alexandre Dumas", "Honoré de Balzac"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel animal est le symbole de la marque Ferrari ?",
+      "correct": "Un cheval cabré",
+      "wrong": ["Un taureau furieux", "Un lion rugissant", "Un aigle royal"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans quel pays se trouve le monument du Taj Mahal ?",
+      "correct": "L'Inde",
+      "wrong": ["Le Pakistan", "Le Népal", "Le Bangladesh"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ?",
+      "correct": "Le dioxyde de carbone",
+      "wrong": ["Le dioxygène", "Le diazote", "Le méthane"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel est le plus grand mammifère marin vivant ?",
+      "correct": "La baleine bleue",
+      "wrong": ["Le cachalot", "L'orque", "Le rorqual commun"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle ville italienne est célèbre pour ses canaux et ses gondoles ?",
+      "correct": "Venise",
+      "wrong": ["Florence", "Naples", "Milan"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel organe du corps humain pompe le sang ?",
+      "correct": "Le cœur",
+      "wrong": ["Le foie", "Le poumon", "Le rein"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle est la langue officielle du Brésil ?",
+      "correct": "Le portugais",
+      "wrong": ["L'espagnol", "Le français", "L'anglais"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel célèbre détective habite au 221B Baker Street ?",
+      "correct": "Sherlock Holmes",
+      "wrong": ["Hercule Poirot", "Jules Maigret", "Arsène Lupin"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+      "correct": "Le vert",
+      "wrong": ["L'orange", "Le violet", "Le marron"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel instrument de musique possède des touches noires et blanches ?",
+      "correct": "Le piano",
+      "wrong": ["La guitare", "Le violon", "La harpe"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Dans la mythologie grecque, qui est le dieu de la mer ?",
+      "correct": "Poséidon",
+      "wrong": ["Zeus", "Hadès", "Apollon"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle est la monnaie officielle du Japon ?",
+      "correct": "Le yen",
+      "wrong": ["Le yuan", "Le won", "Le baht"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel fruit séché donne le pruneau ?",
+      "correct": "La prune",
+      "wrong": ["Le raisin", "La figue", "L'abricot"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Sur quel continent se trouve le désert du Sahara ?",
+      "correct": "L'Afrique",
+      "wrong": ["L'Asie", "L'Amérique du Sud", "L'Océanie"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel sportif détient le surnom de « La Foudre » en athlétisme ?",
+      "correct": "Usain Bolt",
+      "wrong": ["Carl Lewis", "Jesse Owens", "Mo Farah"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel élément chimique a pour symbole O ?",
+      "correct": "L'oxygène",
+      "wrong": ["L'or", "L'osmium", "L'ozone"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quelle ville abrite la tour Eiffel ?",
+      "correct": "Paris",
+      "wrong": ["Lyon", "Marseille", "Bordeaux"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel réalisateur a dirigé le film « Jurassic Park » ?",
+      "correct": "Steven Spielberg",
+      "wrong": ["George Lucas", "James Cameron", "Ridley Scott"]
+    },
+    {
+      "difficulty": "facile",
+      "question": "Quel animal produit le miel ?",
+      "correct": "L'abeille",
+      "wrong": ["La guêpe", "Le frelon", "Le bourdon"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le plus long fleuve d'Europe ?",
+      "correct": "La Volga",
+      "wrong": ["Le Danube", "Le Rhin", "La Loire"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui a composé l'opéra « La Flûte enchantée » ?",
+      "correct": "Wolfgang Amadeus Mozart",
+      "wrong": ["Ludwig van Beethoven", "Giuseppe Verdi", "Richard Wagner"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel pays a pour capitale Ottawa ?",
+      "correct": "Le Canada",
+      "wrong": ["La Nouvelle-Zélande", "L'Irlande", "L'Écosse"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle glande du corps humain produit l'insuline ?",
+      "correct": "Le pancréas",
+      "wrong": ["La thyroïde", "L'hypophyse", "La rate"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel peintre espagnol a réalisé le tableau « Guernica » ?",
+      "correct": "Pablo Picasso",
+      "wrong": ["Salvador Dalí", "Joan Miró", "Francisco de Goya"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel détroit sépare l'Espagne du Maroc ?",
+      "correct": "Le détroit de Gibraltar",
+      "wrong": ["Le détroit de Messine", "Le détroit du Bosphore", "Le détroit d'Ormuz"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui est l'auteur du roman « Le Petit Prince » ?",
+      "correct": "Antoine de Saint-Exupéry",
+      "wrong": ["Albert Camus", "Marcel Pagnol", "Jules Verne"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle vitamine est principalement synthétisée grâce au soleil ?",
+      "correct": "La vitamine D",
+      "wrong": ["La vitamine C", "La vitamine B12", "La vitamine K"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel métal est liquide à température ambiante ?",
+      "correct": "Le mercure",
+      "wrong": ["Le plomb", "L'étain", "Le zinc"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quel sport utilise-t-on un volant ?",
+      "correct": "Le badminton",
+      "wrong": ["Le squash", "Le tennis de table", "La pelote basque"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+      "correct": "Les Pyrénées",
+      "wrong": ["Les Alpes", "Le Jura", "Les Vosges"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Qui a peint « La Nuit étoilée » ?",
+      "correct": "Vincent van Gogh",
+      "wrong": ["Claude Monet", "Paul Gauguin", "Pierre-Auguste Renoir"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le nom du satellite naturel de la Terre ?",
+      "correct": "La Lune",
+      "wrong": ["Phobos", "Titan", "Europe"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel philosophe grec fut le maître d'Alexandre le Grand ?",
+      "correct": "Aristote",
+      "wrong": ["Platon", "Socrate", "Épicure"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle ville suisse abrite le siège européen de l'ONU ?",
+      "correct": "Genève",
+      "wrong": ["Zurich", "Berne", "Lausanne"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel auteur a créé le personnage de Tarzan ?",
+      "correct": "Edgar Rice Burroughs",
+      "wrong": ["Rudyard Kipling", "Jack London", "Robert Louis Stevenson"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle pierre précieuse est de couleur verte ?",
+      "correct": "L'émeraude",
+      "wrong": ["Le rubis", "Le saphir", "L'améthyste"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel pays a remporté la première Coupe du monde de football ?",
+      "correct": "L'Uruguay",
+      "wrong": ["Le Brésil", "L'Italie", "L'Argentine"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel scientifique a formulé la théorie de la relativité générale ?",
+      "correct": "Albert Einstein",
+      "wrong": ["Isaac Newton", "Niels Bohr", "Max Planck"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel est le principal ingrédient du guacamole ?",
+      "correct": "L'avocat",
+      "wrong": ["La courgette", "Le concombre", "Le petit pois"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Dans quelle ville se trouve la célèbre place Rouge ?",
+      "correct": "Moscou",
+      "wrong": ["Saint-Pétersbourg", "Kiev", "Varsovie"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel instrument mesure la pression atmosphérique ?",
+      "correct": "Le baromètre",
+      "wrong": ["L'hygromètre", "L'anémomètre", "Le thermomètre"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quelle héroïne de la mythologie grecque avait des serpents à la place des cheveux ?",
+      "correct": "Méduse",
+      "wrong": ["Circé", "Cassandre", "Andromède"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel fleuve traverse la ville de Londres ?",
+      "correct": "La Tamise",
+      "wrong": ["La Severn", "La Mersey", "La Clyde"]
+    },
+    {
+      "difficulty": "moyen",
+      "question": "Quel cinéaste français a réalisé « Le Fabuleux Destin d'Amélie Poulain » ?",
+      "correct": "Jean-Pierre Jeunet",
+      "wrong": ["Luc Besson", "François Truffaut", "Claude Lelouch"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la capitale de la Mongolie ?",
+      "correct": "Oulan-Bator",
+      "wrong": ["Astana", "Bichkek", "Tachkent"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel écrivain a reçu le prix Nobel de littérature mais l'a refusé ?",
+      "correct": "Jean-Paul Sartre",
+      "wrong": ["Albert Camus", "André Gide", "Samuel Beckett"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel os est le plus long du corps humain ?",
+      "correct": "Le fémur",
+      "wrong": ["Le tibia", "L'humérus", "Le péroné"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle mer borde la Jordanie à l'ouest ?",
+      "correct": "La mer Morte",
+      "wrong": ["La mer Rouge", "La mer Noire", "La mer Caspienne"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel sculpteur français a réalisé « Le Penseur » ?",
+      "correct": "Auguste Rodin",
+      "wrong": ["Camille Claudel", "Antoine Bourdelle", "Aristide Maillol"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel élément chimique porte le symbole W ?",
+      "correct": "Le tungstène",
+      "wrong": ["Le wolframium", "Le bismuth", "Le vanadium"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Dans quel pays se situe le site archéologique de Pétra ?",
+      "correct": "La Jordanie",
+      "wrong": ["La Syrie", "Le Liban", "L'Irak"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Qui a écrit la pièce de théâtre « En attendant Godot » ?",
+      "correct": "Samuel Beckett",
+      "wrong": ["Eugène Ionesco", "Jean Genet", "Harold Pinter"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le nom du détroit qui sépare l'Asie de l'Amérique du Nord ?",
+      "correct": "Le détroit de Béring",
+      "wrong": ["Le détroit de Magellan", "Le détroit de Cook", "Le détroit de Torres"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel compositeur a écrit « Les Quatre Saisons » ?",
+      "correct": "Antonio Vivaldi",
+      "wrong": ["Jean-Sébastien Bach", "Georg Friedrich Haendel", "Tomaso Albinoni"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle île est la plus grande de la mer Méditerranée ?",
+      "correct": "La Sicile",
+      "wrong": ["La Sardaigne", "Chypre", "La Corse"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel peintre est le chef de file du mouvement impressionniste avec « Impression, soleil levant » ?",
+      "correct": "Claude Monet",
+      "wrong": ["Édouard Manet", "Edgar Degas", "Camille Pissarro"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel muscle sépare la cavité thoracique de la cavité abdominale ?",
+      "correct": "Le diaphragme",
+      "wrong": ["Le grand pectoral", "Le trapèze", "Le psoas"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel roi de France était surnommé « le Roi-Soleil » ?",
+      "correct": "Louis XIV",
+      "wrong": ["Louis XIII", "Louis XV", "Louis XVI"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel est le point culminant du continent africain ?",
+      "correct": "Le Kilimandjaro",
+      "wrong": ["Le mont Kenya", "Le mont Cameroun", "Le mont Stanley"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle science étudie les champignons ?",
+      "correct": "La mycologie",
+      "wrong": ["La bryologie", "La phycologie", "La lichenologie"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel réalisateur japonais a tourné « Les Sept Samouraïs » ?",
+      "correct": "Akira Kurosawa",
+      "wrong": ["Yasujirō Ozu", "Kenji Mizoguchi", "Hayao Miyazaki"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle capitale européenne est traversée par le Danube et divisée entre Buda et Pest ?",
+      "correct": "Budapest",
+      "wrong": ["Vienne", "Bratislava", "Belgrade"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel gaz noble est utilisé dans les enseignes lumineuses rouges ?",
+      "correct": "Le néon",
+      "wrong": ["L'argon", "Le xénon", "Le krypton"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Qui a découvert la pénicilline ?",
+      "correct": "Alexander Fleming",
+      "wrong": ["Louis Pasteur", "Robert Koch", "Edward Jenner"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel écrivain russe a écrit « Crime et Châtiment » ?",
+      "correct": "Fiodor Dostoïevski",
+      "wrong": ["Léon Tolstoï", "Anton Tchekhov", "Nikolaï Gogol"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel lac d'Amérique du Sud est le plus haut lac navigable du monde ?",
+      "correct": "Le lac Titicaca",
+      "wrong": ["Le lac Poopó", "Le lac Maracaibo", "Le lac General Carrera"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel dieu égyptien possède une tête de chacal ?",
+      "correct": "Anubis",
+      "wrong": ["Horus", "Thot", "Sobek"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quelle est la capitale du Sri Lanka sur le plan administratif ?",
+      "correct": "Sri Jayawardenapura Kotte",
+      "wrong": ["Colombo", "Kandy", "Galle"]
+    },
+    {
+      "difficulty": "difficile",
+      "question": "Quel physicien a donné son nom à l'unité de fréquence ?",
+      "correct": "Heinrich Hertz",
+      "wrong": ["André-Marie Ampère", "Alessandro Volta", "James Watt"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la couche la plus basse de l'atmosphère terrestre ?",
+      "correct": "La troposphère",
+      "wrong": ["La stratosphère", "La mésosphère", "La thermosphère"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la capitale du Bhoutan ?",
+      "correct": "Thimphou",
+      "wrong": ["Katmandou", "Lhassa", "Paro"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel peintre flamand a réalisé « Le Jardin des délices » ?",
+      "correct": "Jérôme Bosch",
+      "wrong": ["Pieter Brueghel l'Ancien", "Jan van Eyck", "Pierre Paul Rubens"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est l'unique mammifère capable de voler activement ?",
+      "correct": "La chauve-souris",
+      "wrong": ["L'écureuil volant", "Le polatouche", "Le galéopithèque"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle figure de style consiste à dire le contraire de ce que l'on pense par ironie ?",
+      "correct": "L'antiphrase",
+      "wrong": ["La litote", "L'euphémisme", "L'oxymore"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel détroit sépare l'île de Sumatra de la péninsule Malaise ?",
+      "correct": "Le détroit de Malacca",
+      "wrong": ["Le détroit de la Sonde", "Le détroit de Lombok", "Le détroit de Makassar"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel écrivain portugais a créé de nombreux hétéronymes comme Alberto Caeiro ?",
+      "correct": "Fernando Pessoa",
+      "wrong": ["José Saramago", "Luís de Camões", "Eça de Queirós"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel organe produit la bile dans le corps humain ?",
+      "correct": "Le foie",
+      "wrong": ["La vésicule biliaire", "Le pancréas", "L'estomac"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la langue officielle du Suriname ?",
+      "correct": "Le néerlandais",
+      "wrong": ["L'anglais", "Le portugais", "L'espagnol"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel philosophe allemand a écrit « Ainsi parlait Zarathoustra » ?",
+      "correct": "Friedrich Nietzsche",
+      "wrong": ["Arthur Schopenhauer", "Emmanuel Kant", "Martin Heidegger"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel minéral occupe le sommet de l'échelle de dureté de Mohs ?",
+      "correct": "Le diamant",
+      "wrong": ["Le corindon", "La topaze", "Le quartz"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Dans la mythologie nordique, comment s'appelle le serpent géant qui entoure Midgard ?",
+      "correct": "Jörmungandr",
+      "wrong": ["Fenrir", "Nídhögg", "Fáfnir"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel compositeur russe est l'auteur du ballet « Le Sacre du printemps » ?",
+      "correct": "Igor Stravinsky",
+      "wrong": ["Piotr Ilitch Tchaïkovski", "Sergueï Prokofiev", "Dmitri Chostakovitch"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel pays africain n'a jamais été colonisé par une puissance européenne ?",
+      "correct": "L'Éthiopie",
+      "wrong": ["Le Ghana", "Le Kenya", "Le Sénégal"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom du phénomène par lequel un solide passe directement à l'état gazeux ?",
+      "correct": "La sublimation",
+      "wrong": ["La vaporisation", "La condensation", "La liquéfaction"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle reine d'Égypte fut la dernière souveraine de la dynastie lagide ?",
+      "correct": "Cléopâtre VII",
+      "wrong": ["Néfertiti", "Hatchepsout", "Bérénice IV"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel botaniste suédois a établi le système moderne de nomenclature binominale ?",
+      "correct": "Carl von Linné",
+      "wrong": ["Georges-Louis Leclerc de Buffon", "Jean-Baptiste de Lamarck", "Gregor Mendel"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle est la capitale du Liechtenstein ?",
+      "correct": "Vaduz",
+      "wrong": ["Schaan", "Triesen", "Balzers"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel architecte espagnol a conçu la Sagrada Família à Barcelone ?",
+      "correct": "Antoni Gaudí",
+      "wrong": ["Santiago Calatrava", "Rafael Moneo", "Ricardo Bofill"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle particule subatomique porte une charge électrique négative ?",
+      "correct": "L'électron",
+      "wrong": ["Le proton", "Le neutron", "Le positon"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel écrivain français a reçu le tout premier prix Goncourt ?",
+      "correct": "John-Antoine Nau",
+      "wrong": ["Marcel Proust", "Léon Frapié", "Claude Farrère"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel est le nom de la plus grande lune de Saturne ?",
+      "correct": "Titan",
+      "wrong": ["Encelade", "Rhéa", "Japet"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quelle mer intérieure est bordée par la Russie, l'Iran et le Kazakhstan ?",
+      "correct": "La mer Caspienne",
+      "wrong": ["La mer d'Aral", "La mer Noire", "La mer d'Azov"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel dramaturge grec antique est l'auteur de la tragédie « Antigone » ?",
+      "correct": "Sophocle",
+      "wrong": ["Euripide", "Eschyle", "Aristophane"]
+    },
+    {
+      "difficulty": "tres_difficile",
+      "question": "Quel isotope radioactif est couramment utilisé pour dater les vestiges organiques anciens ?",
+      "correct": "Le carbone 14",
+      "wrong": ["L'uranium 238", "Le potassium 40", "Le tritium"]
+    }
+  ]
+}

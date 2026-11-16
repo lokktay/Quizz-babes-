@@ -5,9 +5,9 @@ import {
 import { db } from "./firebase.js?v=4";
 import { SETTINGS } from "./config.js?v=4";
 import { collectThemes, createPools, createSupply, normalize, questionKey } from "./logic.js?v=7";
-import { DEFAULT_SETTINGS, buildRounds, firstState, planProgram } from "./modes.js?v=3";
+import { DEFAULT_SETTINGS, buildRounds, firstState, needsQuestions, planProgram } from "./modes.js?v=6";
 import { generatePools } from "./ai.js?v=6";
-import { loadIndex, loadThemeQuestions } from "./bank.js?v=1";
+import { loadIndex, loadThemeQuestions, loadUndercoverPairs } from "./bank.js?v=2";
 
 let uid = null;
 let clockOffset = 0;
@@ -124,7 +124,9 @@ function moveTo(id, from, next) {
   });
 }
 
-export const startThemes = (id) => moveTo(id, { phase: "lobby" }, () => ({ phase: "themes" }));
+// Sans mode à questions (undercover seul), on saute le choix des thèmes.
+export const startThemes = (id, game) => moveTo(id, { phase: "lobby" }, () =>
+  (needsQuestions(game?.settings?.modes ?? DEFAULT_SETTINGS.modes) ? { phase: "themes" } : { phase: "generating", since: serverNow() }));
 // Choix en cours d'un joueur, enregistré à chaque clic pour que les autres le voient en direct.
 export const saveThemes = (id, entry) => set(gameRef(id, `/themes/${uid}`), entry);
 export const startGeneration = (id) => moveTo(id, { phase: "themes" }, (current) =>
@@ -167,7 +169,9 @@ export async function prefetchThemes(id, game, apiKey) {
 export async function generateQuestions(id, game, apiKey) {
   const noAi = Boolean(game.state.noAi);
   const themes = collectThemes(game, await loadIndex());
-  if (!themes.length) throw new Error("Aucun thème n'a été choisi.");
+  const settings = { ...DEFAULT_SETTINGS, ...(game.settings ?? {}) };
+  const withQuestions = needsQuestions(settings.modes);
+  if (!themes.length && withQuestions) throw new Error("Aucun thème n'a été choisi.");
   const aiThemes = themes.filter((theme) => theme.source === "ai");
   const bankThemes = themes.filter((theme) => theme.source === "bank");
   if (aiThemes.length && !apiKey) throw new Error("Colle la clé API Gemini pour générer les thèmes libres, ou lance sans eux.");
@@ -210,9 +214,9 @@ export async function generateQuestions(id, game, apiKey) {
   // Mémoire du groupe : on évite de reposer une question déjà vue par ce groupe.
   const asked = game.group ? (await get(ref(db, `groups/${game.group}/asked`)).catch(() => null))?.val() ?? {} : {};
   const supply = createSupply(themes, store.pools, (text) => Boolean(asked[questionKey(text)]));
-  const settings = { ...DEFAULT_SETTINGS, ...(game.settings ?? {}) };
   const program = planProgram({ modes: settings.modes, minutes: settings.minutes, themeCount: supply.themes.length });
-  const rounds = buildRounds(program, supply);
+  const pairs = settings.modes.includes("undercover") ? await loadUndercoverPairs() : [];
+  const rounds = buildRounds(program, supply, { pairs });
   await update(gameRef(id), { rounds, state: firstState(serverNow()) });
   poolsByGame.delete(id);
 }
@@ -227,8 +231,41 @@ export const sendAnswer = (id, round, step, choice) =>
 export const sendBet = (id, round, step, value) => set(gameRef(id, `/bets/${round}/${step}/${uid}`), value);
 export const sendDecision = (id, round, step, choice) => set(gameRef(id, `/decisions/${round}/${step}/${uid}`), choice);
 export const sendPick = (id, round, step, value) => set(gameRef(id, `/picks/${round}/${step}`), value);
+// Vote pour désigner l'espion ou éliminer quelqu'un à l'undercover.
+export const sendBallot = (id, round, step, target) => set(gameRef(id, `/ballots/${round}/${step}/${uid}`), target);
+// Fin d'une partie d'espion ou d'undercover : « again » (partie suivante) ou « next » (mode suivant).
+export const sendChoice = (id, round, step, choice) => set(gameRef(id, `/choices/${round}/${step}`), choice);
 export const sendSprint = (id, round, sprint, index, choice) =>
   set(gameRef(id, `/sprint/${round}/${sprint}/${uid}/${index}`), { choice, at: serverTimestamp() });
+
+/* ---------- Pause et fin anticipée ---------- */
+
+// N'importe quel joueur (ou l'écran principal) demande une pause ou une reprise ; l'écran principal l'applique.
+export const requestPause = (id, on) => set(gameRef(id, "/pause"), on ? { by: uid, at: serverTimestamp() } : null);
+export const requestStop = (id) => set(gameRef(id, "/stop"), { by: uid, at: serverTimestamp() });
+
+// Fige le chrono : on garde le temps restant pour repartir exactement au même point.
+export const applyPause = (id, by) => runTransaction(gameRef(id, "/state"), (current) => {
+  if (!current || current.paused || current.phase === "finished") return undefined;
+  const now = serverNow();
+  return { ...current, paused: { by: by ?? "", at: now, remaining: Math.max(0, (current.deadline ?? now) - now) } };
+});
+
+export const applyResume = (id) => runTransaction(gameRef(id, "/state"), (current) => {
+  if (!current?.paused) return undefined;
+  const now = serverNow();
+  const { paused, ...rest } = current;
+  return { ...rest, deadline: now + paused.remaining, start: (current.start ?? now) + (now - paused.at) };
+});
+
+export async function applyStop(id) {
+  await runTransaction(gameRef(id, "/state"), (current) => {
+    if (!current || current.phase === "finished") return undefined;
+    const { paused, accept, ...rest } = current;
+    return { ...rest, phase: "finished", stoppedEarly: true };
+  });
+  await set(gameRef(id, "/pause"), null).catch(() => {});
+}
 
 /* ---------- Arbitrage (écran principal) ---------- */
 
