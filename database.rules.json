@@ -21,6 +21,21 @@
         "questions": {
           ".write": "auth != null && data.parent().child('hostId').val() === auth.uid"
         },
+        "board": {
+          ".write": "auth != null && data.parent().child('hostId').val() === auth.uid"
+        },
+        "boardPicks": {
+          "$turn": {
+            ".write": "auth != null && root.child('games').child($gameId).child('state/phase').val() === 'boardChoose' && root.child('games').child($gameId).child('state/turnNumber').val() + '' === $turn && root.child('games').child($gameId).child('state/turnOrder').child(root.child('games').child($gameId).child('state/turnIndex').val() + '').val() === auth.uid"
+          }
+        },
+        "boardAnswers": {
+          "$index": {
+            "$uid": {
+              ".write": "auth != null && auth.uid === $uid && !data.exists() && root.child('games').child($gameId).child('state/phase').val() === 'boardQuestion' && root.child('games').child($gameId).child('state/selectedBoardIndex').val() + '' === $index && root.child('games').child($gameId).child('state/selectedBy').val() === auth.uid"
+            }
+          }
+        },
         "answers": {
           "$index": {
             "$uid": {

@@ -4,8 +4,8 @@ import {
 } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-database.js";
 import { db } from "./firebase.js?v=2";
 import { SETTINGS } from "./config.js?v=2";
-import { collectThemes, computeScores, prepareBank, prepareBoard } from "./logic.js?v=2";
-import { requestQuestions } from "./ai.js?v=2";
+import { collectThemes, computeScores, prepareBank, prepareBoard, shuffle } from "./logic.js?v=2";
+import { generateInBatches } from "./ai.js?v=3";
 
 let uid = null;
 let clockOffset = 0;
@@ -96,10 +96,10 @@ export const startGeneration = (id) => moveTo(id, { phase: "themes" }, () => ({ 
 export async function generateQuestions(id, game, apiKey) {
   if (!apiKey) throw new Error("Colle la clé API pour générer les questions.");
   const themes = collectThemes(game);
-  const rawQuestions = await requestQuestions(apiKey, themes, SETTINGS.questionsPerTheme + 1);
-  const questions = prepareBank(rawQuestions, themes, SETTINGS.questionsPerTheme);
-  const rawBoard = await requestQuestions(apiKey, themes, 4, "plateau");
-  const board = prepareBoard(rawBoard, themes, SETTINGS.difficultyPoints);
+  const questions = shuffle(await generateInBatches(apiKey, themes, SETTINGS.questionsPerTheme + 1, "mixte",
+    (raw, batch) => prepareBank(raw, batch, SETTINGS.questionsPerTheme)));
+  const board = await generateInBatches(apiKey, themes, 4, "plateau",
+    (raw, batch) => prepareBoard(raw, batch, SETTINGS.difficultyPoints));
   if (!questions.length || !board.length) throw new Error("L'IA n'a pas produit de questions utilisables. Relance la génération.");
   await update(gameRef(id), {
     questions,
